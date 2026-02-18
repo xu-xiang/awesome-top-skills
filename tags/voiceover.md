@@ -1,10 +1,11 @@
 # Tag: voiceover
 
 - Back: [Tags](README.md)
-- Tagged skills: 3
+- Tagged skills: 4
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
 | [talking-head-production](https://github.com/1nfsh/s/blob/main/skills/talking-head-production/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | AI-powered talking head video production with avatars, lipsync, and voiceover for spokesperson videos, courses, social media, and presentati | 0 | 98 | 2026-02-13 | [video-generation](video-generation.md), [content-creation](content-creation.md), [ai-avatar](ai-avatar.md), [lipsync](lipsync.md), [voiceover](voiceover.md) |
 | [talking-head-production](https://github.com/1nfsh/skills/blob/main/skills/talking-head-production/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | AI-powered talking head video production with avatars, lipsync, and voiceover for spokesperson videos, courses, social media, and presentati | 30 | 78 | 2026-02-11 | [video-generation](video-generation.md), [content-creation](content-creation.md), [ai-avatar](ai-avatar.md), [lipsync](lipsync.md), [voiceover](voiceover.md) |
+| [talking-head-production](https://github.com/inference-sh-4/skills/blob/main/skills/talking-head-production/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | AI-powered talking head video production with avatars, lipsync, and voiceover for spokesperson videos, courses, social media, and presentati | 32 | 60 | 2026-02-18 | [video-generation](video-generation.md), [content-creation](content-creation.md), [ai-avatar](ai-avatar.md), [lipsync](lipsync.md), [voiceover](voiceover.md) |
 | [talking-head-production](https://github.com/inference-sh-1/skills/blob/main/skills/talking-head-production/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | AI-powered talking head video production with avatars, lipsync, and voiceover for spokesperson videos, courses, social media, and presentati | 30 | 54 | 2026-02-11 | [video-generation](video-generation.md), [content-creation](content-creation.md), [ai-avatar](ai-avatar.md), [lipsync](lipsync.md), [voiceover](voiceover.md) |

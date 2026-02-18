@@ -1,7 +1,7 @@
 # 标签：tracking (tracking)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 7
+- 命中技能: 8
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
@@ -11,4 +11,5 @@
 | [using-analytics](https://github.com/andrelandgraf/fullstackrecipes/blob/main/.agents/skills/using-analytics/SKILL.md) | [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) | 使用 Vercel Web Analytics 跟踪自定义事件和转化。 | 9 | 32 | 2026-02-03 | [分析 (analytics)](analytics.md), [tracking (tracking)](tracking.md), [vercel (vercel)](vercel.md), [web 分析 (web-analytics)](web-analytics.md) |
 | [google-analytics](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | 用于跟踪和分析网站数据的 Google Analytics 技能 | 5 | 31 | 2026-01-09 | [分析 (analytics)](analytics.md), [数据分析 (data-analysis)](data-analysis.md), [google 分析 (google-analytics)](google-analytics.md), [tracking (tracking)](tracking.md) |
 | [nike-run-club](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Nike Run Club 技能，用于健身追踪和跑步活动 | 5 | 30 | 2026-01-09 | [fitness (fitness)](fitness.md), [移动开发 (mobile)](mobile.md), [tracking (tracking)](tracking.md) |
+| [ordercli](https://github.com/steipete/clawdis/blob/main/skills/ordercli/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | Foodora 命令行工具，用于查询历史订单及活跃状态。Deliveroo 集成正在开发中。 | 206K | 26 | 2026-02-18 | [命令行（CLI）](cli.md), [监控 (monitoring)](monitoring.md), [ecommerce (ecommerce)](ecommerce.md), [tracking (tracking)](tracking.md) |
 | [gdpr-ccpa-privacy-auditor](https://github.com/jorgealves/agent_skills/blob/main/gdpr-ccpa-privacy-auditor/SKILL.md) | [jorgealves/agent_skills](https://github.com/jorgealves/agent_skills) | 审计Web应用程序以确保隐私政策与实际数据收集实践一致，识别cookie、跟踪脚本和用户数据处理方面的差异。 | 0 | 24 | 2026-01-25 | [审计 (audit)](audit.md), [合规 (compliance)](compliance.md), [隐私 (privacy)](privacy.md), [web applications (web-applications)](web-applications.md), [cookies (cookies)](cookies.md), [tracking (tracking)](tracking.md) |

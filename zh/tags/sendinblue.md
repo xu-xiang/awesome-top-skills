@@ -5,5 +5,5 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [brevo-automation](https://github.com/composiohq/awesome-claude-skills/blob/master/brevo-automation/SKILL.md) | [composiohq/awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills) | 通过Rube MCP（Composio）自动化Brevo（Sendinblue）任务：管理邮件活动、创建/编辑模板、跟踪 | 35K | 65 | 2026-02-11 | [自动化 (automation)](automation.md), [email (email)](email.md), [营销 (marketing)](marketing.md), [brevo (brevo)](brevo.md), [sendinblue (sendinblue)](sendinblue.md) |
+| [brevo-automation](https://github.com/composiohq/awesome-claude-skills/blob/master/brevo-automation/SKILL.md) | [composiohq/awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills) | 通过Rube MCP（Composio）自动化Brevo（Sendinblue）任务：管理邮件活动、创建/编辑模板、跟踪 | 36K | 65 | 2026-02-11 | [自动化 (automation)](automation.md), [email (email)](email.md), [营销 (marketing)](marketing.md), [brevo (brevo)](brevo.md), [sendinblue (sendinblue)](sendinblue.md) |
 | [sendinblue](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | 用于企业邮件营销和沟通自动化的Sendinblue平台工具。 | 5 | 30 | 2026-01-09 | [email (email)](email.md), [营销 (marketing)](marketing.md), [communication (communication)](communication.md), [sendinblue (sendinblue)](sendinblue.md) |

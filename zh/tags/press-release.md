@@ -1,10 +1,11 @@
 # 标签：press 发布 (press-release)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 3
+- 命中技能: 4
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [press-release-writing](https://github.com/inference-sh-1/skills/blob/main/skills/press-release-writing/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | 按美联社风格撰写新闻稿，采用倒金字塔结构。涵盖格式、电头、引述、标准声明和事实核查。 | 30 | 84 | 2026-02-11 | [写作 (writing)](writing.md), [内容创作 (content-creation)](content-creation.md), [press 发布 (press-release)](press-release.md), [media (media)](media.md) |
 | [press-release-writing](https://github.com/1nfsh/skills/blob/main/skills/press-release-writing/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | 按美联社风格撰写新闻稿，采用倒金字塔结构。涵盖格式、电头、引述、标准声明和事实核查。 | 30 | 53 | 2026-02-11 | [写作 (writing)](writing.md), [内容创作 (content-creation)](content-creation.md), [press 发布 (press-release)](press-release.md), [media (media)](media.md) |
+| [press-release-writing](https://github.com/inference-sh-4/skills/blob/main/skills/press-release-writing/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | 按美联社风格撰写新闻稿，采用倒金字塔结构。涵盖格式、电头、引述、标准声明和事实核查。 | 32 | 52 | 2026-02-18 | [写作 (writing)](writing.md), [内容创作 (content-creation)](content-creation.md), [press 发布 (press-release)](press-release.md), [media (media)](media.md) |
 | [press-release-writer](https://github.com/eddiebe147/claude-settings) | [eddiebe147/claude-settings](https://github.com/eddiebe147/claude-settings) | 生成专业新闻稿以获得媒体关注和报道。 | 15 | 48 | 2026-01-22 | [写作 (writing)](writing.md), [内容创作 (content-creation)](content-creation.md), [copywriting (copywriting)](copywriting.md), [press 发布 (press-release)](press-release.md) |

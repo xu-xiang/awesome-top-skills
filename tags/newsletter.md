@@ -1,11 +1,12 @@
 # Tag: newsletter
 
 - Back: [Tags](README.md)
-- Tagged skills: 5
+- Tagged skills: 6
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
 | [newsletter-curation](https://github.com/1nfsh/s/blob/main/skills/newsletter-curation/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 0 | 66 | 2026-02-13 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |
+| [newsletter-curation](https://github.com/inference-sh-4/skills/blob/main/skills/newsletter-curation/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 32 | 53 | 2026-02-18 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |
 | [newsletter-curation](https://github.com/inference-sh-1/skills/blob/main/skills/newsletter-curation/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 30 | 52 | 2026-02-11 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |
 | [newsletter-curation](https://github.com/1nfsh/skills/blob/main/skills/newsletter-curation/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 30 | 51 | 2026-02-11 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |
 | [beehiiv](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Beehiiv is a newsletter platform for creators to build and monetize their audience through email marketing. | 5 | 32 | 2026-01-09 | [marketing](marketing.md), [email](email.md), [newsletter](newsletter.md) |

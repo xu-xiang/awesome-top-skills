@@ -1,9 +1,10 @@
 # 标签：search intent (search-intent)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 2
+- 命中技能: 3
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [seo-content-brief](https://github.com/1nfsh/skills/blob/main/skills/seo-content-brief/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | 创建SEO内容简报，包含关键词研究、搜索意图分析和内容结构，用于有效的内容规划。 | 30 | 67 | 2026-02-11 | [内容创作 (content-creation)](content-creation.md), [seo (seo)](seo.md), [content 规划 (content-planning)](content-planning.md), [keyword research (keyword-research)](keyword-research.md), [search intent (search-intent)](search-intent.md), [content 策略 (content-strategy)](content-strategy.md) |
 | [seo-content-brief](https://github.com/inference-sh-1/skills/blob/main/skills/seo-content-brief/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | 创建SEO内容简报，包含关键词研究、搜索意图分析和内容结构，用于有效的内容规划。 | 30 | 64 | 2026-02-11 | [内容创作 (content-creation)](content-creation.md), [seo (seo)](seo.md), [content 规划 (content-planning)](content-planning.md), [keyword research (keyword-research)](keyword-research.md), [search intent (search-intent)](search-intent.md), [content 策略 (content-strategy)](content-strategy.md) |
+| [seo-content-brief](https://github.com/inference-sh-4/skills/blob/main/skills/seo-content-brief/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | 创建SEO内容简报，包含关键词研究、搜索意图分析和内容结构，用于有效的内容规划。 | 32 | 56 | 2026-02-18 | [内容创作 (content-creation)](content-creation.md), [seo (seo)](seo.md), [content 规划 (content-planning)](content-planning.md), [keyword research (keyword-research)](keyword-research.md), [search intent (search-intent)](search-intent.md), [content 策略 (content-strategy)](content-strategy.md) |

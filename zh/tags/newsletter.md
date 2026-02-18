@@ -1,11 +1,12 @@
 # 标签：newsletter (newsletter)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 5
+- 命中技能: 6
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [newsletter-curation](https://github.com/1nfsh/s/blob/main/skills/newsletter-curation/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | 新闻简报策划，涵盖内容采集、编辑结构和订阅者增长策略。包括期号格式、链接汇总、评论风格和发送频率。 | 0 | 66 | 2026-02-13 | [内容创作 (content-creation)](content-creation.md), [email (email)](email.md), [newsletter (newsletter)](newsletter.md), [content 规划 (content-planning)](content-planning.md), [营销 (marketing)](marketing.md) |
+| [newsletter-curation](https://github.com/inference-sh-4/skills/blob/main/skills/newsletter-curation/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | 新闻简报策划，涵盖内容采集、编辑结构和订阅者增长策略。包括期号格式、链接汇总、评论风格和发送频率。 | 32 | 53 | 2026-02-18 | [内容创作 (content-creation)](content-creation.md), [email (email)](email.md), [newsletter (newsletter)](newsletter.md), [content 规划 (content-planning)](content-planning.md), [营销 (marketing)](marketing.md) |
 | [newsletter-curation](https://github.com/inference-sh-1/skills/blob/main/skills/newsletter-curation/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | 新闻简报策划，涵盖内容采集、编辑结构和订阅者增长策略。包括期号格式、链接汇总、评论风格和发送频率。 | 30 | 52 | 2026-02-11 | [内容创作 (content-creation)](content-creation.md), [email (email)](email.md), [newsletter (newsletter)](newsletter.md), [content 规划 (content-planning)](content-planning.md), [营销 (marketing)](marketing.md) |
 | [newsletter-curation](https://github.com/1nfsh/skills/blob/main/skills/newsletter-curation/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | 新闻简报策划，涵盖内容采集、编辑结构和订阅者增长策略。包括期号格式、链接汇总、评论风格和发送频率。 | 30 | 51 | 2026-02-11 | [内容创作 (content-creation)](content-creation.md), [email (email)](email.md), [newsletter (newsletter)](newsletter.md), [content 规划 (content-planning)](content-planning.md), [营销 (marketing)](marketing.md) |
 | [beehiiv](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Beehiiv 是一个创作者邮件营销平台，用于建立和货币化受众群体。 | 5 | 32 | 2026-01-09 | [营销 (marketing)](marketing.md), [email (email)](email.md), [newsletter (newsletter)](newsletter.md) |

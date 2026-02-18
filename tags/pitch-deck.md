@@ -1,7 +1,7 @@
 # Tag: pitch-deck
 
 - Back: [Tags](README.md)
-- Tagged skills: 10
+- Tagged skills: 11
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
@@ -13,5 +13,6 @@
 | [board-meeting-prep](https://github.com/eddiebe147/claude-settings) | [eddiebe147/claude-settings](https://github.com/eddiebe147/claude-settings) | Prepare board meeting decks and materials for effective governance. | 15 | 45 | 2026-01-22 | [meeting](meeting.md), [planning](planning.md), [presentation](presentation.md), [powerpoint](powerpoint.md), [pitch-deck](pitch-deck.md) |
 | [investor-relations](https://github.com/eddiebe147/claude-settings) | [eddiebe147/claude-settings](https://github.com/eddiebe147/claude-settings) | This skill manages investor relations including communications, pitch materials, and fundraising. | 15 | 45 | 2026-01-22 | [finance](finance.md), [communication](communication.md), [pitch-deck](pitch-deck.md), [fundraising](fundraising.md) |
 | [fundraise-advisor](https://github.com/shipshitdev/library/blob/master/skills/fundraise-advisor/SKILL.md) | [shipshitdev/library](https://github.com/shipshitdev/library) | Helps users raise funding, create pitch decks, and navigate investor meetings. | 5 | 40 | 2026-02-04 | [finance](finance.md), [fundraising](fundraising.md), [pitch-deck](pitch-deck.md), [investors](investors.md) |
+| [pitch-deck-visuals](https://github.com/inference-sh-4/skills/blob/main/skills/pitch-deck-visuals/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | Investor pitch deck structure with slide-by-slide framework, visual design rules, and data presentation for fundraising and investor meeting | 32 | 39 | 2026-02-18 | [presentation](presentation.md), [pitch-deck](pitch-deck.md), [fundraising](fundraising.md), [startup](startup.md), [investors](investors.md), [marketing](marketing.md) |
 | [strategic-narrative](https://github.com/wdavidturner/product-skills/blob/main/skills/strategic-narrative/SKILL.md) | [wdavidturner/product-skills](https://github.com/wdavidturner/product-skills) | Craft compelling strategic narratives that define movements rather than just selling products, based on Andy Raskin's framework. | 2 | 24 | 2026-01-19 | [strategic-narrative](strategic-narrative.md), [pitch-deck](pitch-deck.md), [branding](branding.md), [storytelling](storytelling.md), [marketing](marketing.md) |
 | [pitch-deck](https://github.com/ailabs-393/ai-labs-claude-skills/blob/main/packages/skills/pitch-deck/SKILL.md) | [ailabs-393/ai-labs-claude-skills](https://github.com/ailabs-393/ai-labs-claude-skills) | Generate professional PowerPoint pitch decks for startups and businesses with a standard 10-slide structure. | 304 | 22 | 2025-11-11 | [content-creation](content-creation.md), [presentation](presentation.md), [powerpoint](powerpoint.md), [pitch-deck](pitch-deck.md) |

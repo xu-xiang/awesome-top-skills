@@ -1,9 +1,10 @@
 # Tag: search-intent
 
 - Back: [Tags](README.md)
-- Tagged skills: 2
+- Tagged skills: 3
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
 | [seo-content-brief](https://github.com/1nfsh/skills/blob/main/skills/seo-content-brief/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | Creates SEO content briefs with keyword research, search intent analysis, and content structure for effective content planning. | 30 | 67 | 2026-02-11 | [content-creation](content-creation.md), [seo](seo.md), [content-planning](content-planning.md), [keyword-research](keyword-research.md), [search-intent](search-intent.md), [content-strategy](content-strategy.md) |
 | [seo-content-brief](https://github.com/inference-sh-1/skills/blob/main/skills/seo-content-brief/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | Creates SEO content briefs with keyword research, search intent analysis, and content structure for effective content planning. | 30 | 64 | 2026-02-11 | [content-creation](content-creation.md), [seo](seo.md), [content-planning](content-planning.md), [keyword-research](keyword-research.md), [search-intent](search-intent.md), [content-strategy](content-strategy.md) |
+| [seo-content-brief](https://github.com/inference-sh-4/skills/blob/main/skills/seo-content-brief/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | Creates SEO content briefs with keyword research, search intent analysis, and content structure for effective content planning. | 32 | 56 | 2026-02-18 | [content-creation](content-creation.md), [seo](seo.md), [content-planning](content-planning.md), [keyword-research](keyword-research.md), [search-intent](search-intent.md), [content-strategy](content-strategy.md) |

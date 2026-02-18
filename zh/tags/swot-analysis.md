@@ -1,10 +1,11 @@
 # 标签：swot analysis (swot-analysis)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 3
+- 命中技能: 4
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [competitor-teardown](https://github.com/1nfsh/s/blob/main/skills/competitor-teardown/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | 结构化竞争分析，包含功能矩阵、SWOT、定位图和UX审查，用于市场研究和竞争情报。 | 0 | 80 | 2026-02-13 | [competitive analysis (competitive-analysis)](competitive-analysis.md), [market research (market-research)](market-research.md), [business intelligence (business-intelligence)](business-intelligence.md), [swot analysis (swot-analysis)](swot-analysis.md), [product 策略 (product-strategy)](product-strategy.md) |
 | [competitor-teardown](https://github.com/1nfsh/skills/blob/main/skills/competitor-teardown/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | 结构化竞争分析，包含功能矩阵、SWOT、定位图和UX审查，用于市场研究和竞争情报。 | 30 | 69 | 2026-02-11 | [competitive analysis (competitive-analysis)](competitive-analysis.md), [market research (market-research)](market-research.md), [business intelligence (business-intelligence)](business-intelligence.md), [swot analysis (swot-analysis)](swot-analysis.md), [product 策略 (product-strategy)](product-strategy.md) |
 | [competitor-teardown](https://github.com/inference-sh-1/skills/blob/main/skills/competitor-teardown/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | 结构化竞争分析，包含功能矩阵、SWOT、定位图和UX审查，用于市场研究和竞争情报。 | 30 | 67 | 2026-02-11 | [competitive analysis (competitive-analysis)](competitive-analysis.md), [market research (market-research)](market-research.md), [business intelligence (business-intelligence)](business-intelligence.md), [swot analysis (swot-analysis)](swot-analysis.md), [product 策略 (product-strategy)](product-strategy.md) |
+| [competitor-teardown](https://github.com/inference-sh-4/skills/blob/main/skills/competitor-teardown/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | 结构化竞争分析，包含功能矩阵、SWOT、定位图和UX审查，用于市场研究和竞争情报。 | 32 | 38 | 2026-02-18 | [competitive analysis (competitive-analysis)](competitive-analysis.md), [market research (market-research)](market-research.md), [business intelligence (business-intelligence)](business-intelligence.md), [swot analysis (swot-analysis)](swot-analysis.md), [product 策略 (product-strategy)](product-strategy.md) |

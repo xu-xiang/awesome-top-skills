@@ -5,4 +5,4 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [web-research](https://github.com/langchain-ai/deepagents/blob/main/libs/cli/examples/skills/web-research/SKILL.md) | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 用于结构化网络研究和收集在线信息的技能。 | 9.3K | 221 | 2026-02-16 | [网页调研 (web-research)](../../../tags/web-research.md), [scraping (scraping)](../../../tags/scraping.md), [分析 (analysis)](../../../tags/analysis.md) |
+| [web-research](https://github.com/langchain-ai/deepagents/blob/main/libs/cli/examples/skills/web-research/SKILL.md) | [langchain-ai/deepagents](https://github.com/langchain-ai/deepagents) | 用于结构化网络研究和收集在线信息的技能。 | 9.4K | 235 | 2026-02-18 | [网页调研 (web-research)](../../../tags/web-research.md), [scraping (scraping)](../../../tags/scraping.md), [分析 (analysis)](../../../tags/analysis.md) |

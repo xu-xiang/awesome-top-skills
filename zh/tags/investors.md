@@ -1,7 +1,7 @@
 # 标签：investors (investors)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 5
+- 命中技能: 6
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
@@ -9,4 +9,5 @@
 | [pitch-deck-visuals](https://github.com/1nfsh/skills/blob/main/skills/pitch-deck-visuals/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 30 | 71 | 2026-02-11 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |
 | [pitch-deck-visuals](https://github.com/inference-sh-1/skills/blob/main/skills/pitch-deck-visuals/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 30 | 65 | 2026-02-11 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |
 | [fundraise-advisor](https://github.com/shipshitdev/library/blob/master/skills/fundraise-advisor/SKILL.md) | [shipshitdev/library](https://github.com/shipshitdev/library) | 协助用户筹集资金、制作商业计划书和应对投资人会议。 | 5 | 40 | 2026-02-04 | [财务 (finance)](finance.md), [fundraising (fundraising)](fundraising.md), [pitch deck (pitch-deck)](pitch-deck.md), [investors (investors)](investors.md) |
-| [institutional-flow-tracker](https://github.com/nicepkg/ai-workflow/blob/main/workflows/stock-trader-workflow/.claude/skills/institutional-flow-tracker/SKILL.md) | [nicepkg/ai-workflow](https://github.com/nicepkg/ai-workflow) | 追踪机构投资者持股变化和资金流向，识别聪明钱动向。 | 70 | 21 | 2026-01-20 | [财务 (finance)](finance.md), [分析 (analysis)](analysis.md), [quantitative analysis (quantitative-analysis)](quantitative-analysis.md), [stock (stock)](stock.md), [investors (investors)](investors.md) |
+| [pitch-deck-visuals](https://github.com/inference-sh-4/skills/blob/main/skills/pitch-deck-visuals/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 32 | 39 | 2026-02-18 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |
+| [institutional-flow-tracker](https://github.com/nicepkg/ai-workflow/blob/main/workflows/stock-trader-workflow/.claude/skills/institutional-flow-tracker/SKILL.md) | [nicepkg/ai-workflow](https://github.com/nicepkg/ai-workflow) | 追踪机构投资者持股变化和资金流向，识别聪明钱动向。 | 71 | 21 | 2026-01-20 | [财务 (finance)](finance.md), [分析 (analysis)](analysis.md), [quantitative analysis (quantitative-analysis)](quantitative-analysis.md), [stock (stock)](stock.md), [investors (investors)](investors.md) |

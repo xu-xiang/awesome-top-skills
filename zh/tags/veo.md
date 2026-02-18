@@ -1,11 +1,12 @@
 # 标签：veo (veo)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 4
+- 命中技能: 5
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [video-prompting-guide](https://github.com/1nfsh/s/blob/main/skills/video-prompting-guide/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | AI视频生成提示工程最佳实践指南，涵盖Veo、Kling等多个平台。 | 0 | 100 | 2026-02-13 | [prompting (prompting)](prompting.md), [最佳实践 (best-practices)](best-practices.md), [video generation (video-generation)](video-generation.md), [AI video (ai-video)](ai-video.md), [veo (veo)](veo.md), [kling (kling)](kling.md) |
 | [video-prompting-guide](https://github.com/1nfsh/skills/blob/main/skills/video-prompting-guide/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | AI视频生成提示工程最佳实践指南，涵盖Veo、Kling等多个平台。 | 30 | 73 | 2026-02-11 | [prompting (prompting)](prompting.md), [最佳实践 (best-practices)](best-practices.md), [video generation (video-generation)](video-generation.md), [AI video (ai-video)](ai-video.md), [veo (veo)](veo.md), [kling (kling)](kling.md) |
 | [video-prompting-guide](https://github.com/inference-sh-1/skills/blob/main/skills/video-prompting-guide/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | AI视频生成提示工程最佳实践指南，涵盖Veo、Kling等多个平台。 | 30 | 58 | 2026-02-11 | [prompting (prompting)](prompting.md), [最佳实践 (best-practices)](best-practices.md), [video generation (video-generation)](video-generation.md), [AI video (ai-video)](ai-video.md), [veo (veo)](veo.md), [kling (kling)](kling.md) |
-| [video-prompting-guide](https://github.com/inference-sh/skills/blob/main/skills/video-prompting-guide/SKILL.md) | [inference-sh/skills](https://github.com/inference-sh/skills) | AI视频生成提示工程最佳实践指南，涵盖Veo、Kling等多个平台。 | 30 | 35 | 2026-02-11 | [prompting (prompting)](prompting.md), [最佳实践 (best-practices)](best-practices.md), [video generation (video-generation)](video-generation.md), [AI video (ai-video)](ai-video.md), [veo (veo)](veo.md), [kling (kling)](kling.md) |
+| [video-prompting-guide](https://github.com/inference-sh-4/skills/blob/main/skills/video-prompting-guide/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | AI视频生成提示工程最佳实践指南，涵盖Veo、Kling等多个平台。 | 32 | 48 | 2026-02-18 | [prompting (prompting)](prompting.md), [最佳实践 (best-practices)](best-practices.md), [video generation (video-generation)](video-generation.md), [AI video (ai-video)](ai-video.md), [veo (veo)](veo.md), [kling (kling)](kling.md) |
+| [video-prompting-guide](https://github.com/inference-sh/skills/blob/main/skills/video-prompting-guide/SKILL.md) | [inference-sh/skills](https://github.com/inference-sh/skills) | AI视频生成提示工程最佳实践指南，涵盖Veo、Kling等多个平台。 | 32 | 39 | 2026-02-18 | [prompting (prompting)](prompting.md), [最佳实践 (best-practices)](best-practices.md), [video generation (video-generation)](video-generation.md), [AI video (ai-video)](ai-video.md), [veo (veo)](veo.md), [kling (kling)](kling.md) |

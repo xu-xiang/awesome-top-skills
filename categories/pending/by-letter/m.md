@@ -1,15 +1,30 @@
 # pending / m
 
 - Back: [Category](../README.md)
-- Count: 8
+- Count: 23
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [migrate-oai-app](https://github.com/modelcontextprotocol/ext-apps/blob/main/plugins/mcp-apps/skills/migrate-oai-app/SKILL.md) | [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) |  | 1.5K | 33 | 2026-02-16 | [pending](../../../tags/pending.md) |
-| [meilisearch-admin](https://github.com/civitai/civitai/blob/main/.claude/skills/meilisearch-admin/SKILL.md) | [civitai/civitai](https://github.com/civitai/civitai) |  | 7K | 25 | 2026-02-17 | [pending](../../../tags/pending.md) |
-| [mcp-manager](https://github.com/rysweet/amplihack/blob/main/.claude/skills/mcp-manager/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) |  | 20 | 23 | 2026-02-16 | [pending](../../../tags/pending.md) |
-| [model-evaluation-benchmark](https://github.com/rysweet/amplihack/blob/main/.claude/skills/model-evaluation-benchmark/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) |  | 20 | 23 | 2026-02-16 | [pending](../../../tags/pending.md) |
-| [moai-lang-ruby](https://github.com/modu-ai/moai-adk/blob/main/.claude/skills/moai-lang-ruby/SKILL.md) | [modu-ai/moai-adk](https://github.com/modu-ai/moai-adk) |  | 724 | 22 | 2026-02-16 | [pending](../../../tags/pending.md) |
-| [made-to-stick](https://github.com/wondelai/skills/blob/main/made-to-stick/SKILL.md) | [wondelai/skills](https://github.com/wondelai/skills) |  | 112 | 22 | 2026-02-16 | [pending](../../../tags/pending.md) |
+| [mcp-apps-builder](https://github.com/mcp-use/mcp-use/blob/main/skills/mcp-apps-builder/SKILL.md) | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) |  | 9.2K | 469 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [markdown-formatter](https://github.com/markpitt/claude-skills/blob/main/skills/markdown-formatter/SKILL.md) | [markpitt/claude-skills](https://github.com/markpitt/claude-skills) |  | 6 | 41 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [migrate-oai-app](https://github.com/modelcontextprotocol/ext-apps/blob/main/plugins/mcp-apps/skills/migrate-oai-app/SKILL.md) | [modelcontextprotocol/ext-apps](https://github.com/modelcontextprotocol/ext-apps) |  | 1.5K | 37 | 2026-02-17 | [pending](../../../tags/pending.md) |
+| [microsoft-graph](https://github.com/markpitt/claude-skills/blob/main/skills/microsoft-graph/SKILL.md) | [markpitt/claude-skills](https://github.com/markpitt/claude-skills) |  | 6 | 33 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [mapbox-maplibre-migration](https://github.com/mapbox/mapbox-agent-skills/blob/main/skills/mapbox-maplibre-migration/SKILL.md) | [mapbox/mapbox-agent-skills](https://github.com/mapbox/mapbox-agent-skills) |  | 10 | 29 | 2026-02-17 | [pending](../../../tags/pending.md) |
+| [mapbox-search-patterns](https://github.com/mapbox/mapbox-agent-skills/blob/main/skills/mapbox-search-patterns/SKILL.md) | [mapbox/mapbox-agent-skills](https://github.com/mapbox/mapbox-agent-skills) |  | 10 | 28 | 2026-02-17 | [pending](../../../tags/pending.md) |
+| [meilisearch-admin](https://github.com/civitai/civitai/blob/main/.claude/skills/meilisearch-admin/SKILL.md) | [civitai/civitai](https://github.com/civitai/civitai) |  | 7K | 27 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [mapbox-geospatial-operations](https://github.com/mapbox/mapbox-agent-skills/blob/main/skills/mapbox-geospatial-operations/SKILL.md) | [mapbox/mapbox-agent-skills](https://github.com/mapbox/mapbox-agent-skills) |  | 10 | 26 | 2026-02-17 | [pending](../../../tags/pending.md) |
+| [mapbox-store-locator-patterns](https://github.com/mapbox/mapbox-agent-skills/blob/main/skills/mapbox-store-locator-patterns/SKILL.md) | [mapbox/mapbox-agent-skills](https://github.com/mapbox/mapbox-agent-skills) |  | 10 | 26 | 2026-02-17 | [pending](../../../tags/pending.md) |
+| [mcp-manager](https://github.com/rysweet/amplihack/blob/main/.claude/skills/mcp-manager/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) |  | 20 | 25 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [model-evaluation-benchmark](https://github.com/rysweet/amplihack/blob/main/.claude/skills/model-evaluation-benchmark/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) |  | 20 | 25 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [makepad-skills](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/makepad-skills/SKILL.md) | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |  | 12K | 24 | 2026-02-17 | [pending](../../../tags/pending.md) |
+| [moai-lang-ruby](https://github.com/modu-ai/moai-adk/blob/main/.claude/skills/moai-lang-ruby/SKILL.md) | [modu-ai/moai-adk](https://github.com/modu-ai/moai-adk) |  | 727 | 24 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [md-docs](https://github.com/paulrberg/agent-skills/blob/main/skills/md-docs/SKILL.md) | [paulrberg/agent-skills](https://github.com/paulrberg/agent-skills) |  | 34 | 24 | 2026-02-17 | [pending](../../../tags/pending.md) |
+| [microsoft-extensions-configuration](https://github.com/aaronontheweb/dotnet-skills/blob/master/skills/microsoft-extensions-configuration/SKILL.md) | [aaronontheweb/dotnet-skills](https://github.com/aaronontheweb/dotnet-skills) |  | 345 | 23 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [meeting-synthesizer](https://github.com/rysweet/amplihack/blob/main/.claude/skills/meeting-synthesizer/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) |  | 20 | 23 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [mod-actions](https://github.com/civitai/civitai/blob/main/.claude/skills/mod-actions/SKILL.md) | [civitai/civitai](https://github.com/civitai/civitai) |  | 7K | 22 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [migrating-latex-templates](https://github.com/huangwb8/chineseresearchlatex/blob/main/skills/transfer_old_latex_to_new/SKILL.md) | [huangwb8/chineseresearchlatex](https://github.com/huangwb8/chineseresearchlatex) |  | 788 | 22 | 2026-02-17 | [pending](../../../tags/pending.md) |
+| [moai-tool-svg](https://github.com/modu-ai/moai-adk/blob/main/.claude/skills/moai-tool-svg/SKILL.md) | [modu-ai/moai-adk](https://github.com/modu-ai/moai-adk) |  | 727 | 22 | 2026-02-18 | [pending](../../../tags/pending.md) |
+| [made-to-stick](https://github.com/wondelai/skills/blob/main/made-to-stick/SKILL.md) | [wondelai/skills](https://github.com/wondelai/skills) |  | 117 | 22 | 2026-02-16 | [pending](../../../tags/pending.md) |
+| [manage-mcp](https://github.com/nuxt-modules/mcp-toolkit/blob/main/skills/manage-mcp/SKILL.md) | [nuxt-modules/mcp-toolkit](https://github.com/nuxt-modules/mcp-toolkit) |  | 112 | 22 | 2026-02-17 | [pending](../../../tags/pending.md) |
 | [modular-architecture](https://github.com/melodic-software/claude-code-plugins/blob/main/plugins/enterprise-architecture/skills/modular-architecture/SKILL.md) | [melodic-software/claude-code-plugins](https://github.com/melodic-software/claude-code-plugins) |  | 27 | 22 | 2026-02-16 | [pending](../../../tags/pending.md) |
-| [meeting-synthesizer](https://github.com/rysweet/amplihack/blob/main/.claude/skills/meeting-synthesizer/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) |  | 20 | 21 | 2026-02-16 | [pending](../../../tags/pending.md) |
+| [module-spec-generator](https://github.com/rysweet/amplihack/blob/main/.claude/skills/module-spec-generator/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) |  | 20 | 22 | 2026-02-18 | [pending](../../../tags/pending.md) |

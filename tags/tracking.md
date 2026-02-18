@@ -1,7 +1,7 @@
 # Tag: tracking
 
 - Back: [Tags](README.md)
-- Tagged skills: 7
+- Tagged skills: 8
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
@@ -11,4 +11,5 @@
 | [using-analytics](https://github.com/andrelandgraf/fullstackrecipes/blob/main/.agents/skills/using-analytics/SKILL.md) | [andrelandgraf/fullstackrecipes](https://github.com/andrelandgraf/fullstackrecipes) | Track custom events and conversions with Vercel Web Analytics. | 9 | 32 | 2026-02-03 | [analytics](analytics.md), [tracking](tracking.md), [vercel](vercel.md), [web-analytics](web-analytics.md) |
 | [google-analytics](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Google Analytics skill for tracking and analyzing website data | 5 | 31 | 2026-01-09 | [analytics](analytics.md), [data-analysis](data-analysis.md), [google-analytics](google-analytics.md), [tracking](tracking.md) |
 | [nike-run-club](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Nike Run Club skill for fitness tracking and running activities | 5 | 30 | 2026-01-09 | [fitness](fitness.md), [mobile](mobile.md), [tracking](tracking.md) |
+| [ordercli](https://github.com/steipete/clawdis/blob/main/skills/ordercli/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | Command-line tool for checking Foodora order history and status. Deliveroo integration is work in progress. | 206K | 26 | 2026-02-18 | [cli](cli.md), [monitoring](monitoring.md), [ecommerce](ecommerce.md), [tracking](tracking.md) |
 | [gdpr-ccpa-privacy-auditor](https://github.com/jorgealves/agent_skills/blob/main/gdpr-ccpa-privacy-auditor/SKILL.md) | [jorgealves/agent_skills](https://github.com/jorgealves/agent_skills) | Audits web applications to ensure privacy policies match actual data collection practices, identifying discrepancies in cookies, tracking sc | 0 | 24 | 2026-01-25 | [audit](audit.md), [compliance](compliance.md), [privacy](privacy.md), [web-applications](web-applications.md), [cookies](cookies.md), [tracking](tracking.md) |

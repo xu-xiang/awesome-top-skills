@@ -5,5 +5,5 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [benchling-integration](https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/benchling-integration/SKILL.md) | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | 集成 Benchling 研发平台，通过 API 访问注册表、库存、ELN 条目和工作流以实现实验室数据自动化。 | 21K | 86 | 2026-02-17 | [API](api.md), [数据管理 (data-management)](data-management.md), [benchling (benchling)](benchling.md) |
+| [benchling-integration](https://github.com/davila7/claude-code-templates/blob/main/cli-tool/components/skills/scientific/benchling-integration/SKILL.md) | [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates) | 集成 Benchling 研发平台，通过 API 访问注册表、库存、ELN 条目和工作流以实现实验室数据自动化。 | 21K | 87 | 2026-02-18 | [API](api.md), [数据管理 (data-management)](data-management.md), [benchling (benchling)](benchling.md) |
 | [benchling-integration](https://github.com/k-dense-ai/claude-scientific-skills/blob/main/scientific-skills/benchling-integration/SKILL.md) | [k-dense-ai/claude-scientific-skills](https://github.com/k-dense-ai/claude-scientific-skills) | 集成 Benchling 研发平台，通过 API 访问注册表、库存、ELN 条目和工作流以实现实验室数据自动化。 | 7.8K | 69 | 2026-02-04 | [API](api.md), [数据管理 (data-management)](data-management.md), [benchling (benchling)](benchling.md) |

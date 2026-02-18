@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-02-17T05:53:34.060Z",
+  "generated_at": "2026-02-18T05:36:59.302Z",
   "categories": {
     "ai-llm": {
       "zh": "AI/LLM（大模型）",
@@ -2630,6 +2630,10 @@
     },
     "ehr": {
       "zh": "ehr",
+      "bilingual": true
+    },
+    "elasticsearch": {
+      "zh": "elasticsearch",
       "bilingual": true
     },
     "electron": {
