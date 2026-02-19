@@ -1,0 +1,10 @@
+# 标签：web pages (web-pages)
+
+- 返回: [标签（中文）](README.md)
+- 命中技能: 3
+
+| 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
+| - | - | - | -: | -: | - | - |
+| [fixing-metadata](https://github.com/ibelick/ui-skills/blob/main/skills/fixing-metadata/SKILL.md) | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | 审计并修复 HTML 元数据，包括标题、描述、Open Graph、JSON-LD 和 robots 指令，用于 SEO | 833 | 1.7K | 2026-02-18 | [seo (seo)](seo.md), [审计 (audit)](audit.md), [html (html)](html.md), [web pages (web-pages)](web-pages.md) |
+| [seo-meta](https://github.com/jezweb/claude-skills) | [jezweb/claude-skills](https://github.com/jezweb/claude-skills) | 优化或生成搜索引擎优化 (SEO) 的 meta 标签，以提升网页可见性和排名。 | 508 | 546 | 2026-02-18 | [seo (seo)](seo.md), [优化 (optimization)](optimization.md), [web pages (web-pages)](web-pages.md), [search engines (search-engines)](search-engines.md) |
+| [crawl4ai](https://github.com/tao3k/omni-dev-fusion/blob/main/assets/skills/crawl4ai/SKILL.md) | [tao3k/omni-dev-fusion](https://github.com/tao3k/omni-dev-fusion) | 爬取网页、提取markdown内容、智能分块和骨架规划的网站数据抓取工具 | 9 | 25 | 2026-02-14 | [scraping (scraping)](scraping.md), [网页调研 (web-research)](web-research.md), [web pages (web-pages)](web-pages.md), [markdown (markdown)](markdown.md) |

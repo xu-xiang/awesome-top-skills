@@ -5,4 +5,4 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [qa-lead](https://github.com/anton-abyzov/specweave) | [anton-abyzov/specweave](https://github.com/anton-abyzov/specweave) | QA主管技能，用于质量保证领导和团队管理 | 59 | 21 | 2026-02-17 | [lead generation (lead-generation)](../../../tags/lead-generation.md), [management (management)](../../../tags/management.md), [sales (sales)](../../../tags/sales.md), [营销 (marketing)](../../../tags/marketing.md) |
+| [qa-lead](https://github.com/anton-abyzov/specweave) | [anton-abyzov/specweave](https://github.com/anton-abyzov/specweave) | QA主管技能，用于质量保证领导和团队管理 | 60 | 21 | 2026-02-19 | [lead generation (lead-generation)](../../../tags/lead-generation.md), [management (management)](../../../tags/management.md), [sales (sales)](../../../tags/sales.md), [营销 (marketing)](../../../tags/marketing.md) |
