@@ -5,4 +5,4 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [xss-prevention](https://github.com/aj-geddes/useful-ai-prompts/blob/main/skills/xss-prevention/SKILL.md) | [aj-geddes/useful-ai-prompts](https://github.com/aj-geddes/useful-ai-prompts) | 通过输入清理、输出编码和CSP防止跨站脚本攻击。 | 89 | 83 | 2026-02-28 | [appsec (appsec)](../../../tags/appsec.md), [网页调研 (web-research)](../../../tags/web-research.md), [XSS (xss)](../../../tags/xss.md) |
+| [xss-prevention](https://github.com/aj-geddes/useful-ai-prompts/blob/main/skills/xss-prevention/SKILL.md) | [aj-geddes/useful-ai-prompts](https://github.com/aj-geddes/useful-ai-prompts) | 通过输入清理、输出编码和CSP防止跨站脚本攻击。 | 93 | 83 | 2026-02-28 | [appsec (appsec)](../../../tags/appsec.md), [网页调研 (web-research)](../../../tags/web-research.md), [XSS (xss)](../../../tags/xss.md) |

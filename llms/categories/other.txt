@@ -8,15 +8,13 @@ modal;lobehub/lobehub;modal;A skill for creating modal dialogs using createModal
 modal;lobehub/lobe-chat;modal;A skill for creating modal dialogs using createModal from @lobehub/ui.
 docs-review;metabase/metabase;docs-review;Reviews documentation changes for Metabase writing style compliance.
 domain-name-brainstormer;composiohq/awesome-claude-skills;;Generates and checks domain name ideas across multiple TLDs.
-postmortem-writing;wshobson/agents;postmortem-writing;Write effective blameless postmortems with root cause analysis, timelines, and action items for incident reviews.
-employment-contract-templates;wshobson/agents;employment-contract-templates;Generate employment contracts, offer letters, and HR policy documents using legal best practices.
+quality-documentation-manager;davila7/claude-code-templates;enterprise-communication/quality-documentation-manager;Manages comprehensive documentation control and regulatory document review with change management and compliance verification.
 m12-lifecycle;rustfs/rustfs;;A skill for managing the lifecycle of tasks or projects.
 m09-domain;rustfs/rustfs;;A skill for domain-related planning and task management.
 m01-ownership;rustfs/rustfs;;A skill for managing ownership and responsibilities in a team or project.
 m02-resource;rustfs/rustfs;;A skill for managing resources with a focus on tooling and best practices.
 m15-anti-pattern;rustfs/rustfs;;A skill for identifying and analyzing anti-patterns in code.
 m14-mental-model;rustfs/rustfs;;A skill for applying mental models to improve decision-making and problem-solving.
-quality-documentation-manager;davila7/claude-code-templates;enterprise-communication/quality-documentation-manager;Manages comprehensive documentation control and regulatory document review with change management and compliance verification.
 risk-management-specialist;davila7/claude-code-templates;enterprise-communication/risk-management-specialist;A senior risk management specialist for medical device companies implementing ISO 14971 throughout the product lifecycle.
 email-systems;davila7/claude-code-templates;business-marketing/email-systems;A skill focused on effective email systems including transactional emails, marketing automation, and deliverability.
 quality-manager-qmr;davila7/claude-code-templates;enterprise-communication/quality-manager-qmr;A skill for managing quality systems and regulatory compliance in HealthTech and MedTech companies.
@@ -24,8 +22,8 @@ domain-name-brainstormer;davila7/claude-code-templates;utilities/domain-name-bra
 regulatory-affairs-head;davila7/claude-code-templates;enterprise-communication/regulatory-affairs-head;A senior regulatory affairs manager for HealthTech and MedTech companies, providing strategic guidance and compliance coordination.
 crafting-effective-readmes;davila7/claude-code-templates;productivity/crafting-effective-readmes;Helps create or improve README files with templates and audience-specific guidance.
 pylabrobot;davila7/claude-code-templates;scientific/pylabrobot;A laboratory automation toolkit for controlling various lab equipment and managing workflows.
-cc-skill-project-guidelines-example;davila7/claude-code-templates;development/cc-skill-project-guidelines-example;A skill template for creating project guidelines and best practices.
 capa-officer;davila7/claude-code-templates;enterprise-communication/capa-officer;A senior CAPA officer skill for managing corrective and preventive actions in quality management systems.
+cc-skill-project-guidelines-example;davila7/claude-code-templates;development/cc-skill-project-guidelines-example;A skill template for creating project guidelines and best practices.
 email-systems;sickn33/antigravity-awesome-skills;email-systems;A skill focused on effective email systems including transactional emails, marketing automation, and deliverability.
 cc-skill-project-guidelines-example;sickn33/antigravity-awesome-skills;cc-skill-project-guidelines-example;A skill template for creating project guidelines and best practices.
 postmortem-writing;sickn33/antigravity-awesome-skills;postmortem-writing;Write effective blameless postmortems with root cause analysis, timelines, and action items for incident reviews.
@@ -36,9 +34,10 @@ compound-docs;everyinc/compound-engineering-plugin;compound-docs;Capture solved 
 atlas;openai/skills;;A tool for managing and orchestrating workflows, focusing on system operations and infrastructure management tasks.
 skill-one;everyinc/compound-engineering-plugin;skill-one;A sample skill for demonstration purposes.
 privateinvestigator;danielmiessler/personal_ai_infrastructure;PrivateInvestigator;Ethical people-finding skill for locating individuals, reconnection, and skip tracing with proper documentation.
-iso-13485-certification;k-dense-ai/claude-scientific-skills;;A toolkit for preparing ISO 13485 certification documentation for medical device QMS, including gap analysis, quality manuals, and regulator
+ultrapilot;yeachan-heo/oh-my-claudecode;ultrapilot;Deprecated skill redirecting users to /autopilot or /team commands.
 ecomode;yeachan-heo/oh-my-claudecode;;Optimization skill for energy systems using ecomode.
 help;yeachan-heo/oh-my-claudecode;;Provides help and support functionality for users seeking assistance with various tasks and operations.
+iso-13485-certification;k-dense-ai/claude-scientific-skills;;A toolkit for preparing ISO 13485 certification documentation for medical device QMS, including gap analysis, quality manuals, and regulator
 honesty;epicenterhq/epicenter;honesty;Behavioral guideline for providing brutally honest feedback in code review and technical discussions.
 email-best-practices;resend/email-best-practices;;Best practices for email features, spam prevention, authentication, and compliance.
 domain-name-brainstormer;softaworks/agent-toolkit;domain-name-brainstormer;Generates and checks domain name ideas across multiple TLDs.
@@ -57,15 +56,15 @@ ui-skills;ibelick/ui-skills;;A skill for creating and managing UI components and
 domain-fintech;zhanghandong/rust-skills;domain-fintech;A skill template for building fintech applications with focus on financial operations and transactions.
 skill-review;jezweb/claude-skills;;A skill template focused on review and assessment tasks.
 domain-name-brainstormer;skillcreatorai/ai-agent-skills;domain-name-brainstormer;Generates and checks domain name ideas across multiple TLDs.
-videocut:å‰ªå£æ’­;ceeon/videocut-skills;;A skill for video cutting and audio editing.
 skill-name;resciencelab/opc-skills;;Template for creating clear skill descriptions with trigger keywords and usage contexts.
+videocut:å‰ªå£æ’­;ceeon/videocut-skills;;A skill for video cutting and audio editing.
 videocut:å­—å¹•;ceeon/videocut-skills;;A skill for video and audio editing tasks.
 videocut:å®‰è£…;ceeon/videocut-skills;;A skill for installing video cutting tools.
 docs-cleaner;daymade/claude-code-skills;;Cleans and consolidates redundant documentation while preserving valuable content.
 engineering-culture;refoundai/lenny-skills;engineering-culture;Build strong engineering culture by improving developer experience and technical excellence.
 shared;boshu2/agentops;shared;Shared reference documents for distributed mode skills that are not directly invocable.
-style-guide;daleseo/korean-skills;style-guide;A style guide checker that ensures consistent writing styles and terminology across documents and projects.
 mcp-hass;aahl/skills;main/skills/mcp-hass;Control Home Assistant smart home devices and query states using MCP protocol
+style-guide;daleseo/korean-skills;style-guide;A style guide checker that ensures consistent writing styles and terminology across documents and projects.
 day1-test-skill;ai-native-camp/camp-1;;A placeholder skill designed for initial system testing and onboarding verification workflows.
 mobile-offline-support;aj-geddes/useful-ai-prompts;mobile-offline-support;Implement offline-first mobile apps with local storage and sync strategies.
 user-guide-creation;aj-geddes/useful-ai-prompts;user-guide-creation;Create comprehensive user guides, tutorials, and step-by-step instructions with examples and screenshots.
@@ -100,16 +99,16 @@ underdog-unit;jwynia/agent-skills;creative/fiction/character/underdog-unit;Gener
 metabolic-cultures;jwynia/agent-skills;creative/fiction/worldbuilding/metabolic-cultures;Design cultures for closed-loop life support systems in space, focusing on social structures and conflicts in recycled environments.
 course-creator;eddiebe147/claude-settings;;Design educational courses and curriculum with learning objectives and assessments.
 tutorial-docs;existential-birds/beagle;tutorial-docs;A tutorial pattern for documentation that teaches through guided practice.
-bad-example-skill;bobmatnyc/claude-mpm-skills;;An anti-pattern example demonstrating violations of self-containment in skills.
 intent-story;arcblock/idd;intent-story;Share Intent-Driven Development stories through structured interviews and blog posts.
-compliance-checker;eddiebe147/claude-settings;;A skill to check regulatory compliance across finance, tax, employment, data privacy, and industry-specific requirements.
+bad-example-skill;bobmatnyc/claude-mpm-skills;;An anti-pattern example demonstrating violations of self-containment in skills.
 kiss-principle;markpitt/claude-skills;kiss-principle;Apply the K.I.S.S. principle to simplify systems, improve maintainability, and solve problems elegantly in design, coding, and decision-maki
+compliance-checker;eddiebe147/claude-settings;;A skill to check regulatory compliance across finance, tax, employment, data privacy, and industry-specific requirements.
 example-framework-skill;bobmatnyc/claude-mpm-skills;;A self-contained skill example following best practices.
 community-manager;eddiebe147/claude-settings;;Manage online communities with engagement strategies, moderation, and relationship building.
 risk-assessor;eddiebe147/claude-settings;;Assesses project risks using systematic frameworks for identification, analysis, and mitigation.
 workshop-facilitator;eddiebe147/claude-settings;;Design and facilitate effective workshops with agendas, activities, and outcomes.
-content-publishing;eddiebe147/claude-settings;;A skill for creating and publishing content.
 education-expert;personamanagmentlayer/pcl;;Expert-level education technology, learning management systems, and ed-tech platforms
+content-publishing;eddiebe147/claude-settings;;A skill for creating and publishing content.
 socratic-teaching-scaffolds;lyndonkl/claude;socratic-teaching-scaffolds;Guided questioning approach for teaching complex concepts through Socratic method, helping learners discover insights rather than direct exp
 deal-hunt;tavily-ai/tavily-plugins;;A skill for hunting deals online.
 risk-management;0xhubed/agent-trading-arena;risk-management;A skill for managing risks based on competitive outcomes, useful for position sizing and stop-loss settings.

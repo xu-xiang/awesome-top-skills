@@ -11,19 +11,18 @@ django-security;affaan-m/everything-claude-code;django-security;Django security 
 security-scan;affaan-m/everything-claude-code;security-scan;Scan Claude Code configurations for security vulnerabilities, misconfigurations, and injection risks using AgentShield.
 security-requirement-extraction;wshobson/agents;security-requirement-extraction;Extract security requirements from threat models and business context for actionable security measures.
 auth-implementation-patterns;wshobson/agents;auth-implementation-patterns;Implement authentication and authorization patterns like JWT, OAuth2, session management, and RBAC for secure API access.
-solidity-security;wshobson/agents;solidity-security;Learn secure Solidity coding practices to prevent vulnerabilities in smart contracts.
-secrets-management;wshobson/agents;secrets-management;Manage secrets securely in CI/CD pipelines using Vault, AWS Secrets Manager, or native solutions.
-k8s-security-policies;wshobson/agents;k8s-security-policies;Implement Kubernetes security policies including NetworkPolicy, PodSecurityPolicy, and RBAC for production-grade security.
-gdpr-data-handling;wshobson/agents;gdpr-data-handling;A skill for implementing GDPR-compliant data handling with consent management and privacy controls.
-protocol-reverse-engineering;wshobson/agents;protocol-reverse-engineering;Reverse engineer network protocols with packet analysis and dissection.
-memory-forensics;wshobson/agents;memory-forensics;Learn memory forensics techniques for analyzing RAM captures and investigating incidents.
+solidity-security;wshobson/agents;solidity-security;Master Solidity smart contract security best practices for auditing, vulnerability prevention, and secure blockchain implementation.
+k8s-security-policies;wshobson/agents;k8s-security-policies;Implements Kubernetes security policies like NetworkPolicy, PodSecurityPolicy, and RBAC for cluster security and network isolation.
+gdpr-data-handling;wshobson/agents;gdpr-data-handling;Implements GDPR-compliant data handling with consent management and privacy by design for systems processing EU personal data.
+protocol-reverse-engineering;wshobson/agents;protocol-reverse-engineering;Master network protocol reverse engineering, packet analysis, dissection, and documentation for traffic analysis and debugging.
+memory-forensics;wshobson/agents;memory-forensics;Master memory forensics using Volatility for memory acquisition, process analysis, and artifact extraction from RAM dumps during incidents.
 threat-mitigation-mapping;wshobson/agents;threat-mitigation-mapping;Maps identified threats to security controls and mitigations for prioritizing investments and validating effectiveness.
-sast-configuration;wshobson/agents;sast-configuration;Configure SAST tools for automated vulnerability detection in application code.
-anti-reversing-techniques;wshobson/agents;anti-reversing-techniques;Analyze anti-reversing and obfuscation techniques in software binaries for security research and authorized debugging.
+sast-configuration;wshobson/agents;sast-configuration;Configure SAST tools for automated vulnerability detection in code. Supports DevSecOps and security scanning setup.
+anti-reversing-techniques;wshobson/agents;anti-reversing-techniques;Understand anti-reversing, obfuscation, and protection techniques for analyzing protected binaries and authorized anti-debugging bypass.
 attack-tree-construction;wshobson/agents;attack-tree-construction;Build comprehensive attack trees to visualize threat paths and identify defense gaps.
 stride-analysis-patterns;wshobson/agents;stride-analysis-patterns;Apply STRIDE methodology to identify system threats and conduct security analysis.
-binary-analysis-patterns;wshobson/agents;binary-analysis-patterns;Learn binary analysis techniques like disassembly and decompilation for examining compiled code.
-pci-compliance;wshobson/agents;pci-compliance;Implement PCI DSS compliance for secure payment card data handling.
+binary-analysis-patterns;wshobson/agents;binary-analysis-patterns;Master binary analysis patterns including disassembly, decompilation, and control flow analysis for executables and compiled code.
+pci-compliance;wshobson/agents;pci-compliance;Implements PCI DSS compliance requirements for secure handling of payment card data and payment systems.
 mtls-configuration;wshobson/agents;mtls-configuration;Configure mutual TLS (mTLS) for secure service-to-service communication in zero-trust networks.
 azure-role-selector;github/awesome-copilot;azure-role-selector;Helps users select appropriate Azure roles based on required permissions with least privilege access.
 senior-security;davila7/claude-code-templates;development/senior-security;A comprehensive security engineering skill covering application security, penetration testing, security architecture, and compliance auditin
@@ -43,21 +42,21 @@ security-scanning-tools;davila7/claude-code-templates;security/scanning-tools;Se
 red-team-tools-and-methodology;davila7/claude-code-templates;security/red-team-tools;Red team tools and methodology for security testing and vulnerability assessment
 pentest-checklist;davila7/claude-code-templates;security/pentest-checklist;A skill for creating structured penetration test checklists and defining security assessment scopes.
 pentest-commands;davila7/claude-code-templates;security/pentest-commands;Provides essential penetration testing command references for network scanning, vulnerability assessment, and exploit usage.
+api-fuzzing-for-bug-bounty;davila7/claude-code-templates;security/api-fuzzing-bug-bounty;API fuzzing for bug bounty hunting to discover security vulnerabilities through automated testing
 ethical-hacking-methodology;davila7/claude-code-templates;security/ethical-hacking-methodology;A skill for learning ethical hacking methodologies, including penetration testing lifecycle, reconnaissance, and vulnerability exploitation.
 html-injection-testing;davila7/claude-code-templates;security/html-injection-testing;A skill for testing HTML injection vulnerabilities and performing related security assessments.
-api-fuzzing-for-bug-bounty;davila7/claude-code-templates;security/api-fuzzing-bug-bounty;API fuzzing for bug bounty hunting to discover security vulnerabilities through automated testing
 clerk-auth;davila7/claude-code-templates;development/clerk-auth;Expert patterns for Clerk authentication implementation, middleware, organizations, webhooks, and user sync.
 sqlmap-database-penetration-testing;davila7/claude-code-templates;security/sqlmap-database-pentesting;SQLMap database penetration testing skill for identifying and exploiting SQL injection vulnerabilities in web applications.
 wireshark-network-traffic-analysis;davila7/claude-code-templates;security/wireshark-analysis;Wireshark network traffic analysis tool for capturing and analyzing network packets
 cross-site-scripting-and-html-injection-testing;davila7/claude-code-templates;security/xss-html-injection;Testing for cross-site scripting and HTML injection vulnerabilities in web applications
+cloud-penetration-testing;davila7/claude-code-templates;security/cloud-penetration-testing;Perform cloud penetration testing and security assessments across major cloud platforms like Azure, AWS, and GCP.
+burp-suite-web-application-testing;davila7/claude-code-templates;security/burp-suite-testing;Web application security testing with Burp Suite for vulnerability detection and penetration testing
 shodan-reconnaissance-and-pentesting;davila7/claude-code-templates;security/shodan-reconnaissance;Shodan-based reconnaissance and penetration testing for security assessment and vulnerability discovery.
 ssh-penetration-testing;davila7/claude-code-templates;security/ssh-penetration-testing;A skill for conducting comprehensive SSH penetration testing, including configuration enumeration, credential brute-forcing, and vulnerabili
-burp-suite-web-application-testing;davila7/claude-code-templates;security/burp-suite-testing;Web application security testing with Burp Suite for vulnerability detection and penetration testing
-cloud-penetration-testing;davila7/claude-code-templates;security/cloud-penetration-testing;Perform cloud penetration testing and security assessments across major cloud platforms like Azure, AWS, and GCP.
 idor-vulnerability-testing;davila7/claude-code-templates;security/idor-testing;Tests for IDOR (Insecure Direct Object Reference) vulnerabilities in web applications
 smtp-penetration-testing;davila7/claude-code-templates;security/smtp-penetration-testing;A skill for performing SMTP penetration testing and assessing mail server security.
-privilege-escalation-methods;davila7/claude-code-templates;security/privilege-escalation-methods;A skill for guiding users through privilege escalation techniques on Linux and Windows systems.
 broken-authentication-testing;davila7/claude-code-templates;security/broken-authentication;Testing for broken authentication vulnerabilities in web applications to identify security weaknesses.
+privilege-escalation-methods;davila7/claude-code-templates;security/privilege-escalation-methods;A skill for guiding users through privilege escalation techniques on Linux and Windows systems.
 aws-penetration-testing;davila7/claude-code-templates;security/aws-penetration-testing;A skill for conducting AWS security assessments including IAM enumeration, S3 bucket testing, and privilege escalation.
 linux-privilege-escalation;davila7/claude-code-templates;security/linux-privilege-escalation;A skill for identifying and exploiting Linux privilege escalation paths.
 wordpress-penetration-testing;davila7/claude-code-templates;security/wordpress-penetration-testing;A skill for conducting comprehensive WordPress security assessments including vulnerability scanning and penetration testing.
@@ -71,7 +70,6 @@ security-threat-model;davila7/claude-code-templates;security/security-threat-mod
 security-ownership-map;davila7/claude-code-templates;security/security-ownership-map;Analyze git repositories to build security ownership topology, compute bus factor and sensitive-code ownership, and export for graph databas
 security-review;sickn33/antigravity-awesome-skills;;A skill template designed for performing security reviews and audits on software systems to identify potential risks.
 api-security-best-practices;sickn33/antigravity-awesome-skills;api-security-best-practices;Implement secure API design patterns including authentication, authorization, input validation, and rate limiting.
-differential-fuzzer;tursodatabase/turso;differential-fuzzer;A skill for using a differential fuzzer tool to find bugs in Turso.
 vulnerability-scanner;sickn33/antigravity-awesome-skills;vulnerability-scanner;An advanced vulnerability scanner focusing on OWASP 2025, supply chain security, and risk prioritization.
 clerk-auth;sickn33/antigravity-awesome-skills;clerk-auth;Expert patterns for Clerk authentication implementation, middleware, organizations, webhooks, and user sync.
 red-team-tactics;sickn33/antigravity-awesome-skills;red-team-tactics;A skill focused on red team tactics based on MITRE ATT&CK framework for attack phases, detection evasion, and reporting.
@@ -79,7 +77,6 @@ top-100-web-vulnerabilities-reference;sickn33/antigravity-awesome-skills;;Refere
 ethical-hacking-methodology;sickn33/antigravity-awesome-skills;;A skill for learning ethical hacking methodologies, including penetration testing lifecycle, reconnaissance, and vulnerability exploitation.
 api-fuzzing-for-bug-bounty;sickn33/antigravity-awesome-skills;;API fuzzing for bug bounty hunting to discover security vulnerabilities through automated testing
 aws-penetration-testing;sickn33/antigravity-awesome-skills;;A skill for conducting AWS security assessments including IAM enumeration, S3 bucket testing, and privilege escalation.
-pentest-checklist;sickn33/antigravity-awesome-skills;;A skill for creating structured penetration test checklists and defining security assessment scopes.
 sql-injection-testing;sickn33/antigravity-awesome-skills;;A skill for testing SQL injection vulnerabilities and exploiting database query flaws.
 pentest-commands;sickn33/antigravity-awesome-skills;;Provides essential penetration testing command references for network scanning, vulnerability assessment, and exploit usage.
 wordpress-penetration-testing;sickn33/antigravity-awesome-skills;;A skill for conducting comprehensive WordPress security assessments including vulnerability scanning and penetration testing.
@@ -107,18 +104,19 @@ security-auditor;sickn33/antigravity-awesome-skills;security-auditor;A security 
 backend-security-coder;sickn33/antigravity-awesome-skills;backend-security-coder;A skill focused on secure backend coding practices including input validation, authentication, and API security.
 security-scanning-security-hardening;sickn33/antigravity-awesome-skills;security-scanning-security-hardening;Coordinate multi-layer security scanning and hardening across application, infrastructure, and compliance controls.
 frontend-security-coder;sickn33/antigravity-awesome-skills;frontend-security-coder;A skill focused on secure frontend coding practices, including XSS prevention and client-side security.
-auth-implementation-patterns;sickn33/antigravity-awesome-skills;auth-implementation-patterns;Implement authentication and authorization patterns like JWT, OAuth2, session management, and RBAC for secure API access.
 frontend-mobile-security-xss-scan;sickn33/antigravity-awesome-skills;frontend-mobile-security-xss-scan;Detects and prevents Cross-Site Scripting (XSS) vulnerabilities in frontend code.
+auth-implementation-patterns;sickn33/antigravity-awesome-skills;auth-implementation-patterns;Implement authentication and authorization patterns like JWT, OAuth2, session management, and RBAC for secure API access.
+differential-fuzzer;tursodatabase/turso;differential-fuzzer;A skill for using a differential fuzzer tool to find bugs in Turso.
 codebase-cleanup-deps-audit;sickn33/antigravity-awesome-skills;codebase-cleanup-deps-audit;Audit project dependencies for vulnerabilities, licensing issues, and outdated packages with actionable remediation strategies.
-mobile-security-coder;sickn33/antigravity-awesome-skills;mobile-security-coder;A skill focused on secure mobile coding practices, including input validation and WebView security.
 reverse-engineer;sickn33/antigravity-awesome-skills;reverse-engineer;A skill for expert reverse engineering including binary analysis, disassembly, and vulnerability research using tools like IDA Pro and Ghidr
+mobile-security-coder;sickn33/antigravity-awesome-skills;mobile-security-coder;A skill focused on secure mobile coding practices, including input validation and WebView security.
 threat-modeling-expert;sickn33/antigravity-awesome-skills;threat-modeling-expert;Expert in threat modeling, security architecture review, and risk assessment using STRIDE, PASTA, and attack trees.
 security-scanning-security-dependencies;sickn33/antigravity-awesome-skills;security-scanning-security-dependencies;Security expert for dependency vulnerability analysis, SBOM generation, and supply chain security scanning across ecosystems.
 security-compliance-compliance-check;sickn33/antigravity-awesome-skills;security-compliance-compliance-check;Compliance expert for regulatory requirements including GDPR, HIPAA, SOC2, PCI-DSS with audit and implementation guidance
-anti-reversing-techniques;sickn33/antigravity-awesome-skills;anti-reversing-techniques;Analyze anti-reversing and obfuscation techniques in software binaries for security research and authorized debugging.
 security-scanning-security-sast;sickn33/antigravity-awesome-skills;security-scanning-security-sast;Perform static application security testing (SAST) for code vulnerability analysis across multiple languages and frameworks.
-secrets-management;sickn33/antigravity-awesome-skills;secrets-management;Manage secrets securely in CI/CD pipelines using Vault, AWS Secrets Manager, or native solutions.
 malware-analyst;sickn33/antigravity-awesome-skills;malware-analyst;Expert malware analyst for defensive research, threat intelligence, and incident response.
+anti-reversing-techniques;sickn33/antigravity-awesome-skills;anti-reversing-techniques;Analyze anti-reversing and obfuscation techniques in software binaries for security research and authorized debugging.
+secrets-management;sickn33/antigravity-awesome-skills;secrets-management;Manage secrets securely in CI/CD pipelines using Vault, AWS Secrets Manager, or native solutions.
 security-requirement-extraction;sickn33/antigravity-awesome-skills;security-requirement-extraction;Extract security requirements from threat models and business context for actionable security measures.
 attack-tree-construction;sickn33/antigravity-awesome-skills;attack-tree-construction;Build comprehensive attack trees to visualize threat paths and identify defense gaps.
 binary-analysis-patterns;sickn33/antigravity-awesome-skills;binary-analysis-patterns;Learn binary analysis techniques like disassembly and decompilation for examining compiled code.
@@ -129,14 +127,15 @@ memory-forensics;sickn33/antigravity-awesome-skills;memory-forensics;Learn memor
 gdpr-data-handling;sickn33/antigravity-awesome-skills;gdpr-data-handling;A skill for implementing GDPR-compliant data handling with consent management and privacy controls.
 threat-mitigation-mapping;sickn33/antigravity-awesome-skills;threat-mitigation-mapping;Maps identified threats to security controls and mitigations for prioritizing investments and validating effectiveness.
 solidity-security;sickn33/antigravity-awesome-skills;solidity-security;Learn secure Solidity coding practices to prevent vulnerabilities in smart contracts.
-pci-compliance;sickn33/antigravity-awesome-skills;pci-compliance;Implement PCI DSS compliance for secure payment card data handling.
 firmware-analyst;sickn33/antigravity-awesome-skills;firmware-analyst;An expert firmware analyst for embedded systems, IoT security, and hardware reverse engineering.
+pci-compliance;sickn33/antigravity-awesome-skills;pci-compliance;Implement PCI DSS compliance for secure payment card data handling.
 stride-analysis-patterns;sickn33/antigravity-awesome-skills;stride-analysis-patterns;Apply STRIDE methodology to identify system threats and conduct security analysis.
 mtls-configuration;sickn33/antigravity-awesome-skills;mtls-configuration;Configure mutual TLS (mTLS) for secure service-to-service communication in zero-trust networks.
 sast-configuration;sickn33/antigravity-awesome-skills;sast-configuration;Configure SAST tools for automated vulnerability detection in application code.
 security-bluebook-builder;sickn33/antigravity-awesome-skills;security-bluebook-builder;Build security Blue Books for sensitive applications
 sharp-edges;sickn33/antigravity-awesome-skills;sharp-edges;Identifies error-prone APIs and dangerous configurations to improve security and reliability.
 ffuf-claude-skill;sickn33/antigravity-awesome-skills;ffuf-claude-skill;A Claude skill template for performing web fuzzing and security testing using the ffuf tool.
+pentest-checklist;sickn33/antigravity-awesome-skills;pentest-checklist;A skill for creating structured penetration test checklists and defining security assessment scopes.
 proxychains;2025emma/vibe-coding-cn;proxychains;A skill for configuring and using proxychains to route network traffic through proxy servers.
 security-best-practices;openai/skills;main/skills/.curated/security-best-practices;Performs language and framework specific security best-practice reviews and suggests improvements for Python, JavaScript/TypeScript, and Go
 security-threat-model;openai/skills;main/skills/.curated/security-threat-model;Repository-grounded threat modeling that enumerates trust boundaries, assets, attacker capabilities, abuse paths, and mitigations in Markdow
@@ -144,7 +143,7 @@ security-ownership-map;openai/skills;main/skills/.curated/security-ownership-map
 osint;danielmiessler/personal_ai_infrastructure;OSINT;Open source intelligence gathering for OSINT, due diligence, background checks, and research on persons or companies.
 recon;danielmiessler/personal_ai_infrastructure;Recon;Security reconnaissance skill for discovering attack surfaces, conducting security audits, and identifying vulnerabilities during bug bounty
 compliance;anthropics/knowledge-work-plugins;compliance;Navigate privacy regulations (GDPR, CCPA), review DPAs, and handle data subject requests for compliance assessment.
-security-review;yeachan-heo/oh-my-claudecode;security-review;Perform a comprehensive security review on code.
+security-review;yeachan-heo/oh-my-claudecode;security-review;Performs comprehensive security reviews on source code to identify vulnerabilities and ensure safety standards.
 idapython;mrexodia/ida-pro-mcp;idapython;IDA Pro Python scripting for reverse engineering tasks including binary analysis, disassembly, decompilation, and database manipulation.
 vulnerability-scanner;vudovn/antigravity-kit;vulnerability-scanner;An advanced vulnerability scanner focusing on OWASP 2025, supply chain security, and risk prioritization.
 red-team-tactics;vudovn/antigravity-kit;red-team-tactics;A skill focused on red team tactics based on MITRE ATT&CK framework for attack phases, detection evasion, and reporting.
@@ -182,8 +181,8 @@ aflpp;trailofbits/skills;main/plugins/testing-handbook-skills/skills/aflpp;AFL++
 ton-vulnerability-scanner;trailofbits/skills;main/plugins/building-secure-contracts/skills/ton-vulnerability-scanner;Scans TON smart contracts for critical vulnerabilities including integer-as-boolean misuse, fake Jetton contracts, and forward TON without g
 ruzzy;trailofbits/skills;main/plugins/testing-handbook-skills/skills/ruzzy;A coverage-guided Ruby fuzzer by Trail of Bits for testing Ruby code and C extensions.
 semgrep-rule-variant-creator;trailofbits/skills;main/plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator;Creates language variants of Semgrep rules for cross-language porting.
-sql-injection-testing;zebbern/claude-code-guide;sql-injection-testing;A skill for testing SQL injection vulnerabilities and exploiting database query flaws.
 insecure-defaults;trailofbits/skills;main/plugins/insecure-defaults/skills/insecure-defaults;Detects insecure defaults like hardcoded secrets and weak auth in production environments.
+sql-injection-testing;zebbern/claude-code-guide;sql-injection-testing;A skill for testing SQL injection vulnerabilities and exploiting database query flaws.
 yara-rule-authoring;trailofbits/skills;main/plugins/yara-authoring/skills/yara-rule-authoring;Create high-quality YARA-X rules for malware detection, covering naming, optimization, and false positive reduction.
 burpsuite-project-parser;trailofbits/skills;main/plugins/burpsuite-project-parser/skills;A CLI tool for parsing and exploring Burp Suite project files to analyze HTTP traffic and security findings.
 burp-suite;trailofbits/skills;;A skill for performing penetration testing and vulnerability scanning using Burp Suite.
@@ -252,17 +251,17 @@ sensitive-browser;napoleond/sensitive-browser;;A skill for executing sensitive b
 api-security-hardening;aj-geddes/useful-ai-prompts;api-security-hardening;Hardens REST APIs with authentication, rate limiting, CORS, and input validation.
 cybersecurity-analyst;rysweet/amplihack;cybersecurity-analyst;Analyzes cybersecurity events using threat modeling, attack surface analysis, and risk-based frameworks like MITRE ATT&CK.
 auth-web-cloudbase;tencentcloudbase/skills;main/skills/auth-web;Provides Web frontend authentication solutions with multiple login methods and user management for CloudBase.
+n8n-security-testing;proffesor-for-testing/agentic-qe;n8n-security-testing;Security testing for n8n workflows including credential exposure detection, OAuth validation, API key management testing, and data sanitizat
 auth-nodejs-cloudbase;tencentcloudbase/skills;main/skills/auth-nodejs;A complete guide for CloudBase Auth using the CloudBase Node SDK, covering caller identity, user lookup, custom login tickets, and server-si
 auth-tool-cloudbase;tencentcloudbase/skills;main/skills/auth-tool;Configure and manage authentication providers for web apps using CloudBase Auth tool.
-n8n-security-testing;proffesor-for-testing/agentic-qe;n8n-security-testing;Security testing for n8n workflows including credential exposure detection, OAuth validation, API key management testing, and data sanitizat
 clawdstrike;cantinaxyz/clawdstrike;;Security audit and threat model for OpenClaw gateway hosts. Verifies configuration, exposure, skills/plugins, filesystem hygiene, and produc
 code-security;semgrep/skills;main/skills/code-security;Provides security guidelines for writing secure code, useful for code review and vulnerability checking.
 security-compliance-audit;aj-geddes/useful-ai-prompts;security-compliance-audit;Conduct comprehensive security compliance audits for SOC 2, GDPR, HIPAA, PCI-DSS, and ISO 27001.
 access-control-rbac;aj-geddes/useful-ai-prompts;access-control-rbac;Implement Role-Based Access Control (RBAC) for secure permission management.
 llm-security;semgrep/skills;main/skills/llm-security;Provides security guidelines for LLM applications based on OWASP Top 10 for LLM 2025.
-semgrep;semgrep/skills;main/skills/semgrep;Run Semgrep static analysis scans and create custom detection rules for security vulnerabilities and bug patterns.
 security-testing;aj-geddes/useful-ai-prompts;security-testing;A skill for identifying security vulnerabilities using SAST, DAST, penetration testing, and dependency scanning.
 api-rate-limiting;aj-geddes/useful-ai-prompts;api-rate-limiting;Implement API rate limiting using token bucket, sliding window, and fixed window algorithms to protect APIs from abuse.
+semgrep;semgrep/skills;main/skills/semgrep;Run Semgrep static analysis scans and create custom detection rules for security vulnerabilities and bug patterns.
 api-authentication;aj-geddes/useful-ai-prompts;api-authentication;Secure API authentication using JWT, OAuth 2.0, API keys, and session management.
 oauth-implementation;aj-geddes/useful-ai-prompts;oauth-implementation;Implement secure OAuth 2.0, OpenID Connect (OIDC), JWT authentication, and SSO integration for web and mobile apps.
 data-encryption;aj-geddes/useful-ai-prompts;data-encryption;Implement strong encryption using AES, RSA, TLS, and proper key management for data at rest, in transit, or end-to-end encryption.
@@ -283,9 +282,9 @@ csrf-protection;aj-geddes/useful-ai-prompts;csrf-protection;Implement CSRF prote
 xss-prevention;aj-geddes/useful-ai-prompts;xss-prevention;Prevent Cross-Site Scripting (XSS) attacks using input sanitization, output encoding, and CSP.
 zero-trust-architecture;aj-geddes/useful-ai-prompts;zero-trust-architecture;Implement a Zero Trust security model with identity verification, microsegmentation, and continuous monitoring for secure cloud-native apps.
 secrets-management;aj-geddes/useful-ai-prompts;secrets-management;Manages secrets using HashiCorp Vault, AWS Secrets Manager, or Kubernetes Secrets for secure credential storage and rotation.
+ln-621-security-auditor;levnikolaevich/claude-code-skills;;Security audit worker that scans codebase for hardcoded secrets, SQL injection, XSS, insecure dependencies, and missing input validation. Re
 network-security-groups;aj-geddes/useful-ai-prompts;network-security-groups;Configure network security groups and firewall rules for traffic control and network segmentation.
 secrets-rotation;aj-geddes/useful-ai-prompts;secrets-rotation;Automated secrets rotation for API keys, credentials, certificates, and encryption keys.
-ln-621-security-auditor;levnikolaevich/claude-code-skills;;Security audit worker that scans codebase for hardcoded secrets, SQL injection, XSS, insecure dependencies, and missing input validation. Re
 security-review;zackkorman/skills;main/skills/security-review;Perform security reviews and audit codebases for vulnerabilities.
 owasp-top-10;nickcrew/claude-ctx-plugin;owasp-top-10;OWASP Top 10 security vulnerabilities with detection and remediation patterns for security audits and secure coding.
 owasp-top-10;yonatangross/orchestkit;;OWASP Top 10 security assessment and vulnerability analysis tool for identifying common web application security risks.
@@ -298,8 +297,8 @@ ctf-solver;hacktronai/skills;main/ctf-solver;Solve CTF challenges by analyzing d
 api-security-review;bobmatnyc/claude-mpm-skills;;A checklist for API security review before deployment, focusing on authentication, authorization, and input validation.
 wordpress-security-validation;bobmatnyc/claude-mpm-skills;;A security-focused WordPress development skill emphasizing nonces, sanitization, and escaping to prevent XSS, CSRF, and SQL injection.
 software-security-appsec;vasilyu1983/ai-agents-public;software-security-appsec;A modern application security skill aligned with OWASP Top 10:2025, NIST SSDF, and zero trust principles.
-authjs-skills;gocallum/nextjs16-agent-skills;authjs-skills;Setup authentication for Next.js with Google OAuth and credentials provider.
 docker-security-guide;josiahsiegel/claude-plugin-marketplace;docker-security-guide;Comprehensive Docker security guidelines and threat mitigation strategies.
+authjs-skills;gocallum/nextjs16-agent-skills;authjs-skills;Setup authentication for Next.js with Google OAuth and credentials provider.
 security-auditor;erichowens/some_claude_skills;security-auditor;Security vulnerability scanner and OWASP compliance auditor for codebases with dependency scanning, secret detection, and SAST.
 authentication;andrelandgraf/fullstackrecipes;authentication;A complete authentication system with email verification, password reset, and protected routes.
 auth0-mfa;auth0/agent-skills;auth0-mfa;Add multi-factor authentication (MFA/2FA) or require additional verification for sensitive operations using Auth0
@@ -311,6 +310,7 @@ better-auth-authentication;bobmatnyc/claude-mpm-skills;;A skill for implementing
 threat-modeling;bobmatnyc/claude-mpm-skills;;A threat modeling workflow for software systems including scope, data flow diagrams, STRIDE analysis, risk scoring, and mitigation planning.
 security-expert;shipshitdev/library;security-expert;A security expert skill focused on application security, OWASP Top 10, and best practices for React, Next.js, and NestJS.
 better-auth-plugins;bobmatnyc/claude-mpm-skills;;A TypeScript-based authentication plugin system for adding advanced features like 2FA, magic links, and JWT.
+network-engineer;404kidwiz/claude-supercode-skills;;Designs secure network architectures with zero-trust principles for cloud and hybrid environments.
 hipaa-compliance;erichowens/some_claude_skills;hipaa-compliance;Ensure HIPAA compliance when handling Protected Health Information (PHI). Activates for audit logging, data access, security events, and com
 mapbox-token-security;mapbox/mcp-devkit-server;mapbox-token-security;Security best practices for Mapbox access tokens, including scope management, URL restrictions, rotation strategies, and protecting sensitiv
 supabase-help;yoanbernabeu/supabase-pentest-skills;orchestration/supabase-help;Provides quick reference for Supabase security audit skills with usage examples and command overview.
@@ -323,7 +323,7 @@ supabase-audit-buckets-list;yoanbernabeu/supabase-pentest-skills;audit-storage/s
 supabase-audit-rls;yoanbernabeu/supabase-pentest-skills;audit-api/supabase-audit-rls;Tests Row Level Security policies for bypass vulnerabilities in Supabase.
 supabase-audit-buckets-public;yoanbernabeu/supabase-pentest-skills;audit-storage/supabase-audit-buckets-public;Audit Supabase storage buckets for public accessibility and sensitive data exposure.
 supabase-audit-realtime;yoanbernabeu/supabase-pentest-skills;audit-realtime/supabase-audit-realtime;Audit Supabase Realtime WebSocket channels for unauthorized access and data exposure.
-network-engineer;404kidwiz/claude-supercode-skills;;Designs secure network architectures with zero-trust principles for cloud and hybrid environments.
+wish-ssh-code-review;existential-birds/beagle;wish-ssh-code-review;Reviews SSH server code for security patterns and session handling using charmbracelet/wish.
 oauth2-authentication;manutej/luxor-claude-marketplace;oauth2-authentication;A comprehensive OAuth2 authentication skill covering authorization flows, token management, PKCE, OpenID Connect, and security best practice
 better-auth-core;bobmatnyc/claude-mpm-skills;;A TypeScript-based authentication core for managing sessions and server-side APIs.
 capacitor-security;cap-go/capacitor-skills;capacitor-security;A comprehensive security guide for Capacitor apps using the Capsec scanner, covering 63+ security rules.
@@ -341,18 +341,17 @@ supabase-audit-functions;yoanbernabeu/supabase-pentest-skills;audit-functions/su
 supabase-audit-auth-users;yoanbernabeu/supabase-pentest-skills;audit-auth/supabase-audit-auth-users;Audit Supabase auth users for enumeration vulnerabilities.
 supabase-evidence;yoanbernabeu/supabase-pentest-skills;evidence/supabase-evidence;Initialize and manage evidence collection for security audits with documented findings.
 supabase-audit-authenticated;yoanbernabeu/supabase-pentest-skills;audit-auth/supabase-audit-authenticated;Audit authenticated vs anonymous user access in Supabase to detect IDOR and privilege escalation.
-wish-ssh-code-review;existential-birds/beagle;wish-ssh-code-review;Reviews SSH server code for security patterns and session handling using charmbracelet/wish.
 security-scanning;bobmatnyc/claude-mpm-skills;;CI security scanning for secrets, dependencies, SAST, triage, and expiring exceptions.
+security-testing-patterns;nickcrew/claude-ctx-plugin;security-testing-patterns;Security testing patterns covering SAST, DAST, penetration testing, and vulnerability assessment for secure application development.
 security-scanner;eddiebe147/claude-settings;;Scans code and infrastructure for security vulnerabilities and compliance issues.
 ipsw;blacktop/ipsw-skill;;Apple firmware and binary reverse engineering with the ipsw CLI tool for iOS/macOS binary analysis, disassembly, header dumping, and securit
-security-testing-patterns;nickcrew/claude-ctx-plugin;security-testing-patterns;Security testing patterns covering SAST, DAST, penetration testing, and vulnerability assessment for secure application development.
 git-safety;shipshitdev/library;git-safety;Scan git history for sensitive files and clean leaked credentials.
 better-auth-protected-routes;andrelandgraf/fullstackrecipes;better-auth-protected-routes;Protect server-side routes with authentication enforcement.
 appsec-expert;martinholovsky/claude-skills-generator;appsec-expert;An elite application security expert for secure SDLC, OWASP Top 10 2025, SAST/DAST/SCA integration, and vulnerability remediation.
 open-source-checker;shipshitdev/library;open-source-checker;Detects private information, API keys, and sensitive data in codebases before open sourcing.
+senior-security;borghei/claude-skills;;A security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing with OWASP guidance
 ci/cd-pipeline-security-expert;martinholovsky/claude-skills-generator;ci-cd;A CI/CD pipeline security expert focused on secret management, code signing, and supply chain protection for desktop applications.
 clerk-validator;shipshitdev/library;clerk-validator;Validates Clerk authentication setup and detects deprecated patterns in Next.js applications.
-senior-security;borghei/claude-skills;;A security engineering toolkit for threat modeling, vulnerability analysis, secure architecture, and penetration testing with OWASP guidance
 encore-auth;encoredev/skills;main/encore/auth;Implement authentication with auth handlers and gateways in Encore.ts.
 better-auth-setup;andrelandgraf/fullstackrecipes;better-auth-setup;Set up user authentication with Better Auth, Drizzle ORM, and Neon Postgres.
 using-authentication;andrelandgraf/fullstackrecipes;using-authentication;This skill demonstrates how to implement client and server-side authentication using Better Auth, covering session management, protected rou
@@ -363,23 +362,23 @@ dependency-auditor;ovachiever/droid-tings;dependency-auditor;Audits dependencies
 secret-scanner;ovachiever/droid-tings;secret-scanner;Detects exposed secrets, API keys, credentials, and tokens in code before commits or file saves.
 security-engineer;daffy0208/ai-dev-standards;security-engineer;A skill for implementing security best practices across the application stack, covering OWASP Top 10, auth patterns, and vulnerability preve
 forensic-data-engineer;daffy0208/ai-dev-standards;forensic-data-engineer;A forensic data engineer specializing in data forensics, anomaly detection, and fraud detection.
+defender-for-devops;josiahsiegel/claude-plugin-marketplace;defender-for-devops;Microsoft Defender for DevOps integration with Azure Pipelines for security automation and threat protection in CI/CD pipelines.
 security-architect;daffy0208/ai-dev-standards;security-architect;A comprehensive security architecture skill combining threat modeling, secure design, code review, and compliance validation.
 skills-security-check;toolsai/skills-security-check;;Detect skill vulnerabilities using static and AI checks. Activate evaluation upon scan requests for security assessment.
-defender-for-devops;josiahsiegel/claude-plugin-marketplace;defender-for-devops;Microsoft Defender for DevOps integration with Azure Pipelines for security automation and threat protection in CI/CD pipelines.
-license-keys;dodopayments/skills;main/dodo-payments/license-keys;A guide for implementing license key management with Dodo Payments, including activation, validation, and access control.
-specstory-guard;specstoryai/agent-skills;specstory-guard;Installs a pre-commit hook to scan .specstory/history for secrets before commits.
 security-first-2025;josiahsiegel/claude-plugin-marketplace;security-first-2025;Security-first bash scripting patterns for 2025 with mandatory validation and zero-trust principles
 git-security-2025;josiahsiegel/claude-plugin-marketplace;git-security-2025;Git security best practices for 2025 including signed commits, zero-trust workflows, secret scanning, and verification
-smart-contract-security;pluginagentmarketplace/custom-plugin-blockchain;smart-contract-security;Master smart contract security with auditing, vulnerability detection, and incident response.
+license-keys;dodopayments/skills;main/dodo-payments/license-keys;A guide for implementing license key management with Dodo Payments, including activation, validation, and access control.
+specstory-guard;specstoryai/agent-skills;specstory-guard;Installs a pre-commit hook to scan .specstory/history for secrets before commits.
 powershell-security;josiahsiegel/claude-plugin-marketplace;powershell-security;Modern PowerShell security practices including SecretManagement, JEA, WDAC, and credential protection
+smart-contract-security;pluginagentmarketplace/custom-plugin-blockchain;smart-contract-security;Master smart contract security with auditing, vulnerability detection, and incident response.
 supabase-auth;nice-wolf-studio/claude-code-supabase-skills;supabase-auth;A skill for managing Supabase authentication and user operations including signup, signin, and password reset.
 bitwarden;andrejones92/canifi-life-os;;A skill for managing passwords and secrets using Bitwarden, focusing on authentication and security audit capabilities.
 security-check;schroneko/security-check;;A skill that performs security checks in response to specific prompts.
+configuring-tauri-permissions;dchuk/claude-code-tauri-skills;;Guide to configuring Tauri permissions including security systems, allow/deny lists, and plugin permissions.
 opencode-authentication;supercent-io/skills-template;;Handles OAuth authentication flows for multiple AI services including Claude Code, Gemini, and Codex.
 code-review-security;hieutrtr/ai1-skills;code-review-security;Security-focused code review checklist and automated scanning patterns for pull requests, authentication code, OWASP Top 10 vulnerabilities,
-configuring-tauri-permissions;dchuk/claude-code-tauri-skills;;Guide to configuring Tauri permissions including security systems, allow/deny lists, and plugin permissions.
-keycloak-administration;dauquangthanh/hanoi-rainbow;keycloak-administration;Comprehensive KeyCloak administration guidance for realm management, user/group administration, client configuration, authentication flows,
 kubernetes-security-policies;nickcrew/claude-ctx-plugin;kubernetes-security-policies;Implements Kubernetes security policies, RBAC, and Pod Security Standards for hardened cluster deployments.
+keycloak-administration;dauquangthanh/hanoi-rainbow;keycloak-administration;Comprehensive KeyCloak administration guidance for realm management, user/group administration, client configuration, authentication flows,
 lastpass;andrejones92/canifi-life-os;;LastPass password manager integration for secure credential storage and authentication management
 dashlane;andrejones92/canifi-life-os;;Dashlane password manager skill for secure credential storage and authentication management
 1password;andrejones92/canifi-life-os;;A skill for managing passwords and authentication using 1Password.
