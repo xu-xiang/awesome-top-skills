@@ -84,8 +84,8 @@ invoice-organizer;davila7/claude-code-templates;productivity/invoice-organizer;A
 internal-comms;davila7/claude-code-templates;enterprise-communication/internal-comms-anthropic;A skill for writing various types of internal communications like reports and updates.
 raffle-winner-picker;davila7/claude-code-templates;productivity/raffle-winner-picker;Random winner picker for giveaways, raffles, and contests with fair selection.
 professional-communication;davila7/claude-code-templates;enterprise-communication/professional-communication;A guide for technical communication tailored for software developers, covering emails, team messaging, and meeting agendas.
-obsidian-clipper-template-creator;davila7/claude-code-templates;productivity/obsidian-clipper-template-creator;Create templates for Obsidian Web Clipper with available variables and formatting guidance.
 daily-meeting-update;davila7/claude-code-templates;enterprise-communication/daily-meeting-update;Generates interactive daily meeting updates by pulling activity from GitHub, Jira, and Claude sessions.
+obsidian-clipper-template-creator;davila7/claude-code-templates;productivity/obsidian-clipper-template-creator;Create templates for Obsidian Web Clipper with available variables and formatting guidance.
 difficult-workplace-conversations;davila7/claude-code-templates;enterprise-communication/difficult-workplace-conversations;A structured approach for handling difficult workplace conversations, conflicts, and feedback.
 pdf;shareai-lab/learn-claude-code;pdf;Process PDF files - extract text, create PDFs, merge documents. Use when user asks to read PDF, create PDF, or work with PDF files.
 brainstorming;sickn33/antigravity-awesome-skills;brainstorming;Transforms vague ideas into validated designs via disciplined reasoning and collaboration before creative work.
@@ -95,31 +95,31 @@ pdf;sickn33/antigravity-awesome-skills;;PDF processing and management tool for d
 docx;sickn33/antigravity-awesome-skills;;A skill for processing DOCX documents, enabling file management and office-related tasks.
 internal-comms;sickn33/antigravity-awesome-skills;;A skill for writing various types of internal communications like reports and updates.
 obsidian-clipper-template-creator;sickn33/antigravity-awesome-skills;obsidian-clipper-template-creator;Create templates for Obsidian Web Clipper with available variables and formatting guidance.
-conductor-status;sickn33/antigravity-awesome-skills;conductor-status;Display project status, active tracks, and next actions for project management and task tracking.
 telegram-automation;sickn33/antigravity-awesome-skills;telegram-automation;Automate Telegram tasks via Rube MCP: send messages, manage chats, share media, and handle bot commands with current tool schemas.
-team-collaboration-standup-notes;sickn33/antigravity-awesome-skills;team-collaboration-standup-notes;Expert team communication specialist for async-first standup practices with AI-assisted note generation from commit history and remote team
+conductor-status;sickn33/antigravity-awesome-skills;conductor-status;Display project status, active tracks, and next actions for project management and task tracking.
 beautiful-prose;sickn33/antigravity-awesome-skills;beautiful-prose;A writing style contract for creating timeless, forceful English prose without AI tics
-claude-speed-reader;sickn33/antigravity-awesome-skills;claude-speed-reader;Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting
+team-collaboration-standup-notes;sickn33/antigravity-awesome-skills;team-collaboration-standup-notes;Expert team communication specialist for async-first standup practices with AI-assisted note generation from commit history and remote team
 outlook-automation;sickn33/antigravity-awesome-skills;outlook-automation;Automate Outlook tasks via Rube MCP (Composio): emails, calendar, contacts, folders, attachments. Always search tools first for current sche
+claude-speed-reader;sickn33/antigravity-awesome-skills;claude-speed-reader;Speed read Claude's responses at 600+ WPM using RSVP with Spritz-style ORP highlighting
 youtube-automation;sickn33/antigravity-awesome-skills;youtube-automation;Automate YouTube tasks via Rube MCP (Composio): upload videos, manage playlists, search content, get analytics, and handle comments.
 linear-claude-skill;sickn33/antigravity-awesome-skills;linear-claude-skill;A Claude skill for managing Linear issues, projects, and teams efficiently.
 culture-index;sickn33/antigravity-awesome-skills;culture-index;Indexes and searches culture documentation.
 gmail-automation;sickn33/antigravity-awesome-skills;gmail-automation;Automate Gmail tasks via Rube MCP (Composio): send/reply, search, labels, drafts, attachments. Always search tools first for current schemas
 todoist-automation;sickn33/antigravity-awesome-skills;todoist-automation;Automate Todoist task management, projects, sections, filtering, and bulk operations via Rube MCP (Composio).
 asana-automation;sickn33/antigravity-awesome-skills;asana-automation;Automate Asana tasks via Rube MCP (Composio): tasks, projects, sections, teams, workspaces. Always search tools first for current schemas.
+notion-automation;sickn33/antigravity-awesome-skills;notion-automation;Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas.
 outlook-calendar-automation;sickn33/antigravity-awesome-skills;outlook-calendar-automation;Automate Outlook Calendar tasks via Rube MCP (Composio): create events, manage attendees, find meeting times, and handle invitations.
 confluence-automation;sickn33/antigravity-awesome-skills;confluence-automation;Automate Confluence page creation, content search, space management, labels, and hierarchy navigation via Rube MCP (Composio).
-notion-automation;sickn33/antigravity-awesome-skills;notion-automation;Automate Notion tasks via Rube MCP (Composio): pages, databases, blocks, comments, users. Always search tools first for current schemas.
 clickup-automation;sickn33/antigravity-awesome-skills;clickup-automation;Automate ClickUp project management tasks, spaces, folders, lists, comments, and team operations via Rube MCP (Composio)
 calendly-automation;sickn33/antigravity-awesome-skills;calendly-automation;Automate Calendly scheduling, event management, invitee tracking, availability checks, and organization administration via Rube MCP (Composi
 coda-automation;sickn33/antigravity-awesome-skills;coda-automation;Automate Coda tasks via Rube MCP (Composio): manage docs, pages, tables, rows, formulas, permissions, and publishing.
 linear-automation;sickn33/antigravity-awesome-skills;linear-automation;Automate Linear project management tasks through Composio integration
+github-project-management;ruvnet/claude-flow;github-project-management;Manage GitHub projects with swarm-coordinated issue tracking and sprint planning.
 jira-automation;sickn33/antigravity-awesome-skills;jira-automation;Automate Jira tasks via Rube MCP (Composio): issues, projects, sprints, boards, comments, users. Always search tools first for current schem
 microsoft-teams-automation;sickn33/antigravity-awesome-skills;microsoft-teams-automation;Automate Microsoft Teams tasks via Rube MCP (Composio): send messages, manage channels, create meetings, handle chats, and search messages.
 dropbox-automation;sickn33/antigravity-awesome-skills;dropbox-automation;Automate Dropbox file management, sharing, search, uploads, downloads, and folder operations via Rube MCP (Composio).
 trello-automation;sickn33/antigravity-awesome-skills;trello-automation;Automate Trello boards, cards, and workflows via Rube MCP (Composio). Create cards, manage lists, assign members, and search across boards p
 pptx;iofficeai/aionui;pptx;Create, edit, and analyze PowerPoint presentations (.pptx files) with support for layouts, comments, and speaker notes.
-github-project-management;ruvnet/claude-flow;github-project-management;Manage GitHub projects with swarm-coordinated issue tracking and sprint planning.
 obsidian-bases;kepano/obsidian-skills;obsidian-bases;Create and edit Obsidian Bases files with views, filters, and formulas.
 obsidian-markdown;kepano/obsidian-skills;obsidian-markdown;Create and edit Obsidian Flavored Markdown with wikilinks, embeds, callouts, properties, and other Obsidian-specific syntax.
 obsidian-cli;kepano/obsidian-skills;obsidian-cli;Interact with Obsidian vaults via CLI for note management, task tracking, and plugin development
@@ -134,7 +134,6 @@ meeting-briefing;anthropics/knowledge-work-plugins;meeting-briefing;Prepare stru
 ticket-triage;anthropics/knowledge-work-plugins;ticket-triage;Automates support ticket triage by categorizing issues, assigning priority levels (P1-P4), and recommending appropriate team routing for eff
 note;yeachan-heo/oh-my-claudecode;note;Save notes to notepad.md for compaction resilience
 writer-memory;yeachan-heo/oh-my-claudecode;writer-memory;Agentic memory system for writers to track characters, relationships, scenes, and themes
-review;yeachan-heo/oh-my-claudecode;review;Command alias for executing plan reviews using /plan --review.
 pptx;k-dense-ai/claude-scientific-skills;;A toolkit for creating and editing PowerPoint presentations programmatically.
 clickup;civitai/civitai;clickup;Interact with ClickUp tasks and documents for task management and project coordination.
 the-fool;jeffallan/claude-skills;the-fool;Structured critical reasoning skill for challenging ideas, plans, decisions, or proposals. Includes devil's advocate, pre-mortem, red team,
@@ -151,6 +150,7 @@ atlassian-admin;alirezarezvani/claude-skills;;Atlassian administration skill for
 obsidian-canvas-creator;axtonliu/axton-obsidian-visual-skills;;Create Obsidian Canvas files from text content with MindMap and freeform layouts.
 pptx-presentation-builder;supercent-io/skills-template;;Create professional PPTX presentations with brand-aligned layouts using structured briefs and validation steps.
 project-analyze;catlog22/claude-code-workflow;;AI skill for analyzing project details, tracking progress, and generating actionable insights for better management.
+file-name-wizard;cygnusfear/agent-skills;;A utility skill designed to assist with generating, organizing, or standardizing file names efficiently.
 task-planning;supercent-io/skills-template;;Plan and organize software development tasks effectively with breakdown, user stories, and sprint planning.
 standup-meeting;supercent-io/skills-template;;Facilitate effective daily standup meetings for agile teams with time management and blocker resolution.
 sprint-retrospective;supercent-io/skills-template;;Facilitates effective sprint retrospectives for continuous team improvement and collaboration.
@@ -173,7 +173,6 @@ personal-productivity;refoundai/lenny-skills;personal-productivity;Helps users m
 scrum-master;aj-geddes/claude-code-bmad-skills;;A Scrum Master skill for managing agile development processes and team coordination.
 todoist-api;intellectronica/agent-skills;todoist-api;Interact with Todoist REST API v2 using curl and jq for task/project management.
 written-communication;refoundai/lenny-skills;written-communication;Improves written communication clarity, conciseness, and persuasiveness for memos, emails, and strategy documents.
-napkin;blader/napkin;;Maintains a per-repo napkin file (.claude/napkin.md) to track mistakes, corrections, and what works during development sessions.
 giving-presentations;refoundai/lenny-skills;giving-presentations;Helps users create and deliver compelling presentations, including dealing with presentation anxiety and practicing for keynotes.
 setting-okrs-goals;refoundai/lenny-skills;setting-okrs-goals;Helps users set effective OKRs and goals for quarterly objectives, key results, and team targets.
 conducting-interviews;refoundai/lenny-skills;conducting-interviews;This skill helps design effective hiring interview processes and evaluate candidates.
@@ -185,6 +184,7 @@ building-team-culture;refoundai/lenny-skills;building-team-culture;This skill he
 delegating-work;refoundai/lenny-skills;delegating-work;This skill helps users delegate tasks effectively, build team autonomy, and balance hands-on vs hands-off management.
 running-offsites;refoundai/lenny-skills;running-offsites;Plan and run effective team offsites for remote team cohesion and strategic planning.
 running-effective-1-1s;refoundai/lenny-skills;running-effective-1-1s;Helps managers run effective one-on-one meetings and improve career conversations with reports.
+napkin;blader/napkin;;Maintains a per-repo napkin file (.claude/napkin.md) to track mistakes, corrections, and what works during development sessions.
 managing-timelines;refoundai/lenny-skills;managing-timelines;Helps users set and hit realistic deadlines for project timelines.
 finding-mentors-sponsors;refoundai/lenny-skills;finding-mentors-sponsors;Helps users find mentors and sponsors for career growth and professional network building.
 energy-management;refoundai/lenny-skills;energy-management;Helps users manage energy for sustained performance, including scheduling and identifying energy drains.
@@ -196,76 +196,78 @@ career-transitions;refoundai/lenny-skills;career-transitions;Helps users navigat
 pptx;tfriedel/claude-office-skills;;Create, edit, and analyze PowerPoint presentations (.pptx files) with support for layouts, comments, and speaker notes.
 retro;boshu2/agentops;retro;Extract learnings from completed work through retrospectives. Helps teams analyze what worked, what didn't, and capture valuable lessons for
 handoff;boshu2/agentops;handoff;Create structured handoff for session continuation with triggers like pause, save context, end session, continue later.
-quickstart;boshu2/agentops;quickstart;Interactive onboarding skill for new users with guided RPI cycle on actual codebase in under 10 minutes.
 evolve;boshu2/agentops;evolve;Goal-driven improvement loop measuring goals, identifying gaps, and compounding knowledge via fitness scoring.
+quickstart;boshu2/agentops;quickstart;Interactive onboarding skill for new users with guided RPI cycle on actual codebase in under 10 minutes.
 status;boshu2/agentops;status;Single-screen dashboard for current work, validations, health metrics, and next actions. Triggered by status-related queries.
+excel-mcp;sbroenne/mcp-server-excel;excel-mcp;Automate Microsoft Excel tasks on Windows using COM interop.
 ratchet;boshu2/agentops;ratchet;Brownian Ratchet progress gates for RPI workflow. Check, record, verify progress with triggers.
 anki-connect;intellectronica/agent-skills;anki-connect;Interact with Anki using AnkiConnect for managing decks, notes, cards, and media.
 personal-assistant;ailabs-393/ai-labs-claude-skills;personal-assistant;A personal assistant skill for managing schedules, tasks, reminders, and productivity with intelligent context handling.
 resume-manager;ailabs-393/ai-labs-claude-skills;resume-manager;A skill for managing resumes, career experiences, and job application preparation.
 automate-whatsapp;gokapso/agent-skills;automate-whatsapp;Build WhatsApp automations with Kapso workflows: configure triggers, edit graphs, manage executions, and deploy functions.
-excel-mcp;sbroenne/mcp-server-excel;excel-mcp;Automate Microsoft Excel tasks on Windows using COM interop.
+desktop-computer-automation;web-infra-dev/midscene-skills;computer-automation;Automates desktop computer operations and system management tasks.
 powerpoint-automation;aktsmm/agent-skills;;Automatically create professional PowerPoint presentations from various sources like articles and existing PPTX files.
 pptx;aiskillstore/marketplace;pptx;Create, edit, and analyze PowerPoint presentations (.pptx files) with support for layouts, comments, and speaker notes.
 draft-polisher;willoscar/research-units-pipeline-skills;draft-polisher;Audit-style editing pass for output/DRAFT.md: remove template boilerplate, improve coherence, and enforce citation anchoring.
-document-skills;travisjneuman/.claude;document-skills;Professional document creation, editing, and analysis for Office formats (docx, pdf, pptx, xlsx)
-desktop-computer-automation;web-infra-dev/midscene-skills;computer-automation;Automates desktop computer operations and system management tasks.
 subsection-polisher;willoscar/research-units-pipeline-skills;subsection-polisher;Polishes H3 section files into survey-grade prose while preserving citations and structure.
+document-skills;travisjneuman/.claude;document-skills;Professional document creation, editing, and analysis for Office formats (docx, pdf, pptx, xlsx)
 internal-comms;aiskillstore/marketplace;internal-comms;A skill for writing various types of internal communications like reports and updates.
 wechat-article-writer;smallnest/langgraphgo;wechat-article-writer/wechat-article-writer;Professional WeChat public account article creation assistant that supports content enrichment, title optimization, and official style adjus
 tech-article-writer;smallnest/langgraphgo;tech-article-writer;Expert in creating concise technical articles that deliver core knowledge without missing key information.
 doc-generator;athola/claude-night-market;doc-generator;Generate or remediate documentation with human-quality writing and style adherence.
-flightclaw;jackculpan/flightclaw;;Track flight prices using Google Flights data with filtering, alerts, and MCP server support.
 agile-sprint-planning;aj-geddes/useful-ai-prompts;agile-sprint-planning;Plan and execute effective sprints using Agile methodologies to maximize team productivity.
+flightclaw;jackculpan/flightclaw;;Track flight prices using Google Flights data with filtering, alerts, and MCP server support.
+day1-onboarding;ai-native-camp/camp-2;day1-onboarding;AI Native Camp Day 1 onboarding skill for learning Claude and Claude Code through conversation.
+google-calendar;odyssey4me/agent-skills;google-calendar;Manage Google Calendar events and calendars. List, create, update, and delete events, check availability, and organize schedules.
+feishu-docx;leemysw/feishu-docx;;Export Feishu/Lark cloud documents to Markdown format with support for various document types and batch operations.
 pptx;panaversity/agentfactory;pptx;Create, edit, and analyze PowerPoint presentations (.pptx files) with support for layouts, comments, and speaker notes.
 writing-documentation-with-diataxis;sammcj/agentic-coding;;Applies Diataxis framework for creating/improving technical documentation including tutorials, how-to guides, reference docs, and explanatio
+course-designer;teachingai/full-stack-skills;course-designer;Provides comprehensive guidance for course design including curriculum development, learning objectives, and course structure.
 capacity-planning;aj-geddes/useful-ai-prompts;capacity-planning;Plan team capacity, allocate resources, and balance workloads across projects.
 retrospective-facilitation;aj-geddes/useful-ai-prompts;retrospective-facilitation;Facilitate effective retrospectives to capture lessons learned and identify improvements.
-course-designer;teachingai/full-stack-skills;course-designer;Provides comprehensive guidance for course design including curriculum development, learning objectives, and course structure.
 ln-110-project-docs-coordinator;levnikolaevich/claude-code-skills;;Coordinates project documentation creation, gathers context, detects project type, and delegates to specialized workers for efficient docume
 google-calendar;sanjay3290/ai-skills;google-calendar;Manage Google Calendar events, including creating, updating, deleting, and finding free time.
 novelweave-workflow;microck/ordinary-claude-skills;;Complete workflow for novel creation using NovelWeave, including command usage, best practices, and efficient writing techniques.
 google-calendar;sanjay3290/postgres-skill;google-calendar;Manage Google Calendar events, including creating, updating, deleting, and finding free time.
-google-calendar;odyssey4me/agent-skills;google-calendar;Manage Google Calendar events and calendars. List, create, update, and delete events, check availability, and organize schedules.
 pptx-generator;jwynia/agent-skills;general/document-processing/presentation/pptx-generator;Generate and manipulate PowerPoint PPTX files programmatically with template support.
+pdf-to-markdown;duc01226/easyplatform;pdf-to-markdown;Convert PDF files to Markdown format for text extraction and version control.
 youtube-title;kenneth-liao/ai-launchpad-marketplace;youtube-title;Generate optimized YouTube video titles that maximize click-through rates by sparking curiosity and complementing thumbnails.
 cv-creator;erichowens/some_claude_skills;cv-creator;Creates professional CVs and resumes in multiple formats with ATS optimization.
-pdf-to-markdown;duc01226/easyplatform;pdf-to-markdown;Convert PDF files to Markdown format for text extraction and version control.
 novel-writer-workflow-guide;wordflowlab/novel-writer-skills;quality-assurance/workflow-guide;A guide for novel writers to organize their writing process using a seven-step methodology.
 google-workspace;letta-ai/skills;main/tools/google-workspace;Connect to Gmail and Google Calendar via OAuth 2.0 for email management and scheduling.
+pptx;rysweet/amplihack;pptx;Create, edit, and analyze PowerPoint presentations (.pptx files) with support for layouts, comments, and speaker notes.
 x-create;kangarooking/x-skills;;Create viral X (Twitter) posts including short tweets, threads, and replies with customizable templates and onboarding setup.
+deep-productivity;hexbee/hello-skills;deep-productivity;A skill for mastering deep work productivity through structured frameworks and goal hierarchies.
 documentation-expert;cin12211/orca-q;documentation-expert;Expert in documentation structure, cohesion, flow, audience targeting, and information architecture. Optimizes for user experience and detec
 markdown-to-epub-converter;smerchek/claude-epub-skill;;Convert markdown documents and chat summaries into formatted EPUB ebook files for reading on any device or uploading to Kindle.
-pptx;rysweet/amplihack;pptx;Create, edit, and analyze PowerPoint presentations (.pptx files) with support for layouts, comments, and speaker notes.
-deep-productivity;hexbee/hello-skills;deep-productivity;A skill for mastering deep work productivity through structured frameworks and goal hierarchies.
 task-breakdown;jwynia/agent-skills;general/productivity/task-breakdown;Break down overwhelming tasks for neurodivergent users with ADHD/autism-aware strategies.
 youtube-transcript-cn;zephyrwang6/myskill;;Extract and convert YouTube video subtitles to Chinese text transcripts. Supports auto-generated and manual subtitles.
 content-repurposing;inference-sh-1/skills;main/skills/content-repurposing;Content atomization skill that transforms one piece of content into multiple formats like blog-to-thread, podcast-to-blog, video-to-quotes f
-feishu-docx;leemysw/feishu-docx;;Export Feishu/Lark cloud documents to Markdown format with support for various document types and batch operations.
-content-repurposing;inference-sh-4/skills;main/skills/content-repurposing;Content atomization skill that transforms one piece of content into multiple formats like blog-to-thread, podcast-to-blog, video-to-quotes f
+storytelling-synthesizer;rysweet/amplihack;storytelling-synthesizer;Converts technical work into compelling narratives for demos, blog posts, or presentations.
 topic-reviewer;zephyrwang6/myskill;;Topic reviewer tool that checks if topics meet publishing standards and provides pass/fail judgment with revision suggestions.
+content-repurposing;inference-sh-4/skills;main/skills/content-repurposing;Content atomization skill that transforms one piece of content into multiple formats like blog-to-thread, podcast-to-blog, video-to-quotes f
+eve-job-lifecycle;incept5/eve-skillpacks;;Manage Eve jobs, phases, and dependencies for knowledge work and job hierarchy structuring.
 linkedin-writer;ognjengt/founder-skills;linkedin-writer;Creates viral LinkedIn posts using proven formats, post templates, and voice matching for engaging, high-performing content.
 subtitle-correction;sugarforever/01coder-agent-skills;subtitle-correction;Corrects subtitle files (.srt) generated from speech recognition, supporting Chinese and English with intelligent error detection while pres
 seo-content-brief;1nfsh/skills;main/skills/seo-content-brief;Creates SEO content briefs with keyword research, search intent analysis, and content structure for effective content planning.
 twitter-thread-creation;1nfsh/skills;main/skills/twitter-thread-creation;Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media a
 content-repurposing;1nfsh/skills;main/skills/content-repurposing;Content atomization skill that transforms one piece of content into multiple formats like blog-to-thread, podcast-to-blog, video-to-quotes f
 anthropics-pptx;smithery/ai;;A skill for processing and managing PowerPoint (.pptx) files, enabling document handling and office productivity tasks.
-storytelling-synthesizer;rysweet/amplihack;storytelling-synthesizer;Converts technical work into compelling narratives for demos, blog posts, or presentations.
-eve-job-lifecycle;incept5/eve-skillpacks;;Manage Eve jobs, phases, and dependencies for knowledge work and job hierarchy structuring.
 copywriter;eddiebe147/claude-settings;;A skill for copywriting tasks, helping with content creation and writing assistance.
 rss-agent-viewer;brooksy4503/rss-agent-viewer;rss-agent-viewer;CLI RSS/Atom feed viewer with discovery, search, and OPML import/export for AI agents and terminal users.
-seo-content-brief;1nfsh-s3/skills;main/skills/seo-content-brief;Creates SEO content briefs with keyword research, search intent analysis, and content structure for effective content planning.
 adhd-daily-planner;erichowens/some_claude_skills;adhd-daily-planner;ADHD-friendly daily planner with time estimation and executive function support for neurodivergent minds.
-day1-onboarding;ai-native-camp/camp-2;day1-onboarding;AI Native Camp Day 1 onboarding skill for learning Claude and Claude Code through conversation.
+seo-content-brief;1nfsh-s3/skills;main/skills/seo-content-brief;Creates SEO content briefs with keyword research, search intent analysis, and content structure for effective content planning.
 seo-content-brief;inference-sh-1/skills;main/skills/seo-content-brief;Creates SEO content briefs with keyword research, search intent analysis, and content structure for effective content planning.
 twitter-thread-creation;1nfsh-s3/skills;main/skills/twitter-thread-creation;Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media a
 revision;jwynia/agent-skills;creative/fiction/craft/revision;Guide for editing and revising drafts when changes feel overwhelming or endless. Helps identify problems and manage the revision process eff
+learning-path-builder;rysweet/amplihack;learning-path-builder;Creates personalized learning paths for technologies, frameworks, or concepts with adaptive resource sequencing.
+google-drive;odyssey4me/agent-skills;google-drive;Manage Google Drive files and folders. List, search, upload, download files, create folders, and manage sharing.
 content-repurposing;1nfsh-s3/skills;main/skills/content-repurposing;Content atomization skill that transforms one piece of content into multiple formats like blog-to-thread, podcast-to-blog, video-to-quotes f
 content-repurposing;1nfsh/s;content-repurposing;Content atomization skill that transforms one piece of content into multiple formats like blog-to-thread, podcast-to-blog, video-to-quotes f
-learning-path-builder;rysweet/amplihack;learning-path-builder;Creates personalized learning paths for technologies, frameworks, or concepts with adaptive resource sequencing.
+job-application-optimizer;erichowens/some_claude_skills;job-application-optimizer;Optimizes job applications and resumes for ATS systems with strategic planning and content optimization.
 obsidian-vault-management;julianobarbosa/claude-code-skills;obsidian-vault-management-skill;Manages Obsidian vault content including notes, templates, daily notes, and dataview queries for knowledge management.
 desktop-control;patrickporto/desktop-agent;;Controls desktop applications and system functions for automation tasks.
-job-application-optimizer;erichowens/some_claude_skills;job-application-optimizer;Optimizes job applications and resumes for ATS systems with strategic planning and content optimization.
+gmail;odyssey4me/agent-skills;gmail;Manage Gmail messages, drafts, and labels. Send emails, search inbox, and organize email.
 seo-content-brief;inference-sh-4/skills;main/skills/seo-content-brief;Creates SEO content briefs with keyword research, search intent analysis, and content structure for effective content planning.
 twitter-thread-creation;inference-sh-4/skills;main/skills/twitter-thread-creation;Twitter/X thread writing with hook tweets, thread structure, and engagement optimization. Covers tweet formatting, character limits, media a
 technical-writer;eddiebe147/claude-settings;;A skill for technical writing tasks, focusing on creating clear and structured documentation.
@@ -283,13 +285,12 @@ pptx;smithery/ai;;Handles PowerPoint presentation file processing and management
 sleep-story;jwynia/agent-skills;creative/fiction/application/sleep-story;Write stories designed to help listeners fall asleep. Use for bedtime podcasts, meditation content, calming narratives, or any content where
 shared-world;jwynia/agent-skills;creative/fiction/application/shared-world;Maintain a wiki-style world bible for collaborative fiction with persistent canonical reference for long-running story worlds and shared uni
 lyric-diagnostic;jwynia/agent-skills;creative/music/lyric-diagnostic;Diagnose lyric problems across prosody, rhyme, meaning, register, sound, and structure for AI-generated or human lyrics that feel flat, clic
-gmail;odyssey4me/agent-skills;gmail;Manage Gmail messages, drafts, and labels. Send emails, search inbox, and organize email.
+docx;rysweet/amplihack;docx;Create, edit, and analyze Word documents with tracked changes support
 project-manager;404kidwiz/claude-supercode-skills;;A project management expert skill for planning, executing, monitoring, and closing projects using traditional and agile methodologies.
 sensitivity-check;jwynia/agent-skills;creative/fiction/application/sensitivity-check;Evaluates representation and flags potential harm concerns in writing, especially for marginalized groups and sensitive topics.
 chapter-drafter;jwynia/agent-skills;creative/fiction/orchestrators/chapter-drafter;Autonomously draft and polish chapters through multi-skill editorial passes for complete outlines with iterative refinement.
 newsletter-curation;1nfsh-s3/skills;main/skills/newsletter-curation;Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co
 scene-sequencing;jwynia/agent-skills;creative/fiction/structure/scene-sequencing;Structure scenes and control pacing using scene-sequel rhythm based on Dwight Swain's Goal-Conflict-Disaster and Reaction-Dilemma-Decision s
-google-drive;odyssey4me/agent-skills;google-drive;Manage Google Drive files and folders. List, search, upload, download files, create folders, and manage sharing.
 pdf-helper;zackkorman/skills;main/skills/pdf-helper;A comprehensive PDF tool for reading, scanning, downloading, uploading, creating, and modifying PDFs in one skill.
 cliche-transcendence;jwynia/agent-skills;creative/fiction/craft/cliche-transcendence;Transform predictable story elements into fresh, original versions using the 8-step CTF process and Orthogonality Principle.
 list-builder;jwynia/agent-skills;creative/fiction/application/list-builder;Build comprehensive randomization lists for creative entropy using research sources like Kiwix/Wikipedia.
@@ -301,34 +302,34 @@ project-planner;eddiebe147/claude-settings;;Create comprehensive project plans w
 idea-capturer;eddiebe147/claude-settings;;Capture, organize, and develop ideas using structured thinking frameworks.
 daily-planner;eddiebe147/claude-settings;;Helps plan your day with structured daily planning sessions.
 newsletter-curation;1nfsh/s;newsletter-curation;Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co
-task-manager;eddiebe147/claude-settings;;Organize, prioritize, and track tasks with intelligent delegation and progress monitoring.
 project-management-guru-adhd;erichowens/some_claude_skills;project-management-guru-adhd;Expert project manager for ADHD engineers managing multiple concurrent projects with hyperfocus and context-switching optimization.
-goal-setter;eddiebe147/claude-settings;;Helps set and track meaningful goals using proven frameworks and accountability systems.
-document-generation-pdf;erichowens/some_claude_skills;document-generation-pdf;Generate, fill, and assemble PDF documents at scale with support for form filling, template rendering, and digital signatures.
-slack-webhook;vm0-ai/vm0-skills;;Send messages to Slack using Incoming Webhooks for simple one-way communication to specific channels without OAuth setup.
 internal-comms;shajith003/awesome-claude-skills;;A skill for writing various types of internal communications like reports and updates.
+task-manager;eddiebe147/claude-settings;;Organize, prioritize, and track tasks with intelligent delegation and progress monitoring.
+docs-style;existential-birds/beagle;docs-style;Core technical documentation writing principles for voice, tone, structure, and LLM-friendly patterns. Use when writing or reviewing any doc
+document-generation-pdf;erichowens/some_claude_skills;document-generation-pdf;Generate, fill, and assemble PDF documents at scale with support for form filling, template rendering, and digital signatures.
+goal-setter;eddiebe147/claude-settings;;Helps set and track meaningful goals using proven frameworks and accountability systems.
+slack-webhook;vm0-ai/vm0-skills;;Send messages to Slack using Incoming Webhooks for simple one-way communication to specific channels without OAuth setup.
 decision-helper;eddiebe147/claude-settings;;Helps make better decisions using structured frameworks and mental models.
 meeting-notes-taker;eddiebe147/claude-settings;;This skill summarizes meetings into clear, actionable notes with decisions and next steps.
 focus-timer;eddiebe147/claude-settings;;A structured focus timer using Pomodoro and deep work techniques.
 time-blocker;eddiebe147/claude-settings;;Block time for focused work using calendar-based time management strategies.
-docs-style;existential-birds/beagle;docs-style;Core technical documentation writing principles for voice, tone, structure, and LLM-friendly patterns. Use when writing or reviewing any doc
 sprint-planner;eddiebe147/claude-settings;;Plan and execute Agile sprints with velocity tracking and capacity planning.
 resume/cv-creator;eddiebe147/claude-settings;;Create professional resumes and CVs with formatting, templates, and ATS optimization.
 habit-tracker;eddiebe147/claude-settings;;Track and build positive habits using behavioral science and streak tracking.
+howto-docs;existential-birds/beagle;howto-docs;How-To guide patterns for documentation - task-oriented guides for users with specific goals
 launch-planner;eddiebe147/claude-settings;;Plan and orchestrate successful product and company launches with timeline and tasks.
 wiki-maintainer;eddiebe147/claude-settings;;Maintains and organizes internal wikis and knowledge base documentation.
 journal-prompter;eddiebe147/claude-settings;;Provides daily journaling prompts and frameworks for personal reflection and growth.
+explanation-docs;existential-birds/beagle;explanation-docs;Documentation patterns for explanation-oriented content that focuses on conceptual understanding and explaining why things work the way they
 milestone-tracker;eddiebe147/claude-settings;;Track project milestones with progress monitoring and deadline management.
 reading-list-manager;eddiebe147/claude-settings;;Manage reading lists with progress tracking and note-taking features.
 internal-memo-creator;eddiebe147/claude-settings;;Create clear and professional internal memos for company communication.
 slack-message-writer;eddiebe147/claude-settings;;Write effective Slack messages for team communication.
 internal-comms-3p-updates;bobmatnyc/claude-mpm-skills;;A framework for creating concise 3P updates (Progress, Plans, Problems) for executives and stakeholders.
-howto-docs;existential-birds/beagle;howto-docs;How-To guide patterns for documentation - task-oriented guides for users with specific goals
 resource-allocator;eddiebe147/claude-settings;;Optimize team resource allocation across projects with capacity planning and workload balancing.
 meeting-scheduler;eddiebe147/claude-settings;;Automatically schedule and coordinate meetings with agenda creation and follow-up.
 retrospective-facilitator;eddiebe147/claude-settings;;Facilitate team retrospectives with structured formats and actionable outcomes.
 session-documenter;shipshitdev/library;session-documenter;Automatically documents session work, tracking decisions, file changes, and context for continuity.
-explanation-docs;existential-birds/beagle;explanation-docs;Documentation patterns for explanation-oriented content that focuses on conceptual understanding and explaining why things work the way they
 youtube-downloader;aviz85/claude-skills-library;youtube-downloader;Download YouTube videos with quality presets.
 personal-productivity;oldwinter/skills;main/career-skills/personal-productivity;Build a Personal Productivity System Pack with weekly timebox planning, capture+to-do system, daily/weekly reviews, and 7-day rollout for ti
 brainstorm-diverge-converge;lyndonkl/claude;brainstorm-diverge-converge;A structured approach for generating creative options then systematically narrowing to best choices. Ideal for product ideas, problem solvin
@@ -339,23 +340,23 @@ calendar;aviz85/claude-skills-library;;A skill for managing calendar events and 
 memory-retrieval-learning;lyndonkl/claude;memory-retrieval-learning;A skill for long-term knowledge retention using spaced repetition and retrieval practice for studying, exam prep, and skill acquisition.
 word-processor-expert;eddiebe147/claude-settings;;A skill for expert-level word processing tasks.
 microsoft-word;andrejones92/canifi-life-os;;Enables document creation and editing in Microsoft Word Online via Playwright MCP.
+confluence;odyssey4me/agent-skills;confluence;Search and manage Confluence pages and spaces using CQL, read/create/update pages with Markdown support for documentation workflows.
 work-report;ab300819/skills;main/skills/work-report;Generates weekly, monthly, quarterly, and annual reports for work summaries.
 docx;smithery/ai;;A skill for processing DOCX documents, enabling file management and office-related tasks.
 workflow-automation;shipshitdev/library;workflow-automation;Helps design content workflows, create process documentation, implement automation rules, design approval processes, and optimize content pi
 gmail;andrejones92/canifi-life-os;;Gmail skill for email management and communication tasks
 google-calendar;andrejones92/canifi-life-os;;Google Calendar integration for scheduling and calendar management tasks
-confluence;odyssey4me/agent-skills;confluence;Search and manage Confluence pages and spaces using CQL, read/create/update pages with Markdown support for documentation workflows.
 gmail-skill;idanbeck/claude-skills;;Read, search, send, and draft Gmail emails and Google contacts. Supports multiple accounts.
 markdown-slides;jykim/claude-obsidian-skills;;Create presentation slides in Markdown format compatible with Deckset/Marp. Handles image positioning, speaker notes, and proper formatting
 context-master;josiahsiegel/claude-plugin-marketplace;context-master;Universal context management and planning system that optimizes file creation order, provides context-efficient workflows, and prevents redu
 internal-comms;shipshitdev/library;internal-comms;A skill for writing various types of internal communications like reports and updates.
 dissent;open-horizon-labs/skills;master/dissent;Devil's advocate skill for challenging assumptions and seeking contrary evidence before making significant decisions or when team convergenc
 task-breakdown-specialist;daffy0208/ai-dev-standards;task-breakdown-specialist;Breaks large tasks into ADHD-friendly micro-tasks to reduce activation energy and boost momentum.
+resume-builder;dkyazzentwatwa/chatgpt-skills;;Generate professional PDF resumes from structured data with multiple templates and ATS-friendly output.
 beads;johnlindquist/claude;beads;Manage tasks and issues using the bd CLI for sprint planning and project organization.
 translation-expertise;shino369/claude-code-personal-workspace;translation-expertise;Expert translation methodology and best practices for English-Japanese-Chinese trilingual translation with cultural nuance handling.
 kayak;andrejones92/canifi-life-os;;Compare and track flight, hotel, and rental car prices across travel sites.
 translate-pdf;wshuyi/translate-pdf-skill;translate-pdf;Translate PDF documents to any language while preserving original structure, layout, and styling.
-resume-builder;dkyazzentwatwa/chatgpt-skills;;Generate professional PDF resumes from structured data with multiple templates and ATS-friendly output.
 zoom-meeting;aviz85/claude-skills-library;;A skill for managing Zoom meetings.
 context-preserver;daffy0208/ai-dev-standards;context-preserver;Automatically saves and restores development context to reduce cognitive load when switching tasks or taking breaks.
 apple-music;andrejones92/canifi-life-os;;Manage Apple Music library, playlists, and radio stations.

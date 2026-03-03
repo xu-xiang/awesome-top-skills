@@ -5,4 +5,4 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [journalist-analyst](https://github.com/rysweet/amplihack/blob/main/.claude/skills/journalist-analyst/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) | 通过新闻视角分析事件，使用5W1H、调查方法、消息源评估、事实核查等。 | 27 | 63 | 2026-03-02 | [分析 (analysis)](../../../tags/analysis.md), [fact checking (fact-checking)](../../../tags/fact-checking.md), [news (news)](../../../tags/news.md), [journalists (journalists)](../../../tags/journalists.md), [media (media)](../../../tags/media.md) |
+| [journalist-analyst](https://github.com/rysweet/amplihack/blob/main/.claude/skills/journalist-analyst/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) | 通过新闻视角分析事件，使用5W1H、调查方法、消息源评估、事实核查等。 | 28 | 65 | 2026-03-03 | [分析 (analysis)](../../../tags/analysis.md), [fact checking (fact-checking)](../../../tags/fact-checking.md), [news (news)](../../../tags/news.md), [journalists (journalists)](../../../tags/journalists.md), [media (media)](../../../tags/media.md) |

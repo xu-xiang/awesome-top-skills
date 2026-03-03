@@ -46,8 +46,8 @@ database-schema-designer;davila7/claude-code-templates;development/database-sche
 database-design;davila7/claude-code-templates;development/database-design;A skill for database design principles, schema design, indexing, and ORM selection.
 plotly;davila7/claude-code-templates;scientific/plotly;Create interactive charts and visualizations with Plotly for Python.
 pinecone;davila7/claude-code-templates;ai-research/rag-pinecone;A managed vector database for production AI applications with hybrid search and metadata filtering.
-postgres-schema-design;davila7/claude-code-templates;;A skill for designing PostgreSQL database schemas.
 pdf-processing;davila7/claude-code-templates;document-processing/pdf-processing;Process PDF files to extract text, tables, and fill forms.
+postgres-schema-design;davila7/claude-code-templates;;A skill for designing PostgreSQL database schemas.
 polars;davila7/claude-code-templates;scientific/polars;A fast DataFrame library for high-performance data analysis with support for CSV/Parquet I/O and lazy evaluation.
 seaborn;davila7/claude-code-templates;scientific/seaborn;A skill for statistical data visualization using Seaborn library.
 pubmed-database;davila7/claude-code-templates;scientific/pubmed-database;Access PubMed database via REST API with advanced querying and citation management for biomedical research.
@@ -58,20 +58,20 @@ analytics-tracking;davila7/claude-code-templates;business-marketing/analytics-tr
 statsmodels;davila7/claude-code-templates;scientific/statsmodels;A statistical modeling toolkit for OLS, GLM, logistic regression, ARIMA, time series analysis, and hypothesis testing.
 networkx;davila7/claude-code-templates;scientific/networkx;A Python toolkit for creating, analyzing, and visualizing complex networks and graphs.
 scikit-bio;davila7/claude-code-templates;scientific/scikit-bio;A biological data toolkit for sequence analysis, phylogenetic trees, and microbiome diversity metrics.
-clinicaltrials-database;davila7/claude-code-templates;scientific/clinicaltrials-database;Query ClinicalTrials.gov via API v2 to search and retrieve clinical trial data.
 pymc-bayesian-modeling;davila7/claude-code-templates;scientific/pymc;Build Bayesian models with PyMC for probabilistic programming and inference.
+clinicaltrials-database;davila7/claude-code-templates;scientific/clinicaltrials-database;Query ClinicalTrials.gov via API v2 to search and retrieve clinical trial data.
 scikit-survival;davila7/claude-code-templates;scientific/scikit-survival;A skill for survival analysis and time-to-event modeling using scikit-survival in Python.
 cocoindex;davila7/claude-code-templates;development/cocoindex;A toolkit for creating data transformation pipelines and ETL workflows for AI data processing.
 geopandas;davila7/claude-code-templates;scientific/geopandas;A Python library for working with geospatial vector data including shapefiles, GeoJSON, and GeoPackage files.
 pydicom;davila7/claude-code-templates;scientific/pydicom;A Python library for handling DICOM medical imaging files, including reading, writing, and processing medical data.
-uspto-database;davila7/claude-code-templates;scientific/uspto-database;Access USPTO APIs for patent and trademark searches, examination history, assignments, and citations.
 drugbank-database;davila7/claude-code-templates;scientific/drugbank-database;Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions, targets, pathways, che
 fda-database;davila7/claude-code-templates;scientific/fda-database;Query openFDA API for regulatory data analysis and safety research.
-neurokit2;davila7/claude-code-templates;scientific/neurokit2;A comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals.
+uspto-database;davila7/claude-code-templates;scientific/uspto-database;Access USPTO APIs for patent and trademark searches, examination history, assignments, and citations.
 kegg-database;davila7/claude-code-templates;scientific/kegg-database;Access KEGG database via REST API for pathway analysis, gene-pathway mapping, and metabolic pathways.
 clinvar-database;davila7/claude-code-templates;scientific/clinvar-database;Query NCBI ClinVar for variant clinical significance using E-utilities API or FTP.
-scvi-tools;davila7/claude-code-templates;scientific/scvi-tools;A skill for analyzing single-cell omics data using scvi-tools, including scRNA-seq, scATAC-seq, and spatial transcriptomics.
+neurokit2;davila7/claude-code-templates;scientific/neurokit2;A comprehensive biosignal processing toolkit for analyzing physiological data including ECG, EEG, EDA, RSP, PPG, EMG, and EOG signals.
 clinpgx-database;davila7/claude-code-templates;scientific/clinpgx-database;Access ClinPGx pharmacogenomics data for gene-drug interaction queries and CPIC guidelines.
+scvi-tools;davila7/claude-code-templates;scientific/scvi-tools;A skill for analyzing single-cell omics data using scvi-tools, including scRNA-seq, scATAC-seq, and spatial transcriptomics.
 chembl-database;davila7/claude-code-templates;scientific/chembl-database;Query ChEMBL's bioactive molecules and drug discovery data with structure/property search and bioactivity retrieval.
 zarr-python;davila7/claude-code-templates;scientific/zarr-python;Zarr is a chunked, compressed array library for Python, designed for large-scale scientific data processing with NumPy and Dask compatibilit
 astropy;davila7/claude-code-templates;scientific/astropy;A comprehensive Python library for astronomy and astrophysics data analysis.
@@ -86,9 +86,9 @@ arboreto;davila7/claude-code-templates;scientific/arboreto;Infer gene regulatory
 dask;davila7/claude-code-templates;scientific/dask;Dask enables parallel and distributed computing for large-scale data processing with pandas/NumPy.
 umap-learn;davila7/claude-code-templates;scientific/umap-learn;UMAP is a fast nonlinear manifold learning technique for dimensionality reduction, visualization, and clustering preprocessing.
 nosql-expert;davila7/claude-code-templates;development/nosql-expert;Provides expert guidance on distributed NoSQL databases like Cassandra and DynamoDB, focusing on modeling, querying, and scaling.
+matchms;davila7/claude-code-templates;scientific/matchms;A skill for mass spectrometry data analysis, including spectral similarity and metadata harmonization.
 molfeat;davila7/claude-code-templates;scientific/molfeat;A skill for molecular featurization in ML, supporting ECFP, MACCS, descriptors, and SMILES conversion.
 geniml;davila7/claude-code-templates;scientific/geniml;A skill for handling genomic interval data (BED files) in machine learning tasks like Region2Vec, scEmbed, and consensus peak building.
-matchms;davila7/claude-code-templates;scientific/matchms;A skill for mass spectrometry data analysis, including spectral similarity and metadata harmonization.
 vaex;davila7/claude-code-templates;scientific/vaex;Process and analyze large tabular datasets exceeding RAM limits using Vaex.
 datacommons-client;davila7/claude-code-templates;scientific/datacommons-client;Access and query public statistical data from Data Commons platform.
 flowio;davila7/claude-code-templates;scientific/flowio;Parse and preprocess Flow Cytometry Standard (FCS) files, extract events and metadata.
@@ -98,10 +98,10 @@ segment-cdp;davila7/claude-code-templates;web-development/segment-cdp;Expert pat
 spreadsheet;davila7/claude-code-templates;document-processing/spreadsheet;This skill helps with creating, editing, analyzing, and formatting spreadsheets using Python libraries like pandas and openpyxl.
 supabase-postgres-best-practices;supabase/agent-skills;supabase-postgres-best-practices;Optimize Postgres performance with Supabase's best practices for queries, schema design, and database configs.
 database-design;sickn33/antigravity-awesome-skills;database-design;A skill for database design principles, schema design, indexing, and ORM selection.
-analytics-tracking;coreyhaines31/marketingskills;analytics-tracking;Set up, improve, or audit analytics tracking and measurement for GA4, UTM parameters, conversion tracking, and event tracking.
 d3-viz;sickn33/antigravity-awesome-skills;;Create interactive data visualizations with d3.js for charts, graphs, and complex SVG-based designs.
 neon-postgres;sickn33/antigravity-awesome-skills;neon-postgres;Expert patterns for Neon serverless Postgres, branching, connection pooling, and Prisma/Drizzle integration.
 analytics-tracking;sickn33/antigravity-awesome-skills;analytics-tracking;A skill for implementing analytics tracking to monitor user behavior and performance metrics.
+analytics-tracking;coreyhaines31/marketingskills;analytics-tracking;Set up, improve, or audit analytics tracking and measurement for GA4, UTM parameters, conversion tracking, and event tracking.
 supabase-postgres-best-practices;sickn33/antigravity-awesome-skills;;Optimize Postgres performance with Supabase's best practices for queries, schema design, and database configs.
 segment-cdp;sickn33/antigravity-awesome-skills;segment-cdp;Expert patterns for Segment CDP including analytics.js, server-side tracking, and data governance best practices.
 xlsx;sickn33/antigravity-awesome-skills;;Handles XLSX file operations including reading, writing, and data manipulation for Excel spreadsheets.
@@ -110,12 +110,9 @@ nosql-expert;sickn33/antigravity-awesome-skills;nosql-expert;Provides expert gui
 database-architect;sickn33/antigravity-awesome-skills;database-architect;Expert database architect for designing scalable data layers, selecting technologies, and modeling schemas from scratch.
 postgresql;sickn33/antigravity-awesome-skills;postgresql;Design PostgreSQL schemas with best practices, data types, indexing, and performance optimization.
 data-engineering-data-pipeline;sickn33/antigravity-awesome-skills;data-engineering-data-pipeline;Expert in designing scalable and reliable data pipelines for batch and streaming data processing.
-storage-format;tursodatabase/turso;storage-format;A skill for understanding SQLite file format, B-trees, and storage mechanisms used in TursoDB.
 data-engineer;sickn33/antigravity-awesome-skills;data-engineer;Build scalable data pipelines and modern data warehouses using Apache Spark, dbt, Airflow, and cloud-native platforms.
 quant-analyst;sickn33/antigravity-awesome-skills;quant-analyst;Build financial models, backtest trading strategies, and analyze market data with quantitative finance tools.
-transaction-correctness;tursodatabase/turso;transaction-correctness;Explains WAL mechanics, checkpointing, and concurrency rules in TuroDB for transaction correctness.
 data-scientist;sickn33/antigravity-awesome-skills;data-scientist;Expert data scientist for advanced analytics, machine learning, and statistical modeling.
-mvcc;tursodatabase/turso;mvcc;Explains MVCC features like snapshot isolation and versioning.
 machine-learning-ops-ml-pipeline;sickn33/antigravity-awesome-skills;machine-learning-ops-ml-pipeline;Design and implement a complete ML pipeline for various data processing and model deployment tasks.
 vector-database-engineer;sickn33/antigravity-awesome-skills;vector-database-engineer;Expert in vector databases, embedding strategies, and semantic search implementation for RAG applications and recommendation systems.
 database-optimizer;sickn33/antigravity-awesome-skills;database-optimizer;Optimizes database performance through query tuning, indexing, and cloud architecture.
@@ -127,14 +124,18 @@ database-migrations-sql-migrations;sickn33/antigravity-awesome-skills;database-m
 sql-pro;sickn33/antigravity-awesome-skills;sql-pro;Master modern SQL with cloud-native databases, OLTP/OLAP optimization, and advanced query techniques.
 risk-metrics-calculation;sickn33/antigravity-awesome-skills;risk-metrics-calculation;Calculate portfolio risk metrics including VaR, CVaR, Sharpe, Sortino, and drawdown analysis.
 data-quality-frameworks;sickn33/antigravity-awesome-skills;data-quality-frameworks;Implement data quality validation using Great Expectations, dbt tests, and data contracts for data pipelines.
-spark-optimization;sickn33/antigravity-awesome-skills;spark-optimization;Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning for better performance.
 dbt-transformation-patterns;sickn33/antigravity-awesome-skills;dbt-transformation-patterns;Master dbt for analytics engineering with model organization, testing, documentation, and incremental strategies.
+spark-optimization;sickn33/antigravity-awesome-skills;spark-optimization;Optimize Apache Spark jobs with partitioning, caching, shuffle optimization, and memory tuning for better performance.
 googlesheets-automation;sickn33/antigravity-awesome-skills;googlesheets-automation;Automate Google Sheets operations (read, write, format, filter, manage spreadsheets) via Rube MCP (Composio)
 using-neon;sickn33/antigravity-awesome-skills;using-neon;Guides for working with Neon Serverless Postgres, including setup, connection methods, and API usage.
 airtable-automation;sickn33/antigravity-awesome-skills;airtable-automation;Automate Airtable tasks via Rube MCP (Composio): records, bases, tables, fields, views. Always search tools first for current schemas.
 google-analytics-automation;sickn33/antigravity-awesome-skills;google-analytics-automation;Automate Google Analytics tasks via Rube MCP (Composio): run reports, list accounts/properties, funnels, pivots, key events.
 amplitude-automation;sickn33/antigravity-awesome-skills;amplitude-automation;Automate Amplitude tasks via Rube MCP (Composio): events, user activity, cohorts, user identification. Always search tools first for current
 stream-chain;ruvnet/claude-flow;stream-chain;Stream-JSON chaining for multi-agent pipelines, data transformation, and sequential workflows
+storage-format;tursodatabase/turso;storage-format;A skill for understanding SQLite file format, B-trees, and storage mechanisms used in TursoDB.
+transaction-correctness;tursodatabase/turso;transaction-correctness;Explains WAL mechanics, checkpointing, and concurrency rules in TuroDB for transaction correctness.
+mvcc;tursodatabase/turso;mvcc;Explains MVCC features like snapshot isolation and versioning.
+xlsx;iofficeai/aionui;xlsx;Create, edit, and analyze spreadsheets with formulas, formatting, and data visualization.
 ccxt;2025emma/vibe-coding-cn;ccxt;A skill for accessing cryptocurrency exchange data via CCXT library.
 postgresql;2025emma/vibe-coding-cn;postgresql;A skill for managing and interacting with PostgreSQL databases.
 cryptofeed;2025emma/vibe-coding-cn;cryptofeed;A skill for fetching and processing cryptocurrency market data.
@@ -209,8 +210,8 @@ pandas-pro;jeffallan/claude-skills;pandas-pro;A skill for advanced pandas DataFr
 spark-engineer;jeffallan/claude-skills;spark-engineer;A skill for building Apache Spark applications and optimizing big data workloads.
 backtesting-trading-strategies;jeremylongshore/claude-code-plugins-plus-skills;backtesting-trading-strategies;Backtest trading strategies using historical data and calculate performance metrics.
 neon-postgres;neondatabase/agent-skills;neon-postgres;Guides for working with Neon Serverless Postgres, covering setup, connection methods, and APIs.
-database-design;tencentblueking/bk-ci;database-design;A skill for designing database schemas following BK-CI standards, covering naming conventions, field types, indexing, sharding, and data arc
 social-media-analyzer;alirezarezvani/claude-skills;;Analyze social media campaigns and track performance across platforms.
+database-design;tencentblueking/bk-ci;database-design;A skill for designing database schemas following BK-CI standards, covering naming conventions, field types, indexing, sharding, and data arc
 senior-data-engineer;alirezarezvani/claude-skills;;A skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure using Python, SQL, Spark, Airflow, dbt, Kafka, and mo
 senior-data-scientist;alirezarezvani/claude-skills;;A world-class data science skill for statistical modeling, experimentation, causal inference, and advanced analytics using Python, R, and SQ
 database-schema-designer;softaworks/agent-toolkit;database-schema-designer;Design robust and scalable database schemas with normalization, indexing, and performance optimization.
@@ -218,12 +219,12 @@ databases;mrgoonie/claudekit-skills;databases;A skill for working with MongoDB a
 apify-ultimate-scraper;apify/agent-skills;apify-ultimate-scraper;An AI-powered web scraper for social media and search platforms to extract data for analysis and research.
 neo4j-cypher-guide;tomasonjo/blogs;;Comprehensive guide for writing modern Neo4j Cypher read queries with best practices for text2cypher tools and LLMs.
 design-postgres-tables;timescale/pg-aiguide;design-postgres-tables;Design PostgreSQL tables, schemas, and data models with best practices for normalization, constraints, indexing, and JSONB patterns.
-tracking-crypto-prices;jeremylongshore/claude-code-plugins-plus-skills;tracking-crypto-prices;Track real-time cryptocurrency prices across exchanges with historical data and alerts. Provides price data infrastructure for dependent ski
-aggregating-crypto-news;jeremylongshore/claude-code-plugins-plus-skills;aggregating-crypto-news;Aggregate breaking cryptocurrency news from 50+ sources including CoinDesk, CoinTelegraph, The Block, and Decrypt.
 apify-trend-analysis;apify/agent-skills;apify-trend-analysis;Analyze emerging trends across Google Trends, Instagram, Facebook, YouTube, and TikTok to inform content strategy.
-china-stock-analysis;sugarforever/01coder-agent-skills;china-stock-analysis;A stock analysis tool for Chinese A-share market, providing screening, deep analysis, industry comparison and valuation calculation based on
+tracking-crypto-prices;jeremylongshore/claude-code-plugins-plus-skills;tracking-crypto-prices;Track real-time cryptocurrency prices across exchanges with historical data and alerts. Provides price data infrastructure for dependent ski
 apify-ecommerce;apify/agent-skills;apify-ecommerce;Scrape e-commerce data for pricing intelligence, reviews, and seller discovery across multiple marketplaces.
+aggregating-crypto-news;jeremylongshore/claude-code-plugins-plus-skills;aggregating-crypto-news;Aggregate breaking cryptocurrency news from 50+ sources including CoinDesk, CoinTelegraph, The Block, and Decrypt.
 apify-content-analytics;apify/agent-skills;apify-content-analytics;Analyze content performance and track engagement metrics across social media platforms.
+china-stock-analysis;sugarforever/01coder-agent-skills;china-stock-analysis;A stock analysis tool for Chinese A-share market, providing screening, deep analysis, industry comparison and valuation calculation based on
 apify-audience-analysis;apify/agent-skills;apify-audience-analysis;Analyze audience demographics and behavior across major social media platforms.
 data-analysis;supercent-io/skills-template;;Analyze datasets to extract insights, identify patterns, and generate reports using CSV, JSON, SQL, and pandas.
 looker-studio-bigquery;supercent-io/skills-template;;Create Looker Studio dashboards using BigQuery data sources for analytics and visualization.
@@ -248,18 +249,18 @@ moai-lang-r;modu-ai/moai-adk;moai-lang-r;R 4.4+ development specialist for data 
 moai-platform-supabase;modu-ai/moai-adk;;A Supabase specialist skill covering PostgreSQL 16, pgvector, RLS, real-time subscriptions, and Edge Functions for full-stack app developmen
 moai-platform-firestore;modu-ai/moai-adk;;A Firebase Firestore specialist skill covering NoSQL patterns, real-time sync, offline caching, and Security Rules.
 nutrition-analyzer;huifer/wellally-health;nutrition-analyzer;Analyzes nutritional data, identifies patterns, assesses nutritional status, and provides personalized recommendations with correlation anal
-posthog-analytics;alinaqi/claude-bootstrap;posthog-analytics;A skill for PostHog analytics, event tracking, and feature flags.
 yahoo-finance;gracefullight/stock-checker;yahoo-finance;Get stock prices, quotes, fundamentals, earnings, options, dividends, and analyst ratings using Yahoo Finance. Uses yfinance library - no AP
+posthog-analytics;alinaqi/claude-bootstrap;posthog-analytics;A skill for PostHog analytics, event tracking, and feature flags.
 aws-dynamodb;alinaqi/claude-bootstrap;aws-dynamodb;A skill for designing AWS DynamoDB single-table architectures with GSI patterns using TypeScript/Python SDK v3.
 axiom-sqlitedata-ref;charleswiltgen/axiom;axiom-sqlitedata-ref;Advanced SQLite data patterns including CTEs, views, and custom aggregates.
-analyzing-data;astronomer/agents;analyzing-data;This skill analyzes data from warehouses to answer business questions using SQL and data queries.
 axiom-core-data-diag;charleswiltgen/axiom;axiom-core-data-diag;Debug Core Data issues like schema migrations, concurrency errors, and N+1 queries with safety-first patterns.
-tracing-upstream-lineage;astronomer/agents;tracing-upstream-lineage;Trace upstream data lineage to understand data origins and dependencies.
 axiom-database-migration;charleswiltgen/axiom;axiom-database-migration;A skill for safely migrating database schemas in iOS/macOS apps, preventing data loss.
+analyzing-data;astronomer/agents;analyzing-data;This skill analyzes data from warehouses to answer business questions using SQL and data queries.
+tracing-upstream-lineage;astronomer/agents;tracing-upstream-lineage;Trace upstream data lineage to understand data origins and dependencies.
 tracing-downstream-lineage;astronomer/agents;tracing-downstream-lineage;Trace downstream data lineage and impact analysis for dependency management and risk assessment.
-content-experimentation-best-practices;sanity-io/agent-toolkit;content-experimentation-best-practices;Best practices for A/B testing and content experimentation to optimize content performance.
 checking-freshness;astronomer/agents;checking-freshness;Check if data is fresh and up-to-date before use.
 profiling-tables;astronomer/agents;profiling-tables;Profiling tables for deep data analysis and quality assessment.
+content-experimentation-best-practices;sanity-io/agent-toolkit;content-experimentation-best-practices;Best practices for A/B testing and content experimentation to optimize content performance.
 database-schema;alinaqi/claude-bootstrap;database-schema;A skill for schema awareness, type generation, and preventing column errors in database development.
 reddit-api;alinaqi/claude-bootstrap;reddit-api;Access Reddit data via PRAW (Python) or Snoowrap (Node.js) APIs.
 aws-aurora;alinaqi/claude-bootstrap;aws-aurora;Manage AWS Aurora Serverless v2, RDS Proxy, Data API, and connection pooling.
@@ -267,6 +268,7 @@ cloudflare-d1;alinaqi/claude-bootstrap;cloudflare-d1;A Cloudflare D1 SQLite data
 azure-cosmosdb;alinaqi/claude-bootstrap;azure-cosmosdb;Manage Azure Cosmos DB partition keys, consistency levels, and SDK patterns.
 annotating-task-lineage;astronomer/agents;annotating-task-lineage;Annotate Airflow tasks with data lineage using inlets and outlets for metadata tracking
 creating-openlineage-extractors;astronomer/agents;creating-openlineage-extractors;Create custom OpenLineage extractors for Airflow operators to capture lineage from unsupported/third-party operators and enable column-level
+finlab;koreal6803/finlab-ai;finlab;Comprehensive guide for FinLab quantitative trading package for Taiwan stock market, including data access, strategy development, backtestin
 cosmos-dbt-core;astronomer/agents;cosmos-dbt-core;Transform dbt Core projects into Airflow DAGs/TaskGroups using Astronomer Cosmos for data pipeline orchestration.
 airflow-hitl;astronomer/agents;airflow-hitl;Handle human-in-the-loop workflows in Airflow with approval/reject, form input, and human-driven branching using specific operators.
 cosmos-dbt-fusion;astronomer/agents;cosmos-dbt-fusion;Configuration for dbt Fusion projects using Astronomer Cosmos with Snowflake/Databricks in LOCAL execution mode.
@@ -278,10 +280,9 @@ azure-data-tables-py;microsoft/agent-skills;azure-data-tables-py;Azure Tables SD
 azure-eventhub-py;microsoft/agent-skills;azure-eventhub-py;Azure Event Hubs SDK for Python streaming with high-throughput event ingestion and checkpointing.
 azure-storage-queue-py;microsoft/agent-skills;azure-storage-queue-py;Azure Queue Storage SDK for Python, enabling reliable message queuing and task distribution.
 azure-storage-file-datalake-py;microsoft/agent-skills;azure-storage-file-datalake-py;A Python SDK for Azure Data Lake Storage Gen2, enabling hierarchical file system operations and big data analytics.
-init;astronomer/agents;;Initializes warehouse schema discovery and generates metadata documentation for data projects.
 chart-visualization;antvis/chart-visualization-skills;chart-visualization;Generates charts from data using JavaScript, selecting the best chart type from 26 options.
+init;astronomer/agents;;Initializes warehouse schema discovery and generates metadata documentation for data projects.
 xlsx;tfriedel/claude-office-skills;;Create, edit, and analyze spreadsheets with formulas, formatting, and data visualization.
-finlab;koreal6803/finlab-ai;finlab;Comprehensive guide for FinLab quantitative trading package for Taiwan stock market, including data access, strategy development, backtestin
 data-analyst;ailabs-393/ai-labs-claude-skills;data-analyst;Analyze CSV datasets, handle missing values, and create interactive dashboards.
 flywheel;boshu2/agentops;flywheel;Knowledge flywheel health monitoring. Checks velocity, pool depths, staleness. Triggers: "flywheel status", "knowledge health", "is knowledg
 csv-data-visualizer;ailabs-393/ai-labs-claude-skills;csv-data-visualizer;Visualize CSV data with interactive charts and statistical plots using Plotly.
@@ -292,42 +293,43 @@ cloudbase-document-database-in-wechat-miniprogram;tencentcloudbase/skills;main/s
 qdrant;giuseppe-trisciuoglio/developer-kit;qdrant;Qdrant vector database integration with LangChain4j for embedding storage, similarity search, and vector management in Java applications.
 reddapi;lignertys/reddit-research-skill;reddapi;Access Reddit's full data archive via reddapi.dev API with semantic search, subreddit discovery, and real-time trend analysis for market res
 sqlalchemy-orm;bobmatnyc/claude-mpm-skills;;A SQLAlchemy Python SQL toolkit and ORM with powerful query builder, relationship mapping, and database migrations.
-data-model-creation;tencentcloudbase/skills;main/skills/data-model-creation;Advanced tool for complex data modeling, suitable for intricate database schema design and management.
 using-dbt-for-analytics-engineering;dbt-labs/dbt-agent-skills;dbt/skills/using-dbt-for-analytics-engineering;A skill for using dbt in analytics engineering tasks like data modeling, transformations, and pipeline development.
-relational-database-mcp-cloudbase;tencentcloudbase/skills;main/skills/relational-database-tool;A skill for managing CloudBase Relational Database operations with secure SQL execution.
+tushare;waditu-tushare/skills;master/tushare;A financial data API package providing stock, fund, futures, cryptocurrency market data and company fundamentals through standardized APIs.
+data-model-creation;tencentcloudbase/skills;main/skills/data-model-creation;Advanced tool for complex data modeling, suitable for intricate database schema design and management.
 using-neon;neondatabase/agent-skills;;A skill for using Neon with PostgreSQL and Supabase.
-cloudbase-document-database-web-sdk;tencentcloudbase/skills;main/skills/no-sql-web-sdk;A skill for interacting with CloudBase document database via Web SDK.
+relational-database-mcp-cloudbase;tencentcloudbase/skills;main/skills/relational-database-tool;A skill for managing CloudBase Relational Database operations with secure SQL execution.
 xlsx;aiskillstore/marketplace;xlsx;Create, edit, and analyze spreadsheets with formulas, formatting, and data visualization.
-pdf-text-extractor;willoscar/research-units-pipeline-skills;pdf-text-extractor;Extracts plain text from PDFs to support full-text evidence and research workflows.
 fetching-dbt-docs;dbt-labs/dbt-agent-skills;dbt/skills/fetching-dbt-docs;Fetch and analyze dbt documentation and features for dbt Cloud, Core, and Semantic Layer.
 adding-dbt-unit-test;dbt-labs/dbt-agent-skills;dbt/skills/adding-dbt-unit-test;Add unit tests for dbt models or practice TDD in dbt.
-pdf;aiskillstore/marketplace;pdf;A comprehensive PDF toolkit for text and table extraction, document creation, merging, splitting, and form handling.
+pdf-text-extractor;willoscar/research-units-pipeline-skills;pdf-text-extractor;Extracts plain text from PDFs to support full-text evidence and research workflows.
+cloudbase-document-database-web-sdk;tencentcloudbase/skills;main/skills/no-sql-web-sdk;A skill for interacting with CloudBase document database via Web SDK.
 answering-natural-language-questions-with-dbt;dbt-labs/dbt-agent-skills;dbt/skills/answering-natural-language-questions-with-dbt;Answer natural language questions with dbt by querying data for business insights like sales metrics.
-relational-database-web-cloudbase;tencentcloudbase/skills;main/skills/relational-database-web;A skill for integrating CloudBase relational database with web apps using @cloudbase/js-sdk.
+pdf;aiskillstore/marketplace;pdf;A comprehensive PDF toolkit for text and table extraction, document creation, merging, splitting, and form handling.
 troubleshooting-dbt-job-errors;dbt-labs/dbt-agent-skills;dbt/skills/troubleshooting-dbt-job-errors;Diagnose dbt Cloud/platform job failures with unclear error messages or intermittent issues.
 building-dbt-semantic-layer;dbt-labs/dbt-agent-skills;dbt/skills/building-dbt-semantic-layer;Create or modify dbt Semantic Layer components including semantic models, metrics, and dimensions using MetricFlow.
+relational-database-web-cloudbase;tencentcloudbase/skills;main/skills/relational-database-web;A skill for integrating CloudBase relational database with web apps using @cloudbase/js-sdk.
 tinybird;tinybirdco/tinybird-agent-skills;tinybird-best-practices;Tinybird file formats, SQL rules, optimization patterns, and best practices for datasources, pipes, endpoints, and materialized views.
 funnel-analysis;aj-geddes/useful-ai-prompts;funnel-analysis;Analyze user conversion funnels to identify drop-off points and optimize conversion rates.
 database-schema-design;aj-geddes/useful-ai-prompts;database-schema-design;Design database schemas with normalization, relationships, and constraints for PostgreSQL and MySQL.
-mongodb;hoodini/ai-agents-skills;mongodb;Work with MongoDB databases using best practices for schema design, queries, and performance optimization.
 google-sheets;vm0-ai/vm0-skills;;Google Sheets API via curl for reading, writing, and managing spreadsheet data programmatically.
+mongodb;hoodini/ai-agents-skills;mongodb;Work with MongoDB databases using best practices for schema design, queries, and performance optimization.
 database-query-optimization;aj-geddes/useful-ai-prompts;database-query-optimization;Optimize database queries for better performance using indexing and execution plan analysis.
 database-schema-documentation;aj-geddes/useful-ai-prompts;database-schema-documentation;Generate database schema documentation including ERD diagrams and table relationships.
 excel-report-generator;wwwzhouhui/skills_collection;;Automatically generate Excel reports from various data sources with template support using pandas and openpyxl.
-qdrant-vector-database-integration;giuseppe-trisciuoglio/developer-kit;;Qdrant vector database integration for AI and machine learning applications
 sql-query-optimization;aj-geddes/useful-ai-prompts;sql-query-optimization;Optimize SQL queries for better performance in PostgreSQL and MySQL databases.
+qdrant-vector-database-integration;giuseppe-trisciuoglio/developer-kit;;Qdrant vector database integration for AI and machine learning applications
 database-performance-debugging;aj-geddes/useful-ai-prompts;database-performance-debugging;Debug database performance issues by analyzing queries, optimizing indexes, and reviewing execution plans.
 anomaly-detection;aj-geddes/useful-ai-prompts;anomaly-detection;Detect anomalies and outliers in data using statistical methods and machine learning techniques.
 feature-engineering;aj-geddes/useful-ai-prompts;feature-engineering;Transform features using encoding, scaling, and domain-specific methods to improve model performance.
-postgres;sanjay3290/ai-skills;postgres;Execute read-only SQL queries on multiple PostgreSQL databases safely.
 api-pagination;aj-geddes/useful-ai-prompts;api-pagination;Implement efficient pagination strategies for large datasets using offset/limit, cursor-based, and keyset pagination.
 database-indexing-strategy;aj-geddes/useful-ai-prompts;database-indexing-strategy;Design and implement database indexing strategies for PostgreSQL and MySQL.
 nosql-database-design;aj-geddes/useful-ai-prompts;nosql-database-design;Design NoSQL database schemas for MongoDB and DynamoDB.
 time-series-analysis;aj-geddes/useful-ai-prompts;time-series-analysis;Analyze temporal data patterns including trends, seasonality, and forecasting for time series decomposition and modeling.
+postgres;sanjay3290/ai-skills;postgres;Execute read-only SQL queries on multiple PostgreSQL databases safely.
 data-cleaning-pipeline;aj-geddes/useful-ai-prompts;data-cleaning-pipeline;Build robust data cleaning and preprocessing pipelines for data quality and automation.
 data-visualization;aj-geddes/useful-ai-prompts;data-visualization;Create effective data visualizations using matplotlib and seaborn for exploratory analysis and business communication.
-exploratory-data-analysis;aj-geddes/useful-ai-prompts;exploratory-data-analysis;Perform exploratory data analysis to discover patterns and relationships in data through visualization and statistical methods.
 cosmosdb-best-practices;azurecosmosdb/cosmosdb-agent-kit;cosmosdb-best-practices;Best practices for Azure Cosmos DB performance optimization, partitioning, queries, and SDK usage.
+exploratory-data-analysis;aj-geddes/useful-ai-prompts;exploratory-data-analysis;Perform exploratory data analysis to discover patterns and relationships in data through visualization and statistical methods.
 transaction-management;aj-geddes/useful-ai-prompts;transaction-management;Manages database transactions to ensure data consistency and ACID compliance.
 data-migration-scripts;aj-geddes/useful-ai-prompts;data-migration-scripts;Create safe, reversible database migration scripts with rollback capabilities and zero-downtime deployments.
 database-sharding;aj-geddes/useful-ai-prompts;database-sharding;Implement database sharding for horizontal scalability and distributed data architecture.
@@ -336,23 +338,24 @@ data-replication-setup;aj-geddes/useful-ai-prompts;data-replication-setup;Set up
 a/b-test-analysis;aj-geddes/useful-ai-prompts;ab-test-analysis;Analyze A/B tests, calculate statistical significance, and determine sample sizes for conversion optimization.
 classification-modeling;aj-geddes/useful-ai-prompts;classification-modeling;Build binary and multiclass classification models using logistic regression, decision trees, and ensemble methods.
 statistical-hypothesis-testing;aj-geddes/useful-ai-prompts;statistical-hypothesis-testing;Conducts statistical hypothesis testing including t-tests, chi-square, ANOVA, and p-value analysis.
-data-exploration-visualization;liangdabiao/claude-data-analysis-ultra-main;data-exploration-visualization;Automated data exploration and visualization tool providing complete EDA solution from data loading to professional report generation.
 clustering-analysis;aj-geddes/useful-ai-prompts;clustering-analysis;Perform clustering analysis using k-means, hierarchical clustering, and DBSCAN for data pattern discovery and customer segmentation.
 correlation-analysis;aj-geddes/useful-ai-prompts;correlation-analysis;Analyze relationships between variables using correlation coefficients and matrices.
 network-analysis;aj-geddes/useful-ai-prompts;network-analysis;Analyze network structures, identify communities, and visualize relationships in social and organizational networks.
-mongodb-expert;cin12211/orca-q;mongodb-expert;A skill for MongoDB-specific issues, NoSQL performance optimization, and schema design.
 dimensionality-reduction;aj-geddes/useful-ai-prompts;dimensionality-reduction;Reduce feature dimensionality using PCA, t-SNE, and feature selection for feature reduction, visualization, and computational efficiency.
-sqlite-data;johnrogers/claude-swift-engineering;sqlite-data;A skill for working with SQLiteData library and CloudKit database sync.
+mongodb-expert;cin12211/orca-q;mongodb-expert;A skill for MongoDB-specific issues, NoSQL performance optimization, and schema design.
 cohort-analysis;aj-geddes/useful-ai-prompts;cohort-analysis;Analyze user cohorts over time to calculate retention rates and identify behavioral patterns.
+data-exploration-visualization;liangdabiao/claude-data-analysis-ultra-main;data-exploration-visualization;Automated data exploration and visualization tool providing complete EDA solution from data loading to professional report generation.
 regression-modeling;aj-geddes/useful-ai-prompts;regression-modeling;Build predictive models using linear, polynomial, and regularized regression for continuous prediction and trend forecasting.
 survival-analysis;aj-geddes/useful-ai-prompts;survival-analysis;Analyze time-to-event data using Kaplan-Meier and Cox models.
 building-dashboards;axiomhq/skills;main/skills/building-dashboards;Create and configure Axiom dashboards using API with support for various chart types and SmartFilters.
-d3-viz;chrisvoncsefalvay/claude-d3js-skill;;Create interactive data visualizations with d3.js for charts, graphs, and complex SVG-based designs.
-tushare-finance;stanleychanh/tushare-finance-skill-for-claude-code;;Access Chinese financial market data (A-shares, HK stocks, US stocks, funds, futures, bonds) via 220+ Tushare Pro APIs for stock quotes, fin
+sqlite-data;johnrogers/claude-swift-engineering;sqlite-data;A skill for working with SQLiteData library and CloudKit database sync.
 earnings-calendar;tradermonty/claude-trading-skills;earnings-calendar;Retrieves upcoming US stock earnings announcements via Financial Modeling Prep API, organized by date in markdown tables.
-prisma-orm;bobmatnyc/claude-mpm-skills;;A type-safe database toolkit for TypeScript with schema-first development and auto-generated client.
-a-share-screener;nicepkg/ai-workflow;a-share-screener;A skill for screening and filtering A-share stocks based on fundamental metrics, technical indicators, and custom criteria.
+tushare-finance;stanleychanh/tushare-finance-skill-for-claude-code;;Access Chinese financial market data (A-shares, HK stocks, US stocks, funds, futures, bonds) via 220+ Tushare Pro APIs for stock quotes, fin
+d3-viz;chrisvoncsefalvay/claude-d3js-skill;;Create interactive data visualizations with d3.js for charts, graphs, and complex SVG-based designs.
 mysql;teachingai/full-stack-skills;mysql;Comprehensive MySQL database guidance covering SQL syntax, data types, indexes, transactions, stored procedures, and optimization techniques
+prisma-orm;bobmatnyc/claude-mpm-skills;;A type-safe database toolkit for TypeScript with schema-first development and auto-generated client.
+postgresql-expert;personamanagmentlayer/pcl;;Expert-level PostgreSQL administration, queries, and performance tuning.
+a-share-screener;nicepkg/ai-workflow;a-share-screener;A skill for screening and filtering A-share stocks based on fundamental metrics, technical indicators, and custom criteria.
 akshare;nicepkg/ai-workflow;akshare;Access real-time and historical financial data for stocks, funds, futures, and more using akshare.
 china-macro-analyst;nicepkg/ai-workflow;china-macro-analyst;Analyze China's macroeconomic data, monetary policy, and their impact on financial markets.
 stock-screener;nicepkg/ai-workflow;stock-screener;A stock screener that filters and analyzes stocks based on financial metrics from CSV data.
@@ -362,37 +365,36 @@ earnings-calendar;nicepkg/ai-workflow;earnings-calendar;Retrieves upcoming US st
 pair-trade-screener;nicepkg/ai-workflow;pair-trade-screener;A statistical arbitrage tool for pair trading opportunity identification and analysis.
 extracting-pdf-text;letta-ai/skills;main/tools/extracting-pdf-text;Extract text from PDFs for LLM consumption, supporting RAG, document analysis, and text extraction with API services and local tools.
 echarts;vamseeachanta/workspace-hub;data/visualization/echarts;Create interactive charts using Apache ECharts with a balance of usability and customization.
-postgresql-expert;personamanagmentlayer/pcl;;Expert-level PostgreSQL administration, queries, and performance tuning.
 portfolio-optimization;letta-ai/skills;main/letta/benchmarks/trajectory-feedback/portfolio-optimization;Guidance for implementing high-performance portfolio optimization using Python C extensions for financial computations.
 institutional-flow-tracker;tradermonty/claude-trading-skills;institutional-flow-tracker;Track institutional investor ownership changes and portfolio flows using 13F filings data to identify smart money accumulation or distributi
 pair-trade-screener;tradermonty/claude-trading-skills;pair-trade-screener;A statistical arbitrage tool for pair trading opportunity identification and analysis.
-postgresql-psql;timelessco/recollect;postgresql-psql;Comprehensive guide for PostgreSQL psql - the interactive terminal client for PostgreSQL database management and development.
-dart-drift;madteacher/mad-agents-skills;;A complete guide for using the drift database library in Dart applications with SQLite and PostgreSQL support.
-xlsx-generator;jwynia/agent-skills;general/document-processing/spreadsheet/xlsx-generator;Generate and manipulate Excel XLSX files programmatically with support for templates and data extraction.
 jupyter;openhands/skills;main/skills/jupyter;A skill for reading, modifying, executing, and converting Jupyter notebooks programmatically.
+dart-drift;madteacher/mad-agents-skills;;A complete guide for using the drift database library in Dart applications with SQLite and PostgreSQL support.
+postgresql-psql;timelessco/recollect;postgresql-psql;Comprehensive guide for PostgreSQL psql - the interactive terminal client for PostgreSQL database management and development.
+xlsx-generator;jwynia/agent-skills;general/document-processing/spreadsheet/xlsx-generator;Generate and manipulate Excel XLSX files programmatically with support for templates and data extraction.
 quant-analyst;404kidwiz/claude-supercode-skills;;Quantitative analyst skill for financial data analysis using Python and ML.
 kafka-streams-topology;anton-abyzov/specweave;kafka-streams-topology;Expert in Kafka Streams topology design, covering KStream, KTable, joins, windowing, and exactly-once semantics.
 confluent-kafka-connect;anton-abyzov/specweave;confluent-kafka-connect;Expert in Kafka Connect integration for source/sink connectors, JDBC, Elasticsearch, S3, Debezium CDC, and SMT configurations.
 document-pdf;vasilyu1983/ai-agents-public;document-pdf;Process PDF documents: extract text/tables, create formatted PDFs, merge/split/rotate, handle forms and metadata.
 document-xlsx;vasilyu1983/ai-agents-public;document-xlsx;Create, edit, audit, and extract Excel spreadsheets with support for multiple libraries.
-xlsx;bobmatnyc/claude-mpm-skills;;Programmatically work with Excel files for data manipulation and processing tasks.
-ebook-analysis;jwynia/agent-skills;general/document-processing/analysis/ebook-analysis;Analyze ebooks to extract concepts, entities, and citations, and classify them by type or layer.
-financial-document-processor;letta-ai/skills;main/letta/benchmarks/trajectory-feedback/financial-document-processor;Guidance for processing financial documents (invoices, receipts, statements) with OCR and text extraction, emphasizing data safety practices
 docling;existential-birds/beagle;docling;A document parser for multiple formats including PDF, DOCX, PPTX, HTML, and images, useful for text extraction and conversion.
+xlsx;bobmatnyc/claude-mpm-skills;;Programmatically work with Excel files for data manipulation and processing tasks.
+financial-document-processor;letta-ai/skills;main/letta/benchmarks/trajectory-feedback/financial-document-processor;Guidance for processing financial documents (invoices, receipts, statements) with OCR and text extraction, emphasizing data safety practices
+ebook-analysis;jwynia/agent-skills;general/document-processing/analysis/ebook-analysis;Analyze ebooks to extract concepts, entities, and citations, and classify them by type or layer.
 data-visualization;inference-sh-1/skills;main/skills/data-visualization;Data visualization with chart selection, color theory, and annotation best practices. Covers chart types, axes rules, and storytelling with
 data-visualization;1nfsh-s3/skills;main/skills/data-visualization;Data visualization with chart selection, color theory, and annotation best practices. Covers chart types, axes rules, and storytelling with
 mysql;pluginagentmarketplace/custom-plugin-sql;mysql;A skill for MySQL database administration and development tasks.
 ai-ml-data-science;vasilyu1983/ai-agents-public;ai-ml-data-science;End-to-end data science and ML engineering workflows including problem framing, EDA, feature engineering, modeling, and evaluation.
-ai-ml-timeseries;vasilyu1983/ai-agents-public;ai-ml-timeseries;A skill for time series forecasting using modern ML techniques like Transformers, RNNs, and LightGBM with emphasis on explainability and lon
 geospatial-data-pipeline;erichowens/some_claude_skills;geospatial-data-pipeline;Process, analyze, and visualize geospatial data at scale. Handles drone imagery, GPS tracks, coordinate transformations, and tile generation
+ai-ml-timeseries;vasilyu1983/ai-agents-public;ai-ml-timeseries;A skill for time series forecasting using modern ML techniques like Transformers, RNNs, and LightGBM with emphasis on explainability and lon
+powerbi-expert;personamanagmentlayer/pcl;;Expert-level Power BI, DAX, M language, data modeling, Power Query, report design, and paginated reports
 data-analysis;jinfanzheng/kode-sdk-csharp;data-analysis;Performs data analysis and statistical computations using pandas, numpy, and scikit-learn.
+data-journalism;jamditis/claude-skills-journalism;;Data journalism workflows for analysis, visualization, and storytelling with datasets, charts, maps, and statistics for reporters and resear
 data-visualization;inference-sh-4/skills;main/skills/data-visualization;Data visualization with chart selection, color theory, and annotation best practices. Covers chart types, axes rules, and storytelling with
 data-analytics-engineering;vasilyu1983/ai-agents-public;data-analytics-engineering;Build transformation layers, dimensional models, semantic metrics, data quality tests, and documentation using dbt or SQL.
 bv;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;bv;A graph-aware triage engine for Beads projects that computes PageRank, betweenness, and critical path.
-data-journalism;jamditis/claude-skills-journalism;;Data journalism workflows for analysis, visualization, and storytelling with datasets, charts, maps, and statistics for reporters and resear
-data-visualization;1nfsh/s;data-visualization;Data visualization with chart selection, color theory, and annotation best practices. Covers chart types, axes rules, and storytelling with
-powerbi-expert;personamanagmentlayer/pcl;;Expert-level Power BI, DAX, M language, data modeling, Power Query, report design, and paginated reports
 xlsx;rysweet/amplihack;xlsx;Create, edit, and analyze spreadsheets with formulas, formatting, and data visualization.
+data-visualization;1nfsh/s;data-visualization;Data visualization with chart selection, color theory, and annotation best practices. Covers chart types, axes rules, and storytelling with
 kysely;bobmatnyc/claude-mpm-skills;;A type-safe SQL query builder for database operations with end-to-end type safety.
 data-sql-optimization;vasilyu1983/ai-agents-public;data-sql-optimization;Optimize SQL queries and database performance for OLTP systems across multiple databases.
 json-data-handling;bobmatnyc/claude-mpm-skills;;A skill for effectively handling JSON data structures.
@@ -400,30 +402,30 @@ data-visualization;1nfsh/skills;main/skills/data-visualization;Data visualizatio
 sqlite-database-expert;martinholovsky/claude-skills-generator;sqlite;A skill focused on SQLite database development for desktop apps with security and migration features.
 neon-drizzle-setup;andrelandgraf/fullstackrecipes;neon-drizzle-setup;Setup a Next.js app with Neon Postgres and Drizzle ORM for optimized connection pooling.
 bigquery;lanej/dotfiles;bigquery;Modern Rust-based CLI tool for Google BigQuery operations, replacing Python bq with faster performance and enhanced features.
+backtesting-trading-strategies;gracefullight/stock-checker;backtesting-trading-strategies;Backtest trading strategies using historical data and calculate performance metrics.
 trading-strategies;agentmc15/polymarket-trader;trading-strategies;A framework for developing, testing, and deploying trading strategies for prediction markets.
 flipside;flipsidecrypto/flipside-tools;flipside;Query blockchain data, create AI agents for crypto analytics, and build automated data pipelines.
 toon-formatter;raintree-technology/claude-starter;toon-formatter;A TOON formatter for structured data with 30-60% token savings, supporting arrays, tables, logs, and API responses.
-using-drizzle-queries;andrelandgraf/fullstackrecipes;using-drizzle-queries;Write type-safe database queries with Drizzle ORM, covering select, insert, update, delete, and relational queries.
 postgres-code-review;existential-birds/beagle;postgres-code-review;Reviews PostgreSQL code for indexing, JSONB, connection pooling, and transaction safety.
 sqlite-vec;existential-birds/beagle;sqlite-vec;A SQLite extension for vector similarity search and semantic features.
+using-drizzle-queries;andrelandgraf/fullstackrecipes;using-drizzle-queries;Write type-safe database queries with Drizzle ORM, covering select, insert, update, delete, and relational queries.
 reporting-pipelines;bobmatnyc/claude-mpm-skills;;Automated reporting pipelines for exporting data in CSV, JSON, and Markdown formats with timestamps and summaries.
 data-scientist;404kidwiz/claude-supercode-skills;;A data scientist expert in statistical analysis, predictive modeling, and data storytelling for business insights.
-backtesting-trading-strategies;gracefullight/stock-checker;backtesting-trading-strategies;Backtest trading strategies using historical data and calculate performance metrics.
 postgresql-database-engineering;manutej/luxor-claude-marketplace;postgresql-database-engineering;A comprehensive PostgreSQL database engineering skill covering indexing, query optimization, performance tuning, replication, backup, and hi
 anthropics-xlsx;smithery/ai;;Process XLSX files with Anthropic AI integration for data manipulation and analysis tasks.
+pdf;rysweet/amplihack;pdf;A comprehensive PDF toolkit for text and table extraction, document creation, merging, splitting, and form handling.
 data-analyzer;eddiebe147/claude-settings;;Analyze structured and unstructured datasets to detect patterns and generate insights.
 cninfo-to-notebooklm;jarodise/cninfo2notebookllm;;Analyze China stock reports and upload to NotebookLM for financial research of Chinese listed companies
 neon-serverless-postgres;bobmatnyc/claude-mpm-skills;;A serverless PostgreSQL solution with autoscaling and instant branching for scalable database needs.
-pdf;rysweet/amplihack;pdf;A comprehensive PDF toolkit for text and table extraction, document creation, merging, splitting, and form handling.
 google-sheets;andrejones92/canifi-life-os;;Enables automation and analysis of Google Sheets via Playwright MCP.
 data-modeling;melodic-software/claude-code-plugins;data-modeling;Data modeling with ERDs, data dictionaries, and conceptual/logical/physical models for documenting data structures and relationships.
 redis-expert;lammesen/skills;;A Redis expert skill for caching, data structures, Pub/Sub, Streams, and Lua scripting with Bun.redis.
 mysql-best-practices;mindrally/skills;main/mysql-best-practices;Best practices for MySQL schema design, query optimization, and database administration.
-sec-edgar-pipeline;bobmatnyc/claude-mpm-skills;;SEC EDGAR extraction pipeline for filing discovery, data extraction, and report generation.
-akshare;arcaneorion/alice-single;akshare;Access real-time and historical financial data for stocks, funds, futures, and more using akshare.
 redis-best-practices;mindrally/skills;main/redis-best-practices;Redis best practices for caching, data structures, and high-performance key-value operations.
-supabase-extract-url;yoanbernabeu/supabase-pentest-skills;extraction/supabase-extract-url;Extract Supabase project URL from JS code, env vars, and config files.
+sec-edgar-pipeline;bobmatnyc/claude-mpm-skills;;SEC EDGAR extraction pipeline for filing discovery, data extraction, and report generation.
 data-pipeline-engineer;erichowens/some_claude_skills;data-pipeline-engineer;Expert data engineer for ETL/ELT pipelines, streaming, data warehousing with expertise in Spark, Kafka, Airflow, dbt.
+akshare;arcaneorion/alice-single;akshare;Access real-time and historical financial data for stocks, funds, futures, and more using akshare.
+supabase-extract-url;yoanbernabeu/supabase-pentest-skills;extraction/supabase-extract-url;Extract Supabase project URL from JS code, env vars, and config files.
 yahoo-finance;0juano/agent-skills;;Financial data from Yahoo Finance: stock/bond prices, credit analysis, macro dashboard, FX rates, ETF flows, fundamentals, and news.
 kpi-dashboard-builder;eddiebe147/claude-settings;;Build KPI dashboards and track performance metrics for data-driven decisions.
 mongodb-migration-expert;shipshitdev/library;mongodb-migration-expert;A skill for MongoDB schema design, indexing, and migration guidance.
@@ -431,57 +433,57 @@ data-storyteller;eddiebe147/claude-settings;;Transform data into compelling narr
 spreadsheet-builder;eddiebe147/claude-settings;;Build Excel and CSV files with formulas, formatting, charts, and data analysis.
 digitalocean-managed-databases;bobmatnyc/claude-mpm-skills;;Manage PostgreSQL, MySQL, Redis, MongoDB, Kafka, OpenSearch, and Valkey databases on DigitalOcean.
 data-visualizer;daffy0208/ai-dev-standards;data-visualizer;Creates charts, dashboards, and data visualizations using modern libraries.
-churn-predictor;eddiebe147/claude-settings;;Predicts customer churn risk using behavioral signals and predictive analytics.
 upstash-vector-db-skills;gocallum/nextjs16-agent-skills;upstash-vector-db-skills;Setup and use Upstash Vector DB for semantic search and embeddings on Vercel.
-csv-data-wrangler;404kidwiz/claude-supercode-skills;;High-performance CSV processing and data cleaning using Python, DuckDB, and CLI tools.
+churn-predictor;eddiebe147/claude-settings;;Predicts customer churn risk using behavioral signals and predictive analytics.
 redis-state-management;manutej/luxor-claude-marketplace;redis-state-management;A comprehensive guide to Redis state management with caching, session handling, pub/sub, and distributed locks.
+csv-data-wrangler;404kidwiz/claude-supercode-skills;;High-performance CSV processing and data cleaning using Python, DuckDB, and CLI tools.
+databricks-expert;personamanagmentlayer/pcl;;Expert-level guidance for Databricks platform, Apache Spark, Delta Lake, MLflow, notebooks, and cluster management.
 senior-data-engineer;borghei/claude-skills;;A skill for building scalable data pipelines, ETL/ELT systems, and data infrastructure using Python, SQL, Spark, Airflow, dbt, Kafka, and mo
 dataset-curator;eddiebe147/claude-settings;;Curate and clean training datasets for high-quality machine learning.
 graph-database-expert;martinholovsky/claude-skills-generator;graph-database-expert;Expert in graph database design, modeling, and query optimization for complex relationship patterns.
 mongodb-atlas-checker;shipshitdev/library;mongodb-atlas-checker;Verifies MongoDB Atlas setup and configuration for Next.js and NestJS applications.
 kafka-engineer;404kidwiz/claude-supercode-skills;;Expert in Apache Kafka, Event Streaming, and Real-time Data Pipelines.
+data-science-expert;personamanagmentlayer/pcl;;Expert-level data science, analytics, visualization, and statistical modeling
 polymarket-api;agentmc15/polymarket-trader;polymarket-api;A skill for integrating with Polymarket's CLOB API, Gamma API, and on-chain data for trading functionality.
 survey-analyzer;eddiebe147/claude-settings;;Analyze survey data to extract insights and generate recommendations.
 database-design-expert;martinholovsky/claude-skills-generator;database-design;Expert in database schema design focusing on normalization, indexing, FTS optimization, and performance for desktop apps.
-databricks-expert;personamanagmentlayer/pcl;;Expert-level guidance for Databricks platform, Apache Spark, Delta Lake, MLflow, notebooks, and cluster management.
 xlsx;smithery/ai;;Handles XLSX file operations including reading, writing, and data manipulation for Excel spreadsheets.
+snowflake-expert;personamanagmentlayer/pcl;;Expert-level Snowflake data warehouse platform handling virtual warehouses, data sharing, streams, tasks, and SQL optimization.
 data-engineer;daffy0208/ai-dev-standards;data-engineer;Expert in data pipelines, ETL processes, and data infrastructure.
-data-science-expert;personamanagmentlayer/pcl;;Expert-level data science, analytics, visualization, and statistical modeling
 ai-chat-persistence;andrelandgraf/fullstackrecipes;ai-chat-persistence;Persist AI chat conversations to Neon Postgres with full AI SDK message part support.
+postgresql-best-practices;mindrally/skills;main/postgresql-best-practices;Best practices for PostgreSQL schema design, query optimization, and database administration.
+tableau-expert;personamanagmentlayer/pcl;;Expert-level Tableau Desktop/Server skills including calculated fields, LOD expressions, dashboards, data blending, and performance optimiza
 altinity-expert-clickhouse-schema;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-schema;Analyze ClickHouse table structure, partitioning, ORDER BY keys, materialized views, and identify schema design anti-patterns for optimizati
 encore-database;encoredev/skills;main/encore/database;A skill for handling database queries, migrations, and ORM integration with Encore.ts.
-postgresql-best-practices;mindrally/skills;main/postgresql-best-practices;Best practices for PostgreSQL schema design, query optimization, and database administration.
 surrealdb-expert;martinholovsky/claude-skills-generator;surrealdb-expert;Expert skill for SurrealDB development focusing on multi-model databases, graph relations, and secure data access.
 incremental-fetch;shipshitdev/library;incremental-fetch;Build resilient data ingestion pipelines from APIs with incremental updates and historical backfills.
-snowflake-expert;personamanagmentlayer/pcl;;Expert-level Snowflake data warehouse platform handling virtual warehouses, data sharing, streams, tasks, and SQL optimization.
-tableau-expert;personamanagmentlayer/pcl;;Expert-level Tableau Desktop/Server skills including calculated fields, LOD expressions, dashboards, data blending, and performance optimiza
 database-design;eddiebe147/claude-settings;;A skill for designing database schemas and structures.
 sql-server-2025;josiahsiegel/claude-plugin-marketplace;sql-server-2025;A skill for managing SQL Server 2025 and SqlPackage with vector database and AI integration features.
-tushare;waditu-tushare/skills;master/tushare;A financial data API package providing stock, fund, futures, cryptocurrency market data and company fundamentals through standardized APIs.
 analytics-tracking;eddiebe147/claude-settings;;A skill for implementing analytics tracking to monitor user behavior and performance metrics.
-finnhub-api;adaptationio/skrillz;finnhub-api;FinnHub financial data API integration for stocks, forex, crypto, news, and fundamentals with real-time quotes and market data.
 clinical-trials-search;yorkeccak/scientific-skills;clinical-trials-search;Search clinical trials using natural language queries with Valyu's semantic search.
+finnhub-api;adaptationio/skrillz;finnhub-api;FinnHub financial data API integration for stocks, forex, crypto, news, and fundamentals with real-time quotes and market data.
+sql-expert;personamanagmentlayer/pcl;;Expert SQL database design, querying, optimization, and administration for PostgreSQL, MySQL, and SQL Server.
+r-expert;personamanagmentlayer/pcl;;Provides expert-level assistance for R statistical computing, data analysis, and visualization.
 drugbank-search;yorkeccak/scientific-skills;drugbank-search;Search DrugBank database with natural language queries for drug mechanisms, interactions, and safety data.
+chembl-search;yorkeccak/scientific-skills;chembl-search;Search ChEMBL bioactive molecules database with natural language queries.
 databricks-2025;josiahsiegel/claude-plugin-marketplace;databricks-2025;A skill for managing Databricks job activities and connecting to Azure Data Factory.
 altinity-expert-clickhouse-logs;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-logs;Analyze ClickHouse system log table health including TTL configuration, disk usage, freshness, and cleanup.
 altinity-expert-clickhouse-ingestion;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-ingestion;Diagnose ClickHouse INSERT performance, batch sizing, part creation patterns, and ingestion bottlenecks for slow inserts and data pipeline i
-r-expert;personamanagmentlayer/pcl;;Provides expert-level assistance for R statistical computing, data analysis, and visualization.
-chembl-search;yorkeccak/scientific-skills;chembl-search;Search ChEMBL bioactive molecules database with natural language queries.
-csv-processor;curiouslearner/devkit;csv-processor;Parse, transform, and analyze CSV files with advanced data manipulation capabilities.
-sql-expert;personamanagmentlayer/pcl;;Expert SQL database design, querying, optimization, and administration for PostgreSQL, MySQL, and SQL Server.
 open-targets-search;yorkeccak/scientific-skills;open-targets-search;Search drug-disease associations using natural language with Valyu's semantic search.
+csv-processor;curiouslearner/devkit;csv-processor;Parse, transform, and analyze CSV files with advanced data manipulation capabilities.
+drug-labels-search;yorkeccak/scientific-skills;drug-labels-search;Search FDA drug labels with natural language queries for medical information and safety data.
 airtable;andrejones92/canifi-life-os;;Enable Claude to interact with Airtable databases using Playwright MCP.
 altinity-expert-clickhouse-merges;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-merges;Diagnose ClickHouse merge performance, part backlog, and 'too many parts' errors for merge issues and part management.
 altinity-expert-clickhouse-mutations;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-mutations;Track and diagnose ClickHouse mutation operations like ALTER UPDATE/DELETE for stuck mutations and performance issues.
 altinity-expert-clickhouse-replication;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-replication;Diagnose ClickHouse replication health, Keeper connectivity, replica lag, and queue issues for replication lag and read-only replica problem
 altinity-expert-clickhouse-reporting;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-reporting;Diagnose ClickHouse query performance, analyze patterns, identify slow queries and optimization opportunities for latency and timeout issues
 tsql-functions;josiahsiegel/claude-plugin-marketplace;tsql-functions;Complete T-SQL function reference for SQL Server and Azure SQL Database covering string, date, math, conversion, window, JSON/XML, aggregate
-drug-labels-search;yorkeccak/scientific-skills;drug-labels-search;Search FDA drug labels with natural language queries for medical information and safety data.
 adf-validation-rules;josiahsiegel/claude-plugin-marketplace;adf-validation-rules;Provides comprehensive validation rules and guidelines for Azure Data Factory.
 altinity-expert-clickhouse-storage;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-storage;Diagnose ClickHouse disk usage, compression efficiency, part sizes, and storage bottlenecks for disk space issues and slow IO.
 altinity-expert-clickhouse-overview;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-overview;Runs a quick overview of ClickHouse server health for database monitoring and assessment.
 grepai-storage-postgres;yoanbernabeu/grepai-skills;storage/grepai-storage-postgres;Configure PostgreSQL with pgvector for GrepAI storage in team environments.
 knowledge-graph-builder;daffy0208/ai-dev-standards;knowledge-graph-builder;Build and design knowledge graphs for semantic search and complex relationship modeling.
+scrapy-web-scraping;mindrally/skills;main/scrapy-web-scraping;Build web scrapers and crawlers using Scrapy framework with best practices.
 altinity-expert-clickhouse-caches;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-caches;Analyze ClickHouse cache systems including mark cache, uncompressed cache, and query cache for performance optimization.
 fabric-onelake-2025;josiahsiegel/claude-plugin-marketplace;fabric-onelake-2025;Microsoft Fabric Lakehouse, OneLake, and Fabric Warehouse connectors for Azure Data Factory (2025)
 index-strategies;josiahsiegel/claude-plugin-marketplace;index-strategies;SQL Server index design and optimization strategies for clustered, nonclustered, columnstore, filtered, and covering indexes with maintenanc
@@ -490,14 +492,13 @@ adf-master;josiahsiegel/claude-plugin-marketplace;adf-master;Comprehensive Azure
 mongoose-mongodb;pluginagentmarketplace/custom-plugin-nodejs;mongoose-mongodb;A skill for working with MongoDB using Mongoose ODM in Node.js.
 supabase-realtime;nice-wolf-studio/claude-code-supabase-skills;supabase-realtime;Subscribe to real-time changes in Supabase using WebSocket connections for database listening, presence tracking, and broadcast messaging.
 postgres;dedalus-erp-pas/foundation-skills;postgres;Execute read-only SQL queries on multiple PostgreSQL databases safely.
-scrapy-web-scraping;mindrally/skills;main/scrapy-web-scraping;Build web scrapers and crawlers using Scrapy framework with best practices.
 azure-sql-optimization;josiahsiegel/claude-plugin-marketplace;azure-sql-optimization;Azure SQL Database optimization and platform-specific features for DTU/vCore guidance, automatic tuning, Hyperscale, serverless, and perform
 data-cloud-2025;josiahsiegel/claude-plugin-marketplace;data-cloud-2025;Salesforce Data Cloud integration patterns and architecture guidance for 2025
 advanced-patterns;josiahsiegel/claude-plugin-marketplace;advanced-patterns;Advanced T-SQL patterns and techniques for SQL Server including CTEs, APPLY operator, MERGE, temporal tables, and advanced grouping.
+xlsx;appautomaton/document-skills;;Create, edit, and analyze spreadsheets with formulas, formatting, and data visualization.
 encore-go-database;encoredev/skills;main/encore/go-database;A skill for performing database queries and migrations using Encore Go framework.
 mixpanel;andrejones92/canifi-life-os;;Mixpanel analytics integration for product insights and user behavior tracking
 reuters;andrejones92/canifi-life-os;;Reuters skill for fetching and processing news data from Reuters API
-xlsx;appautomaton/document-skills;;Create, edit, and analyze spreadsheets with formulas, formatting, and data visualization.
 trader-analysis;agentmc15/polymarket-trader;trader-analysis;Analyze Polymarket traders to identify profitable ones and track their performance for copy trading features.
 redis;pluginagentmarketplace/custom-plugin-sql;redis;A Redis skill for managing data structures and commands including strings, lists, hashes, sets, sorted sets, streams, and transactions.
 amplitude;andrejones92/canifi-life-os;;Analytics skill for Amplitude platform

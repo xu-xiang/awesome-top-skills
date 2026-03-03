@@ -3,58 +3,57 @@ URL_TEMPLATE: https://raw.githubusercontent.com/{repo}/main/skills/{path}/SKILL.
 COLUMNS: id;repo;path;summary
 
 ## CATEGORIES (ROUTING)
-- ai-llm: ./llms/categories/ai-llm.txt (800/2012 skills)
-- business: ./llms/categories/business.txt (556/556 skills)
-- data: ./llms/categories/data.txt (522/522 skills)
-- design: ./llms/categories/design.txt (430/430 skills)
-- dev: ./llms/categories/dev.txt (800/2293 skills)
-- devops: ./llms/categories/devops.txt (775/775 skills)
-- other: ./llms/categories/other.txt (243/243 skills)
-- pending: ./llms/categories/pending.txt (800/1941 skills)
-- product: ./llms/categories/product.txt (168/168 skills)
-- productivity: ./llms/categories/productivity.txt (435/435 skills)
-- research: ./llms/categories/research.txt (260/260 skills)
-- security: ./llms/categories/security.txt (387/387 skills)
+- ai-llm: ./llms/categories/ai-llm.txt (800/2026 skills)
+- business: ./llms/categories/business.txt (559/559 skills)
+- data: ./llms/categories/data.txt (523/523 skills)
+- design: ./llms/categories/design.txt (432/432 skills)
+- dev: ./llms/categories/dev.txt (800/2299 skills)
+- devops: ./llms/categories/devops.txt (776/776 skills)
+- other: ./llms/categories/other.txt (246/246 skills)
+- pending: ./llms/categories/pending.txt (800/1986 skills)
+- product: ./llms/categories/product.txt (169/169 skills)
+- productivity: ./llms/categories/productivity.txt (436/436 skills)
+- research: ./llms/categories/research.txt (261/261 skills)
+- security: ./llms/categories/security.txt (388/388 skills)
 - web: ./llms/categories/web.txt (800/1058 skills)
 
 ## TOP 500 GLOBAL SKILLS
 find-skills;vercel-labs/skills;main/skills/find-skills;Helps users discover and install agent skills based on their queries.
 weather;steipete/clawdis;weather;Fetches current weather and forecasts via wttr.in or Open-Meteo without API keys. Handles location-based queries.
 summarize;steipete/clawdis;summarize;Summarize or extract text/transcripts from URLs, podcasts, and local files with fallback for video transcription.
-peekaboo;steipete/clawdis;peekaboo;Capture and automate macOS UI with the Peekaboo CLI tool for UI automation tasks.
 gog;steipete/clawdis;gog;Google Workspace CLI tool for managing Gmail, Calendar, Drive, Contacts, Sheets, and Docs from command line.
+peekaboo;steipete/clawdis;peekaboo;Capture and automate macOS UI with the Peekaboo CLI tool for UI automation tasks.
 coding-agent;steipete/clawdis;coding-agent;Delegates coding tasks to AI agents (Codex, Claude, Pi) via background process for building, PR review, and refactoring. Requires bash with
-mcporter;steipete/clawdis;mcporter;CLI tool for managing MCP servers/tools with listing, configuration, authentication, and direct calling capabilities.
-fix;facebook/react;fix;Fix lint errors and formatting issues before committing code.
 clawhub;steipete/clawdis;clawhub;CLI tool for managing agent skills from clawhub.com - search, install, update, and publish skills
+mcporter;steipete/clawdis;mcporter;CLI tool for managing MCP servers/tools with listing, configuration, authentication, and direct calling capabilities.
 apple-reminders;steipete/clawdis;apple-reminders;Manage Apple Reminders via CLI. Supports list, add, edit, complete, delete operations with filters and JSON output.
 openai-whisper;steipete/clawdis;openai-whisper;Local speech-to-text conversion using OpenAI's Whisper CLI without requiring an API key.
 apple-notes;steipete/clawdis;apple-notes;Manage Apple Notes via memo CLI on macOS for creating, viewing, editing, deleting, searching, moving, and exporting notes.
 tmux;steipete/clawdis;tmux;Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.
 nano-pdf;steipete/clawdis;nano-pdf;Edit PDFs with natural-language instructions using the nano-pdf CLI tool for automated document processing.
-himalaya;steipete/clawdis;himalaya;CLI tool for email management via IMAP/SMTP with multi-account support and MML composition.
 healthcheck;steipete/clawdis;healthcheck;Security healthcheck for OpenClaw deployments including hardening, risk assessment, and periodic security checks.
+himalaya;steipete/clawdis;himalaya;CLI tool for email management via IMAP/SMTP with multi-account support and MML composition.
+session-logs;steipete/clawdis;session-logs;Search and analyze session logs using jq for conversation history management and debugging
 obsidian;steipete/clawdis;obsidian;Automate Obsidian vault management with plain Markdown notes using obsidian-cli for workflow optimization.
 video-frames;steipete/clawdis;video-frames;Extract frames or short clips from videos using ffmpeg.
-session-logs;steipete/clawdis;session-logs;Search and analyze session logs using jq for conversation history management and debugging
 trello;steipete/clawdis;trello;Manage Trello boards, lists, and cards via the Trello REST API for project and task management automation.
-notion;steipete/clawdis;notion;Notion API for creating and managing pages, databases, and blocks.
 model-usage;steipete/clawdis;model-usage;Summarizes per-model usage and costs from CodexBar CLI for Codex or Claude models, providing current or full model breakdowns.
-blogwatcher;steipete/clawdis;blogwatcher;Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI tool.
+notion;steipete/clawdis;notion;Notion API for creating and managing pages, databases, and blocks.
 github;steipete/clawdis;github;GitHub operations via gh CLI for issues, PRs, CI, and code review. Automates dev workflows without browser UI.
+blogwatcher;steipete/clawdis;blogwatcher;Monitor blogs and RSS/Atom feeds for updates using the blogwatcher CLI tool.
 sherpa-onnx-tts;steipete/clawdis;sherpa-onnx-tts;Local text-to-speech via sherpa-onnx (offline, no cloud)
 spotify-player;steipete/clawdis;spotify-player;Terminal-based Spotify player for playback and search via spogo or spotify_player
 wacli;steipete/clawdis;wacli;Send WhatsApp messages and sync WhatsApp history via CLI tool wacli for non-normal user chats.
 openai-whisper-api;steipete/clawdis;openai-whisper-api;Transcribe audio using OpenAI's Whisper API for converting speech to text.
 voice-call;steipete/clawdis;voice-call;Start voice calls via the OpenClaw voice-call plugin for AI-powered communication.
 nano-banana-pro;steipete/clawdis;nano-banana-pro;Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro)
+sonoscli;steipete/clawdis;sonoscli;Control Sonos speakers via CLI for discovery, status, play, volume, and grouping.
 gifgrep;steipete/clawdis;gifgrep;Search GIF providers with CLI/TUI, download results, and extract stills/sheets.
 goplaces;steipete/clawdis;goplaces;Query Google Places API via goplaces CLI for text search, place details, reviews with human-friendly or JSON output.
-openai-image-gen;steipete/clawdis;openai-image-gen;Batch-generate images via OpenAI Images API with random prompt sampling and HTML gallery output.
 sag;steipete/clawdis;sag;ElevenLabs text-to-speech with mac-style say UX.
+openai-image-gen;steipete/clawdis;openai-image-gen;Batch-generate images via OpenAI Images API with random prompt sampling and HTML gallery output.
 things-mac;steipete/clawdis;things-mac;Manage Things 3 tasks and projects via CLI on macOS for adding, updating, searching, and listing tasks.
 imsg;steipete/clawdis;imsg;CLI tool for iMessage/SMS to list chats, view history, and send messages via Messages.app.
-sonoscli;steipete/clawdis;sonoscli;Control Sonos speakers via CLI for discovery, status, play, volume, and grouping.
 oracle;steipete/clawdis;oracle;Best practices for using the oracle CLI with prompt/file bundling, engines, sessions, and file attachment patterns.
 slack;steipete/clawdis;slack;Control Slack from OpenClaw for message reactions and channel item management
 bluebubbles;steipete/clawdis;bluebubbles;Send and manage iMessages via BlueBubbles integration using generic message tool with bluebubbles channel
@@ -62,16 +61,17 @@ bluebubbles;steipete/clawdis;bluebubbles;Send and manage iMessages via BlueBubbl
 bear-notes;steipete/clawdis;bear-notes;Create, search, and manage Bear notes via grizzly CLI for efficient note management.
 openhue;steipete/clawdis;openhue;Control Philips Hue lights and scenes via the OpenHue CLI.
 camsnap;steipete/clawdis;camsnap;Capture frames or clips from RTSP/ONVIF cameras.
+ordercli;steipete/clawdis;ordercli;Command-line tool for checking Foodora order history and status. Deliveroo integration is work in progress.
+eightctl;steipete/clawdis;eightctl;Control Eight Sleep pods (status, temperature, alarms, schedules).
 gemini;steipete/clawdis;gemini;Gemini CLI for one-shot Q&A, summaries, and generation.
 blucli;steipete/clawdis;blucli;BluOS CLI tool for audio system discovery, playback, grouping, and volume control
-eightctl;steipete/clawdis;eightctl;Control Eight Sleep pods (status, temperature, alarms, schedules).
 skill-creator;steipete/clawdis;skill-creator;Create or update AgentSkills for designing, structuring, or packaging skills with scripts, references, and assets.
 songsee;steipete/clawdis;songsee;Generate spectrograms and feature-panel visualizations from audio with the songsee CLI tool.
-ordercli;steipete/clawdis;ordercli;Command-line tool for checking Foodora order history and status. Deliveroo integration is work in progress.
 discord;steipete/clawdis;discord;Discord ops via the message tool (channel=discord).
-gh-issues;steipete/clawdis;gh-issues;Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]
 xurl;steipete/clawdis;xurl;A CLI tool for making authenticated requests to the X (Twitter) API. Use this skill when you need to post tweets, reply, quote, search, read posts, manage followers, send DMs, upload media, or interact with any X API v2 endpoint.
+gh-issues;steipete/clawdis;gh-issues;Fetch GitHub issues, spawn sub-agents to implement fixes and open PRs, then monitor and address PR review comments. Usage: /gh-issues [owner/repo] [--label bug] [--limit 5] [--milestone v1.0] [--assignee @me] [--fork user/repo] [--watch] [--interval 5] [--reviews-only] [--cron] [--dry-run] [--model glm-5] [--notify-channel -1002381931352]
 local-places;steipete/clawdis;;A skill for handling local places and location-based services
+fix;facebook/react;fix;Fix lint errors and formatting issues before committing code.
 extract-errors;facebook/react;extract-errors;Extract and handle error messages in React applications.
 verify;facebook/react;verify;A skill for validating changes before committing or checking React contribution requirements.
 test;facebook/react;test;A skill for running tests on React core with support for multiple channels.
@@ -115,25 +115,25 @@ orpc-contract-first;langgenius/dify;orpc-contract-first;A skill for implementing
 vercel-react-best-practices;langgenius/dify;;A skill for implementing best practices in Vercel-hosted React applications.
 release-note-generation;microsoft/powertoys;release-note-generation;Toolkit for generating PowerToys release notes from GitHub milestone PRs or commit ranges.
 electron-chromium-upgrade;electron/electron;electron-chromium-upgrade;A guide for upgrading Chromium in Electron projects, covering patch application and conflict resolution.
-browser-use;browser-use/browser-use;browser-use;Automates browser interactions for web testing, form filling, screenshots, and data extraction.
 bun-file-io;anomalyco/opencode;;A skill for handling file I/O operations like reading, writing, and deleting files using Bun.
+browser-use;browser-use/browser-use;browser-use;Automates browser interactions for web testing, form filling, screenshots, and data extraction.
 vercel-react-best-practices;vercel-labs/agent-skills;react-best-practices;Provides React and Next.js performance optimization guidelines from Vercel Engineering.
 skill-creator;anthropics/skills;main/skills/skill-creator;A guide for creating effective AI skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
 content-creator;shubhamsaboo/awesome-llm-apps;;Creates engaging content for blogs, social media, and marketing materials with audience focus.
 fullstack-developer;shubhamsaboo/awesome-llm-apps;;Modern full-stack web development expertise covering React, Node.js, databases, and full-stack architecture for building web applications.
-reference-core;angular/angular;reference-core;Explains the mental model and architecture of the code under `packages/core`. You MUST use this skill any time you plan to work with code in `packages/core`
-reference-signal-forms;angular/angular;reference-signal-forms;Explains the mental model and architecture of the code under `packages/forms/signals`. You MUST use this skill any time you plan to work with code in `packages/forms/signals`
-reference-compiler-cli;angular/angular;reference-compiler-cli;Explains the mental model and architecture of the code under `packages/compiler-cli`. You MUST use this skill any time you plan to work with code in `packages/compiler-cli`
-remotion-best-practices;remotion-dev/skills;main/skills/remotion;Best practices for creating videos with React and Remotion.
 code-reviewer;shubhamsaboo/awesome-llm-apps;;Thorough code review focusing on security, performance, and best practices for pull requests and code quality checks.
 python-expert;shubhamsaboo/awesome-llm-apps;;Senior Python developer expertise for writing clean, efficient, and well-documented code with best practices.
 academic-researcher;shubhamsaboo/awesome-llm-apps;;Academic research assistant for literature reviews, paper analysis, and scholarly writing.
 deep-research;shubhamsaboo/awesome-llm-apps;;Comprehensive research assistant that synthesizes information from multiple sources with citations for in-depth research and analysis.
-project-planner;shubhamsaboo/awesome-llm-apps;;Breaks down complex projects into actionable tasks with timelines, dependencies, and milestones for effective project planning.
+reference-core;angular/angular;reference-core;Explains the mental model and architecture of the code under `packages/core`. You MUST use this skill any time you plan to work with code in `packages/core`
+reference-signal-forms;angular/angular;reference-signal-forms;Explains the mental model and architecture of the code under `packages/forms/signals`. You MUST use this skill any time you plan to work with code in `packages/forms/signals`
+reference-compiler-cli;angular/angular;reference-compiler-cli;Explains the mental model and architecture of the code under `packages/compiler-cli`. You MUST use this skill any time you plan to work with code in `packages/compiler-cli`
 data-analyst;shubhamsaboo/awesome-llm-apps;;SQL, pandas, and statistical analysis expertise for data exploration and insights.
+project-planner;shubhamsaboo/awesome-llm-apps;;Breaks down complex projects into actionable tasks with timelines, dependencies, and milestones for effective project planning.
 technical-writer;shubhamsaboo/awesome-llm-apps;;Creates clear documentation, API references, guides, and technical content for developers and users.
 visualization-expert;shubhamsaboo/awesome-llm-apps;;Chart selection and data visualization guidance for effective data communication.
 debugger;shubhamsaboo/awesome-llm-apps;;Systematic debugging and root cause analysis for identifying and fixing software issues. Handles errors, bugs, crashes, stack traces, and br
+remotion-best-practices;remotion-dev/skills;main/skills/remotion;Best practices for creating videos with React and Remotion.
 strategy-advisor;shubhamsaboo/awesome-llm-apps;;High-level strategic thinking and business decision guidance for planning and direction-setting.
 decision-helper;shubhamsaboo/awesome-llm-apps;;Structured decision-making frameworks for evaluating options and making informed choices.
 fact-checker;shubhamsaboo/awesome-llm-apps;;Systematic fact verification and misinformation identification using evidence-based analysis.
@@ -179,6 +179,7 @@ mcp-builder;anthropics/skills;main/skills/mcp-builder;A guide for building high-
 brainstorming;obra/superpowers;brainstorming;A skill for brainstorming and exploring user intent before implementing creative work.
 remote-browser;browser-use/browser-use;remote-browser;Controls a cloud browser from a sandboxed remote machine for web navigation, form filling, screenshots, and local server exposure via tunnel
 canvas-design;anthropics/skills;main/skills/canvas-design;Create beautiful visual art and designs in PNG and PDF formats using design principles.
+frontend-design;anthropics/claude-code;frontend-design;Create high-quality, production-ready frontend interfaces with creative and polished code.
 doc-coauthoring;anthropics/skills;main/skills/doc-coauthoring;A skill for guiding users through structured documentation co-authoring workflows.
 theme-factory;anthropics/skills;main/skills/theme-factory;A toolkit for applying themes to various artifacts like slides and documents.
 web-artifacts-builder;anthropics/skills;main/skills/web-artifacts-builder;Build complex HTML artifacts with React, Tailwind CSS, and shadcn/ui components.
@@ -187,24 +188,24 @@ brand-guidelines;anthropics/skills;main/skills/brand-guidelines;Applies Anthropi
 template-skill;anthropics/skills;main/template;A template skill for generating descriptions and usage guidance for AI assistants.
 internal-comms;anthropics/skills;main/skills/internal-comms;A skill for writing various types of internal communications like reports and updates.
 slack-gif-creator;anthropics/skills;main/skills/slack-gif-creator;Create animated GIFs optimized for Slack with validation tools and animation concepts.
-frontend-design;anthropics/claude-code;frontend-design;Create high-quality, production-ready frontend interfaces with creative and polished code.
 brand-writer;zed-industries/zed;brand-writer;Write clear, developer-first copy for Zed — leading with facts, grounded in craft.
+humanizer;zed-industries/zed;humanizer;Remove signs of AI-generated writing from text. Use after drafting to make copy sound more natural and human-written. Based on Wikipedia's "Signs of AI writing" guide.
 skill-development;anthropics/claude-code;skill-development;A skill for creating, improving, and organizing Claude Code plugin skills with best practices.
-react;lobehub/lobehub;react;A guide for React component development, including UI creation, routing, and usage of @lobehub/ui components.
 agent-development;anthropics/claude-code;agent-development;A skill for developing autonomous agents with guidance on structure, prompts, and best practices for Claude Code plugins.
 mcp-integration;anthropics/claude-code;mcp-integration;Integrates Model Context Protocol (MCP) servers into Claude Code plugins for external tool and service connectivity.
-typescript;lobehub/lobehub;typescript;Provides TypeScript coding guidelines, optimization tips, and type safety patterns for .ts/.tsx files.
 hook-development;anthropics/claude-code;hook-development;A skill for creating and implementing Claude Code plugin hooks, focusing on advanced prompt-based APIs.
 command-development;anthropics/claude-code;command-development;A skill for developing slash commands with Claude Code, covering structure, arguments, and execution patterns.
+react;lobehub/lobehub;react;A guide for React component development, including UI creation, routing, and usage of @lobehub/ui components.
 writing-hookify-rules;anthropics/claude-code;writing-rules;Writing Hookify Rules: A guide for creating rules in Hookify, likely related to React hooks or similar framework patterns.
 plugin-structure;anthropics/claude-code;plugin-structure;A skill for creating and understanding plugin structures, including directory layout, manifest configuration, and component organization for
-zustand;lobehub/lobehub;zustand;A guide for using Zustand, a lightweight state management library for React applications.
 plugin-settings;anthropics/claude-code;plugin-settings;A skill for managing plugin settings using .local.md files with YAML frontmatter.
+claude-opus-4-5-migration;anthropics/claude-code;claude-opus-4-5-migration;Migrate prompts and code from older Claude models to Opus 4.5, handling model string updates and prompt adjustments.
+typescript;lobehub/lobehub;typescript;Provides TypeScript coding guidelines, optimization tips, and type safety patterns for .ts/.tsx files.
+zustand;lobehub/lobehub;zustand;A guide for using Zustand, a lightweight state management library for React applications.
 project-overview;lobehub/lobehub;project-overview;Provides a complete project architecture and structure guide for exploring codebases and understanding project organization.
 vercel-react-best-practices;lobehub/lobehub;;A skill for implementing best practices in Vercel-hosted React applications.
 i18n;lobehub/lobehub;i18n;A skill for handling internationalization in React applications using react-i18next.
 testing;lobehub/lobehub;testing;A skill for writing tests, fixing failures, and improving test coverage using Vitest.
-claude-opus-4-5-migration;anthropics/claude-code;claude-opus-4-5-migration;Migrate prompts and code from older Claude models to Opus 4.5, handling model string updates and prompt adjustments.
 debug;lobehub/lobehub;debug;A skill for debugging package usage, log namespaces, and implementing debugging features.
 drizzle;lobehub/lobehub;drizzle;A skill for working with Drizzle ORM schemas, database migrations, and model definitions.
 modal;lobehub/lobehub;modal;A skill for creating modal dialogs using createModal from @lobehub/ui.
@@ -218,8 +219,8 @@ hotkey;lobehub/lobehub;hotkey;A guide for adding keyboard shortcuts, useful for 
 drizzle;lobehub/lobe-chat;drizzle;A skill for working with Drizzle ORM schemas, database migrations, and model definitions.
 typescript;lobehub/lobe-chat;typescript;Provides TypeScript coding guidelines, optimization tips, and type safety patterns for .ts/.tsx files.
 react;lobehub/lobe-chat;react;A guide for React component development, including UI creation, routing, and usage of @lobehub/ui components.
-zustand;lobehub/lobe-chat;zustand;A guide for using Zustand, a lightweight state management library for React applications.
 project-overview;lobehub/lobe-chat;project-overview;Provides a complete project architecture and structure guide for exploring codebases and understanding project organization.
+zustand;lobehub/lobe-chat;zustand;A guide for using Zustand, a lightweight state management library for React applications.
 i18n;lobehub/lobe-chat;i18n;A skill for handling internationalization in React applications using react-i18next.
 debug;lobehub/lobe-chat;debug;A skill for debugging package usage, log namespaces, and implementing debugging features.
 desktop;lobehub/lobe-chat;desktop;A guide for Electron desktop application development, covering IPC, window management, and preload scripts.
@@ -231,8 +232,8 @@ recent-data;lobehub/lobe-chat;recent-data;A skill for managing and accessing rec
 modal;lobehub/lobe-chat;modal;A skill for creating modal dialogs using createModal from @lobehub/ui.
 hotkey;lobehub/lobe-chat;hotkey;A guide for adding keyboard shortcuts, useful for implementing hotkeys and managing keyboard interactions.
 linear;lobehub/lobe-chat;linear;A skill for managing Linear issues including creation, status updates, and comments.
-vercel-react-best-practices;lobehub/lobe-chat;;A skill for implementing best practices in Vercel-hosted React applications.
 data-fetching;lobehub/lobehub;data-fetching;Data fetching architecture guide using Service layer + Zustand Store + SWR. Use when implementing data fetching, creating services, working with store hooks, or migrating from useEffect. Triggers on data loading, API calls, service creation, or store data fetching tasks.
+vercel-react-best-practices;lobehub/lobe-chat;;A skill for implementing best practices in Vercel-hosted React applications.
 store-data-structures;lobehub/lobehub;store-data-structures;Zustand store data structure patterns for LobeHub. Covers List vs Detail data structures, Map + Reducer patterns, type definitions, and when to use each pattern. Use when designing store state, choosing data structures, or implementing list/detail pages.
 version-release;lobehub/lobehub;version-release;Version release workflow. Use when the user mentions 'release', 'hotfix', 'version upgrade', 'weekly release', or '发版'/'发布'/'小班车'. Provides guides for Minor Release and Patch Release workflows.
 systematic-debugging;obra/superpowers;systematic-debugging;A skill for systematic debugging to identify and resolve bugs or unexpected behaviors before proposing fixes.
@@ -247,22 +248,22 @@ write-concept;leonardomso/33-js-concepts;write-concept;Create or review JavaScri
 executing-plans;obra/superpowers;executing-plans;Execute written implementation plans with review checkpoints.
 requesting-code-review;obra/superpowers;requesting-code-review;Request code review for task completion or feature implementation before merging.
 using-superpowers;obra/superpowers;using-superpowers;Establishes skill usage protocol at conversation start, requiring skill tool invocation before any response.
-subagent-driven-development;obra/superpowers;subagent-driven-development;Execute implementation plans with independent tasks using subagents.
 agent-browser;vercel-labs/agent-browser;agent-browser;A CLI tool for AI agents to automate browser tasks like navigation, form filling, and data scraping.
+subagent-driven-development;obra/superpowers;subagent-driven-development;Execute implementation plans with independent tasks using subagents.
 verification-before-completion;obra/superpowers;verification-before-completion;Ensures code quality and correctness before completion by running verification commands.
 receiving-code-review;obra/superpowers;receiving-code-review;A skill for handling code review feedback with technical rigor and verification.
 writing-skills;obra/superpowers;writing-skills;A skill for creating, editing, and verifying other skills before deployment.
 using-git-worktrees;obra/superpowers;using-git-worktrees;Create isolated Git worktrees for feature development with smart directory selection and safety checks.
 babysit-pr;openai/codex;babysit-pr;Babysit a GitHub pull request after creation by continuously polling CI checks/workflow runs, new review comments, and mergeability state until the PR is ready to merge (or merged/closed). Diagnose failures, retry likely flaky failures up to 3 times, auto-fix/push branch-related issues when appropriate, and stop only when user help is required (for example CI infrastructure issues, exhausted flaky retries, or ambiguous/blocking situations). Use when the user asks Codex to monitor a PR, watch CI, handle review comments, or keep an eye on failures and feedback on an open PR.
-dispatching-parallel-agents;obra/superpowers;dispatching-parallel-agents;Dispatch parallel agents for independent tasks without shared state or dependencies.
 test-tui;openai/codex;test-tui;Guide for testing Codex TUI interactively
+dispatching-parallel-agents;obra/superpowers;dispatching-parallel-agents;Dispatch parallel agents for independent tasks without shared state or dependencies.
 finishing-a-development-branch;obra/superpowers;finishing-a-development-branch;Guides developers through finishing a branch by presenting options for merge, PR, or cleanup after tests pass.
-create-pull-request;cline/cline;create-pull-request;Automatically create GitHub pull requests following project conventions using the gh CLI tool.
 coding-standards;affaan-m/everything-claude-code;coding-standards;Provides universal coding standards and best practices for TypeScript, JavaScript, React, and Node.js.
 backend-patterns;affaan-m/everything-claude-code;backend-patterns;A skill focused on backend architecture patterns, API design, and server-side best practices for Node.js, Express, and Next.js.
 security-review;affaan-m/everything-claude-code;security-review;Provides a security checklist and patterns for authentication, user input, secrets, API endpoints, and sensitive features.
 golang-patterns;affaan-m/everything-claude-code;golang-patterns;This skill provides idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
 frontend-patterns;affaan-m/everything-claude-code;frontend-patterns;A skill focused on frontend development patterns for React and Next.js, including state management and performance optimization.
+create-pull-request;cline/cline;create-pull-request;Automatically create GitHub pull requests following project conventions using the gh CLI tool.
 postgres-patterns;affaan-m/everything-claude-code;postgres-patterns;PostgreSQL database patterns for query optimization, schema design, indexing, and security based on Supabase best practices.
 tdd-workflow;affaan-m/everything-claude-code;tdd-workflow;Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
 golang-testing;affaan-m/everything-claude-code;golang-testing;A Go testing patterns skill covering table-driven tests, subtests, benchmarks, fuzzing, and test coverage following TDD methodology.
@@ -283,7 +284,6 @@ jpa-patterns;affaan-m/everything-claude-code;jpa-patterns;A skill for JPA/Hibern
 api-design;affaan-m/everything-claude-code;api-design;REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for
 django-tdd;affaan-m/everything-claude-code;django-tdd;A Django TDD skill using pytest-django, factory_boy, mocking, and coverage for API testing.
 docker-patterns;affaan-m/everything-claude-code;docker-patterns;Docker and Docker Compose patterns for local development, container security, networking, volume strategies, and multi-service orchestration
-ui-ux-pro-max;nextlevelbuilder/ui-ux-pro-max-skill;ui-ux-pro-max;A comprehensive UI/UX design assistant with 50 styles, 21 palettes, and support for multiple frameworks like React, Next.js, Vue, and Svelte
 configure-ecc;affaan-m/everything-claude-code;configure-ecc;Interactive installer for Everything Claude Code - guides users through selecting and installing skills and rules with path verification and
 security-scan;affaan-m/everything-claude-code;security-scan;Scan Claude Code configurations for security vulnerabilities, misconfigurations, and injection risks using AgentShield.
 deployment-patterns;affaan-m/everything-claude-code;deployment-patterns;Deployment workflows, CI/CD pipeline patterns, Docker containerization, health checks, rollback strategies, and production readiness checkli
@@ -309,11 +309,12 @@ swift-concurrency-6-2;affaan-m/everything-claude-code;swift-concurrency-6-2;Swif
 foundation-models-on-device;affaan-m/everything-claude-code;foundation-models-on-device;Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+.
 visa-doc-translate;affaan-m/everything-claude-code;visa-doc-translate;Translate visa application documents (images) to English and create a bilingual PDF with original and translation
 article-writing;affaan-m/everything-claude-code;article-writing;Write articles, guides, blog posts, tutorials, newsletter issues, and other long-form content in a distinctive voice derived from supplied examples or brand guidance. Use when the user wants polished written content longer than a paragraph, especially when voice consistency, structure, and credibility matter.
-frontend-slides;affaan-m/everything-claude-code;frontend-slides;Create stunning, animation-rich HTML presentations from scratch or by converting PowerPoint files. Use when the user wants to build a presentation, convert a PPT/PPTX to web, or create slides for a talk/pitch. Helps non-designers discover their aesthetic through visual exploration rather than abstract choices.
+frontend-slides;affaan-m/everything-claude-code;frontend-slides;Creates animation-rich HTML presentations from scratch or by converting PowerPoint files, helping non-designers achieve visual aesthetics.
 market-research;affaan-m/everything-claude-code;market-research;Conduct market research, competitive analysis, investor due diligence, and industry intelligence with source attribution and decision-oriented summaries. Use when the user wants market sizing, competitor comparisons, fund research, technology scans, or research that informs business decisions.
 content-engine;affaan-m/everything-claude-code;content-engine;Create platform-native content systems for X, LinkedIn, TikTok, YouTube, newsletters, and repurposed multi-platform campaigns. Use when the user wants social posts, threads, scripts, content calendars, or one source asset adapted cleanly across platforms.
 investor-outreach;affaan-m/everything-claude-code;investor-outreach;Draft cold emails, warm intro blurbs, follow-ups, update emails, and investor communications for fundraising. Use when the user wants outreach to angels, VCs, strategic investors, or accelerators and needs concise, personalized, investor-facing messaging.
 investor-materials;affaan-m/everything-claude-code;investor-materials;Create and update pitch decks, one-pagers, investor memos, accelerator applications, financial models, and fundraising materials. Use when the user needs investor-facing documents, projections, use-of-funds tables, milestone plans, or materials that must stay internally consistent across multiple fundraising assets.
+ui-ux-pro-max;nextlevelbuilder/ui-ux-pro-max-skill;ui-ux-pro-max;A comprehensive UI/UX design assistant with 50 styles, 21 palettes, and support for multiple frameworks like React, Next.js, Vue, and Svelte
 add-admin-api-endpoint;tryghost/ghost;add-admin-api-endpoint;Add new admin API endpoints to Ghost CMS.
 create-database-migration;tryghost/ghost;create-database-migration;Create database migrations for Ghost's MySQL schema changes.
 tailwindcss-development;coollabsio/coolify;tailwindcss-development;Styles applications using Tailwind CSS v4 utilities. Activates when adding styles, restyling components, working with gradients, spacing, layout, flex, grid, responsive design, dark mode, colors, typography, or borders, or when the user mentions CSS, styling, classes, Tailwind, restyle, hero section, cards, buttons, or any visual/UI changes.
@@ -352,11 +353,11 @@ ccxt-typescript;ccxt/ccxt;ccxt-typescript;CCXT cryptocurrency exchange library f
 generate-translations;payloadcms/payload;generate-translations;Generates new translation strings when new keys are added to packages.
 payload;payloadcms/payload;payload;A skill for working with Payload CMS projects, including config, collections, fields, hooks, and API debugging.
 triage-ci-flake;payloadcms/payload;triage-ci-flake;Triaging CI flake issues after PR merges or investigating flaky test failures.
+changelog-generator;composiohq/awesome-claude-skills;;Automatically generates user-friendly changelogs from git commits.
+content-research-writer;composiohq/awesome-claude-skills;;A skill for enhancing content writing through research, citations, and real-time feedback.
 web-design-guidelines;calcom/cal.com;;Reviews UI code for web interface guidelines compliance, focusing on accessibility and design best practices.
 vercel-react-best-practices;calcom/cal.com;;Provides React and Next.js performance optimization guidelines from Vercel Engineering.
 calcom-api;calcom/cal.com;calcom-api;Interact with Cal.com API v2 for scheduling, bookings, event types, availability, and calendar management in integrations.
-changelog-generator;composiohq/awesome-claude-skills;;Automatically generates user-friendly changelogs from git commits.
-content-research-writer;composiohq/awesome-claude-skills;;A skill for enhancing content writing through research, citations, and real-time feedback.
 file-organizer;composiohq/awesome-claude-skills;;Automatically organizes files and folders, finds duplicates, and suggests better structures to reduce cognitive load.
 tailored-resume-generator;composiohq/awesome-claude-skills;;Generates tailored resumes based on job descriptions to improve interview chances.
 youtube-downloader;composiohq/awesome-claude-skills;;Download YouTube videos with customizable quality and format options.
@@ -375,7 +376,6 @@ webapp-testing;composiohq/awesome-claude-skills;;A toolkit for testing local web
 developer-growth-analysis;composiohq/awesome-claude-skills;;Analyzes coding patterns and development gaps from Claude chat history, curates learning resources from HackerNews, and sends personalized g
 connect-apps;composiohq/awesome-claude-skills;;Connect Claude to external apps like Gmail, Slack, and GitHub for sending emails, creating issues, and posting messages.
 langsmith-fetch;composiohq/awesome-claude-skills;;Fetch and analyze LangChain/LangGraph execution traces from LangSmith for debugging agent behavior.
-vercel-composition-patterns;vercel-labs/agent-skills;composition-patterns;A skill for applying React composition patterns that scale, useful for refactoring components and building flexible libraries.
 connect;composiohq/awesome-claude-skills;;Connect Claude to apps for real-world actions like sending emails, creating issues, and updating databases across platforms.
 skill-share;composiohq/awesome-claude-skills;;Creates and shares Claude skills on Slack for team collaboration.
 brand-guidelines;composiohq/awesome-claude-skills;;Applies Anthropic's brand guidelines including colors and typography to artifacts.
@@ -463,16 +463,17 @@ segment-automation;composiohq/awesome-claude-skills;;Automate Segment tasks via 
 postmark-automation;composiohq/awesome-claude-skills;;Automate Postmark email delivery tasks via Rube MCP (Composio): send templated emails, manage templates, monitor delivery stats and bounces.
 pagerduty-automation;composiohq/awesome-claude-skills;;Automate PagerDuty tasks via Rube MCP (Composio): manage incidents, services, schedules, escalation policies, and on-call rotations.
 coda-automation;composiohq/awesome-claude-skills;;Automates tasks and workflows within the Coda collaborative document platform.
+vercel-composition-patterns;vercel-labs/agent-skills;composition-patterns;A skill for applying React composition patterns that scale, useful for refactoring components and building flexible libraries.
 tailwind-design-system;wshobson/agents;tailwind-design-system;Create scalable design systems using Tailwind CSS v4, design tokens, and responsive patterns.
-better-auth-best-practices;novuhq/novu;better-auth-best-practices;Skill for integrating Better Auth - the comprehensive TypeScript authentication framework.
 web-renderer-test;remotion-dev/remotion;web-renderer-test;Add a test case for web renderer functionality.
 writing-docs;remotion-dev/remotion;writing-docs;A skill for writing and editing Remotion documentation, including adding docs pages and editing MDX files.
+better-auth-best-practices;novuhq/novu;better-auth-best-practices;Skill for integrating Better Auth - the comprehensive TypeScript authentication framework.
 make-pr;remotion-dev/remotion;pr;Automatically opens a pull request for the current feature branch.
 git-workflow;agno-agi/agno;;A Git workflow guide for commits, branches, and pull requests.
-code-review;agno-agi/agno;;Assists with code reviews, linting, and enforcing best practices.
 video-report;remotion-dev/remotion;video-report;Generate a report about a video using AI.
-system-info;agno-agi/agno;sample_skills/system-info;A skill to retrieve system information via executable scripts.
+code-review;agno-agi/agno;;Assists with code reviews, linting, and enforcing best practices.
 docs-demo;remotion-dev/remotion;docs-demo;Add interactive demos to Remotion documentation for new Demo components
+system-info;agno-agi/agno;sample_skills/system-info;A skill to retrieve system information via executable scripts.
 add-expert;remotion-dev/remotion;add-expert;Add a new expert to the Remotion experts page
 github-issue-triage;code-yeongyu/oh-my-opencode;;A skill template for automating GitHub issue triage, prioritization, and management workflows.
 typescript-advanced-types;wshobson/agents;typescript-advanced-types;Master advanced TypeScript type systems including generics, conditionals, and utility types for type-safe development.
@@ -491,8 +492,8 @@ python-performance-optimization;wshobson/agents;python-performance-optimization;
 architecture-patterns;wshobson/agents;architecture-patterns;Implement proven backend architecture patterns like Clean Architecture and Domain-Driven Design for better maintainability.
 nextjs-app-router-patterns;wshobson/agents;nextjs-app-router-patterns;Master Next.js 14+ App Router patterns, Server Components, streaming, and data fetching for optimized SSR/SSG applications.
 code-review-excellence;wshobson/agents;code-review-excellence;Improve code review practices for better feedback and bug detection.
-cookbook-audit;anthropics/claude-cookbooks;cookbook-audit;Audit Anthropic Cookbook notebooks using a rubric for review requests.
 postgresql-table-design;wshobson/agents;postgresql;Design PostgreSQL schemas with best practices, data types, indexing, and performance optimization.
+cookbook-audit;anthropics/claude-cookbooks;cookbook-audit;Audit Anthropic Cookbook notebooks using a rubric for review requests.
 sql-optimization-patterns;wshobson/agents;sql-optimization-patterns;Master SQL query optimization, indexing, and EXPLAIN analysis to improve database performance and eliminate slow queries.
 security-requirement-extraction;wshobson/agents;security-requirement-extraction;Extract security requirements from threat models and business context for actionable security measures.
 github-actions-templates;wshobson/agents;github-actions-templates;Create production-ready GitHub Actions workflows for automated testing, building, and deploying applications.
@@ -517,4 +518,3 @@ langchain-architecture;wshobson/agents;langchain-architecture;Design LLM applica
 python-design-patterns;wshobson/agents;python-design-patterns;A skill for applying Python design patterns like KISS, SRP, and composition over inheritance to guide architectural decisions and code refac
 async-python-patterns;wshobson/agents;async-python-patterns;Learn Python async/await patterns for high-performance, non-blocking applications.
 interaction-design;wshobson/agents;interaction-design;Create polished UI interactions with microinteractions, motion design, and user feedback patterns.
-react-state-management;wshobson/agents;react-state-management;Learn modern React state management techniques using Redux Toolkit, Zustand, Jotai, and React Query.

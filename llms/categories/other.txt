@@ -9,12 +9,6 @@ modal;lobehub/lobe-chat;modal;A skill for creating modal dialogs using createMod
 docs-review;metabase/metabase;docs-review;Reviews documentation changes for Metabase writing style compliance.
 domain-name-brainstormer;composiohq/awesome-claude-skills;;Generates and checks domain name ideas across multiple TLDs.
 quality-documentation-manager;davila7/claude-code-templates;enterprise-communication/quality-documentation-manager;Manages comprehensive documentation control and regulatory document review with change management and compliance verification.
-m12-lifecycle;rustfs/rustfs;;A skill for managing the lifecycle of tasks or projects.
-m09-domain;rustfs/rustfs;;A skill for domain-related planning and task management.
-m01-ownership;rustfs/rustfs;;A skill for managing ownership and responsibilities in a team or project.
-m02-resource;rustfs/rustfs;;A skill for managing resources with a focus on tooling and best practices.
-m15-anti-pattern;rustfs/rustfs;;A skill for identifying and analyzing anti-patterns in code.
-m14-mental-model;rustfs/rustfs;;A skill for applying mental models to improve decision-making and problem-solving.
 risk-management-specialist;davila7/claude-code-templates;enterprise-communication/risk-management-specialist;A senior risk management specialist for medical device companies implementing ISO 14971 throughout the product lifecycle.
 email-systems;davila7/claude-code-templates;business-marketing/email-systems;A skill focused on effective email systems including transactional emails, marketing automation, and deliverability.
 quality-manager-qmr;davila7/claude-code-templates;enterprise-communication/quality-manager-qmr;A skill for managing quality systems and regulatory compliance in HealthTech and MedTech companies.
@@ -22,8 +16,14 @@ domain-name-brainstormer;davila7/claude-code-templates;utilities/domain-name-bra
 regulatory-affairs-head;davila7/claude-code-templates;enterprise-communication/regulatory-affairs-head;A senior regulatory affairs manager for HealthTech and MedTech companies, providing strategic guidance and compliance coordination.
 crafting-effective-readmes;davila7/claude-code-templates;productivity/crafting-effective-readmes;Helps create or improve README files with templates and audience-specific guidance.
 pylabrobot;davila7/claude-code-templates;scientific/pylabrobot;A laboratory automation toolkit for controlling various lab equipment and managing workflows.
+m12-lifecycle;rustfs/rustfs;;A skill for managing the lifecycle of tasks or projects.
+m09-domain;rustfs/rustfs;;A skill for domain-related planning and task management.
+m01-ownership;rustfs/rustfs;;A skill for managing ownership and responsibilities in a team or project.
 capa-officer;davila7/claude-code-templates;enterprise-communication/capa-officer;A senior CAPA officer skill for managing corrective and preventive actions in quality management systems.
+m02-resource;rustfs/rustfs;;A skill for managing resources with a focus on tooling and best practices.
 cc-skill-project-guidelines-example;davila7/claude-code-templates;development/cc-skill-project-guidelines-example;A skill template for creating project guidelines and best practices.
+m15-anti-pattern;rustfs/rustfs;;A skill for identifying and analyzing anti-patterns in code.
+m14-mental-model;rustfs/rustfs;;A skill for applying mental models to improve decision-making and problem-solving.
 email-systems;sickn33/antigravity-awesome-skills;email-systems;A skill focused on effective email systems including transactional emails, marketing automation, and deliverability.
 cc-skill-project-guidelines-example;sickn33/antigravity-awesome-skills;cc-skill-project-guidelines-example;A skill template for creating project guidelines and best practices.
 postmortem-writing;sickn33/antigravity-awesome-skills;postmortem-writing;Write effective blameless postmortems with root cause analysis, timelines, and action items for incident reviews.
@@ -31,22 +31,25 @@ employment-contract-templates;sickn33/antigravity-awesome-skills;employment-cont
 polymarket;2025emma/vibe-coding-cn;polymarket;A skill for analyzing and understanding Polymarket data and trends.
 snapdom;2025emma/vibe-coding-cn;snapdom;A skill for DOM manipulation and rendering in web applications.
 compound-docs;everyinc/compound-engineering-plugin;compound-docs;Capture solved problems as categorized documentation with YAML frontmatter for fast lookup.
+start-from-scratch;tambo-ai/tambo;;Helps users initiate projects or tasks from the beginning, providing guidance on initial planning, setup, and workflow structure.
 atlas;openai/skills;;A tool for managing and orchestrating workflows, focusing on system operations and infrastructure management tasks.
 skill-one;everyinc/compound-engineering-plugin;skill-one;A sample skill for demonstration purposes.
 privateinvestigator;danielmiessler/personal_ai_infrastructure;PrivateInvestigator;Ethical people-finding skill for locating individuals, reconnection, and skip tracing with proper documentation.
-ultrapilot;yeachan-heo/oh-my-claudecode;ultrapilot;Deprecated skill redirecting users to /autopilot or /team commands.
+pipeline;yeachan-heo/oh-my-claudecode;;Generic skill template for pipeline operations, likely involving workflow automation or sequential processing tasks.
+ralplan;yeachan-heo/oh-my-claudecode;ralplan;A command alias for /omc-plan with consensus flag.
+review;yeachan-heo/oh-my-claudecode;;A generic skill template designed to facilitate review processes, assessments, and feedback generation.
 ecomode;yeachan-heo/oh-my-claudecode;;Optimization skill for energy systems using ecomode.
 help;yeachan-heo/oh-my-claudecode;;Provides help and support functionality for users seeking assistance with various tasks and operations.
 iso-13485-certification;k-dense-ai/claude-scientific-skills;;A toolkit for preparing ISO 13485 certification documentation for medical device QMS, including gap analysis, quality manuals, and regulator
 honesty;epicenterhq/epicenter;honesty;Behavioral guideline for providing brutally honest feedback in code review and technical discussions.
 email-best-practices;resend/email-best-practices;;Best practices for email features, spam prevention, authentication, and compliance.
-domain-name-brainstormer;softaworks/agent-toolkit;domain-name-brainstormer;Generates and checks domain name ideas across multiple TLDs.
-crafting-effective-readmes;softaworks/agent-toolkit;crafting-effective-readmes;Helps create or improve README files with templates and audience-specific guidance.
 quality-documentation-manager;alirezarezvani/claude-skills;;Manages document control systems for medical device QMS, ensuring 21 CFR Part 11 compliance and version control.
 risk-management-specialist;alirezarezvani/claude-skills;;A specialist in medical device risk management following ISO 14971 standards.
 quality-manager-qms-iso13485;alirezarezvani/claude-skills;;A skill for implementing and maintaining an ISO 13485 Quality Management System tailored for medical device organizations.
 capa-officer;alirezarezvani/claude-skills;;Manage CAPA systems for medical device QMS with root cause analysis and corrective actions.
 quality-manager-qmr;alirezarezvani/claude-skills;;A senior quality manager responsible for healthtech and medtech companies, ensuring ISO 13485 compliance and quality system governance.
+domain-name-brainstormer;softaworks/agent-toolkit;domain-name-brainstormer;Generates and checks domain name ideas across multiple TLDs.
+crafting-effective-readmes;softaworks/agent-toolkit;crafting-effective-readmes;Helps create or improve README files with templates and audience-specific guidance.
 technical-writing;supercent-io/skills-template;;Create clear and comprehensive technical documentation including specs, architecture docs, and API docs.
 user-guide-writing;supercent-io/skills-template;;Create clear and helpful user guides and tutorials for end users.
 zapper;bankrbot/openclaw-skills;;Placeholder for Zapper skill.
@@ -54,16 +57,16 @@ base;bankrbot/openclaw-skills;;Placeholder for Base skill template.
 projects;railwayapp/railway-skills;;Manage projects including listing, switching, renaming, enabling/disabling PR deploys, and modifying settings.
 ui-skills;ibelick/ui-skills;;A skill for creating and managing UI components and frontend interfaces.
 domain-fintech;zhanghandong/rust-skills;domain-fintech;A skill template for building fintech applications with focus on financial operations and transactions.
-skill-review;jezweb/claude-skills;;A skill template focused on review and assessment tasks.
 domain-name-brainstormer;skillcreatorai/ai-agent-skills;domain-name-brainstormer;Generates and checks domain name ideas across multiple TLDs.
+skill-review;jezweb/claude-skills;;A skill template focused on review and assessment tasks.
 skill-name;resciencelab/opc-skills;;Template for creating clear skill descriptions with trigger keywords and usage contexts.
 videocut:å‰ªå£æ’­;ceeon/videocut-skills;;A skill for video cutting and audio editing.
 videocut:å­—å¹•;ceeon/videocut-skills;;A skill for video and audio editing tasks.
 videocut:å®‰è£…;ceeon/videocut-skills;;A skill for installing video cutting tools.
 docs-cleaner;daymade/claude-code-skills;;Cleans and consolidates redundant documentation while preserving valuable content.
 engineering-culture;refoundai/lenny-skills;engineering-culture;Build strong engineering culture by improving developer experience and technical excellence.
-shared;boshu2/agentops;shared;Shared reference documents for distributed mode skills that are not directly invocable.
 mcp-hass;aahl/skills;main/skills/mcp-hass;Control Home Assistant smart home devices and query states using MCP protocol
+shared;boshu2/agentops;shared;Shared reference documents for distributed mode skills that are not directly invocable.
 style-guide;daleseo/korean-skills;style-guide;A style guide checker that ensures consistent writing styles and terminology across documents and projects.
 day1-test-skill;ai-native-camp/camp-1;;A placeholder skill designed for initial system testing and onboarding verification workflows.
 mobile-offline-support;aj-geddes/useful-ai-prompts;mobile-offline-support;Implement offline-first mobile apps with local storage and sync strategies.
@@ -74,8 +77,8 @@ gap-analysis;aj-geddes/useful-ai-prompts;gap-analysis;Identify gaps between curr
 troubleshooting-guide;aj-geddes/useful-ai-prompts;troubleshooting-guide;Create comprehensive troubleshooting guides, FAQ documents, known issues lists, and debug guides for common problems and error messages.
 risk-assessment;aj-geddes/useful-ai-prompts;risk-assessment;Assess and prioritize project risks using qualitative and quantitative methods to improve success probability.
 mystery-novel-conventions;wordflowlab/novel-writer-skills;genre-knowledge/mystery;A skill for generating mystery novel conventions, clue placement, and fair play principles.
-kapso-ops;gokapso/agent-skills;;A tool for managing operations and configurations.
 scene-structure-techniques;wordflowlab/novel-writer-skills;writing-techniques/scene-structure;A skill for structuring scenes and planning chapter content with frameworks for tension and beat-by-beat structure.
+kapso-ops;gokapso/agent-skills;;A tool for managing operations and configurations.
 planning-workflow;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;planning-workflow;A comprehensive markdown-based planning methodology for software projects, emphasizing 85%+ time on planning for scalable agentic coding.
 reflect;anton-abyzov/specweave;;A skill for reflection and self-improvement through thoughtful thinking practices
 viral-hook-creator;ognjengt/founder-skills;viral-hook-creator;Creates viral social media hooks using proven psychological patterns and trigger words for attention-grabbing content openings.
@@ -95,10 +98,10 @@ positional-revelation;jwynia/agent-skills;creative/fiction/structure/positional-
 perspectival-constellation;jwynia/agent-skills;creative/fiction/structure/perspectival-constellation;Structure multi-POV stories through catalyst environments for interconnected narratives with meaningful perspective intersections.
 paradox-fables;jwynia/agent-skills;creative/fiction/application/paradox-fables;Create paradoxical fables that explore unresolved tensions and bypass analytical defenses for teaching purposes.
 belief-systems;jwynia/agent-skills;creative/fiction/worldbuilding/belief-systems;Design religious and belief systems for fictional worlds, including pantheons, religious institutions, and spiritual practices that shape so
+tutorial-docs;existential-birds/beagle;tutorial-docs;A tutorial pattern for documentation that teaches through guided practice.
 underdog-unit;jwynia/agent-skills;creative/fiction/character/underdog-unit;Generate stories about institutional outcasts facing impossible mandates with minimal resources, focusing on team dynamics in hostile enviro
 metabolic-cultures;jwynia/agent-skills;creative/fiction/worldbuilding/metabolic-cultures;Design cultures for closed-loop life support systems in space, focusing on social structures and conflicts in recycled environments.
 course-creator;eddiebe147/claude-settings;;Design educational courses and curriculum with learning objectives and assessments.
-tutorial-docs;existential-birds/beagle;tutorial-docs;A tutorial pattern for documentation that teaches through guided practice.
 intent-story;arcblock/idd;intent-story;Share Intent-Driven Development stories through structured interviews and blog posts.
 bad-example-skill;bobmatnyc/claude-mpm-skills;;An anti-pattern example demonstrating violations of self-containment in skills.
 kiss-principle;markpitt/claude-skills;kiss-principle;Apply the K.I.S.S. principle to simplify systems, improve maintainability, and solve problems elegantly in design, coding, and decision-maki
@@ -115,8 +118,8 @@ risk-management;0xhubed/agent-trading-arena;risk-management;A skill for managing
 email-notifications;eddiebe147/claude-settings;;Automates email notifications for various events and workflows.
 real-time-features;eddiebe147/claude-settings;;A skill for managing real-time features in applications.
 capacitor-deep-linking;cap-go/capacitor-skills;capacitor-deep-linking;Implement deep links and universal links in Capacitor apps for iOS and Android.
-ralph;snarktank/amp-skills;;A command-line tool for managing and interacting with AI models and data pipelines.
 telecommunications-expert;personamanagmentlayer/pcl;;Expert assistance for telecom systems, network management, billing, 5G, SDN, and infrastructure.
+ralph;snarktank/amp-skills;;A command-line tool for managing and interacting with AI models and data pipelines.
 bazi-mingli;wolke/bazi-mingli;;Bazi / Four Pillars of Destiny divination skill for birth chart analysis and Chinese astrology
 expedia;andrejones92/canifi-life-os;;This skill helps users book flights, hotels, vacation packages, and rental cars via Expedia's platform.
 planning;binhmuc/autobot-review;planning;This skill helps in planning scalable, secure, and maintainable technical solutions.
@@ -124,9 +127,9 @@ technical-writer;daffy0208/ai-dev-standards;technical-writer;Create clear techni
 whatsapp;aviz85/claude-skills-library;;A skill for interacting with WhatsApp.
 whoop;andrejones92/canifi-life-os;;A tool for managing and organizing tasks and workflows.
 apple-homekit;andrejones92/canifi-life-os;;Apple HomeKit integration for home automation and device management
+walkthrough;alexanderop/walkthrough;;A walkthrough skill for providing step-by-step guidance and tutorials.
 nano-banana-poster;aviz85/claude-skills-library;;Generates banana-themed posters using AI image generation.
 threads;andrejones92/canifi-life-os;;A skill for managing and creating content on the Threads platform
-walkthrough;alexanderop/walkthrough;;A walkthrough skill for providing step-by-step guidance and tutorials.
 steam;andrejones92/canifi-life-os;;Steam platform related skill for gaming and digital distribution
 vanguard;andrejones92/canifi-life-os;;A tool for project management and task organization
 tesla;andrejones92/canifi-life-os;;Tesla integration skill for connecting and managing Tesla vehicle APIs and services
@@ -135,7 +138,6 @@ cruise-com;andrejones92/canifi-life-os;;A skill for automating web research task
 fidelity;andrejones92/canifi-life-os;;Fidelity-related skill for financial and investment services
 clue;andrejones92/canifi-life-os;;A skill for conducting investigations and analysis to uncover information or solve problems.
 google-home;andrejones92/canifi-life-os;;Google Home automation and integration capabilities for smart home devices and services.
-basic-skill-template;supercent-io/skills-template;;A basic skill template for defining and documenting AI skills with key technologies and usage scenarios.
 one-medical;andrejones92/canifi-life-os;;One Medical skill for healthcare and medical appointment booking services
 southwest;andrejones92/canifi-life-os;;A skill for automating tasks related to Southwest Airlines, likely for flight booking and travel management.
 labcorp;andrejones92/canifi-life-os;;LabCorp data analysis and healthcare API integration tools
@@ -164,6 +166,7 @@ close;andrejones92/canifi-life-os;;A skill named 'close' with no description pro
 thumbtack;andrejones92/canifi-life-os;;A skill for managing tasks and projects, providing workflow automation and project organization capabilities.
 khan-academy;andrejones92/canifi-life-os;;Khan Academy learning management and educational content skill
 obra-using-superpowers;smithery/ai;;A skill for using superpowers in obra, likely related to task management and productivity workflows.
+basic-skill-template;supercent-io/skills-template;;A basic skill template for defining and documenting AI skills with key technologies and usage scenarios.
 lattice;andrejones92/canifi-life-os;;Lattice tool for workflow management and automation tasks.
 funimation;andrejones92/canifi-life-os;;Funimation skill for anime content management and streaming operations
 ubisoft-connect;andrejones92/canifi-life-os;;Integration with Ubisoft Connect for gaming services and account management.
