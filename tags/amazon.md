@@ -1,11 +1,12 @@
 # Tag: amazon
 
 - Back: [Tags](README.md)
-- Tagged skills: 5
+- Tagged skills: 6
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [ecommerce-competitor-analyzer](https://github.com/buluslan/ecommerce-competitor-analyzer/blob/main/SKILL.md) | [buluslan/ecommerce-competitor-analyzer](https://github.com/buluslan/ecommerce-competitor-analyzer) | Multi-platform e-commerce competitor analysis skill that automatically scrapes product data from Amazon, Temu, Shopee and generates comprehe | 23 | 39 | 2026-02-03 | [competitive-analysis](competitive-analysis.md), [scraping](scraping.md), [report-generation](report-generation.md), [ecommerce](ecommerce.md), [amazon](amazon.md), [shopee](shopee.md) |
+| [amazon-working-backwards](https://github.com/robdefeo/agent-skills/blob/main/skills/amazon-working-backwards/SKILL.md) | [robdefeo/agent-skills](https://github.com/robdefeo/agent-skills) | Guides Amazon Working Backwards process, helping draft 5 Questions, critique answers, and generate PR-FAQ documents for product proposals. | 1 | 183 | 2026-02-19 | [proposal-creation](proposal-creation.md), [documentation](documentation.md), [strategy](strategy.md), [amazon](amazon.md), [review](review.md) |
+| [ecommerce-competitor-analyzer](https://github.com/buluslan/ecommerce-competitor-analyzer/blob/main/SKILL.md) | [buluslan/ecommerce-competitor-analyzer](https://github.com/buluslan/ecommerce-competitor-analyzer) | Multi-platform e-commerce competitor analysis skill that automatically scrapes product data from Amazon, Temu, Shopee and generates comprehe | 22 | 39 | 2026-02-03 | [competitive-analysis](competitive-analysis.md), [scraping](scraping.md), [report-generation](report-generation.md), [ecommerce](ecommerce.md), [amazon](amazon.md), [shopee](shopee.md) |
 | [amazon-alexa](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Skill for interacting with Amazon Alexa voice service API to build voice-enabled applications and automate tasks through voice commands. | 5 | 35 | 2026-01-09 | [api](api.md), [automation](automation.md), [alexa](alexa.md), [amazon](amazon.md) |
 | [amazon-fresh](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Amazon Fresh shopping assistance for grocery and retail purchases | 5 | 31 | 2026-01-09 | [amazon](amazon.md), [marketing](marketing.md), [sales](sales.md) |
 | [amazon-pharmacy](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Amazon Pharmacy related skill for e-commerce and healthcare services | 5 | 31 | 2026-01-09 | [ecommerce](ecommerce.md), [amazon](amazon.md), [pharmacy](pharmacy.md), [marketing](marketing.md) |

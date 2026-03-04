@@ -1,7 +1,7 @@
 # Tag: game-design
 
 - Back: [Tags](README.md)
-- Tagged skills: 4
+- Tagged skills: 5
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
@@ -9,3 +9,4 @@
 | [abstract-strategy](https://github.com/jwynia/agent-skills/blob/main/skills/tech/game-development/design/abstract-strategy/SKILL.md) | [jwynia/agent-skills](https://github.com/jwynia/agent-skills) | Design abstract strategy games with perfect information and strategic depth. For board game design, game mechanics brainstorming, and balanc | 27 | 52 | 2026-02-24 | [game-design](game-design.md), [strategy](strategy.md), [brainstorming](brainstorming.md), [mechanics](mechanics.md), [balance](balance.md), [board-game](board-game.md) |
 | [governance-systems](https://github.com/jwynia/agent-skills/blob/main/skills/creative/fiction/worldbuilding/governance-systems/SKILL.md) | [jwynia/agent-skills](https://github.com/jwynia/agent-skills) | Design political entities and governance systems for fictional worlds including kingdoms, empires, and federations with realistic complexity | 27 | 49 | 2026-02-24 | [worldbuilding](worldbuilding.md), [creative-writing](creative-writing.md), [fiction](fiction.md), [game-design](game-design.md), [narrative](narrative.md), [workflows](workflows.md) |
 | [world-fates](https://github.com/jwynia/agent-skills/blob/main/skills/creative/fiction/worldbuilding/world-fates/SKILL.md) | [jwynia/agent-skills](https://github.com/jwynia/agent-skills) | Manage long-term fate and fortune across a shared world for tabletop RPGs with persistent consequences. | 27 | 48 | 2026-02-24 | [game-design](game-design.md), [world-building](world-building.md), [management](management.md), [tabletop-rpg](tabletop-rpg.md), [workflows](workflows.md) |
+| [game-concept-advisor](https://github.com/ccalebcarter/purria-skills) | [ccalebcarter/purria-skills](https://github.com/ccalebcarter/purria-skills) | Provides advice and guidance on game concepts, mechanics, and design ideas. | 2 | 31 | 2026-01-22 | [planning](planning.md), [strategy](strategy.md), [game-design](game-design.md) |

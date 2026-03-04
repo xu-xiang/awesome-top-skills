@@ -1,7 +1,7 @@
 # Tag: gsap
 
 - Back: [Tags](README.md)
-- Tagged skills: 10
+- Tagged skills: 11
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
@@ -14,4 +14,5 @@
 | [gsap-router](https://github.com/bbeierle12/skill-mcp-claude/blob/main/skills/gsap-router/SKILL.md) | [bbeierle12/skill-mcp-claude](https://github.com/bbeierle12/skill-mcp-claude) | A router for GSAP animations, supporting tweens, timelines, ScrollTrigger, and React integration. | 7 | 34 | 2026-02-16 | [frontend](frontend.md), [animation](animation.md), [gsap](gsap.md) |
 | [gsap-master](https://github.com/su69ar/rdnax-gsap-master/blob/main/gsap-master/SKILL.md) | [su69ar/rdnax-gsap-master](https://github.com/su69ar/rdnax-gsap-master) | Complete GSAP v3 mastery guide covering core features, plugins, and integration patterns with React/Next.js. | 0 | 25 | 2026-01-23 | [animation](animation.md), [frontend](frontend.md), [gsap](gsap.md), [react](react.md), [nextjs](nextjs.md), [performance](performance.md) |
 | [scroll-storyteller](https://github.com/ingpoc/skills/blob/main/scroll-storyteller/SKILL.md) | [ingpoc/skills](https://github.com/ingpoc/skills) | Create interactive scroll-based storytelling experiences with mouse-following spotlight effects, animated SVG art, and smooth animations usi | 6 | 24 | 2026-01-02 | [content-creation](content-creation.md), [storytelling](storytelling.md), [animation](animation.md), [svg](svg.md), [gsap](gsap.md), [scroll](scroll.md) |
+| [awwwards-animations](https://github.com/devmartinese/awwwards-animations-skill/blob/main/SKILL.md) | [devmartinese/awwwards-animations-skill](https://github.com/devmartinese/awwwards-animations-skill) | React skill for Awwwards-level animations using GSAP and Framer Motion. Handles scroll, transitions, and micro-interactions with 60fps perfo | 1 | 22 | 2026-02-09 | [ui](ui.md), [frontend](frontend.md), [react](react.md), [gsap](gsap.md), [animation](animation.md) |
 | [gsap-greensock](https://github.com/dylantarre/animation-principles/blob/main/skills/09-by-tool-framework/gsap-greensock/SKILL.md) | [dylantarre/animation-principles](https://github.com/dylantarre/animation-principles) | Implement Disney's 12 animation principles using GSAP for web animations. | 13 | 21 | 2025-12-30 | [frontend](frontend.md), [animation](animation.md), [gsap](gsap.md) |

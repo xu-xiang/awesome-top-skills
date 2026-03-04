@@ -1,7 +1,7 @@
 # 标签：fitness (fitness)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 11
+- 命中技能: 12
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
@@ -16,3 +16,4 @@
 | [lose-it](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | 用于管理减肥目标和跟踪进度的技能。 | 5 | 30 | 2026-01-09 | [任务管理 (task-management)](task-management.md), [工作流 (workflows)](workflows.md), [fitness (fitness)](fitness.md), [healthcare (healthcare)](healthcare.md) |
 | [nike-run-club](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Nike Run Club 技能，用于健身追踪和跑步活动 | 5 | 30 | 2026-01-09 | [fitness (fitness)](fitness.md), [移动开发 (mobile)](mobile.md), [tracking (tracking)](tracking.md) |
 | [noom](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Noom健康应用相关技能 | 5 | 30 | 2026-01-09 | [wellness (wellness)](wellness.md), [fitness (fitness)](fitness.md), [工作流 (workflows)](workflows.md) |
+| [endurance-coach](https://github.com/shiv19/endurance-coach-skill/blob/main/endurance-coach-skill/SKILL.md) | [shiv19/endurance-coach-skill](https://github.com/shiv19/endurance-coach-skill) | 生成个性化铁人三项和马拉松训练计划，支持 Strava 同步、训练日程及比赛策略。 | 5 | 22 | 2026-02-13 | [规划 (planning)](planning.md), [分析 (analysis)](analysis.md), [优化 (optimization)](optimization.md), [fitness (fitness)](fitness.md) |

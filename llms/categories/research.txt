@@ -20,44 +20,44 @@ research-engineer;davila7/claude-code-templates;ai-research/research-engineer;A 
 peer-review;davila7/claude-code-templates;scientific/peer-review;A systematic peer review toolkit for evaluating research manuscripts and grants across disciplines.
 research-lookup;davila7/claude-code-templates;scientific/research-lookup;Lookup current research information using Perplexity's Sonar models via OpenRouter with automatic model selection.
 research-grants;davila7/claude-code-templates;scientific/research-grants;Helps write competitive research proposals for NSF, NIH, DOE, and DARPA with agency-specific formatting and compliance.
-paper-2-web;davila7/claude-code-templates;scientific/paper-2-web;Convert academic papers into web formats like interactive websites, videos, and posters.
 pymatgen;davila7/claude-code-templates;scientific/pymatgen;A materials science toolkit for crystal structures, phase diagrams, and computational materials analysis.
+paper-2-web;davila7/claude-code-templates;scientific/paper-2-web;Convert academic papers into web formats like interactive websites, videos, and posters.
 openalex-database;davila7/claude-code-templates;scientific/openalex-database;Query and analyze scholarly literature using the OpenAlex database for academic research and bibliometric analysis.
 hypothesis-generation;davila7/claude-code-templates;scientific/hypothesis-generation;Generate testable hypotheses for scientific inquiry across domains.
-geo-database;davila7/claude-code-templates;scientific/geo-database;Access NCBI GEO for gene expression and genomics data including microarray and RNA-seq datasets.
-scanpy;davila7/claude-code-templates;scientific/scanpy;Analyze single-cell RNA sequencing data with QC, normalization, clustering, and marker gene detection.
 clinical-decision-support;davila7/claude-code-templates;scientific/clinical-decision-support;Generates clinical decision support documents with evidence-based guidelines and statistical analysis for pharmaceutical and clinical resear
+geo-database;davila7/claude-code-templates;scientific/geo-database;Access NCBI GEO for gene expression and genomics data including microarray and RNA-seq datasets.
 biomni;davila7/claude-code-templates;scientific/biomni;An autonomous biomedical AI agent framework for complex research tasks in genomics, drug discovery, and clinical analysis.
+scanpy;davila7/claude-code-templates;scientific/scanpy;Analyze single-cell RNA sequencing data with QC, normalization, clustering, and marker gene detection.
 biopython;davila7/claude-code-templates;scientific/biopython;A Python toolkit for molecular biology, supporting PubMed/NCBI queries, sequence manipulation, and file parsing.
 bioservices;davila7/claude-code-templates;scientific/bioservices;A Python tool for accessing 40+ bioinformatics databases with unified API for queries and pathway analysis.
 rdkit;davila7/claude-code-templates;scientific/rdkit;RDKit is a cheminformatics toolkit for molecular structure analysis and manipulation.
+venue-templates;davila7/claude-code-templates;scientific/venue-templates;Provides LaTeX templates and formatting guidelines for scientific publications and academic conferences.
 biorxiv-database;davila7/claude-code-templates;scientific/biorxiv-database;A tool for efficiently searching bioRxiv preprints by keywords, authors, date ranges, or categories.
 pubchem-database;davila7/claude-code-templates;scientific/pubchem-database;Query PubChem database via PUG-REST API or PubChemPy to search compounds by name, CID, SMILES, and retrieve properties.
-alphafold-database;davila7/claude-code-templates;scientific/alphafold-database;Access AlphaFold's 200M+ AI-predicted protein structures for drug discovery and structural biology.
 deepchem;davila7/claude-code-templates;scientific/deepchem;A molecular machine learning toolkit for property prediction, GNNs, and drug discovery ML.
-venue-templates;davila7/claude-code-templates;scientific/venue-templates;Provides LaTeX templates and formatting guidelines for scientific publications and academic conferences.
+alphafold-database;davila7/claude-code-templates;scientific/alphafold-database;Access AlphaFold's 200M+ AI-predicted protein structures for drug discovery and structural biology.
 anndata;davila7/claude-code-templates;scientific/anndata;A skill for working with annotated data matrices in Python, especially for single-cell genomics analysis and large-scale biological datasets
 gwas-database;davila7/claude-code-templates;scientific/gwas-database;Query NHGRI-EBI GWAS Catalog for SNP-trait associations and retrieve genetic data for research.
 gene-database;davila7/claude-code-templates;scientific/gene-database;Query NCBI Gene database via E-utilities/Datasets API for gene annotation and functional analysis.
+reactome-database;davila7/claude-code-templates;scientific/reactome-database;Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, and expression ana
 metabolomics-workbench-database;davila7/claude-code-templates;scientific/metabolomics-workbench-database;Access and query the NIH Metabolomics Workbench database via REST API for metabolomics research.
 pytdc;davila7/claude-code-templates;scientific/pytdc;AI-ready drug discovery datasets and benchmarks for therapeutic ML and pharmacological prediction.
 qutip;davila7/claude-code-templates;scientific/qutip;Simulate and analyze quantum mechanical systems using QuTiP (Quantum Toolbox in Python).
-reactome-database;davila7/claude-code-templates;scientific/reactome-database;Query Reactome REST API for pathway analysis, enrichment, gene-pathway mapping, disease pathways, molecular interactions, and expression ana
 cellxgene-census;davila7/claude-code-templates;scientific/cellxgene-census;Query and analyze large-scale single-cell RNA sequencing data from CZ CELLxGENE Census using Python libraries like scanpy and PyTorch.
 pdb-database;davila7/claude-code-templates;scientific/pdb-database;Access RCSB PDB for 3D protein/nucleic acid structures, search, download, and retrieve metadata for structural biology and drug discovery.
 fluidsim;davila7/claude-code-templates;scientific/fluidsim;A Python framework for computational fluid dynamics simulations including Navier-Stokes and shallow water equations.
+medchem;davila7/claude-code-templates;scientific/medchem;Filters for medicinal chemistry including drug-likeness rules, PAINS filters, and structural alerts for compound prioritization.
 cobrapy;davila7/claude-code-templates;scientific/cobrapy;Constraint-based metabolic modeling (COBRA) for systems biology and metabolic engineering analysis.
 adaptyv;davila7/claude-code-templates;scientific/adaptyv;A cloud platform for automated protein testing and validation with API support and workflow management.
-medchem;davila7/claude-code-templates;scientific/medchem;Filters for medicinal chemistry including drug-likeness rules, PAINS filters, and structural alerts for compound prioritization.
 latchbio-integration;davila7/claude-code-templates;scientific/latchbio-integration;Integrate with Latch platform for bioinformatics workflows using Latch SDK and serverless deployment.
 neuropixels-analysis;davila7/claude-code-templates;scientific/neuropixels-analysis;Analyze Neuropixels neural recordings with SpikeGLX/OpenEphys data preprocessing, motion correction, and Kilosort4 spike sorting.
 deeptools;davila7/claude-code-templates;scientific/deeptools;Convert BAM files to bigWig and perform NGS data analysis including QC, heatmaps, and profiles for ChIP-seq, RNA-seq, and ATAC-seq.
 brenda-database;davila7/claude-code-templates;scientific/brenda-database;Access BRENDA enzyme database via SOAP API to retrieve kinetic parameters and metabolic pathway data for biochemical research.
 denario;davila7/claude-code-templates;scientific/denario;A multi-agent AI system for automating scientific research workflows from data analysis to publication.
 get-available-resources;davila7/claude-code-templates;scientific/get-available-resources;Detects and reports system resources for scientific tasks to inform computational strategy decisions.
+gget;davila7/claude-code-templates;scientific/gget;A CLI/Python toolkit for rapid bioinformatics queries, supporting BLAST searches and access to 20+ databases.
 pyopenms;davila7/claude-code-templates;scientific/pyopenms;A Python interface to OpenMS for mass spectrometry data analysis in proteomics and metabolomics.
 ensembl-database;davila7/claude-code-templates;scientific/ensembl-database;Query the Ensembl genome database REST API for gene lookups, sequence retrieval, and variant analysis.
-gget;davila7/claude-code-templates;scientific/gget;A CLI/Python toolkit for rapid bioinformatics queries, supporting BLAST searches and access to 20+ databases.
 ena-database;davila7/claude-code-templates;scientific/ena-database;Access European Nucleotide Archive via API/FTP to retrieve DNA/RNA sequences and genome assemblies for genomics pipelines.
 gtars;davila7/claude-code-templates;scientific/gtars;A high-performance toolkit for genomic interval analysis in Rust with Python bindings.
 cosmic-database;davila7/claude-code-templates;scientific/cosmic-database;Access and query COSMIC cancer mutation database for research and precision oncology.
@@ -84,8 +84,8 @@ arxiv-search;langchain-ai/deepagents;arxiv-search;Search arXiv for papers in phy
 firstprinciples;danielmiessler/personal_ai_infrastructure;FirstPrinciples;First principles analysis skill for breaking down complex problems to fundamental truths and root causes.
 customer-research;anthropics/knowledge-work-plugins;customer-research;Research customer questions by searching across documentation, knowledge bases, and connected sources, then synthesize a confidence-scored a
 scientific-problem-selection;anthropics/knowledge-work-plugins;scientific-problem-selection;Helps scientists with research problem selection, project ideation, troubleshooting, and strategic scientific decisions.
-hugging-face-paper-publisher;huggingface/skills;main/skills/hugging-face-paper-publisher;Publish and manage research papers on Hugging Face Hub with support for paper pages, model/dataset linking, and professional markdown articl
 research;yeachan-heo/oh-my-claudecode;;A research skill for conducting literature reviews and web research.
+hugging-face-paper-publisher;huggingface/skills;main/skills/hugging-face-paper-publisher;Publish and manage research papers on Hugging Face Hub with support for paper pages, model/dataset linking, and professional markdown articl
 scientific-critical-thinking;k-dense-ai/claude-scientific-skills;;Evaluate scientific claims and evidence quality for research and critical analysis.
 scientific-writing;k-dense-ai/claude-scientific-skills;;A skill for writing scientific manuscripts using structured outlines and APA/AMA/Vancouver citations.
 scientific-visualization;k-dense-ai/claude-scientific-skills;;A meta-skill for creating publication-ready scientific figures with multi-panel layouts, error bars, and journal-specific formatting.
@@ -151,7 +151,7 @@ dnanexus-integration;k-dense-ai/claude-scientific-skills;;DNAnexus platform inte
 omero-integration;k-dense-ai/claude-scientific-skills;;A skill for managing microscopy data, including image access, dataset retrieval, pixel analysis, and ROI management via Python.
 ml-paper-writing;zechenzhangagi/ai-research-skills;;Write publication-ready ML/AI papers for top conferences with LaTeX templates and citation verification.
 ml-paper-writing;orchestra-research/ai-research-skills;;Write publication-ready ML/AI papers for top conferences with LaTeX templates and citation verification.
-last30days;mvanhorn/last30days-skill;;Research a topic from the last 30 days using sources like Reddit, X, YouTube, and web. Become an expert and write copy-paste-ready prompts.
+last30days;mvanhorn/last30days-skill;;Researches recent topics (last 30 days) across web sources like Reddit, X, YouTube, and Hacker News to generate expert copy-paste prompts.
 research;tavily-ai/skills;main/skills/tavily/research;Comprehensive research using web data with citations for multi-source synthesis, comparisons, current events, market analysis, and detailed
 tooluniverse-sequence-retrieval;mims-harvard/tooluniverse;tooluniverse-sequence-retrieval;Retrieves biological sequences (DNA, RNA, protein) from NCBI and ENA with gene disambiguation and comprehensive sequence profiles.
 vibe-research;khazp/vibe-coding-prompt-template;vibe-research;Conduct deep research and market validation for app ideas.
@@ -162,21 +162,21 @@ arxiv-viewer;actionbook/actionbook;arxiv-viewer;View, search, and download acade
 deep-research;feiskyer/claude-code-settings;deep-research;Multi-Agent orchestration workflow for deep research: splits research goals into parallel subtasks, uses Claude Code in non-interactive mode
 systematic-literature-review;huangwb8/chineseresearchlatex;systematic-literature-review;AI-powered systematic literature review tool that automates research paper discovery, analysis, and report generation with multi-language su
 tooluniverse-literature-deep-research;mims-harvard/tooluniverse;tooluniverse-literature-deep-research;Conducts comprehensive literature research with target disambiguation, evidence grading, and structured theme extraction. Creates detailed r
-tooluniverse;mims-harvard/tooluniverse;tooluniverse;Router skill for ToolUniverse scientific research tasks covering disease/drug/target research, clinical decision support, genomics, and more
-tooluniverse-sdk;mims-harvard/tooluniverse;tooluniverse-sdk;Build AI scientist systems using ToolUniverse Python SDK for scientific research with 1000++ tools
 nsfc-justification-writer;huangwb8/chineseresearchlatex;nsfc-justification-writer;Generates NSFC project justification based on minimal information table, maintaining template structure for research fund applications.
+tooluniverse;mims-harvard/tooluniverse;tooluniverse;Router skill for ToolUniverse scientific research tasks covering disease/drug/target research, clinical decision support, genomics, and more
+nsfc-research-content-writer;huangwb8/chineseresearchlatex;nsfc-research-content-writer;NSFC research content writer for generating research content, innovation highlights, and annual plans in LaTeX format.
 tooluniverse-disease-research;mims-harvard/tooluniverse;tooluniverse-disease-research;Generate comprehensive disease research reports using 100+ ToolUniverse tools with systematic analysis across 10 research dimensions.
-tooluniverse-target-research;mims-harvard/tooluniverse;tooluniverse-target-research;Comprehensive biological target intelligence gathering from 9 parallel research paths covering protein info, structure, interactions, pathwa
 tooluniverse-chemical-compound-retrieval;mims-harvard/tooluniverse;tooluniverse-chemical-compound-retrieval;Retrieves chemical compound information from PubChem and ChEMBL with disambiguation, cross-referencing, and quality assessment.
+tooluniverse-sdk;mims-harvard/tooluniverse;tooluniverse-sdk;Build AI scientist systems using ToolUniverse Python SDK for scientific research with 1000++ tools
+tooluniverse-target-research;mims-harvard/tooluniverse;tooluniverse-target-research;Comprehensive biological target intelligence gathering from 9 parallel research paths covering protein info, structure, interactions, pathwa
 tooluniverse-drug-research;mims-harvard/tooluniverse;tooluniverse-drug-research;Generates comprehensive drug research reports with compound disambiguation, evidence grading, and mandatory completeness sections covering i
 tooluniverse-expression-data-retrieval;mims-harvard/tooluniverse;tooluniverse-expression-data-retrieval;Retrieves gene expression and omics datasets from ArrayExpress and BioStudies with quality assessment and structured reports
 tooluniverse-protein-structure-retrieval;mims-harvard/tooluniverse;tooluniverse-protein-structure-retrieval;Retrieves protein structure data from RCSB PDB, PDBe, and AlphaFold with quality assessment and comprehensive structural profiles.
-nsfc-research-content-writer;huangwb8/chineseresearchlatex;nsfc-research-content-writer;NSFC research content writer for generating research content, innovation highlights, and annual plans in LaTeX format.
+nsfc-research-foundation-writer;huangwb8/chineseresearchlatex;nsfc-research-foundation-writer;NSFC research foundation writer for project proposals, covering research basis, working conditions, and risk management.
 tooluniverse-binder-discovery;mims-harvard/tooluniverse;tooluniverse-binder-discovery;Discover novel small molecule binders for protein targets. Creates reports with compounds, ADMET profiles, and synthesis feasibility for vir
-tooluniverse-drug-repurposing;mims-harvard/tooluniverse;tooluniverse-drug-repurposing;Identify drug repurposing candidates using ToolUniverse by analyzing targets, bioactivity, safety, and literature for new therapeutic indica
 tooluniverse-infectious-disease;mims-harvard/tooluniverse;tooluniverse-infectious-disease;Rapid pathogen characterization and drug repurposing for outbreaks. Identifies taxonomy, proteins, predicts structures, and screens drugs vi
 tooluniverse-pharmacovigilance;mims-harvard/tooluniverse;tooluniverse-pharmacovigilance;Analyzes FDA drug safety signals, adverse events, and pharmacogenomic data to calculate risk measures and assess safety profiles.
-nsfc-research-foundation-writer;huangwb8/chineseresearchlatex;nsfc-research-foundation-writer;NSFC research foundation writer for project proposals, covering research basis, working conditions, and risk management.
+tooluniverse-drug-repurposing;mims-harvard/tooluniverse;tooluniverse-drug-repurposing;Identify drug repurposing candidates using ToolUniverse by analyzing targets, bioactivity, safety, and literature for new therapeutic indica
 nsfc-bib-manager;huangwb8/chineseresearchlatex;;Manages bibliography and citations specifically for NSFC (National Natural Science Foundation of China) projects.
 requesthunt;resciencelab/opc-skills;requesthunt;Generate user demand research reports from real user feedback by scraping and analyzing feature requests, complaints, and questions from Red
 x-research;rohunvora/x-research-skill;;General-purpose X/Twitter research agent that searches X for real-time perspectives, dev discussions, product feedback, cultural takes, brea
@@ -187,42 +187,42 @@ ljg-xray-paper;lijigang/ljg-skill-xray-paper;ljg-xray-paper;Deconstructs academi
 conducting-user-interviews;refoundai/lenny-skills;conducting-user-interviews;Helps users conduct better customer and user interviews for research and understanding needs.
 designing-surveys;refoundai/lenny-skills;designing-surveys;Helps users design effective surveys for customer feedback, NPS, and product-market fit research.
 research-paper-writer;ailabs-393/ai-labs-claude-skills;research-paper-writer;Writes formal academic research papers in IEEE/ACM format with proper structure and citations.
-academic-writing;jamditis/claude-skills-journalism;;A skill for academic writing, research methodology, and scholarly communication workflows.
 provenance;boshu2/agentops;provenance;Trace knowledge artifact lineage and sources. Find orphans, stale citations. Triggers: "where did this come from", "trace this learning", "k
 forge;boshu2/agentops;forge;Extract knowledge from transcripts including decisions, learnings, failures, and patterns. Triggers: 'forge insights', 'mine transcripts', '
+academic-writing;jamditis/claude-skills-journalism;;A skill for academic writing, research methodology, and scholarly communication workflows.
 citation-verifier;willoscar/research-units-pipeline-skills;citation-verifier;Generate and verify BibTeX entries from paper notes, creating citations/ref.bib and citations/verified.jsonl with URL/title/date validation.
-paper-notes;willoscar/research-units-pipeline-skills;paper-notes;Writes structured notes for academic papers into JSONL format with summary, method, results, and limitations fields.
 medical-imaging-review;luwill/research-skills;;Write comprehensive literature reviews for medical imaging AI research covering segmentation, detection, classification in CT, MRI, X-ray, u
+paper-notes;willoscar/research-units-pipeline-skills;paper-notes;Writes structured notes for academic papers into JSONL format with summary, method, results, and limitations fields.
 deep-research;199-biotechnologies/claude-deep-research-skill;;Conducts enterprise-grade research with multi-source synthesis and citation tracking.
 scientific-problem-selection;anthropics/life-sciences;;Helps scientists with research problem selection, project ideation, troubleshooting, and strategic scientific decisions.
 academic-paper-writer;meleantonio/awesome-econ-ai-stuff;;Draft economics papers with proper structure and academic style
 latex-paper-en;bahayonghang/academic-writing-skills;;LaTeX academic paper assistant for English papers with modules for compilation, format checking, grammar analysis, translation, and more.
-deep-research;sanjay3290/ai-skills;deep-research;Execute autonomous multi-step research using Google Gemini Deep Research Agent for market analysis, competitive landscaping, literature revi
 user-research-analysis;aj-geddes/useful-ai-prompts;user-research-analysis;Analyze user research data to uncover insights and inform design decisions.
+deep-research;sanjay3290/ai-skills;deep-research;Execute autonomous multi-step research using Google Gemini Deep Research Agent for market analysis, competitive landscaping, literature revi
 causal-inference;aj-geddes/useful-ai-prompts;causal-inference;Analyze cause-and-effect relationships using causal inference methods like propensity scoring and instrumental variables.
+research-executor;liangdabiao/claude-code-stock-deep-research-agent;research-executor;Execute a 7-stage deep research process with parallel agents and generate comprehensive reports with citations.
 crypto-research;microck/ordinary-claude-skills;;Comprehensive cryptocurrency market research and analysis using specialized AI agents. Analyzes market data, price trends, news sentiment, t
 youtube-research-video-topic;kenneth-liao/ai-launchpad-marketplace;;Research YouTube video topics by analyzing competitors and identifying content gaps.
-research-executor;liangdabiao/claude-code-stock-deep-research-agent;research-executor;Execute a 7-stage deep research process with parallel agents and generate comprehensive reports with citations.
 research-workflow;jwynia/agent-skills;general/research/methodology/research-workflow;A structured research workflow for planning, querying, analyzing sources, and synthesizing findings.
 research;tavily-ai/tavily-plugins;;A research skill for conducting literature reviews and web research.
 x-collect;kangarooking/x-skills;;Collect and research materials for X (Twitter) content creation using multi-round web search strategy. Performs 4-round deep research mimick
 research-expert;cin12211/orca-q;research-expert;A specialized research expert for parallel information gathering with structured output.
-research;jwynia/agent-skills;general/research/methodology/research;Diagnose research quality and guide systematic query expansion for any topic.
 physicist-analyst;rysweet/amplihack;physicist-analyst;Analyzes events through physics lens using fundamental laws, quantitative modeling, and systems dynamics to understand causation, constraint
 novelist-analyst;rysweet/amplihack;novelist-analyst;Analyzes events through narrative lens using story structure, character arc analysis, dramatic tension, and thematic development for insight
+research;jwynia/agent-skills;general/research/methodology/research;Diagnose research quality and guide systematic query expansion for any topic.
 political-scientist-analyst;rysweet/amplihack;political-scientist-analyst;Analyzes political events through IR theory (Realism, Liberalism, Constructivism), comparative politics, and power dynamics.
 journalist-analyst;rysweet/amplihack;journalist-analyst;Analyzes events through journalistic lens using 5 Ws and H, investigative methods, source evaluation, fact-checking, newsworthiness criteria
 biologist-analyst;rysweet/amplihack;biologist-analyst;Analyzes biological systems using evolution, molecular biology, ecology, and systems biology frameworks to provide insights on mechanisms, a
-chemist-analyst;rysweet/amplihack;chemist-analyst;Analyzes events through chemistry lens using molecular structure, reaction mechanisms, thermodynamics, kinetics, and analytical techniques.
-investigation-workflow;rysweet/amplihack;investigation-workflow;A 6-phase investigation workflow for system understanding and deep dive analysis.
 sociologist-analyst;rysweet/amplihack;sociologist-analyst;Analyzes events through sociological lens using social structures, institutions, stratification, culture, norms, collective behavior, and mu
 urban-planner-analyst;rysweet/amplihack;urban-planner-analyst;Analyzes urban development through planning lens using zoning, land use, comprehensive planning, and transit-oriented development frameworks
-firecrawl-research;glebis/claude-skills;;Research skill using FireCrawl for web scraping, academic paper writing, and bibliography generation with Pandoc/MyST templates.
-historian-analyst;rysweet/amplihack;historian-analyst;Historical analysis skill using source analysis, comparative history, causation frameworks to provide insights on historical patterns and lo
+chemist-analyst;rysweet/amplihack;chemist-analyst;Analyzes events through chemistry lens using molecular structure, reaction mechanisms, thermodynamics, kinetics, and analytical techniques.
+investigation-workflow;rysweet/amplihack;investigation-workflow;A 6-phase investigation workflow for system understanding and deep dive analysis.
 environmentalist-analyst;rysweet/amplihack;environmentalist-analyst;Analyzes events through environmental lens using ecological principles, systems thinking, sustainability frameworks, and conservation biolog
+historian-analyst;rysweet/amplihack;historian-analyst;Historical analysis skill using source analysis, comparative history, causation frameworks to provide insights on historical patterns and lo
 epidemiologist-analyst;rysweet/amplihack;epidemiologist-analyst;Analyzes disease patterns and health events via epidemiological methods. Provides insights on spread, risk factors, prevention, and public h
-language-evolution;jwynia/agent-skills;creative/fiction/worldbuilding/language-evolution;Design evolving language systems for fictional worlds, including language families, dialects, and linguistic history reflecting cultural dev
+firecrawl-research;glebis/claude-skills;;Research skill using FireCrawl for web scraping, academic paper writing, and bibliography generation with Pandoc/MyST templates.
 anthropologist-analyst;rysweet/amplihack;anthropologist-analyst;Analyzes events through anthropological lens using cultural analysis, ethnographic methods, kinship and social organization, symbolic system
+language-evolution;jwynia/agent-skills;creative/fiction/worldbuilding/language-evolution;Design evolving language systems for fictional worlds, including language families, dialects, and linguistic history reflecting cultural dev
 arxiv-search;yorkeccak/scientific-skills;arxiv-search;Search arXiv physics, math, and computer science preprints using natural language queries.
 reverse-outliner;jwynia/agent-skills;creative/fiction/structure/reverse-outliner;Reverse-engineer published books into structured scene-by-scene outlines for study and analysis of narrative craft.
 technology-impact;jwynia/agent-skills;general/analysis/technology-impact;Analyze societal impacts of technologies using McLuhan's Tetrad framework for technology evaluation and policy analysis.
@@ -248,16 +248,17 @@ pubmed-search;yorkeccak/scientific-skills;pubmed-search;Search PubMed biomedical
 fs-street;geekjourneyx/mind-skills;fs-street;Fetches articles from Farnam Street RSS for decision-making, mental models, learning, and wisdom content.
 patents-search;yorkeccak/scientific-skills;patents-search;Search global patents using natural language queries for prior art and innovation tracking.
 medrxiv-search;yorkeccak/scientific-skills;medrxiv-search;Search medical preprints on medRxiv using natural language queries.
-research-expert;personamanagmentlayer/pcl;;Expert-level skill for research methodology, academic writing, statistical analysis, and scientific investigation.
 biorxiv-search;yorkeccak/scientific-skills;biorxiv-search;Search bioRxiv preprints using natural language queries with semantic search.
 drug-discovery-search;yorkeccak/scientific-skills;drug-discovery-search;An end-to-end drug discovery platform using ChEMBL, DrugBank, and FDA data with NLP support.
+research-expert;personamanagmentlayer/pcl;;Expert-level skill for research methodology, academic writing, statistical analysis, and scientific investigation.
 quantum-expert;personamanagmentlayer/pcl;;Expert-level quantum computing, Qiskit, quantum algorithms, and quantum information
+researching-web;julianobarbosa/claude-code-skills;researching-web-skill;Uses Perplexity AI to search the web for current info, best practices, tech comparisons, and factual answers about tools/libraries.
 user-researcher;daffy0208/ai-dev-standards;user-researcher;Conducts user research and validation including interviews, surveys, and persona creation.
 zotero-paper-reader;fuzhiyu/researchprojecttemplate;zotero-paper-reader;Read and analyze academic papers from Zotero library, converting PDFs to markdown and providing analysis.
 researching-ai-news;jamesgray007/hoai-course;researching-ai-news;This skill researches and compiles the latest AI news from various sources.
 oreilly;andrejones92/canifi-life-os;;A skill for accessing and working with O'Reilly books and educational content.
-social-media-trends-research;drshailesh88/integrated_content_os;cardiology/social-media-trends-research;Programmatic social media and marketing research using free tools like pytrends, yars, and Perplexity MCP for trend analysis and content res
 academic-writing-style;shining319/claude-code-single-person-workflow;academic-writing-style;Personalized academic writing assistant for university assignments in Chinese and English, producing natural prose avoiding AI markers.
+social-media-trends-research;drshailesh88/integrated_content_os;cardiology/social-media-trends-research;Programmatic social media and marketing research using free tools like pytrends, yars, and Perplexity MCP for trend analysis and content res
 openbio;openbio-ai/skills;main/skills/openbio;OpenBio API for biological data access and computational biology tools. Query databases, search literature, run structure prediction, pathwa
 arxiv-search;smithery/ai;;Search academic papers on arXiv for research purposes
 chat-with-arxiv;qodex-ai/ai-agent-skills;chat-with-arxiv;Build interactive chat agents for exploring ArXiv academic papers with retrieval, processing, and Q&A capabilities.

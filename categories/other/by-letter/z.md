@@ -5,4 +5,4 @@
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [zapper](https://github.com/bankrbot/openclaw-skills/blob/main/zapper/SKILL.md) | [bankrbot/openclaw-skills](https://github.com/bankrbot/openclaw-skills) | Placeholder for Zapper skill. | 949 | 79 | 2026-03-02 | [placeholder](../../../tags/placeholder.md), [template](../../../tags/template.md), [zapper](../../../tags/zapper.md), [workflows](../../../tags/workflows.md) |
+| [zapper](https://github.com/bankrbot/openclaw-skills/blob/main/zapper/SKILL.md) | [bankrbot/openclaw-skills](https://github.com/bankrbot/openclaw-skills) | Placeholder for Zapper skill. | 951 | 80 | 2026-03-03 | [placeholder](../../../tags/placeholder.md), [template](../../../tags/template.md), [zapper](../../../tags/zapper.md), [workflows](../../../tags/workflows.md) |

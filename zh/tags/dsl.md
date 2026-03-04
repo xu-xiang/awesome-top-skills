@@ -1,9 +1,10 @@
 # 标签：dsl (dsl)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 2
+- 命中技能: 3
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [dify-dsl-generator](https://github.com/wwwzhouhui/skills_collection/blob/main/dify-dsl-generator/SKILL.md) | [wwwzhouhui/skills_collection](https://github.com/wwwzhouhui/skills_collection) | 根据业务需求生成 Dify 工作流 DSL/YAML 文件。 | 131 | 123 | 2026-03-01 | [工作流 (workflows)](workflows.md), [代码生成](code-generation.md), [dify (dify)](dify.md), [dsl (dsl)](dsl.md) |
+| [dify-dsl-generator](https://github.com/wwwzhouhui/skills_collection/blob/main/dify-dsl-generator/SKILL.md) | [wwwzhouhui/skills_collection](https://github.com/wwwzhouhui/skills_collection) | 根据业务需求生成 Dify 工作流 DSL/YAML 文件。 | 133 | 133 | 2026-03-03 | [工作流 (workflows)](workflows.md), [代码生成](code-generation.md), [dify (dify)](dify.md), [dsl (dsl)](dsl.md) |
+| [sf-ai-agentscript](https://github.com/jaganpro/sf-skills/blob/main/skills/sf-ai-agentscript/SKILL.md) | [jaganpro/sf-skills](https://github.com/jaganpro/sf-skills) | 用于 Salesforce Agentforce 的 DSL 技能，支持编写具有 FSM 架构的确定性代理。涵盖语法、调 | 124 | 79 | 2026-03-02 | [智能体 (agents)](agents.md), [编码 (coding)](coding.md), [salesforce (salesforce)](salesforce.md), [dsl (dsl)](dsl.md) |
 | [dify-workflow-skills](https://github.com/mango-svip/dify-workflow-skills/blob/main/SKILL.md) | [mango-svip/dify-workflow-skills](https://github.com/mango-svip/dify-workflow-skills) | 构建和编辑Dify工作流DSL文件，用于基于LLM的自动化流程。 | 1 | 32 | 2026-01-12 | [工作流 (workflows)](workflows.md), [自动化 (automation)](automation.md), [dify (dify)](dify.md), [dsl (dsl)](dsl.md), [code execution (code-execution)](code-execution.md) |

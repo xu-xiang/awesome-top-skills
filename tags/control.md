@@ -5,5 +5,5 @@
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [mcp-hass](https://github.com/aahl/skills/blob/main/skills/mcp-hass/SKILL.md) | [aahl/skills](https://github.com/aahl/skills) | Control Home Assistant smart home devices and query states using MCP protocol | 69 | 326 | 2026-03-03 | [automation](automation.md), [control](control.md), [home-assistant](home-assistant.md), [mcp](mcp.md) |
-| [sonoscli](https://github.com/steipete/clawdis/blob/main/skills/sonoscli/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | Control Sonos speakers via CLI for discovery, status, play, volume, and grouping. | 249K | 99 | 2026-03-03 | [automation](automation.md), [control](control.md), [audio](audio.md), [cli](cli.md), [sonos](sonos.md) |
+| [mcp-hass](https://github.com/aahl/skills/blob/main/skills/mcp-hass/SKILL.md) | [aahl/skills](https://github.com/aahl/skills) | Control Home Assistant smart home devices and query states using MCP protocol | 73 | 345 | 2026-03-03 | [automation](automation.md), [control](control.md), [home-assistant](home-assistant.md), [mcp](mcp.md) |
+| [sonoscli](https://github.com/steipete/clawdis/blob/main/skills/sonoscli/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | Control Sonos speakers via CLI for discovery, status, play, volume, and grouping. | 256K | 106 | 2026-03-04 | [automation](automation.md), [control](control.md), [audio](audio.md), [cli](cli.md), [sonos](sonos.md) |

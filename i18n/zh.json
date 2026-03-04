@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-03-03T05:45:16.256Z",
+  "generated_at": "2026-03-04T05:28:57.619Z",
   "categories": {
     "ai-llm": {
       "zh": "AI/LLM（大模型）",
@@ -6232,6 +6232,10 @@
       "zh": "pricing",
       "bilingual": true
     },
+    "primeng": {
+      "zh": "primeng",
+      "bilingual": true
+    },
     "primevue": {
       "zh": "primevue",
       "bilingual": true
@@ -6914,10 +6918,6 @@
     },
     "retro": {
       "zh": "retro",
-      "bilingual": true
-    },
-    "retrospective": {
-      "zh": "retrospective",
       "bilingual": true
     },
     "revenue-optimization": {
@@ -9338,6 +9338,10 @@
     },
     "workflowy": {
       "zh": "workflowy",
+      "bilingual": true
+    },
+    "workos": {
+      "zh": "workos",
       "bilingual": true
     },
     "workspace": {

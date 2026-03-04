@@ -1,7 +1,7 @@
 # Tag: fitness
 
 - Back: [Tags](README.md)
-- Tagged skills: 11
+- Tagged skills: 12
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
@@ -16,3 +16,4 @@
 | [lose-it](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | A skill for managing weight loss goals and tracking progress. | 5 | 30 | 2026-01-09 | [task-management](task-management.md), [workflows](workflows.md), [fitness](fitness.md), [healthcare](healthcare.md) |
 | [nike-run-club](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Nike Run Club skill for fitness tracking and running activities | 5 | 30 | 2026-01-09 | [fitness](fitness.md), [mobile](mobile.md), [tracking](tracking.md) |
 | [noom](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Noom-related skill for health and wellness management | 5 | 30 | 2026-01-09 | [wellness](wellness.md), [fitness](fitness.md), [workflows](workflows.md) |
+| [endurance-coach](https://github.com/shiv19/endurance-coach-skill/blob/main/endurance-coach-skill/SKILL.md) | [shiv19/endurance-coach-skill](https://github.com/shiv19/endurance-coach-skill) | Generates personalized triathlon and marathon training plans with Strava integration, workout schedules, and race-day strategies. | 5 | 22 | 2026-02-13 | [planning](planning.md), [analysis](analysis.md), [optimization](optimization.md), [fitness](fitness.md) |

@@ -1,7 +1,7 @@
 # 标签：gsap (gsap)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 10
+- 命中技能: 11
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
@@ -14,4 +14,5 @@
 | [gsap-router](https://github.com/bbeierle12/skill-mcp-claude/blob/main/skills/gsap-router/SKILL.md) | [bbeierle12/skill-mcp-claude](https://github.com/bbeierle12/skill-mcp-claude) | GSAP动画路由器，支持补间、时间线、ScrollTrigger和React集成。 | 7 | 34 | 2026-02-16 | [前端 (frontend)](frontend.md), [animation (animation)](animation.md), [gsap (gsap)](gsap.md) |
 | [gsap-master](https://github.com/su69ar/rdnax-gsap-master/blob/main/gsap-master/SKILL.md) | [su69ar/rdnax-gsap-master](https://github.com/su69ar/rdnax-gsap-master) | 完整的 GSAP v3 掌握指南，涵盖核心功能、插件和 React/Next.js 集成模式。 | 0 | 25 | 2026-01-23 | [animation (animation)](animation.md), [前端 (frontend)](frontend.md), [gsap (gsap)](gsap.md), [React](react.md), [Next.js (nextjs)](nextjs.md), [性能优化 (performance)](performance.md) |
 | [scroll-storyteller](https://github.com/ingpoc/skills/blob/main/scroll-storyteller/SKILL.md) | [ingpoc/skills](https://github.com/ingpoc/skills) | 创建交互式滚动故事体验，支持鼠标跟随聚光灯效果、动画SVG艺术和流畅动画。 | 6 | 24 | 2026-01-02 | [内容创作 (content-creation)](content-creation.md), [storytelling (storytelling)](storytelling.md), [animation (animation)](animation.md), [svg (svg)](svg.md), [gsap (gsap)](gsap.md), [scroll (scroll)](scroll.md) |
+| [awwwards-animations](https://github.com/devmartinese/awwwards-animations-skill/blob/main/SKILL.md) | [devmartinese/awwwards-animations-skill](https://github.com/devmartinese/awwwards-animations-skill) | 专业 React 动画技能，使用 GSAP 和 Framer Motion 创建 Awwwards 级效果。处理滚动、过 | 1 | 22 | 2026-02-09 | [UI](ui.md), [前端 (frontend)](frontend.md), [React](react.md), [gsap (gsap)](gsap.md), [animation (animation)](animation.md) |
 | [gsap-greensock](https://github.com/dylantarre/animation-principles/blob/main/skills/09-by-tool-framework/gsap-greensock/SKILL.md) | [dylantarre/animation-principles](https://github.com/dylantarre/animation-principles) | 使用GSAP实现迪士尼12条动画原则。 | 13 | 21 | 2025-12-30 | [前端 (frontend)](frontend.md), [animation (animation)](animation.md), [gsap (gsap)](gsap.md) |
