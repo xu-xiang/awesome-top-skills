@@ -5,5 +5,5 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [axiom-cloudkit-ref](https://github.com/charleswiltgen/axiom/blob/main/.claude-plugin/plugins/axiom/skills/axiom-cloudkit-ref/SKILL.md) | [charleswiltgen/axiom](https://github.com/charleswiltgen/axiom) | CloudKit 数据库 API 和同步模式参考。 | 544 | 93 | 2026-03-01 | [数据库 (databases)](databases.md), [API](api.md), [后端 (backend)](backend.md), [cloudkit (cloudkit)](cloudkit.md), [Swift (swift)](swift.md) |
+| [axiom-cloudkit-ref](https://github.com/charleswiltgen/axiom/blob/main/.claude-plugin/plugins/axiom/skills/axiom-cloudkit-ref/SKILL.md) | [charleswiltgen/axiom](https://github.com/charleswiltgen/axiom) | CloudKit 数据库 API 和同步模式参考。 | 565 | 93 | 2026-03-01 | [数据库 (databases)](databases.md), [API](api.md), [后端 (backend)](backend.md), [cloudkit (cloudkit)](cloudkit.md), [Swift (swift)](swift.md) |
 | [sqlite-data](https://github.com/johnrogers/claude-swift-engineering/blob/main/plugins/swift-engineering/skills/sqlite-data/SKILL.md) | [johnrogers/claude-swift-engineering](https://github.com/johnrogers/claude-swift-engineering) | 用于处理 SQLiteData 库和 CloudKit 数据库同步的技能。 | 149 | 21 | 2026-01-18 | [数据库 (databases)](databases.md), [数据管理 (data-management)](data-management.md), [SQLite (sqlite)](sqlite.md), [cloudkit (cloudkit)](cloudkit.md) |

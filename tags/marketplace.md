@@ -1,7 +1,7 @@
 # Tag: marketplace
 
 - Back: [Tags](README.md)
-- Tagged skills: 7
+- Tagged skills: 8
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
@@ -12,3 +12,4 @@
 | [ebay](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | eBay marketplace integration and management capabilities for online selling and buying activities. | 5 | 33 | 2026-01-09 | [marketplace](marketplace.md), [sales](sales.md), [marketing](marketing.md) |
 | [taskrabbit](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | Task management and customer support skill for task-based services marketplace | 5 | 30 | 2026-01-09 | [task-management](task-management.md), [customer-support](customer-support.md), [booking](booking.md), [marketplace](marketplace.md) |
 | [plugin-master](https://github.com/josiahsiegel/claude-plugin-marketplace/blob/main/plugins/plugin-master/skills/plugin-master/SKILL.md) | [josiahsiegel/claude-plugin-marketplace](https://github.com/josiahsiegel/claude-plugin-marketplace) | Complete Claude Code plugin development system for creating, packaging, validating, and publishing production-ready plugins with proper stru | 19 | 25 | 2026-02-14 | [plugin-development](plugin-development.md), [code-generation](code-generation.md), [claude](claude.md), [marketplace](marketplace.md), [best-practices](best-practices.md) |
+| [skill-linter](https://github.com/majesticlabs-dev/majestic-marketplace/blob/master/.claude/skills/skill-linter/SKILL.md) | [majesticlabs-dev/majestic-marketplace](https://github.com/majesticlabs-dev/majestic-marketplace) | Validates agent skills against spec for marketplace submission, PR review, and compliance. Checks frontmatter, naming, and structure. | 28 | 22 | 2026-03-03 | [linting](linting.md), [skill-management](skill-management.md), [agents](agents.md), [marketplace](marketplace.md) |

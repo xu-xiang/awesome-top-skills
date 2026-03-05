@@ -1,7 +1,7 @@
 # 标签：marketplace (marketplace)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 7
+- 命中技能: 8
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
@@ -12,3 +12,4 @@
 | [ebay](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | eBay市场集成和管理功能，用于在线销售和购买活动。 | 5 | 33 | 2026-01-09 | [marketplace (marketplace)](marketplace.md), [sales (sales)](sales.md), [营销 (marketing)](marketing.md) |
 | [taskrabbit](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | 任务管理和客户服务技能，适用于任务型服务平台 | 5 | 30 | 2026-01-09 | [任务管理 (task-management)](task-management.md), [customer support (customer-support)](customer-support.md), [booking (booking)](booking.md), [marketplace (marketplace)](marketplace.md) |
 | [plugin-master](https://github.com/josiahsiegel/claude-plugin-marketplace/blob/main/plugins/plugin-master/skills/plugin-master/SKILL.md) | [josiahsiegel/claude-plugin-marketplace](https://github.com/josiahsiegel/claude-plugin-marketplace) | 完整的 Claude 代码插件开发系统，用于创建、打包、验证和发布生产就绪的插件。 | 19 | 25 | 2026-02-14 | [plugin development (plugin-development)](plugin-development.md), [代码生成](code-generation.md), [Claude](claude.md), [marketplace (marketplace)](marketplace.md), [最佳实践 (best-practices)](best-practices.md) |
+| [skill-linter](https://github.com/majesticlabs-dev/majestic-marketplace/blob/master/.claude/skills/skill-linter/SKILL.md) | [majesticlabs-dev/majestic-marketplace](https://github.com/majesticlabs-dev/majestic-marketplace) | 根据规范验证代理技能，用于市场提交、PR 审查和合规检查。检查元数据、命名和结构。 | 28 | 22 | 2026-03-03 | [代码规范检查（Lint） (linting)](linting.md), [skill management (skill-management)](skill-management.md), [智能体 (agents)](agents.md), [marketplace (marketplace)](marketplace.md) |

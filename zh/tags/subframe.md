@@ -5,5 +5,5 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [design](https://github.com/subframeapp/subframe/blob/main/plugins/claude/subframe/skills/design/SKILL.md) | [subframeapp/subframe](https://github.com/subframeapp/subframe) | 在Subframe中设计UI页面，用于创建、迭代和探索设计选项，作为实现前的视觉起点。 | 375 | 210 | 2026-03-04 | [UI](ui.md), [设计系统](design-systems.md), [subframe (subframe)](subframe.md), [visual design (visual-design)](visual-design.md), [prototyping (prototyping)](prototyping.md) |
-| [develop](https://github.com/subframeapp/subframe/blob/main/plugins/claude/subframe/skills/develop/SKILL.md) | [subframeapp/subframe](https://github.com/subframeapp/subframe) | 实现Subframe设计并添加业务逻辑 | 375 | 209 | 2026-03-04 | [编码 (coding)](coding.md), [前端 (frontend)](frontend.md), [subframe (subframe)](subframe.md), [UI](ui.md) |
+| [design](https://github.com/subframeapp/subframe/blob/main/plugins/claude/subframe/skills/design/SKILL.md) | [subframeapp/subframe](https://github.com/subframeapp/subframe) | 在Subframe中设计UI页面，用于创建、迭代和探索设计选项，作为实现前的视觉起点。 | 375 | 217 | 2026-03-04 | [UI](ui.md), [设计系统](design-systems.md), [subframe (subframe)](subframe.md), [visual design (visual-design)](visual-design.md), [prototyping (prototyping)](prototyping.md) |
+| [develop](https://github.com/subframeapp/subframe/blob/main/plugins/claude/subframe/skills/develop/SKILL.md) | [subframeapp/subframe](https://github.com/subframeapp/subframe) | 实现Subframe设计并添加业务逻辑 | 375 | 215 | 2026-03-04 | [编码 (coding)](coding.md), [前端 (frontend)](frontend.md), [subframe (subframe)](subframe.md), [UI](ui.md) |

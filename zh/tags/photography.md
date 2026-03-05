@@ -1,11 +1,13 @@
 # 标签：photography (photography)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 6
+- 命中技能: 8
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [product-photography](https://github.com/inference-sh-9/skills/blob/main/skills/product-photography/SKILL.md) | [inference-sh-9/skills](https://github.com/inference-sh-9/skills) | AI产品摄影技能，生成专业产品图片，涵盖工作室灯光、生活照和电商标准。 | 88 | 4K | 2026-03-03 | [image generation (image-generation)](image-generation.md), [内容创作 (content-creation)](content-creation.md), [photography (photography)](photography.md), [ecommerce (ecommerce)](ecommerce.md), [branding (branding)](branding.md) |
+| [product-photography](https://github.com/tul-sh/skills/blob/main/guides/photo/product-photography/SKILL.md) | [tul-sh/skills](https://github.com/tul-sh/skills) | AI产品摄影技能，生成专业产品图片，涵盖工作室灯光、生活照和电商标准。 | 95 | 875 | 2026-03-04 | [image generation (image-generation)](image-generation.md), [内容创作 (content-creation)](content-creation.md), [photography (photography)](photography.md), [ecommerce (ecommerce)](ecommerce.md), [branding (branding)](branding.md) |
+| [product-photography](https://github.com/inference-sh/skills/blob/main/guides/photo/product-photography/SKILL.md) | [inference-sh/skills](https://github.com/inference-sh/skills) | AI产品摄影技能，生成专业产品图片，涵盖工作室灯光、生活照和电商标准。 | 95 | 90 | 2026-03-04 | [image generation (image-generation)](image-generation.md), [内容创作 (content-creation)](content-creation.md), [photography (photography)](photography.md), [ecommerce (ecommerce)](ecommerce.md), [branding (branding)](branding.md) |
 | [product-photography](https://github.com/1nfsh/s/blob/main/skills/product-photography/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | AI产品摄影技能，生成专业产品图片，涵盖工作室灯光、生活照和电商标准。 | 0 | 89 | 2026-02-13 | [image generation (image-generation)](image-generation.md), [内容创作 (content-creation)](content-creation.md), [photography (photography)](photography.md), [ecommerce (ecommerce)](ecommerce.md), [branding (branding)](branding.md) |
 | [product-photography](https://github.com/1nfsh/skills/blob/main/skills/product-photography/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | AI产品摄影技能，生成专业产品图片，涵盖工作室灯光、生活照和电商标准。 | 34 | 72 | 2026-02-18 | [image generation (image-generation)](image-generation.md), [内容创作 (content-creation)](content-creation.md), [photography (photography)](photography.md), [ecommerce (ecommerce)](ecommerce.md), [branding (branding)](branding.md) |
 | [product-photography](https://github.com/1nfsh-s3/skills/blob/main/skills/product-photography/SKILL.md) | [1nfsh-s3/skills](https://github.com/1nfsh-s3/skills) | AI产品摄影技能，生成专业产品图片，涵盖工作室灯光、生活照和电商标准。 | 34 | 63 | 2026-02-18 | [image generation (image-generation)](image-generation.md), [内容创作 (content-creation)](content-creation.md), [photography (photography)](photography.md), [ecommerce (ecommerce)](ecommerce.md), [branding (branding)](branding.md) |

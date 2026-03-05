@@ -56,9 +56,9 @@ bats-testing-patterns;wshobson/agents;bats-testing-patterns;Learn to use Bats fo
 istio-traffic-management;wshobson/agents;istio-traffic-management;Configures Istio traffic management policies like routing, load balancing, and canary deployments for service mesh resilience.
 bazel-build-optimization;wshobson/agents;bazel-build-optimization;Optimize Bazel builds for large-scale monorepos with remote execution and performance tuning.
 linkerd-patterns;wshobson/agents;linkerd-patterns;Implement Linkerd service mesh patterns for lightweight, secure deployments. Covers setup, traffic policies, and zero-trust networking.
+python-observability;wshobson/agents;python-observability;A Python observability skill for structured logging, metrics, and distributed tracing.
 commit-helper;cockroachdb/cockroach;commit-helper;Automates git commit and PR message formatting following CockroachDB conventions.
 backport-pr-assistant;cockroachdb/cockroach;backport-pr-assistant;Assists in backporting PRs to release branches via CLI, especially for resolving merge conflicts manually.
-python-observability;wshobson/agents;python-observability;A Python observability skill for structured logging, metrics, and distributed tracing.
 gh-cli;github/awesome-copilot;gh-cli;A comprehensive GitHub CLI reference for managing repositories, issues, pull requests, and more from the command line.
 github-issues;github/awesome-copilot;github-issues;Manage GitHub issues including creation, updates, and workflow automation.
 azure-devops-cli;github/awesome-copilot;azure-devops-cli;Manage Azure DevOps resources via CLI for projects, repos, pipelines, and more.
@@ -69,19 +69,19 @@ azure-static-web-apps;github/awesome-copilot;azure-static-web-apps;Deploy and ma
 terraform-azurerm-set-diff-analyzer;github/awesome-copilot;terraform-azurerm-set-diff-analyzer;Analyze Terraform plan JSON output for AzureRM Provider to distinguish between false-positive diffs and actual resource changes in Set-type
 git-commit;github/awesome-copilot;git-commit;Automates Git commit process with conventional message analysis and intelligent staging.
 docker-expert;sickn33/antigravity-awesome-skills;docker-expert;Docker expert for multi-stage builds, image optimization, security, Compose orchestration, and production deployment patterns.
-list-npm-package-content;vercel/ai;list-npm-package-content;Check npm package contents before publishing.
 senior-devops;davila7/claude-code-templates;development/senior-devops;A comprehensive DevOps skill covering CI/CD, infrastructure automation, containerization, and cloud platforms.
+list-npm-package-content;vercel/ai;list-npm-package-content;Check npm package contents before publishing.
 docker-expert;davila7/claude-code-templates;development/docker-expert;A Docker expert skill for multi-stage builds, image optimization, security, and orchestration.
 devops-iac-engineer;davila7/claude-code-templates;development/devops-iac-engineer;A DevOps engineer implementing IaC with Terraform and Kubernetes, designing scalable architectures and CI/CD pipelines.
 commit;davila7/claude-code-templates;sentry/commit;Generate commit messages following Sentry conventions for git history formatting.
 bash-linux;davila7/claude-code-templates;development/bash-linux;A skill for Bash/Linux terminal patterns including critical commands, piping, error handling, and scripting.
-changelog-generator;davila7/claude-code-templates;development/changelog-generator;Automatically generates user-friendly changelogs from git commits.
 github-workflow-automation;davila7/claude-code-templates;development/github-workflow-automation;Automate GitHub workflows with AI assistance including PR reviews, issue triage, and CI/CD integration.
+changelog-generator;davila7/claude-code-templates;development/changelog-generator;Automatically generates user-friendly changelogs from git commits.
 vercel-deployment;davila7/claude-code-templates;development/vercel-deployment;Deploy applications to Vercel with Next.js expertise.
 server-management;davila7/claude-code-templates;development/server-management;Teaches server management principles including process management, monitoring strategy, and scaling decisions.
+git-pushing;davila7/claude-code-templates;development/git-pushing;Automatically stage, commit, and push Git changes with conventional commit messages.
 it-operations;davila7/claude-code-templates;development/it-operations;Manages IT infrastructure, monitoring, incident response, and service reliability with frameworks like ITIL and observability strategies.
 gh-fix-ci;davila7/claude-code-templates;development/gh-fix-ci;Debug and fix failing GitHub CI/CD checks with automated log inspection and fix planning.
-git-pushing;davila7/claude-code-templates;development/git-pushing;Automatically stage, commit, and push Git changes with conventional commit messages.
 datadog-cli;davila7/claude-code-templates;ai-research/datadog-cli;A CLI tool for Datadog observability features like logs, metrics, and dashboards.
 aws-serverless;davila7/claude-code-templates;development/aws-serverless;A specialized skill for building production-ready serverless applications on AWS, covering Lambda, API Gateway, DynamoDB, and more.
 railway-deployment;davila7/claude-code-templates;railway/deployment;Manage Railway deployments including viewing logs, redeploying, restarting, and removing deployments.
@@ -118,17 +118,17 @@ workflow-automation;sickn33/antigravity-awesome-skills;workflow-automation;Autom
 gcp-cloud-run;sickn33/antigravity-awesome-skills;gcp-cloud-run;A specialized skill for building production-ready serverless apps on GCP, covering Cloud Run services and functions.
 git-pushing;sickn33/antigravity-awesome-skills;git-pushing;Automatically stage, commit, and push Git changes with conventional commit messages.
 azure-functions;sickn33/antigravity-awesome-skills;azure-functions;Expert patterns for Azure Functions development including isolated worker model, Durable Functions, cold start optimization, and production
-deployment-procedures;sickn33/antigravity-awesome-skills;deployment-procedures;Teaches safe deployment workflows, rollback strategies, and verification for production environments.
 server-management;sickn33/antigravity-awesome-skills;server-management;Teaches server management principles including process management, monitoring strategy, and scaling decisions.
+deployment-procedures;sickn33/antigravity-awesome-skills;deployment-procedures;Teaches safe deployment workflows, rollback strategies, and verification for production environments.
 trigger-dev;sickn33/antigravity-awesome-skills;trigger-dev;A skill for managing background jobs, AI workflows, and async execution with Trigger.dev.
 using-git-worktrees;sickn33/antigravity-awesome-skills;using-git-worktrees;Create isolated Git worktrees for feature development with smart directory selection and safety checks.
 upstash-qstash;sickn33/antigravity-awesome-skills;upstash-qstash;An expert skill for managing Upstash QStash serverless message queues and scheduled jobs.
 linux-production-shell-scripts;sickn33/antigravity-awesome-skills;;Linux production shell scripts for automation and deployment tasks in production environments
 kubernetes-architect;sickn33/antigravity-awesome-skills;kubernetes-architect;Expert Kubernetes architect specializing in cloud-native infrastructure and GitOps workflows.
 performance-engineer;sickn33/antigravity-awesome-skills;performance-engineer;A performance engineer specializing in observability, application optimization, and scalable system performance using OpenTelemetry and dist
+observability-engineer;sickn33/antigravity-awesome-skills;observability-engineer;Build production-ready monitoring, logging, and tracing systems with SLI/SLO management and incident response workflows.
 bash-pro;sickn33/antigravity-awesome-skills;bash-pro;Master defensive Bash scripting for production automation, CI/CD pipelines, and system utilities.
 busybox-on-windows;sickn33/antigravity-awesome-skills;busybox-on-windows;This skill teaches how to use BusyBox on Windows for UNIX command-line tools.
-observability-engineer;sickn33/antigravity-awesome-skills;observability-engineer;Build production-ready monitoring, logging, and tracing systems with SLI/SLO management and incident response workflows.
 aws-skills;sickn33/antigravity-awesome-skills;aws-skills;AWS development with infrastructure automation and cloud architecture patterns
 application-performance-performance-optimization;sickn33/antigravity-awesome-skills;application-performance-performance-optimization;Optimize end-to-end application performance with profiling, observability, and backend/frontend tuning.
 cloud-architect;sickn33/antigravity-awesome-skills;cloud-architect;Expert cloud architect specializing in multi-cloud infrastructure design, IaC, and cost optimization.
@@ -138,65 +138,65 @@ devops-troubleshooter;sickn33/antigravity-awesome-skills;devops-troubleshooter;A
 git-advanced-workflows;sickn33/antigravity-awesome-skills;git-advanced-workflows;Master advanced Git workflows for clean history and issue recovery.
 terraform-specialist;sickn33/antigravity-awesome-skills;terraform-specialist;Expert Terraform/OpenTofu specialist for advanced IaC automation, state management, and enterprise infrastructure patterns.
 bash-defensive-patterns;sickn33/antigravity-awesome-skills;bash-defensive-patterns;Learn defensive Bash scripting techniques for robust, production-ready scripts and CI/CD pipelines.
+cicd-automation-workflow-automate;sickn33/antigravity-awesome-skills;cicd-automation-workflow-automate;Automate CI/CD pipelines and GitHub Actions workflows for efficient, secure, and consistent software delivery.
 error-debugging-error-analysis;sickn33/antigravity-awesome-skills;error-debugging-error-analysis;Expert error analysis and debugging for distributed systems and production incidents.
 network-engineer;sickn33/antigravity-awesome-skills;network-engineer;A network engineer expert in cloud networking, security, and performance optimization across multi-cloud environments.
 observability-monitoring-monitor-setup;sickn33/antigravity-awesome-skills;observability-monitoring-monitor-setup;Set up comprehensive monitoring and observability solutions with metrics, tracing, and log aggregation.
 error-diagnostics-error-trace;sickn33/antigravity-awesome-skills;error-diagnostics-error-trace;Helps set up error tracking and observability systems for comprehensive error monitoring and alerting.
-cicd-automation-workflow-automate;sickn33/antigravity-awesome-skills;cicd-automation-workflow-automate;Automate CI/CD pipelines and GitHub Actions workflows for efficient, secure, and consistent software delivery.
-error-debugging-error-trace;sickn33/antigravity-awesome-skills;error-debugging-error-trace;Helps set up error tracking and observability for quick production issue resolution.
 commit;sickn33/antigravity-awesome-skills;commit;Generate commit messages following Sentry conventions for git history formatting.
-git-pr-workflows-git-workflow;sickn33/antigravity-awesome-skills;git-pr-workflows-git-workflow;Orchestrate a comprehensive Git workflow from code review to PR creation using specialized agents.
-workflow-orchestration-patterns;sickn33/antigravity-awesome-skills;workflow-orchestration-patterns;Design durable workflows with Temporal for distributed systems, covering workflow vs activity separation, saga patterns, and determinism con
 grafana-dashboards;sickn33/antigravity-awesome-skills;grafana-dashboards;Create and manage Grafana dashboards for real-time system and application metric visualization.
-error-diagnostics-error-analysis;sickn33/antigravity-awesome-skills;error-diagnostics-error-analysis;An expert error analysis skill for debugging distributed systems and analyzing production incidents.
+git-pr-workflows-git-workflow;sickn33/antigravity-awesome-skills;git-pr-workflows-git-workflow;Orchestrate a comprehensive Git workflow from code review to PR creation using specialized agents.
+error-debugging-error-trace;sickn33/antigravity-awesome-skills;error-debugging-error-trace;Helps set up error tracking and observability for quick production issue resolution.
+workflow-orchestration-patterns;sickn33/antigravity-awesome-skills;workflow-orchestration-patterns;Design durable workflows with Temporal for distributed systems, covering workflow vs activity separation, saga patterns, and determinism con
 database-cloud-optimization-cost-optimize;sickn33/antigravity-awesome-skills;database-cloud-optimization-cost-optimize;Optimize cloud database costs while maintaining performance and reliability across AWS, Azure, and GCP.
-database-migrations-migration-observability;sickn33/antigravity-awesome-skills;database-migrations-migration-observability;Monitor database migrations with CDC and observability features.
+error-diagnostics-error-analysis;sickn33/antigravity-awesome-skills;error-diagnostics-error-analysis;An expert error analysis skill for debugging distributed systems and analyzing production incidents.
 gitlab-ci-patterns;sickn33/antigravity-awesome-skills;gitlab-ci-patterns;Create scalable GitLab CI/CD pipelines with multi-stage workflows and distributed runners.
-conductor-manage;sickn33/antigravity-awesome-skills;conductor-manage;Manage track lifecycle: archive, restore, delete, rename, and cleanup operations
 dependency-management-deps-audit;sickn33/antigravity-awesome-skills;dependency-management-deps-audit;A dependency security expert for vulnerability scanning, license compliance, and supply chain security analysis of project dependencies.
+database-migrations-migration-observability;sickn33/antigravity-awesome-skills;database-migrations-migration-observability;Monitor database migrations with CDC and observability features.
+conductor-manage;sickn33/antigravity-awesome-skills;conductor-manage;Manage track lifecycle: archive, restore, delete, rename, and cleanup operations
 performance-testing-review-multi-agent-review;sickn33/antigravity-awesome-skills;performance-testing-review-multi-agent-review;A multi-agent review skill for performance testing.
 deployment-engineer;sickn33/antigravity-awesome-skills;deployment-engineer;Expert deployment engineer specializing in modern CI/CD pipelines, GitOps workflows, and advanced deployment automation.
 git-pr-workflows-pr-enhance;sickn33/antigravity-awesome-skills;git-pr-workflows-pr-enhance;Optimize pull requests for efficient code reviews with automated processes.
-error-detective;sickn33/antigravity-awesome-skills;error-detective;Detects error patterns, stack traces, and anomalies in logs and codebases to identify root causes.
-observability-monitoring-slo-implement;sickn33/antigravity-awesome-skills;observability-monitoring-slo-implement;Implement SLO frameworks and error budget practices for service reliability and monitoring.
-gitops-workflow;sickn33/antigravity-awesome-skills;gitops-workflow;Implement GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
 deployment-pipeline-design;sickn33/antigravity-awesome-skills;deployment-pipeline-design;Design multi-stage CI/CD pipelines with approval gates, security checks, and deployment orchestration.
+observability-monitoring-slo-implement;sickn33/antigravity-awesome-skills;observability-monitoring-slo-implement;Implement SLO frameworks and error budget practices for service reliability and monitoring.
+error-detective;sickn33/antigravity-awesome-skills;error-detective;Detects error patterns, stack traces, and anomalies in logs and codebases to identify root causes.
 test-automator;sickn33/antigravity-awesome-skills;test-automator;Automate testing with AI-powered frameworks and CI/CD integration.
 changelog-automation;sickn33/antigravity-awesome-skills;changelog-automation;Automate changelog generation from commits and PRs following Keep a Changelog format.
+gitops-workflow;sickn33/antigravity-awesome-skills;gitops-workflow;Implement GitOps workflows with ArgoCD and Flux for automated Kubernetes deployments.
 k8s-manifest-generator;sickn33/antigravity-awesome-skills;k8s-manifest-generator;Generate production-ready Kubernetes manifests with best practices and security standards.
 helm-chart-scaffolding;sickn33/antigravity-awesome-skills;helm-chart-scaffolding;Create and manage Helm charts for Kubernetes application templating and packaging.
-deployment-validation-config-validate;sickn33/antigravity-awesome-skills;deployment-validation-config-validate;Configuration management expert for validating application configurations with comprehensive schemas and implementation guidance.
-terraform-module-library;sickn33/antigravity-awesome-skills;terraform-module-library;Create reusable Terraform modules for cloud infrastructure with best practices.
-incident-response-smart-fix;sickn33/antigravity-awesome-skills;incident-response-smart-fix;AI-assisted incident response workflow for systematic debugging and resolution using observability platforms
-terraform-skill;sickn33/antigravity-awesome-skills;terraform-skill;Terraform infrastructure as code best practices for managing cloud infrastructure efficiently and reliably.
-vercel-deploy-claimable;sickn33/antigravity-awesome-skills;vercel-deploy-claimable;Deploy applications and websites to Vercel with preview URLs and claimable links. Handles deployment requests like 'Deploy my app' or 'Creat
-airflow-dag-patterns;sickn33/antigravity-awesome-skills;airflow-dag-patterns;Create production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment.
 cost-optimization;sickn33/antigravity-awesome-skills;cost-optimization;Optimize cloud costs through resource resizing, tagging, reserved instances, and spending analysis.
+deployment-validation-config-validate;sickn33/antigravity-awesome-skills;deployment-validation-config-validate;Configuration management expert for validating application configurations with comprehensive schemas and implementation guidance.
+vercel-deploy-claimable;sickn33/antigravity-awesome-skills;vercel-deploy-claimable;Deploy applications and websites to Vercel with preview URLs and claimable links. Handles deployment requests like 'Deploy my app' or 'Creat
+terraform-module-library;sickn33/antigravity-awesome-skills;terraform-module-library;Create reusable Terraform modules for cloud infrastructure with best practices.
+terraform-skill;sickn33/antigravity-awesome-skills;terraform-skill;Terraform infrastructure as code best practices for managing cloud infrastructure efficiently and reliably.
+airflow-dag-patterns;sickn33/antigravity-awesome-skills;airflow-dag-patterns;Create production Apache Airflow DAGs with best practices for operators, sensors, testing, and deployment.
+incident-response-smart-fix;sickn33/antigravity-awesome-skills;incident-response-smart-fix;AI-assisted incident response workflow for systematic debugging and resolution using observability platforms
 prometheus-configuration;sickn33/antigravity-awesome-skills;prometheus-configuration;Configure Prometheus for infrastructure and application monitoring, metric collection, and alerting.
-multi-cloud-architecture;sickn33/antigravity-awesome-skills;multi-cloud-architecture;Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, and GCP.
 ml-pipeline-workflow;sickn33/antigravity-awesome-skills;ml-pipeline-workflow;Build end-to-end MLOps pipelines from data prep to model deployment and production workflows.
-bats-testing-patterns;sickn33/antigravity-awesome-skills;bats-testing-patterns;Learn to use Bats for comprehensive shell script testing in CI/CD pipelines.
 incident-runbook-templates;sickn33/antigravity-awesome-skills;incident-runbook-templates;Create structured incident response runbooks with procedures, escalation paths, and recovery actions for efficient incident management.
+multi-cloud-architecture;sickn33/antigravity-awesome-skills;multi-cloud-architecture;Design multi-cloud architectures using a decision framework to select and integrate services across AWS, Azure, and GCP.
+bats-testing-patterns;sickn33/antigravity-awesome-skills;bats-testing-patterns;Learn to use Bats for comprehensive shell script testing in CI/CD pipelines.
 turborepo-caching;sickn33/antigravity-awesome-skills;turborepo-caching;Configure Turborepo for efficient monorepo builds with local and remote caching.
 distributed-tracing;sickn33/antigravity-awesome-skills;distributed-tracing;Implement distributed tracing with Jaeger and Tempo to track requests across microservices and identify performance bottlenecks.
 distributed-debugging-debug-trace;sickn33/antigravity-awesome-skills;distributed-debugging-debug-trace;Expert in setting up debugging environments, distributed tracing, and diagnostic tools for development and production systems.
 bazel-build-optimization;sickn33/antigravity-awesome-skills;bazel-build-optimization;Optimize Bazel builds for large-scale monorepos with remote execution and performance tuning.
+on-call-handoff-patterns;sickn33/antigravity-awesome-skills;on-call-handoff-patterns;Master on-call shift handoffs with context transfer, escalation procedures, and documentation.
 shellcheck-configuration;sickn33/antigravity-awesome-skills;shellcheck-configuration;Configure ShellCheck for static analysis of shell scripts to ensure quality and portability.
 service-mesh-expert;sickn33/antigravity-awesome-skills;service-mesh-expert;Expert service mesh architect specializing in Istio, Linkerd, and cloud-native networking patterns for traffic management, security, and obs
-on-call-handoff-patterns;sickn33/antigravity-awesome-skills;on-call-handoff-patterns;Master on-call shift handoffs with context transfer, escalation procedures, and documentation.
 linkerd-patterns;sickn33/antigravity-awesome-skills;linkerd-patterns;Implement Linkerd service mesh patterns for secure, lightweight service deployments with minimal overhead.
 slo-implementation;sickn33/antigravity-awesome-skills;slo-implementation;Implement SLIs/SLOs with error budgets and alerting for service reliability.
-istio-traffic-management;sickn33/antigravity-awesome-skills;istio-traffic-management;Manage Istio traffic including routing, load balancing, and canary deployments for service mesh policies.
-hybrid-cloud-networking;sickn33/antigravity-awesome-skills;hybrid-cloud-networking;Configure secure hybrid cloud networking with VPN and dedicated connections.
 github-automation;sickn33/antigravity-awesome-skills;github-automation;Automate GitHub repositories, issues, pull requests, branches, CI/CD, and permissions via Rube MCP (Composio). Manage code workflows, review
+hybrid-cloud-networking;sickn33/antigravity-awesome-skills;hybrid-cloud-networking;Configure secure hybrid cloud networking with VPN and dedicated connections.
+istio-traffic-management;sickn33/antigravity-awesome-skills;istio-traffic-management;Manage Istio traffic including routing, load balancing, and canary deployments for service mesh policies.
 observe-whatsapp;sickn33/antigravity-awesome-skills;observe-whatsapp;Monitor and troubleshoot WhatsApp issues in Kapso, including message delivery, webhook retries, and API errors.
 incident-responder;sickn33/antigravity-awesome-skills;incident-responder;Manage production incidents with structured response, debugging, and post-mortem documentation.
 service-mesh-observability;sickn33/antigravity-awesome-skills;service-mesh-observability;Implement comprehensive observability for service meshes including distributed tracing, metrics, and visualization.
 claude-win11-speckit-update-skill;sickn33/antigravity-awesome-skills;claude-win11-speckit-update-skill;Windows 11 system management skill for automation and updates
 hybrid-cloud-architect;sickn33/antigravity-awesome-skills;hybrid-cloud-architect;Expert hybrid cloud architect for complex multi-cloud solutions across AWS/Azure/GCP and private clouds with focus on connectivity, optimiza
 vercel-automation;sickn33/antigravity-awesome-skills;vercel-automation;Automate Vercel tasks via Rube MCP (Composio): manage deployments, domains, DNS, env vars, projects, and teams.
-expo-deployment;sickn33/antigravity-awesome-skills;expo-deployment;Skill to deploy Expo applications to production environments.
 gitlab-automation;sickn33/antigravity-awesome-skills;gitlab-automation;Automate GitLab project management, issues, merge requests, pipelines, branches, and user operations via Rube MCP (Composio).
+expo-deployment;sickn33/antigravity-awesome-skills;expo-deployment;Skill to deploy Expo applications to production environments.
 iterate-pr;sickn33/antigravity-awesome-skills;iterate-pr;Automatically iterate on pull requests until CI checks pass.
 datadog-automation;sickn33/antigravity-awesome-skills;datadog-automation;Automate Datadog tasks via Rube MCP (Composio): query metrics, search logs, manage monitors/dashboards, create events and downtimes.
 bitbucket-automation;sickn33/antigravity-awesome-skills;bitbucket-automation;Automate Bitbucket repositories, pull requests, branches, issues, and workspace management via Rube MCP (Composio)
@@ -207,14 +207,15 @@ v3-mcp-optimization;ruvnet/claude-flow;v3-mcp-optimization;MCP server optimizati
 agentdb-performance-optimization;ruvnet/claude-flow;;Performance optimization for agent database operations and execution efficiency
 worker-benchmarks;ruvnet/claude-flow;worker-benchmarks;Run comprehensive benchmarks and performance analysis for worker systems.
 pr-workflow;tursodatabase/turso;pr-workflow;A general workflow skill for commits, formatting, CI, dependencies, and security.
+vercel-cli;vercel/vercel;vercel-cli;Command-line interface for deploying, managing, and developing projects on Vercel.
 gh-fix-ci;openai/skills;main/skills/.curated/gh-fix-ci;Fix failing GitHub PR checks using gh to inspect logs and implement fixes.
 vercel-deploy;openai/skills;main/skills/.curated/vercel-deploy;Deploy applications and websites to Vercel with support for preview deployments and live pushes.
-cloudflare-deploy;openai/skills;main/skills/.curated/cloudflare-deploy;Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services.
 netlify-deploy;openai/skills;main/skills/.curated/netlify-deploy;Deploy web projects to Netlify using the Netlify CLI for both preview and production environments.
+cloudflare-deploy;openai/skills;main/skills/.curated/cloudflare-deploy;Deploy applications and infrastructure to Cloudflare using Workers, Pages, and related platform services.
 sentry;openai/skills;main/skills/.curated/sentry;Inspect Sentry issues/events, summarize production errors, and query Sentry health data via API for monitoring and debugging purposes.
+release-skills;jimliu/baoyu-skills;release-skills;Automatically handles releases for multiple languages and frameworks with version detection and changelog support.
 render-deploy;openai/skills;main/skills/.curated/render-deploy;Deploy applications to Render by analyzing codebases, generating render.yaml Blueprints, and providing Dashboard deeplinks for cloud hosting
 yeet;openai/skills;main/skills/.curated/yeet;Automates GitHub CLI operations for staging, committing, pushing, and opening pull requests.
-release-skills;jimliu/baoyu-skills;release-skills;Automatically handles releases for multiple languages and frameworks with version detection and changelog support.
 gitlab-address-comments;openai/skills;;Automates addressing comments on GitLab merge requests
 git-worktree;everyinc/compound-engineering-plugin;git-worktree;Manages Git worktrees for isolated parallel development with a simple interface.
 rclone;everyinc/compound-engineering-plugin;rclone;Manage and sync files across cloud storage providers like S3, Google Drive, and Dropbox using rclone.
@@ -223,46 +224,46 @@ release;yeachan-heo/oh-my-claudecode;release;Automated release workflow for oh-m
 modal;k-dense-ai/claude-scientific-skills;;Deploy Python code in the cloud with serverless containers, GPUs, and autoscaling for ML models and compute-intensive tasks.
 expo-deployment;expo/skills;main/plugins/expo-deployment/skills/expo-deployment;Deploy Expo apps to iOS, Android, web, and API routes.
 kubernetes-specialist;jeffallan/claude-skills;kubernetes-specialist;A skill for deploying and managing Kubernetes workloads with focus on cluster configuration, security, and troubleshooting.
+log-analysis;supercent-io/skills-template;;Analyze application logs to identify errors, performance issues, and security anomalies across various log formats.
+system-environment-setup;supercent-io/skills-template;;Set up consistent development and production environments with Docker, .env files, and dev containers.
+environment-setup;supercent-io/skills-template;;Set up and manage development, staging, and production environments with configuration and .env file handling.
+git-submodule;supercent-io/skills-template;;Manage Git submodules for including external repositories within a main repository.
 expo-cicd-workflows;expo/skills;main/plugins/expo-deployment/skills/expo-cicd-workflows;Helps understand and write EAS workflow YAML files for Expo projects.
 devops-engineer;jeffallan/claude-skills;devops-engineer;A skill for DevOps engineers to manage CI/CD pipelines, containerization, and infrastructure as code.
 deployment-procedures;vudovn/antigravity-kit;deployment-procedures;Teaches safe deployment workflows, rollback strategies, and verification for production environments.
 server-management;vudovn/antigravity-kit;server-management;Teaches server management principles including process management, monitoring strategy, and scaling decisions.
 bash-linux;vudovn/antigravity-kit;bash-linux;A skill for Bash/Linux terminal patterns including critical commands, piping, error handling, and scripting.
-turborepo;antfu/skills;main/skills/turborepo;Guidance for Turborepo monorepo build system, covering task pipelines, caching, and CI optimization.
 monitoring-expert;jeffallan/claude-skills;monitoring-expert;A skill for setting up monitoring systems including logging, metrics, tracing, and alerting with tools like Prometheus and Grafana.
-workflow-automation;supercent-io/skills-template;;Automate repetitive development tasks and workflows. Handles npm scripts, Makefile, GitHub Actions workflows, and task automation.
 terraform-engineer;jeffallan/claude-skills;terraform-engineer;A skill for implementing infrastructure as code using Terraform across AWS, Azure, and GCP.
 cloud-architect;jeffallan/claude-skills;cloud-architect;A skill for designing cloud architectures, planning migrations, and optimizing multi-cloud deployments with focus on cost, security, and dis
 sre-engineer;jeffallan/claude-skills;sre-engineer;An SRE engineer skill for managing SLIs/SLOs, error budgets, and reliable system design at scale.
+turborepo;antfu/skills;main/skills/turborepo;Guidance for Turborepo monorepo build system, covering task pipelines, caching, and CI optimization.
+chaos-engineer;jeffallan/claude-skills;chaos-engineer;A skill for designing chaos experiments and conducting resilience testing.
+workflow-automation;supercent-io/skills-template;;Automate repetitive development tasks and workflows. Handles npm scripts, Makefile, GitHub Actions workflows, and task automation.
 vercel-deploy;supercent-io/skills-template;;Deploy applications to Vercel with one click.
 deployment-automation;supercent-io/skills-template;;Automate application deployment to cloud platforms and servers with CI/CD pipelines, Docker, Kubernetes, AWS, and Vercel support.
 monitoring-observability;supercent-io/skills-template;;Set up monitoring, logging, and observability for applications and infrastructure with Prometheus, Grafana, ELK Stack, and Datadog.
-log-analysis;supercent-io/skills-template;;Analyze application logs to identify errors, performance issues, and security anomalies across various log formats.
-system-environment-setup;supercent-io/skills-template;;Set up consistent development and production environments with Docker, .env files, and dev containers.
-environment-setup;supercent-io/skills-template;;Set up and manage development, staging, and production environments with configuration and .env file handling.
-git-submodule;supercent-io/skills-template;;Manage Git submodules for including external repositories within a main repository.
-chaos-engineer;jeffallan/claude-skills;chaos-engineer;A skill for designing chaos experiments and conducting resilience testing.
 cloudflare;cloudflare/cloudflare-docs;;Cloudflare configuration and setup management tool
 git;epicenterhq/epicenter;git;A Git commit and pull request guideline using conventional commits.
 coverage-analysis;trailofbits/skills;main/plugins/testing-handbook-skills/skills/coverage-analysis;Analyzes code coverage during fuzzing to assess harness effectiveness and identify blockers.
 address-sanitizer;trailofbits/skills;main/plugins/testing-handbook-skills/skills/address-sanitizer;Detects memory errors in C/C++ code during fuzzing using AddressSanitizer.
-n8n-workflow-patterns;czlonkowski/n8n-skills;n8n-workflow-patterns;Provides proven workflow patterns for n8n to help design and build efficient workflows.
 devcontainer-setup;trailofbits/skills;main/plugins/devcontainer-setup/skills/devcontainer-setup;Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes for isolated development env
 debug-buttercup;trailofbits/skills;main/plugins/debug-buttercup/skills/debug-buttercup;Debugs Buttercup CRS (Cyber Reasoning System) running on Kubernetes, diagnosing pod crashes, service failures, and system issues.
+n8n-workflow-patterns;czlonkowski/n8n-skills;n8n-workflow-patterns;Provides proven workflow patterns for n8n to help design and build efficient workflows.
 aws-solution-architect;alirezarezvani/claude-skills;;Design serverless AWS architectures using IaC templates and optimize costs.
+senior-devops;alirezarezvani/claude-skills;;A comprehensive DevOps skill covering CI/CD, infrastructure automation, containerization, and cloud platforms.
+ms365-tenant-manager;alirezarezvani/claude-skills;;Automate Microsoft 365 tenant administration, including user management, security policies, and compliance reporting.
 git-commit-specification;tencentblueking/bk-ci;git-commit-specification;A skill for enforcing Git commit conventions including message formats, issue linking, and branch naming.
 00-bkci-global-architecture;tencentblueking/bk-ci;00-bkci-global-architecture;A global architecture guide for BK-CI, focusing on pipeline-based module collaboration and system design.
 managing-devops-pipeline;tencentblueking/bk-ci;managing-devops-pipeline;Manage Blue Shield pipeline build operations including history, parameters, status, and triggering builds.
 microservice-infrastructure;tencentblueking/bk-ci;microservice-infrastructure;A guide for microservice infrastructure including configuration, event-driven architecture, and service communication.
 repository-module-architecture;tencentblueking/bk-ci;repository-module-architecture;Guide for repository module architecture, covering Git/SVN integration, webhook configuration, and authorization management.
 artifactory-module-architecture;tencentblueking/bk-ci;artifactory-module-architecture;Artifactory module architecture guide covering artifact upload/download, storage backends, metadata, cleanup strategies, and permissions.
-senior-devops;alirezarezvani/claude-skills;;A comprehensive DevOps skill covering CI/CD, infrastructure automation, containerization, and cloud platforms.
-ms365-tenant-manager;alirezarezvani/claude-skills;;Automate Microsoft 365 tenant administration, including user management, security policies, and compliance reporting.
 github;callstackincubator/agent-skills;github;A skill for managing GitHub workflows using gh CLI, including PRs, code reviews, and branching strategies.
-gh-issue-fix-flow;dimillian/skills;main/gh-issue-fix-flow;An end-to-end workflow for fixing GitHub issues using CLI tools and automated builds.
 devops;mrgoonie/claudekit-skills;devops;A skill for deploying applications to cloud platforms like Cloudflare, GCP, and Kubernetes with support for serverless and containerized env
-service;railwayapp/railway-skills;;Manage service status, renaming, icons, linking, and creation with Docker images or local code.
+apify-actorization;apify/agent-skills;apify-actorization;Convert projects into Apify Actors for serverless cloud deployment.
 terraform-style-guide;hashicorp/agent-skills;terraform-style-guide;Generates Terraform HCL code following HashiCorp's official style conventions and best practices.
+service;railwayapp/railway-skills;;Manage service status, renaming, icons, linking, and creation with Docker images or local code.
 readme-generator;jeremylongshore/claude-code-plugins-plus-skills;;Automatically generates README files for DevOps basics.
 dockerfile-generator;jeremylongshore/claude-code-plugins-plus-skills;;Auto-activating skill for generating Dockerfiles as part of DevOps Basics category
 docker-compose-creator;jeremylongshore/claude-code-plugins-plus-skills;;Automatically creates Docker Compose files for DevOps basics.
@@ -270,56 +271,55 @@ ansible-playbook-generator;jeremylongshore/claude-code-plugins-plus-skills;;Auto
 tmux;mitsuhiko/agent-stuff;tmux;Remote control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.
 docker-container-basics;jeremylongshore/claude-code-plugins-plus-skills;;Docker Container Basics - Auto-activating skill for DevOps Basics. Triggers on docker container basics.
 linux-commands-guide;jeremylongshore/claude-code-plugins-plus-skills;;Auto-activating guide for Linux commands within DevOps Basics. Covers common CLI operations and triggers on specific queries.
-apify-actorization;apify/agent-skills;apify-actorization;Convert projects into Apify Actors for serverless cloud deployment.
-terraform-skill;antonbabenko/terraform-skill;;A skill for working with Terraform or OpenTofu, including module creation, testing, CI/CD setup, and security scanning.
 pulumi-arm-to-pulumi;pulumi/agent-skills;pulumi-arm-to-pulumi;Convert Azure ARM and Bicep templates to Pulumi with resource import capabilities for cloud infrastructure migration.
+terraform-skill;antonbabenko/terraform-skill;;A skill for working with Terraform or OpenTofu, including module creation, testing, CI/CD setup, and security scanning.
 taskfile-automation;seabbs/claude-code-config;;Expert guidance for using Task (taskfile.dev) automation tool to discover and execute project development commands
 railway-docs;railwayapp/railway-skills;;A skill for fetching up-to-date Railway documentation to answer user questions about Railway features and functionality.
 deployment;railwayapp/railway-skills;;Manage Railway deployments, view logs, and debug issues including restarts, status checks, and failure analysis.
-terraform-test;hashicorp/agent-skills;terraform-test;A comprehensive guide for writing and running Terraform tests, including test scenarios, assertions, and module validation.
-deploy;railwayapp/railway-skills;;A skill for deploying applications to Railway platform.
 asc-release-flow;rudrankriyam/app-store-connect-cli-skills;asc-release-flow;End-to-end release workflows for TestFlight and App Store using asc publish, builds, versions, and submit commands.
+terraform-test;hashicorp/agent-skills;terraform-test;A comprehensive guide for writing and running Terraform tests, including test scenarios, assertions, and module validation.
+asc-metadata-sync;rudrankriyam/app-store-connect-cli-skills;asc-metadata-sync;Sync and validate App Store metadata and localizations with asc, including Fastlane format migration.
+asc-submission-health;rudrankriyam/app-store-connect-cli-skills;asc-submission-health;Pre-flight App Store submissions, submit builds, and monitor review status.
+asc-build-lifecycle;rudrankriyam/app-store-connect-cli-skills;asc-build-lifecycle;Track build processing, find latest builds, and clean up old builds with asc for build lifecycle management.
+asc-signing-setup;rudrankriyam/app-store-connect-cli-skills;asc-signing-setup;Set up iOS app bundle IDs, capabilities, certificates, and provisioning profiles using ASC CLI for new app onboarding or asset rotation.
+deploy;railwayapp/railway-skills;;A skill for deploying applications to Railway platform.
+refactor-module;hashicorp/agent-skills;refactor-module;Refactor monolithic Terraform configs into reusable modules using HashiCorp's principles.
 s3;itsmostafa/aws-agent-skills;s3;Manage AWS S3 buckets, objects, and access control with this skill.
 lambda;itsmostafa/aws-agent-skills;lambda;Create and manage AWS Lambda serverless functions for event-driven computing.
-asc-metadata-sync;rudrankriyam/app-store-connect-cli-skills;asc-metadata-sync;Sync and validate App Store metadata and localizations with asc, including Fastlane format migration.
 cloudwatch;itsmostafa/aws-agent-skills;cloudwatch;Monitor AWS CloudWatch for logs, metrics, alarms, and dashboards.
-asc-submission-health;rudrankriyam/app-store-connect-cli-skills;asc-submission-health;Pre-flight App Store submissions, submit builds, and monitor review status.
 sqs;itsmostafa/aws-agent-skills;sqs;An AWS SQS skill for managing message queues, dead-letter queues, and Lambda integrations.
 cloudformation;itsmostafa/aws-agent-skills;cloudformation;Manage AWS CloudFormation stacks for infrastructure as code.
-refactor-module;hashicorp/agent-skills;refactor-module;Refactor monolithic Terraform configs into reusable modules using HashiCorp's principles.
-asc-build-lifecycle;rudrankriyam/app-store-connect-cli-skills;asc-build-lifecycle;Track build processing, find latest builds, and clean up old builds with asc for build lifecycle management.
 ecs;itsmostafa/aws-agent-skills;ecs;AWS ECS container orchestration for running Docker containers with deployment, configuration, and troubleshooting capabilities.
 api-gateway;itsmostafa/aws-agent-skills;api-gateway;Manage AWS API Gateway for REST and HTTP APIs with integration, authorization, and rate limiting.
 eks;itsmostafa/aws-agent-skills;eks;AWS EKS Kubernetes management for clusters, node groups, and workloads. Handles cluster creation, IRSA configuration, node group management,
-asc-signing-setup;rudrankriyam/app-store-connect-cli-skills;asc-signing-setup;Set up iOS app bundle IDs, capabilities, certificates, and provisioning profiles using ASC CLI for new app onboarding or asset rotation.
 rds;itsmostafa/aws-agent-skills;rds;AWS RDS management skill for provisioning, backup, replica management, connectivity troubleshooting, and performance optimization.
 eventbridge;itsmostafa/aws-agent-skills;eventbridge;AWS EventBridge serverless event bus for event-driven architectures with rule creation and cross-account routing.
 sns;itsmostafa/aws-agent-skills;sns;AWS SNS notification service for pub/sub messaging. Manage topics, subscriptions, message filtering, and mobile push notifications.
 logging-best-practices;boristane/agent-skills;logging-best-practices;Best practices for logging with canonical log lines to improve debugging and analytics.
+terraform-stacks;hashicorp/agent-skills;terraform-stacks;A skill for working with HashiCorp Terraform Stacks, including creating, modifying, and validating stack configurations.
 environment;railwayapp/railway-skills;;A skill for managing environment variables, configurations, and service settings.
 cloudrun-development;tencentcloudbase/cloudbase-mcp;cloudrun-development;A skill for developing backend services on CloudBase Run with support for Function and Container modes.
-terraform-stacks;hashicorp/agent-skills;terraform-stacks;A skill for working with HashiCorp Terraform Stacks, including creating, modifying, and validating stack configurations.
 vercel-deploy;skillcreatorai/ai-agent-skills;vercel-deploy;Deploy applications to Vercel with edge functions, serverless, and ISR.
-metrics;railwayapp/railway-skills;;A skill for monitoring system resources like CPU, memory, and disk usage.
 wp-performance;wordpress/agent-skills;wp-performance;Optimize WordPress backend performance with profiling, query monitoring, and caching strategies.
+metrics;railwayapp/railway-skills;;A skill for monitoring system resources like CPU, memory, and disk usage.
 new;railwayapp/railway-skills;;Handles project setup and deployment tasks including initializing projects and adding services.
-changelog-generator;skillcreatorai/ai-agent-skills;changelog-generator;Automatically generates user-friendly changelogs from git commits.
-domain;railwayapp/railway-skills;;Manage domains including adding, generating, checking, getting URLs, and removing domains.
-expo-deployment;skillcreatorai/ai-agent-skills;expo-deployment;Deploy Expo applications to iOS, Android, and web platforms.
 wp-wpcli-and-ops;wordpress/agent-skills;wp-wpcli-and-ops;A skill for managing WordPress operations using WP-CLI, including search-replace, db import/export, plugin/theme management, and automation.
+changelog-generator;skillcreatorai/ai-agent-skills;changelog-generator;Automatically generates user-friendly changelogs from git commits.
+expo-deployment;skillcreatorai/ai-agent-skills;expo-deployment;Deploy Expo applications to iOS, Android, and web platforms.
+domain;railwayapp/railway-skills;;Manage domains including adding, generating, checking, getting URLs, and removing domains.
 cloudflare;dmmulroy/cloudflare-skill;cloudflare;A comprehensive Cloudflare platform skill covering Workers, Pages, storage, AI, networking, security, and IaC.
 cloudflare-workflows;jezweb/claude-skills;;Create durable workflows with Cloudflare Workflows, supporting step.do, waitForEvent, Vitest testing, and automatic retries.
 cloudflare-queues;jezweb/claude-skills;;Build async message queues with Cloudflare Queues for background processing.
-templates;railwayapp/railway-skills;;A skill for deploying services using templates, including tools like Ghost, Strapi, n8n, and Minio.
-google-spaces-updates;jezweb/claude-skills;;Post team updates to Google Chat Spaces via webhook for deployment notifications, bug fixes, and feature announcements.
-domain-cloud-native;zhanghandong/rust-skills;domain-cloud-native;A skill for building cloud-native applications using Kubernetes, Docker, and microservices.
 datadog-cli;softaworks/agent-toolkit;datadog-cli;A CLI tool for Datadog observability features like logs, metrics, and dashboards.
+templates;railwayapp/railway-skills;;A skill for deploying services using templates, including tools like Ghost, Strapi, n8n, and Minio.
+domain-cloud-native;zhanghandong/rust-skills;domain-cloud-native;A skill for building cloud-native applications using Kubernetes, Docker, and microservices.
+google-spaces-updates;jezweb/claude-skills;;Post team updates to Google Chat Spaces via webhook for deployment notifications, bug fixes, and feature announcements.
 commit-push-pr;llama-farm/llamafarm;commit-push-pr;Automates commit, push to GitHub, and PR creation with quality checks for security, patterns, and simplification.
-django-cloud-sql-postgres;jezweb/claude-skills;;Deploy Django on Google App Engine with Cloud SQL PostgreSQL, including Unix sockets and Gunicorn config.
 provider-resources;hashicorp/agent-skills;provider-resources;Implement Terraform Provider resources and data sources using the Plugin Framework for CRUD operations and state management.
+django-cloud-sql-postgres;jezweb/claude-skills;;Deploy Django on Google App Engine with Cloud SQL PostgreSQL, including Unix sockets and Gunicorn config.
 moai-workflow-worktree;modu-ai/moai-adk;moai-workflow-worktree;Manage Git worktrees for parallel SPEC development with isolated workspaces and MoAI-ADK integration.
-google-app-engine;jezweb/claude-skills;;Deploy Python apps to Google App Engine with config and cloud services.
 new-terraform-provider;hashicorp/agent-skills;new-terraform-provider;Scaffold a new Terraform provider with this skill.
+google-app-engine;jezweb/claude-skills;;Deploy Python apps to Google App Engine with config and cloud services.
 provider-actions;hashicorp/agent-skills;provider-actions;Implement Terraform Provider actions using the Plugin Framework for lifecycle event operations.
 run-acceptance-tests;hashicorp/agent-skills;run-acceptance-tests;A guide for running acceptance tests for Terraform providers, specifically for tests with the 'TestAcc' prefix.
 azure-verified-modules;hashicorp/agent-skills;azure-verified-modules;This skill provides guidelines for creating certified Azure Terraform modules using Azure Verified Modules (AVM).
@@ -327,15 +327,16 @@ github-ops;daymade/claude-code-skills;;Automates GitHub operations using gh CLI 
 cloudflare-troubleshooting;daymade/claude-code-skills;;Troubleshoot Cloudflare configuration issues using API-driven evidence gathering.
 airflow;astronomer/agents;airflow;Manages Apache Airflow operations including DAGs, pipelines, and system health monitoring.
 aws-ami-builder;hashicorp/agent-skills;aws-ami-builder;Build Amazon Machine Images (AMIs) with Packer using the amazon-ebs builder for custom EC2 instances.
-authoring-dags;astronomer/agents;authoring-dags;Create and manage Apache Airflow DAGs with best practices and patterns.
-debugging-dags;astronomer/agents;debugging-dags;Diagnose and analyze Airflow DAG failures with structured investigation and prevention recommendations.
-testing-dags;astronomer/agents;testing-dags;A skill for complex DAG testing workflows with debugging and fixing cycles in Apache Airflow.
 axiom-networking-diag;charleswiltgen/axiom;axiom-networking-diag;Diagnose network issues like timeouts, TLS failures, and performance problems using systematic Network.framework diagnostics.
 axiom-app-store-connect-ref;charleswiltgen/axiom;axiom-app-store-connect-ref;A reference for App Store Connect crash analysis, TestFlight feedback, metrics dashboards, and data export workflows.
 axiom-build-performance;charleswiltgen/axiom;axiom-build-performance;Optimize build performance with caching, timeline analysis, and bottleneck identification.
 axiom-background-processing-diag;charleswiltgen/axiom;axiom-background-processing-diag;A skill for diagnosing background task issues with decision trees and cost analysis.
 axiom-storage-diag;charleswiltgen/axiom;axiom-storage-diag;A diagnostic skill for troubleshooting local file storage issues like missing files, backup problems, and storage errors.
+authoring-dags;astronomer/agents;authoring-dags;Create and manage Apache Airflow DAGs with best practices and patterns.
 axiom-xctrace-ref;charleswiltgen/axiom;axiom-xctrace-ref;A skill for automating Instruments profiling and headless performance analysis using xctrace CLI.
+debugging-dags;astronomer/agents;debugging-dags;Diagnose and analyze Airflow DAG failures with structured investigation and prevention recommendations.
+firebase-app-hosting-basics;firebase/agent-skills;firebase-app-hosting-basics;Deploy and manage web apps with Firebase App Hosting for Next.js/Angular apps with backends.
+testing-dags;astronomer/agents;testing-dags;A skill for complex DAG testing workflows with debugging and fixing cycles in Apache Airflow.
 migrating-airflow-2-to-3;astronomer/agents;migrating-airflow-2-to-3;A guide for migrating Apache Airflow 2.x projects to Airflow 3.x, covering compatibility issues and breaking changes.
 push-to-registry;hashicorp/agent-skills;push-to-registry;Push Packer build metadata to HCP Packer registry for tracking and managing image lifecycle with version control and governance.
 managing-astro-local-env;astronomer/agents;managing-astro-local-env;Manage local Airflow environment using Astro CLI for starting, stopping, and troubleshooting containers.
@@ -345,13 +346,12 @@ sentry-fix-issues;getsentry/sentry-agent-skills;sentry-fix-issues;Fix Sentry iss
 commit-hygiene;alinaqi/claude-bootstrap;commit-hygiene;Enforces commit hygiene practices including atomic commits and PR size limits.
 project-tooling;alinaqi/claude-bootstrap;project-tooling;Setup and deployment using GitHub, Vercel, Supabase, and Render CLI.
 existing-repo;alinaqi/claude-bootstrap;existing-repo;Analyze existing repositories, maintain structure, and enforce best practices.
-firebase-app-hosting-basics;firebase/agent-skills;firebase-app-hosting-basics;Deploy and manage web apps with Firebase App Hosting for Next.js/Angular apps with backends.
 asc-submission-health;rudrankriyam/asc-skills;asc-submission-health;Pre-flight App Store submissions, submit builds, and monitor review status.
-asc-release-flow;rudrankriyam/asc-skills;asc-release-flow;End-to-end release workflows for TestFlight and App Store using asc publish, builds, versions, and submit commands.
 asc-metadata-sync;rudrankriyam/asc-skills;asc-metadata-sync;Sync and validate App Store metadata and localizations with asc, including Fastlane format migration.
-iterate-pr;getsentry/skills;main/plugins/sentry-skills/skills/iterate-pr;Automatically iterate on pull requests until CI checks pass.
+asc-release-flow;rudrankriyam/asc-skills;asc-release-flow;End-to-end release workflows for TestFlight and App Store using asc publish, builds, versions, and submit commands.
 asc-build-lifecycle;rudrankriyam/asc-skills;asc-build-lifecycle;Track build processing, find latest builds, and clean up old builds with asc for build lifecycle management.
 asc-signing-setup;rudrankriyam/asc-skills;asc-signing-setup;Set up iOS app bundle IDs, capabilities, certificates, and provisioning profiles using ASC CLI for new app onboarding or asset rotation.
+iterate-pr;getsentry/skills;main/plugins/sentry-skills/skills/iterate-pr;Automatically iterate on pull requests until CI checks pass.
 performance-engineer;rmyndharis/antigravity-skills;performance-engineer;A performance engineer specializing in observability, application optimization, and scalable system performance using OpenTelemetry and dist
 kubernetes-architect;rmyndharis/antigravity-skills;kubernetes-architect;Expert Kubernetes architect specializing in cloud-native infrastructure and GitOps workflows.
 bash-pro;rmyndharis/antigravity-skills;bash-pro;Master defensive Bash scripting for production automation, CI/CD pipelines, and system utilities.
@@ -374,86 +374,112 @@ jira-cli;code-and-sorts/awesome-copilot-agents;jira-cli;A CLI tool for interacti
 trigger-setup;triggerdotdev/skills;main/trigger-setup;Set up Trigger.dev in your project for the first time or initialize the trigger directory.
 aws-diagrams;eraserlabs/eraser-io;aws-diagrams;Visualizes AWS infrastructure from CLI output, CloudFormation, or descriptions.
 platform-infrastructure;refoundai/lenny-skills;platform-infrastructure;Helps users build and scale internal platforms and technical infrastructure, including decisions on building vs buying tooling.
-spring-boot-actuator;giuseppe-trisciuoglio/developer-kit;spring-boot-actuator;Configure Spring Boot Actuator for production monitoring, health checks, and metrics collection across JVM services with security best pract
 rover;apollographql/skills;main/skills/rover;A skill for managing GraphQL schemas and federation using Apollo Rover CLI.
+spring-boot-actuator;giuseppe-trisciuoglio/developer-kit;spring-boot-actuator;Configure Spring Boot Actuator for production monitoring, health checks, and metrics collection across JVM services with security best pract
 release;boshu2/agentops;release;Automates software release prep: validation, changelog, version bumps, commits, tagging, and release notes up to the git tag.
 aws-sdk-java-v2-secrets-manager;giuseppe-trisciuoglio/developer-kit;aws-sdk-java-v2-secrets-manager;AWS Secrets Manager patterns using AWS SDK for Java 2.x for secure secret storage and management
 ansible-automation;aj-geddes/useful-ai-prompts;ansible-automation;Automate infrastructure and server management using Ansible playbooks and roles.
+sentry-cli;sentry/dev;;A CLI tool for Sentry error tracking and monitoring.
+nginx-configuration;aj-geddes/useful-ai-prompts;nginx-configuration;Configure Nginx for high-performance reverse proxy, load balancing, SSL/TLS, caching, and API gateway functionality.
 here-be-git;intellectronica/agent-skills;here-be-git;Initialize a Git repository with optional commit instructions and .gitignore.
 home-assistant-manager;komal-skynet/claude-skill-homeassistant;;Expert-level Home Assistant configuration management with deployment workflows, remote CLI access, automation verification, log analysis, an
-nginx-configuration;aj-geddes/useful-ai-prompts;nginx-configuration;Configure Nginx for high-performance reverse proxy, load balancing, SSL/TLS, caching, and API gateway functionality.
+pulumi-best-practices;pulumi/agent-skills;pulumi-best-practices;Best practices for writing reliable Pulumi programs, covering outputs, dependencies, secrets, and deployment workflows.
 aws-lambda-functions;aj-geddes/useful-ai-prompts;aws-lambda-functions;Deploy and manage AWS Lambda functions with event sources, permissions, and environment config for serverless computing.
+api-contract-testing;aj-geddes/useful-ai-prompts;api-contract-testing;Verify API contracts between services to ensure compatibility and prevent breaking changes using Pact, schema validation, and consumer-drive
 cloud-functions;tencentcloudbase/skills;main/skills/cloud-functions;A complete guide for CloudBase cloud functions development including runtime, deployment, logging, and HTTP access.
 cloudbase-platform;tencentcloudbase/skills;main/skills/cloudbase-platform;A skill for understanding CloudBase platform knowledge and best practices, covering storage, hosting, authentication, cloud functions, datab
-api-contract-testing;aj-geddes/useful-ai-prompts;api-contract-testing;Verify API contracts between services to ensure compatibility and prevent breaking changes using Pact, schema validation, and consumer-drive
-docker;bobmatnyc/claude-mpm-skills;;A skill for Docker containerization to package applications with dependencies into portable units.
-do-work;bladnman/do-work;;A task queue skill for adding requests and processing pending work.
-pulumi-best-practices;pulumi/agent-skills;pulumi-best-practices;Best practices for writing reliable Pulumi programs, covering outputs, dependencies, secrets, and deployment workflows.
-latex-compile-qa;willoscar/research-units-pipeline-skills;latex-compile-qa;Compile LaTeX projects with QA checks for references, bibliography, and citations.
-sentry-setup-logging;getsentry/sentry-agent-skills;;Set up Sentry logging for JavaScript, Python, and Ruby projects to capture console logs and integrate with logging libraries.
-sentry-cli;sentry/dev;;A CLI tool for Sentry error tracking and monitoring.
 jenkins-pipeline;aj-geddes/useful-ai-prompts;jenkins-pipeline;Create Jenkins declarative and scripted pipelines with stages, agents, parameters, and plugins for automated deployments.
+docker;bobmatnyc/claude-mpm-skills;;A skill for Docker containerization to package applications with dependencies into portable units.
+latex-compile-qa;willoscar/research-units-pipeline-skills;latex-compile-qa;Compile LaTeX projects with QA checks for references, bibliography, and citations.
+do-work;bladnman/do-work;;A task queue skill for adding requests and processing pending work.
 docker-containerization;aj-geddes/useful-ai-prompts;docker-containerization;Create optimized Docker containers with multi-stage builds and security best practices.
+sentry-setup-logging;getsentry/sentry-agent-skills;;Set up Sentry logging for JavaScript, Python, and Ruby projects to capture console logs and integrate with logging libraries.
+firebase-app-hosting-basics;firebase/skills;main/skills/firebase-app-hosting-basics;Deploy and manage web apps with Firebase App Hosting for Next.js/Angular apps with backends.
 aws-cdk-development;zxkane/aws-skills;aws-cdk-development;Expert in AWS CDK for building cloud infrastructure with TypeScript/Python.
 observe-whatsapp;gokapso/agent-skills;observe-whatsapp;Debug and monitor WhatsApp message delivery, webhooks, and API errors in Kapso. Run health checks for production issues.
 release;madappgang/claude-code;release;Automates the release process for MAG Claude Plugins marketplace including version bumps and git tagging.
 cloudrun-development;tencentcloudbase/skills;main/skills/cloudrun-development;A skill for developing backend services on CloudBase Run with support for Function and Container modes.
-firebase-app-hosting-basics;firebase/skills;main/skills/firebase-app-hosting-basics;Deploy and manage web apps with Firebase App Hosting for Next.js/Angular apps with backends.
-gilfoyle;axiomhq/gilfoyle;;An SRE agent for incident response and root cause analysis. Queries observability stacks and analyzes logs without panic.
 gitlab-cicd-pipeline;aj-geddes/useful-ai-prompts;gitlab-cicd-pipeline;Design and implement GitLab CI/CD pipelines with stages, jobs, artifacts, and caching.
-terraform-diagrams;eraserlabs/eraser-io;terraform-diagrams;Generates architecture diagrams from Terraform code for visualization of infrastructure.
-wp-wpcli-and-ops;automattic/agent-skills;wp-wpcli-and-ops;A skill for managing WordPress operations using WP-CLI, including search-replace, db import/export, plugin/theme management, and automation.
 app-store-deployment;aj-geddes/useful-ai-prompts;app-store-deployment;Deploy iOS and Android apps to App Store and Google Play with signing, versioning, and build configuration.
-sentry-setup-tracing;getsentry/sentry-agent-skills;;Helps configure distributed tracing in Sentry for better application observability and performance monitoring.
-wp-performance;automattic/agent-skills;wp-performance;Optimize WordPress backend performance with profiling, query monitoring, and caching strategies.
-kubernetes-deployment;aj-geddes/useful-ai-prompts;kubernetes-deployment;Deploy, manage, and scale containerized applications on Kubernetes with best practices.
+terraform-diagrams;eraserlabs/eraser-io;terraform-diagrams;Generates architecture diagrams from Terraform code for visualization of infrastructure.
+gilfoyle;axiomhq/gilfoyle;;An SRE agent for incident response and root cause analysis. Queries observability stacks and analyzes logs without panic.
 aws-s3-management;aj-geddes/useful-ai-prompts;aws-s3-management;Manage S3 buckets with versioning, encryption, access control, lifecycle policies, and replication for object storage, static sites, and dat
-github-actions;dalestudy/skills;main/skills/github-actions;Generate, secure, and manage GitHub Actions workflows with version control.
-database-migration-management;aj-geddes/useful-ai-prompts;database-migration-management;Manage database migrations and schema versioning for PostgreSQL and MySQL.
-aws-serverless-eda;zxkane/aws-skills;aws-serverless-eda;Expert in AWS serverless and event-driven architecture using Well-Architected Framework.
+kubernetes-deployment;aj-geddes/useful-ai-prompts;kubernetes-deployment;Deploy, manage, and scale containerized applications on Kubernetes with best practices.
 backup-disaster-recovery;aj-geddes/useful-ai-prompts;backup-disaster-recovery;Implement backup strategies and disaster recovery plans for critical infrastructure protection.
-aws-cost-operations;zxkane/aws-skills;aws-cost-operations;Optimize AWS costs, monitor operations, and ensure security with integrated MCP servers.
+wp-wpcli-and-ops;automattic/agent-skills;wp-wpcli-and-ops;A skill for managing WordPress operations using WP-CLI, including search-replace, db import/export, plugin/theme management, and automation.
 terraform-infrastructure;aj-geddes/useful-ai-prompts;terraform-infrastructure;Manages cloud infrastructure using Terraform for modular, scalable deployments across multiple clouds.
+sentry-setup-tracing;getsentry/sentry-agent-skills;;Helps configure distributed tracing in Sentry for better application observability and performance monitoring.
+database-migration-management;aj-geddes/useful-ai-prompts;database-migration-management;Manage database migrations and schema versioning for PostgreSQL and MySQL.
+pulumi-esc;pulumi/agent-skills;pulumi-esc;Guidance for Pulumi ESC (Environments, Secrets, and Configuration) management including secrets, configuration, environments, OIDC setup, an
+wp-performance;automattic/agent-skills;wp-performance;Optimize WordPress backend performance with profiling, query monitoring, and caching strategies.
 github-actions-workflow;aj-geddes/useful-ai-prompts;github-actions-workflow;Create comprehensive GitHub Actions workflows for CI/CD, testing, security, and deployment.
 semantic-versioning;aj-geddes/useful-ai-prompts;semantic-versioning;Automated semantic versioning and release management using conventional commits and semantic-release.
 caching-strategy;aj-geddes/useful-ai-prompts;caching-strategy;Implements efficient caching strategies using Redis, Memcached, CDN, and cache invalidation patterns to optimize application performance.
-log-analysis;aj-geddes/useful-ai-prompts;log-analysis;Analyze application and system logs to identify errors and root causes using log aggregation tools.
-background-job-processing;aj-geddes/useful-ai-prompts;background-job-processing;Process long-running tasks asynchronously using background job systems with scheduling and retry mechanisms.
-application-logging;aj-geddes/useful-ai-prompts;application-logging;Implement structured logging with log aggregation and centralized analysis for application behavior monitoring.
+pulumi-component;pulumi/agent-skills;pulumi-component;A guide for creating reusable Pulumi ComponentResource classes for infrastructure components.
 performance-testing;aj-geddes/useful-ai-prompts;performance-testing;Design and execute performance tests to measure response times, throughput, and resource utilization using tools like JMeter and k6.
-database-backup-restore;aj-geddes/useful-ai-prompts;database-backup-restore;Implement database backup and restore strategies for disaster recovery with automation.
+pulumi-automation-api;pulumi/agent-skills;pulumi-automation-api;Best practices for using Pulumi Automation API to programmatically orchestrate infrastructure operations.
+github-actions;dalestudy/skills;main/skills/github-actions;Generate, secure, and manage GitHub Actions workflows with version control.
+aws-serverless-eda;zxkane/aws-skills;aws-serverless-eda;Expert in AWS serverless and event-driven architecture using Well-Architected Framework.
 cicd-pipeline-setup;aj-geddes/useful-ai-prompts;cicd-pipeline-setup;Set up CI/CD pipelines using GitHub Actions, GitLab CI, Jenkins, or CircleCI for automated testing and deployment.
+log-analysis;aj-geddes/useful-ai-prompts;log-analysis;Analyze application and system logs to identify errors and root causes using log aggregation tools.
+database-backup-restore;aj-geddes/useful-ai-prompts;database-backup-restore;Implement database backup and restore strategies for disaster recovery with automation.
+application-logging;aj-geddes/useful-ai-prompts;application-logging;Implement structured logging with log aggregation and centralized analysis for application behavior monitoring.
+aws-cost-operations;zxkane/aws-skills;aws-cost-operations;Optimize AWS costs, monitor operations, and ensure security with integrated MCP servers.
+background-job-processing;aj-geddes/useful-ai-prompts;background-job-processing;Process long-running tasks asynchronously using background job systems with scheduling and retry mechanisms.
+api-gateway-configuration;aj-geddes/useful-ai-prompts;api-gateway-configuration;Configure API gateways for routing, authentication, rate limiting, and request/response transformation in microservices deployments.
 gcp-cloud-run;aj-geddes/useful-ai-prompts;gcp-cloud-run;Deploy containerized apps on Google Cloud Run with auto-scaling and traffic management.
 grafana-dashboard;aj-geddes/useful-ai-prompts;grafana-dashboard;Create professional Grafana dashboards with visualizations, templating, and alerts for monitoring and operational insights.
-api-gateway-configuration;aj-geddes/useful-ai-prompts;api-gateway-configuration;Configure API gateways for routing, authentication, rate limiting, and request/response transformation in microservices deployments.
-ssh;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;ssh;SSH remote access patterns and utilities for connecting to servers, managing keys, tunnels, and transfers.
-pulumi-component;pulumi/agent-skills;pulumi-component;A guide for creating reusable Pulumi ComponentResource classes for infrastructure components.
-pulumi-esc;pulumi/agent-skills;pulumi-esc;Guidance for Pulumi ESC (Environments, Secrets, and Configuration) management including secrets, configuration, environments, OIDC setup, an
 batch-processing-jobs;aj-geddes/useful-ai-prompts;batch-processing-jobs;Implement robust batch processing systems with job queues, schedulers, and background tasks for large datasets and async operations.
-docker-best-practices;josiahsiegel/claude-plugin-marketplace;docker-best-practices;Best practices for Docker image, container, and production deployment.
+sf-deploy;jaganpro/sf-skills;sf-deploy;Automates Salesforce DevOps using sf CLI v2 for metadata deployment, org management, CI/CD pipelines, and deployment error troubleshooting.
 database-monitoring;aj-geddes/useful-ai-prompts;database-monitoring;Monitor database performance and health for optimal system operation.
-pulumi-automation-api;pulumi/agent-skills;pulumi-automation-api;Best practices for using Pulumi Automation API to programmatically orchestrate infrastructure operations.
-deployment-automation;aj-geddes/useful-ai-prompts;deployment-automation;Automate deployments across environments using Helm, Terraform, and ArgoCD with blue-green and canary release strategies.
 container-debugging;aj-geddes/useful-ai-prompts;container-debugging;Debug Docker containers and containerized applications.
-azure-diagrams;eraserlabs/eraser-io;azure-diagrams;Visualizes Azure infrastructure from ARM templates, Azure CLI, or descriptions.
-sf-deploy;jaganpro/sf-skills;sf-deploy;Salesforce DevOps automation via sf CLI v2 for metadata deployment, scratch org management, CI/CD setup, and error troubleshooting.
-infrastructure-monitoring;aj-geddes/useful-ai-prompts;infrastructure-monitoring;Set up comprehensive infrastructure monitoring with Prometheus, Grafana, and alerting systems.
-openclaw-self-healing;ramsbaby/openclaw-self-healing;;4-tier autonomous self-healing system for OpenClaw Gateway with persistent learning, reasoning logs, and multi-channel alerts. Features Clau
+deployment-automation;aj-geddes/useful-ai-prompts;deployment-automation;Automate deployments across environments using Helm, Terraform, and ArgoCD with blue-green and canary release strategies.
+aws-ec2-setup;aj-geddes/useful-ai-prompts;aws-ec2-setup;Set up and configure AWS EC2 instances with security groups, IAM roles, and auto-scaling.
 azure-app-service;aj-geddes/useful-ai-prompts;azure-app-service;Deploy and manage web apps on Azure App Service with auto-scaling, SSL/TLS, and monitoring.
 gcp-cloud-functions;aj-geddes/useful-ai-prompts;gcp-cloud-functions;Deploy serverless functions on Google Cloud Platform with triggers, IAM roles, environment variables, and monitoring.
+infrastructure-monitoring;aj-geddes/useful-ai-prompts;infrastructure-monitoring;Set up comprehensive infrastructure monitoring with Prometheus, Grafana, and alerting systems.
 prometheus-monitoring;aj-geddes/useful-ai-prompts;prometheus-monitoring;Set up Prometheus monitoring for applications with custom metrics and service discovery.
 query-caching-strategies;aj-geddes/useful-ai-prompts;query-caching-strategies;Improve application performance through query caching strategies and Redis configuration.
+uptime-monitoring;aj-geddes/useful-ai-prompts;uptime-monitoring;A skill for implementing uptime monitoring and status page systems to track service availability.
+git-workflow-strategy;aj-geddes/useful-ai-prompts;git-workflow-strategy;A skill for mastering Git workflows like GitFlow, GitHub Flow, and Trunk-Based Development.
 circuit-breaker-pattern;aj-geddes/useful-ai-prompts;circuit-breaker-pattern;Implement circuit breaker patterns for fault tolerance and fallback mechanisms in external service calls.
+aws-cloudfront-cdn;aj-geddes/useful-ai-prompts;aws-cloudfront-cdn;Deploy and manage global content delivery using AWS CloudFront with caching, security, and WAF integration.
+health-check-endpoints;aj-geddes/useful-ai-prompts;health-check-endpoints;Implement health check endpoints for liveness, readiness, and dependency monitoring in Kubernetes deployments.
+ssh;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;ssh;SSH remote access patterns and utilities for connecting to servers, managing keys, tunnels, and transfers.
+error-tracking;aj-geddes/useful-ai-prompts;error-tracking;Implement error tracking with Sentry for automatic exception monitoring and performance issues.
+git-hooks-setup;aj-geddes/useful-ai-prompts;git-hooks-setup;Set up Git hooks with Husky, pre-commit, and custom scripts to enforce code quality and testing.
+azure-diagrams;eraserlabs/eraser-io;azure-diagrams;Visualizes Azure infrastructure from ARM templates, Azure CLI, or descriptions.
+cloud-cost-management;aj-geddes/useful-ai-prompts;cloud-cost-management;Optimize and manage cloud costs across AWS, Azure, and GCP using reserved instances, spot pricing, and monitoring tools.
+stress-testing;aj-geddes/useful-ai-prompts;stress-testing;A skill for testing system behavior under extreme load conditions to identify breaking points and capacity limits.
+serverless-architecture;aj-geddes/useful-ai-prompts;serverless-architecture;Design and implement serverless applications using AWS Lambda, Azure Functions, and GCP Cloud Functions with event-driven patterns and orche
+logging-best-practices;aj-geddes/useful-ai-prompts;logging-best-practices;Implement structured logging with JSON formats, log levels, contextual logging, PII handling, and centralized logging for observability and
+docker-best-practices;josiahsiegel/claude-plugin-marketplace;docker-best-practices;Best practices for Docker image, container, and production deployment.
+pull-request-automation;aj-geddes/useful-ai-prompts;pull-request-automation;Automate pull request workflows with templates, checklists, auto-merge rules, and review assignments.
+deployment-documentation;aj-geddes/useful-ai-prompts;deployment-documentation;Document deployment processes, infrastructure setup, CI/CD pipelines, and configuration management.
+cloud-migration-planning;aj-geddes/useful-ai-prompts;cloud-migration-planning;Plan and execute cloud migrations across AWS, Azure, and GCP with assessment and refactoring strategies.
+aws-rds-database;aj-geddes/useful-ai-prompts;aws-rds-database;Deploy and manage relational databases using AWS RDS with Multi-AZ, read replicas, backups, and encryption for PostgreSQL, MySQL, MariaDB, a
+infrastructure-cost-optimization;aj-geddes/useful-ai-prompts;infrastructure-cost-optimization;Optimize cloud infrastructure costs through rightsizing, reserved instances, spot instances, and waste reduction.
+dns-management;aj-geddes/useful-ai-prompts;dns-management;Manage DNS records and configurations for high availability and disaster recovery.
+openclaw-self-healing;ramsbaby/openclaw-self-healing;;4-tier autonomous self-healing system for OpenClaw Gateway with persistent learning, reasoning logs, and multi-channel alerts. Features Clau
+correlation-tracing;aj-geddes/useful-ai-prompts;correlation-tracing;Implement distributed tracing with correlation IDs and span tracking across microservices for debugging and monitoring.
+autoscaling-configuration;aj-geddes/useful-ai-prompts;autoscaling-configuration;Configure autoscaling for Kubernetes, VMs, and serverless workloads based on metrics, schedules, and custom indicators.
+dependency-tracking;aj-geddes/useful-ai-prompts;dependency-tracking;Track and manage project dependencies across teams and systems to prevent blocking issues.
+load-balancer-setup;aj-geddes/useful-ai-prompts;load-balancer-setup;Set up and deploy load balancers for traffic distribution and high availability.
+alert-management;aj-geddes/useful-ai-prompts;alert-management;Manage alerts and incidents using PagerDuty for effective incident coordination and escalation policies.
+continuous-testing;aj-geddes/useful-ai-prompts;continuous-testing;Integrates automated testing into CI/CD pipelines for continuous quality feedback.
 aws-cloudformation-s3;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-s3;AWS CloudFormation patterns for Amazon S3 bucket creation with policies, versioning, lifecycle rules, and template structure.
 aws-cloudformation-security;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-security;Provides AWS CloudFormation patterns for infrastructure security, secrets management, encryption, and secure data handling.
 aws-cloudformation-task-ecs-deploy-gh;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-task-ecs-deploy-gh;Provides patterns to deploy ECS tasks and services with GitHub Actions CI/CD, including Docker image building, ECR integration, and producti
 aws-cloudformation-bedrock;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-bedrock;AWS CloudFormation patterns for Amazon Bedrock resources including agents, knowledge bases, data sources, guardrails, prompts, flows, and in
 aws-cloudformation-lambda;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-lambda;AWS CloudFormation patterns for Lambda functions, layers, event sources, and integrations with API Gateway, Step Functions, EventBridge, SQS
-uptime-monitoring;aj-geddes/useful-ai-prompts;uptime-monitoring;A skill for implementing uptime monitoring and status page systems to track service availability.
-git-workflow-strategy;aj-geddes/useful-ai-prompts;git-workflow-strategy;A skill for mastering Git workflows like GitFlow, GitHub Flow, and Trunk-Based Development.
-health-check-endpoints;aj-geddes/useful-ai-prompts;health-check-endpoints;Implement health check endpoints for liveness, readiness, and dependency monitoring in Kubernetes deployments.
+blue-green-deployment;aj-geddes/useful-ai-prompts;blue-green-deployment;Implement blue-green deployment for zero-downtime releases with traffic switching and rollback capability.
+intermittent-issue-debugging;aj-geddes/useful-ai-prompts;intermittent-issue-debugging;Debug intermittent issues using monitoring and systematic investigation.
 aws-cloudformation-cloudfront;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-cloudfront;AWS CloudFormation patterns for CloudFront distributions with multiple origins, caching strategies, WAF configuration, and performance optim
-error-tracking;aj-geddes/useful-ai-prompts;error-tracking;Implement error tracking with Sentry for automatic exception monitoring and performance issues.
+artifact-management;aj-geddes/useful-ai-prompts;artifact-management;Manages build artifacts, Docker images, and package registries with versioning and distribution strategies.
+runbook-creation;aj-geddes/useful-ai-prompts;runbook-creation;Create operational runbooks, playbooks, SOPs, and incident response guides for documenting procedures and processes.
+configuration-management;aj-geddes/useful-ai-prompts;configuration-management;Manages application configuration including environment variables, secrets, and feature flags.
+log-aggregation;aj-geddes/useful-ai-prompts;log-aggregation;Centralized logging implementation using ELK Stack, Loki, or Splunk for log collection, parsing, storage, and analysis.
+release-planning;aj-geddes/useful-ai-prompts;release-planning;Plan and coordinate software releases across environments with versioning and rollback strategies.
 aws-cloudformation-iam;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-iam;AWS CloudFormation patterns for IAM resources including users, roles, policies, and managed policies for secure infrastructure deployments.
 aws-cloudformation-rds;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-rds;AWS CloudFormation patterns for Amazon RDS databases including MySQL, PostgreSQL, Aurora with multi-AZ deployments and parameter groups.
 aws-cloudformation-vpc;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-vpc;Provides AWS CloudFormation patterns for VPC infrastructure including subnets, gateways, and template structures.
@@ -463,35 +489,8 @@ aws-cloudformation-ec2;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aw
 aws-cloudformation-dynamodb;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-dynamodb;Provides AWS CloudFormation patterns for DynamoDB tables, GSIs, LSIs, auto-scaling, and streams with configuration guidance.
 aws-cloudformation-ecs;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-ecs;AWS CloudFormation patterns for ECS infrastructure including clusters, services, task definitions, scaling, service discovery, and blue/gree
 aws-cloudformation-auto-scaling;giuseppe-trisciuoglio/developer-kit;aws-cloudformation/aws-cloudformation-auto-scaling;AWS CloudFormation patterns for Auto Scaling across EC2, ECS, and Lambda with best practices for high availability and cost optimization.
-cloud-cost-management;aj-geddes/useful-ai-prompts;cloud-cost-management;Optimize and manage cloud costs across AWS, Azure, and GCP using reserved instances, spot pricing, and monitoring tools.
-git-hooks-setup;aj-geddes/useful-ai-prompts;git-hooks-setup;Set up Git hooks with Husky, pre-commit, and custom scripts to enforce code quality and testing.
-sentry-setup-metrics;getsentry/sentry-agent-skills;;Set up Sentry Metrics for tracking application performance and custom metrics in JavaScript and Python projects.
-serverless-architecture;aj-geddes/useful-ai-prompts;serverless-architecture;Design and implement serverless applications using AWS Lambda, Azure Functions, and GCP Cloud Functions with event-driven patterns and orche
-pull-request-automation;aj-geddes/useful-ai-prompts;pull-request-automation;Automate pull request workflows with templates, checklists, auto-merge rules, and review assignments.
-deployment-documentation;aj-geddes/useful-ai-prompts;deployment-documentation;Document deployment processes, infrastructure setup, CI/CD pipelines, and configuration management.
-logging-best-practices;aj-geddes/useful-ai-prompts;logging-best-practices;Implement structured logging with JSON formats, log levels, contextual logging, PII handling, and centralized logging for observability and
-aws-cloudfront-cdn;aj-geddes/useful-ai-prompts;aws-cloudfront-cdn;Deploy and manage global content delivery using AWS CloudFront with caching, security, and WAF integration.
-stress-testing;aj-geddes/useful-ai-prompts;stress-testing;A skill for testing system behavior under extreme load conditions to identify breaking points and capacity limits.
-cloud-migration-planning;aj-geddes/useful-ai-prompts;cloud-migration-planning;Plan and execute cloud migrations across AWS, Azure, and GCP with assessment and refactoring strategies.
-aws-rds-database;aj-geddes/useful-ai-prompts;aws-rds-database;Deploy and manage relational databases using AWS RDS with Multi-AZ, read replicas, backups, and encryption for PostgreSQL, MySQL, MariaDB, a
-infrastructure-cost-optimization;aj-geddes/useful-ai-prompts;infrastructure-cost-optimization;Optimize cloud infrastructure costs through rightsizing, reserved instances, spot instances, and waste reduction.
-dns-management;aj-geddes/useful-ai-prompts;dns-management;Manage DNS records and configurations for high availability and disaster recovery.
-autoscaling-configuration;aj-geddes/useful-ai-prompts;autoscaling-configuration;Configure autoscaling for Kubernetes, VMs, and serverless workloads based on metrics, schedules, and custom indicators.
-correlation-tracing;aj-geddes/useful-ai-prompts;correlation-tracing;Implement distributed tracing with correlation IDs and span tracking across microservices for debugging and monitoring.
-dependency-tracking;aj-geddes/useful-ai-prompts;dependency-tracking;Track and manage project dependencies across teams and systems to prevent blocking issues.
-load-balancer-setup;aj-geddes/useful-ai-prompts;load-balancer-setup;Set up and deploy load balancers for traffic distribution and high availability.
-alert-management;aj-geddes/useful-ai-prompts;alert-management;Manage alerts and incidents using PagerDuty for effective incident coordination and escalation policies.
-continuous-testing;aj-geddes/useful-ai-prompts;continuous-testing;Integrates automated testing into CI/CD pipelines for continuous quality feedback.
-aws-ec2-setup;aj-geddes/useful-ai-prompts;aws-ec2-setup;Set up and configure AWS EC2 instances with security groups, IAM roles, and auto-scaling.
-blue-green-deployment;aj-geddes/useful-ai-prompts;blue-green-deployment;Implement blue-green deployment for zero-downtime releases with traffic switching and rollback capability.
-intermittent-issue-debugging;aj-geddes/useful-ai-prompts;intermittent-issue-debugging;Debug intermittent issues using monitoring and systematic investigation.
-artifact-management;aj-geddes/useful-ai-prompts;artifact-management;Manages build artifacts, Docker images, and package registries with versioning and distribution strategies.
-runbook-creation;aj-geddes/useful-ai-prompts;runbook-creation;Create operational runbooks, playbooks, SOPs, and incident response guides for documenting procedures and processes.
-configuration-management;aj-geddes/useful-ai-prompts;configuration-management;Manages application configuration including environment variables, secrets, and feature flags.
-release-planning;aj-geddes/useful-ai-prompts;release-planning;Plan and coordinate software releases across environments with versioning and rollback strategies.
 feature-flag-system;aj-geddes/useful-ai-prompts;feature-flag-system;Implement feature flags for controlled rollouts, A/B testing, and kill switches.
-log-aggregation;aj-geddes/useful-ai-prompts;log-aggregation;Centralized logging implementation using ELK Stack, Loki, or Splunk for log collection, parsing, storage, and analysis.
-n8n;vladm3105/aidoc-flow-framework;n8n;Create workflows and integrations for the n8n automation platform.
+sentry-setup-metrics;getsentry/sentry-agent-skills;;Set up Sentry Metrics for tracking application performance and custom metrics in JavaScript and Python projects.
 container-registry-management;aj-geddes/useful-ai-prompts;container-registry-management;Manage container registries with image scanning, retention policies, and access control.
 graceful-shutdown;aj-geddes/useful-ai-prompts;graceful-shutdown;Implement graceful shutdown for containerized apps handling SIGTERM and resource cleanup.
 disaster-recovery-testing;aj-geddes/useful-ai-prompts;disaster-recovery-testing;This skill executes comprehensive disaster recovery tests and validates recovery procedures.
@@ -502,155 +501,160 @@ synthetic-monitoring;aj-geddes/useful-ai-prompts;synthetic-monitoring;Implement 
 multi-cloud-strategy;aj-geddes/useful-ai-prompts;multi-cloud-strategy;Design and implement multi-cloud strategies across AWS, Azure, and GCP with vendor lock-in avoidance and hybrid deployments.
 ln-115-devops-docs-creator;levnikolaevich/claude-code-skills;;Creates runbook.md for DevOps setup with conditional Docker detection
 model-deployment;aj-geddes/useful-ai-prompts;model-deployment;Deploy ML models to production using Flask, FastAPI, Docker, and cloud platforms.
-ssh;openhands/skills;main/skills/ssh;Manage SSH connections for remote server access, command execution, and secure file transfers via SCP with key management.
-cloud;assistant-ui/skills;main/assistant-ui/skills/cloud;A guide for cloud persistence and authorization, useful for setting up thread persistence, file uploads, and authentication.
 azure-functions;aj-geddes/useful-ai-prompts;azure-functions;Create serverless functions on Azure with triggers, bindings, authentication, and monitoring.
+n8n;vladm3105/aidoc-flow-framework;n8n;Create workflows and integrations for the n8n automation platform.
 distributed-tracing;aj-geddes/useful-ai-prompts;distributed-tracing;Implement distributed tracing with Jaeger and Zipkin for tracking requests across microservices.
+cloud;assistant-ui/skills;main/assistant-ui/skills/cloud;A guide for cloud persistence and authorization, useful for setting up thread persistence, file uploads, and authentication.
+ssh;openhands/skills;main/skills/ssh;Manage SSH connections for remote server access, command execution, and secure file transfers via SCP with key management.
 cron;chaterm/terminal-skills;;Cron job management for automated task scheduling and execution.
+pulumi-terraform-to-pulumi;pulumi/agent-skills;pulumi-terraform-to-pulumi;Migrate Terraform projects to Pulumi, including HCL configuration translation and module conversion.
+opentelemetry;bobmatnyc/claude-mpm-skills;;A skill for implementing OpenTelemetry observability patterns including traces, metrics, logs, and context propagation.
 nix-best-practices;0xbigboss/claude-code;nix-best-practices;A skill for following Nix best practices including flakes, overlays, and binary overlays.
 observability-monitoring;andrelandgraf/fullstackrecipes;observability-monitoring;A complete observability stack including structured logging, error tracking, and web analytics.
-opentelemetry;bobmatnyc/claude-mpm-skills;;A skill for implementing OpenTelemetry observability patterns including traces, metrics, logs, and context propagation.
 github-actions;bobmatnyc/claude-mpm-skills;;Automate build, test, and deployment with GitHub Actions CI/CD workflows.
 bicep-diagrams;eraserlabs/eraser-io;bicep-diagrams;Generate architecture diagrams from Azure Bicep files for infrastructure visualization.
 cloud-aliyun-oss;teachingai/full-stack-skills;cloud-aliyun-oss;Comprehensive guidance for Alibaba Cloud OSS including bucket creation, object storage, access control, and OSS management.
-docker-compose;teachingai/full-stack-skills;docker-compose;Comprehensive guidance for Docker Compose including multi-container applications, service definition, networking, and volumes.
-pulumi-terraform-to-pulumi;pulumi/agent-skills;pulumi-terraform-to-pulumi;Migrate Terraform projects to Pulumi, including HCL configuration translation and module conversion.
-cloud-aliyun-ecs;teachingai/full-stack-skills;cloud-aliyun-ecs;Provides comprehensive guidance for Alibaba Cloud ECS including instance creation, configuration, security groups, and ECS management.
 pulumi-cdk-to-pulumi;pulumi/agent-skills;pulumi-cdk-to-pulumi;Convert AWS CDK applications to Pulumi for infrastructure as code migration.
-axiom-sre;axiomhq/skills;main/skills/sre;An expert SRE skill for incident investigation and debugging using hypothesis-driven methods.
+docker-compose;teachingai/full-stack-skills;docker-compose;Comprehensive guidance for Docker Compose including multi-container applications, service definition, networking, and volumes.
+cloud-aliyun-ecs;teachingai/full-stack-skills;cloud-aliyun-ecs;Provides comprehensive guidance for Alibaba Cloud ECS including instance creation, configuration, security groups, and ECS management.
 cloudformation-to-pulumi;pulumi/agent-skills;cloudformation-to-pulumi;Convert AWS CloudFormation templates to Pulumi code for infrastructure as code migration.
+axiom-sre;axiomhq/skills;main/skills/sre;An expert SRE skill for incident investigation and debugging using hypothesis-driven methods.
+jenkins;teachingai/full-stack-skills;jenkins;Comprehensive Jenkins CI/CD guidance for pipeline creation, job configuration, plugins, and automation.
 github-actions-expert;cin12211/orca-q;github-actions-expert;GitHub Actions CI/CD pipeline optimization, workflow automation, custom actions development, and security best practices for scalable softwa
+docker-compose-production;thebushidocollective/han;docker-compose-production;Deploy Docker Compose applications to production with security hardening, resource management, health checks, logging, monitoring, and high-
 sap-btp-best-practices;secondsky/sap-skills;sap-btp-best-practices;Production-ready SAP BTP best practices for enterprise architecture, account management, security, and operations.
 setup-cloudbase-openclaw;tencentcloudbase/skills;main/skills/setup-cloudbase-openclaw;Setup Cloudbase OpenClaw environment configuration
-docker-compose-production;thebushidocollective/han;docker-compose-production;Deploy Docker Compose applications to production with security hardening, resource management, health checks, logging, monitoring, and high-
 gcloud;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;gcloud;Manage Google Cloud Platform resources via CLI.
-jenkins;teachingai/full-stack-skills;jenkins;Comprehensive Jenkins CI/CD guidance for pipeline creation, job configuration, plugins, and automation.
+monitor-ci;nrwl/nx-ai-agents-config;monitor-ci;Monitor Nx Cloud CI pipeline and handle self-healing fixes for continuous integration workflows
 ansible-roles;thebushidocollective/han;ansible-roles;Use when structuring and reusing code with Ansible roles for modular, maintainable automation and configuration management.
 tilt;0xbigboss/claude-code;tilt;Manages and monitors Tilt dev environments, checks deployment health, and reads logs.
-ansible-playbooks;thebushidocollective/han;ansible-playbooks;Assists in writing and organizing Ansible playbooks for automated configuration management and infrastructure orchestration.
-monitor-ci;nrwl/nx-ai-agents-config;monitor-ci;Monitor Nx Cloud CI pipeline and handle self-healing fixes for continuous integration workflows
-sentry-python-setup;getsentry/sentry-agent-skills;;Set up Sentry error monitoring for Python applications including Django, Flask, and FastAPI.
 temporal-io;yonatangross/orchestkit;;Temporal.io workflow management and orchestration system
+ansible-playbooks;thebushidocollective/han;ansible-playbooks;Assists in writing and organizing Ansible playbooks for automated configuration management and infrastructure orchestration.
+sentry-python-setup;getsentry/sentry-agent-skills;;Set up Sentry error monitoring for Python applications including Django, Flask, and FastAPI.
 bkt;avivsinai/bitbucket-cli;bkt;Bitbucket CLI for managing repositories, pull requests, branches, issues, webhooks, and pipelines in Bitbucket Data Center and Cloud.
 kafka-architecture;anton-abyzov/specweave;;A skill for understanding Kafka architecture and design patterns.
-releasing-macos-apps;jamesrochabrun/skills;main/skills/releasing-macos-apps;Create notarized macOS app releases with Sparkle updates, DMG installers, and GitHub releases.
 gh-pages-deploy;aviz85/claude-skills-library;gh-pages-deploy;Deploy static or interactive frontend content to GitHub Pages using gh CLI.
-pulumi;pproenca/dot-skills;.experimental/pulumi;This skill provides guidelines for Pulumi infrastructure as code to ensure performance and reliability.
+releasing-macos-apps;jamesrochabrun/skills;main/skills/releasing-macos-apps;Create notarized macOS app releases with Sparkle updates, DMG installers, and GitHub releases.
 github-pr-merge;fvadicamo/dev-agent-skills;github-pr-merge;Automatically merges GitHub pull requests after validating pre-merge checks.
 github-pr-creation;fvadicamo/dev-agent-skills;github-pr-creation;Automates GitHub PR creation with validation and task tracking.
+pulumi;pproenca/dot-skills;.experimental/pulumi;This skill provides guidelines for Pulumi infrastructure as code to ensure performance and reliability.
+eve-orchestration;incept5/eve-skillpacks;;Orchestrate jobs via depth propagation, parallel decomposition, relations, and control signals
+monitoring-observability;ahmedasmar/devops-claude-skills;;A skill for monitoring and observability strategy, implementation, and troubleshooting using tools like Prometheus, Grafana, and Loki.
+qa-testing-strategy;vasilyu1983/ai-agents-public;qa-testing-strategy;A risk-based quality engineering test strategy for software delivery, covering test selection, CI gates, and observability.
 n8n-kafka-workflows;anton-abyzov/specweave;n8n-kafka-workflows;Automate workflows with n8n and Kafka integration for event-driven processing.
 aws-cost-expert;anton-abyzov/specweave;aws-cost-expert;Optimize AWS costs using Reserved Instances, Savings Plans, Spot, and Lambda optimization.
 tmux-processes;0xbigboss/claude-code;;Manage long-lived processes in tmux with reusable patterns.
-monitoring-observability;ahmedasmar/devops-claude-skills;;A skill for monitoring and observability strategy, implementation, and troubleshooting using tools like Prometheus, Grafana, and Loki.
-qa-testing-strategy;vasilyu1983/ai-agents-public;qa-testing-strategy;A risk-based quality engineering test strategy for software delivery, covering test selection, CI gates, and observability.
 system-admin;chaterm/terminal-skills;;Linux system administration and monitoring skill for managing server infrastructure and system resources.
 orbstack-best-practices;0xbigboss/claude-code;orbstack-best-practices;Best practices for OrbStack Linux VMs and Docker on macOS, covering orbctl commands, networking, and file sharing.
 devops-expert;cin12211/orca-q;devops-expert;DevOps and Infrastructure expert with comprehensive knowledge of CI/CD pipelines, containerization, orchestration, infrastructure as code, m
-eve-orchestration;incept5/eve-skillpacks;;Orchestrate jobs via depth propagation, parallel decomposition, relations, and control signals
-kafka-kubernetes;anton-abyzov/specweave;;Deploy and manage Kafka on Kubernetes for scalable data streaming.
-hummingbot-deploy;hummingbot/skills;main/skills/hummingbot-deploy;Deploy Hummingbot trading infrastructure with API server, MCP server, and Condor Telegram bot for automated trading setup.
 eve-troubleshooting;incept5/eve-skillpacks;;Troubleshoot common Eve deploy and job failures using CLI-first diagnostics.
 eve-auth-and-secrets;incept5/eve-skillpacks;;Authenticate with Eve and manage project secrets for deployments and workflows.
+kafka-kubernetes;anton-abyzov/specweave;;Deploy and manage Kafka on Kubernetes for scalable data streaming.
 eve-local-dev-loop;incept5/eve-skillpacks;;Local Docker Compose development loop for Eve-compatible apps with staging deployment handoff
 eve-job-debugging;incept5/eve-skillpacks;;Monitor and debug Eve jobs with CLI commands for follow, logs, wait, and diagnose operations when work is stuck, failing, or needs status ch
-controlling-costs;axiomhq/skills;main/skills/controlling-costs;Analyzes Axiom query patterns to find unused data, builds dashboards and monitors for cost optimization of Axiom usage.
+hummingbot-deploy;hummingbot/skills;main/skills/hummingbot-deploy;Deploy Hummingbot trading infrastructure with API server, MCP server, and Condor Telegram bot for automated trading setup.
 eve-read-eve-docs;incept5/eve-skillpacks;;Index of distilled Eve Horizon system docs with task-based routing for CLI/API usage, pipelines, jobs, secrets, and debugging.
 eve-deploy-debugging;incept5/eve-skillpacks;;Deploy and debug Eve-compatible apps via CLI with staging environment focus
 eve-project-bootstrap;incept5/eve-skillpacks;;Bootstrap an Eve-compatible project with org/project setup, profile defaults, repo linkage, and first deploy.
 eve-repo-upkeep;incept5/eve-skillpacks;;Keep Eve-compatible repos aligned with platform best practices and current manifest conventions.
 eve-manifest-authoring;incept5/eve-skillpacks;;Author and maintain Eve manifest files (.eve/manifest.yaml) for services, environments, pipelines, workflows, and secret interpolation.
 eve-pipelines-workflows;incept5/eve-skillpacks;;Define and run Eve pipelines and workflows via manifest and CLI for build, release, deploy flows and workflow jobs.
-docker-composer;eddiebe147/claude-settings;;Docker Compose configuration and management tool for containerized applications
-github;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;github;Manage GitHub repositories, issues, pull requests, and more from the command line.
+controlling-costs;axiomhq/skills;main/skills/controlling-costs;Analyzes Axiom query patterns to find unused data, builds dashboards and monitors for cost optimization of Axiom usage.
 minio;vm0-ai/vm0-skills;;MinIO S3-compatible object storage API for file operations and bucket management
+docker-composer;eddiebe147/claude-settings;;Docker Compose configuration and management tool for containerized applications
 golang-observability-opentelemetry;bobmatnyc/claude-mpm-skills;;Instrument Go apps with OpenTelemetry, Prometheus, and slog for tracing, metrics, and structured logging.
+github;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;github;Manage GitHub repositories, issues, pull requests, and more from the command line.
 dependency-audit;bobmatnyc/claude-mpm-skills;;A workflow for auditing and cleaning up project dependencies to maintain health and security.
-vercel-deployments-builds;bobmatnyc/claude-mpm-skills;;Manage Vercel deployments, builds, previews, and rollbacks with this skill.
 cloudflare-tunnel;vm0-ai/vm0-skills;;Authenticate requests through Cloudflare Access/Tunnel using Service Token headers for services protected by Cloudflare Zero Trust.
-kubernetes;bobmatnyc/claude-mpm-skills;;A Kubernetes operations playbook covering core objects, probes, resource sizing, safe rollouts, and kubectl debugging.
-sentry-cli;getsentry/cli;sentry-cli;A CLI tool for Sentry error tracking and monitoring.
+vercel-deployments-builds;bobmatnyc/claude-mpm-skills;;Manage Vercel deployments, builds, previews, and rollbacks with this skill.
 myvibe-publish;arcblock/myvibe-skills;myvibe-publish;Deploy web content to MyVibe platform using this skill.
+sentry-cli;getsentry/cli;sentry-cli;A CLI tool for Sentry error tracking and monitoring.
+kubernetes;bobmatnyc/claude-mpm-skills;;A Kubernetes operations playbook covering core objects, probes, resource sizing, safe rollouts, and kubectl debugging.
 monitoring-operations;acedergren/oci-agent-skills;monitoring-operations;Setting up metrics, alarms, and troubleshooting monitoring issues in OCI. Covers metric namespaces, alarm thresholds, log collection, and co
 argocd-expert;personamanagmentlayer/pcl;;Expert-level ArgoCD GitOps deployment, application management, sync strategies, and production operations
 git-commit-message;vasilyu1983/ai-agents-public;git-commit-message;Automatically generates conventional commit messages from git diffs with format enforcement.
+celery;bobmatnyc/claude-mpm-skills;;Distributed task queue system for Python enabling asynchronous execution of background jobs and workflows.
 createos;nodeops-app/skills;main/skills/createos;Deploy to CreateOS cloud platform for AI agents, APIs, MCP servers, bots, frontends, webhooks, workers with multiple runtime support.
 nextjs-on-vercel;andrelandgraf/fullstackrecipes;nextjs-on-vercel;Deploy a Next.js app with Bun to Vercel using automated CI/CD.
 supabase;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;supabase;Manage Supabase projects, databases, migrations, Edge Functions, and storage via CLI.
-celery;bobmatnyc/claude-mpm-skills;;Distributed task queue system for Python enabling asynchronous execution of background jobs and workflows.
+mise-expert;samhvw8/dotfiles;mise-expert;Manages development environments with tool version control, environment variables, and task running.
 devcontainer;jwynia/agent-skills;tech/development/tooling/devcontainer;Diagnose devcontainer config issues and guide development environment setup with Docker and VS Code.
 github-agile;jwynia/agent-skills;tech/development/workflow/github-agile;Diagnose and guide GitHub-driven agile workflow issues and feature branch development.
-railway;mshumer/claude-skill-railway;;Manage Railway deployments, view logs, check status, and manage environment variables.
 qa-testing-ios;vasilyu1983/ai-agents-public;qa-testing-ios;Run and stabilize iOS tests (XCTest, XCUITest, Swift Testing) on simulators and devices with xcodebuild/simctl.
+railway;mshumer/claude-skill-railway;;Manage Railway deployments, view logs, check status, and manage environment variables.
 vercel;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;vercel;Deploy and manage Vercel projects using the vercel CLI.
 docker-expert;personamanagmentlayer/pcl;;Expert-level Docker containerization, image optimization, and container orchestration for building efficient Docker images and managing cont
+hetzner-server;connorads/dotfiles;hetzner-server;Create and manage Hetzner Cloud servers for VPS/cloud server setup and dev/remote server management using hcloud CLI.
+github-projects;existential-birds/beagle;github-projects;Manage GitHub Projects via gh CLI for creating projects, managing items, fields, and workflows.
 aws-infrastructure;shipshitdev/library;aws-infrastructure;This skill helps with setting up and configuring AWS infrastructure including EC2, VPC, and Load Balancers.
 audit;zackkorman/skills;main/skills/audit;Runs audits via an auditing service for compliance and security assessment.
 infrastructure-documenter;eddiebe147/claude-settings;;A guide for documenting infrastructure including architecture diagrams, runbooks, and operational procedures.
+12-factor-apps;existential-birds/beagle;12-factor-apps;Analyze codebases for 12-Factor App compliance to evaluate application architecture and cloud-native applications.
 ru;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;ru;Repo Updater - Multi-repo synchronization with AI-assisted review orchestration. Parallel sync, agent-sweep for dirty repos, ntm integration
 slb;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;slb;Two-person rule implementation for destructive commands in multi-agent workflows with risk classification and execution gates.
-github-projects;existential-birds/beagle;github-projects;Manage GitHub Projects via gh CLI for creating projects, managing items, fields, and workflows.
 qa-observability;vasilyu1983/ai-agents-public;qa-observability;Implements and validates observability for quality engineering with OpenTelemetry, SLOs, and APM integrations.
-gcp-expert;personamanagmentlayer/pcl;;Expert-level Google Cloud Platform, services, and cloud architecture guidance
-ci-cd-pipeline-builder;eddiebe147/claude-settings;;Build CI/CD pipelines using GitHub Actions, Vercel, and more for automated builds, tests, and deployments.
-log-analyzer;eddiebe147/claude-settings;;An expert guide for analyzing application logs, including searching, pattern detection, error tracking, and debugging.
-12-factor-apps;existential-birds/beagle;12-factor-apps;Analyze codebases for 12-Factor App compliance to evaluate application architecture and cloud-native applications.
 qa-docs-coverage;vasilyu1983/ai-agents-public;qa-docs-coverage;Audit documentation coverage and freshness for APIs, services, and workflows with AI assistance.
 ops-devops-platform;vasilyu1983/ai-agents-public;ops-devops-platform;DevOps and platform engineering patterns for production environments including Kubernetes, Terraform, CI/CD, and cloud-native operations.
 vercel-observability;bobmatnyc/claude-mpm-skills;;Monitor Vercel applications with web analytics, speed insights, logs, and tracing.
+gcp-expert;personamanagmentlayer/pcl;;Expert-level Google Cloud Platform, services, and cloud architecture guidance
+ci-cd-pipeline-builder;eddiebe147/claude-settings;;Build CI/CD pipelines using GitHub Actions, Vercel, and more for automated builds, tests, and deployments.
+log-analyzer;eddiebe147/claude-settings;;An expert guide for analyzing application logs, including searching, pattern detection, error tracking, and debugging.
 digitalocean-management;bobmatnyc/claude-mpm-skills;;Manage DigitalOcean resources with monitoring, uptime checks, and project organization.
-hetzner-server;connorads/dotfiles;hetzner-server;Create and manage Hetzner Cloud servers for VPS/cloud server setup and dev/remote server management using hcloud CLI.
 git-worktrees;bobmatnyc/claude-mpm-skills;;Use git worktrees for parallel development on multiple branches simultaneously.
 qa-resilience;vasilyu1983/ai-agents-public;qa-resilience;A skill for designing and testing resilience in distributed systems, including timeouts, retries, circuit breakers, and more.
-kernel-cli;kernel/skills;main/plugins/kernel-cli/skills/kernel-cli;Complete guide to Kernel CLI - cloud browser platform with automation, deployment, and management capabilities.
+prometheus-go-code-review;existential-birds/beagle;prometheus-go-code-review;Reviews Prometheus instrumentation in Go code for proper metric types, labels, and patterns.
 fastapi-local-dev;bobmatnyc/claude-mpm-skills;;A FastAPI development and production runbook using Uvicorn reload and Gunicorn for local development.
 digitalocean-containers-images;bobmatnyc/claude-mpm-skills;;Deploy and manage container images and Droplet images on DigitalOcean.
 homebrew-formula-maintenance;bobmatnyc/claude-mpm-skills;;Automate Homebrew formula maintenance for Python CLIs and taps with version bumps, audits, and releases.
-ansible-expert;personamanagmentlayer/pcl;;Expert-level Ansible for configuration management, automation, and infrastructure as code
+kernel-cli;kernel/skills;main/plugins/kernel-cli/skills/kernel-cli;Complete guide to Kernel CLI - cloud browser platform with automation, deployment, and management capabilities.
 rabbitmq-expert;martinholovsky/claude-skills-generator;rabbitmq-expert;Expert RabbitMQ administrator and developer for message broker architecture, clustering, and production monitoring.
-azure-devops;markpitt/claude-skills;azure-devops;A comprehensive skill for integrating with Azure DevOps REST API across all services.
-helm-chart-patterns;nickcrew/claude-ctx-plugin;helm-chart-patterns;Create reusable Helm charts for Kubernetes app packaging and deployment with best practices.
 digitalocean-overview;bobmatnyc/claude-mpm-skills;;A skill for onboarding and planning DigitalOcean usage, covering account setup, projects, and tooling.
 digitalocean-compute;bobmatnyc/claude-mpm-skills;;Manage DigitalOcean compute resources including Droplets, Kubernetes, and serverless functions.
 stacked-prs;bobmatnyc/claude-mpm-skills;;Manage dependent pull requests for complex feature development.
-pino-logging-setup;andrelandgraf/fullstackrecipes;pino-logging-setup;Set up structured logging with Pino for development and production environments.
-testing;andrelandgraf/fullstackrecipes;testing;A complete testing setup with database branching, browser tests, and automated cleanup.
-prometheus-go-code-review;existential-birds/beagle;prometheus-go-code-review;Reviews Prometheus instrumentation in Go code for proper metric types, labels, and patterns.
+ansible-expert;personamanagmentlayer/pcl;;Expert-level Ansible for configuration management, automation, and infrastructure as code
+devops-automator;erichowens/some_claude_skills;devops-automator;Expert DevOps engineer for CI/CD, IaC, Kubernetes, and deployment automation with specific platform support.
+azure-devops;markpitt/claude-skills;azure-devops;A comprehensive skill for integrating with Azure DevOps REST API across all services.
+helm-chart-patterns;nickcrew/claude-ctx-plugin;helm-chart-patterns;Create reusable Helm charts for Kubernetes app packaging and deployment with best practices.
 phoenix-ops;bobmatnyc/claude-mpm-skills;;Manages Phoenix application operations including releases, clustering, and production deployment.
 digitalocean-storage;bobmatnyc/claude-mpm-skills;;Manage DigitalOcean storage services including Spaces, Volumes, and Snapshots.
 vercel-overview;bobmatnyc/claude-mpm-skills;;Overview of the Vercel platform for onboarding, projects, CLI, Git integration, environment variables, project configuration, REST API, and
-devops-automator;erichowens/some_claude_skills;devops-automator;Expert DevOps engineer for CI/CD, IaC, Kubernetes, and deployment automation with specific platform support.
+zabbix;julianobarbosa/claude-code-skills;zabbix-api-skill;Zabbix monitoring system automation via API and Python for managing hosts, templates, items, triggers, and bulk operations.
+pino-logging-setup;andrelandgraf/fullstackrecipes;pino-logging-setup;Set up structured logging with Pino for development and production environments.
+testing;andrelandgraf/fullstackrecipes;testing;A complete testing setup with database branching, browser tests, and automated cleanup.
 docker-compose-orchestration;manutej/luxor-claude-marketplace;docker-compose-orchestration;Orchestrate multi-container apps with Docker Compose for networking, volumes, and production deployment.
 netlify-deployment-platform;bobmatnyc/claude-mpm-skills;;Deploy JAMstack applications with Netlify, including serverless functions and forms.
-git-workflow-designer;eddiebe147/claude-settings;;Design Git branching strategies like Git Flow, GitHub Flow, and trunk-based development.
 digitalocean-networking;bobmatnyc/claude-mpm-skills;;Manage DigitalOcean networking services like VPC, firewalls, and load balancers.
 pre-merge;bobmatnyc/claude-mpm-skills;;A comprehensive pre-merge verification workflow for code quality and safety before production deployment.
-monitoring-setup;eddiebe147/claude-settings;;Guide for setting up monitoring dashboards, alerting, metrics collection, and observability.
-sentry-setup;andrelandgraf/fullstackrecipes;sentry-setup;Set up Sentry for error tracking, performance monitoring, and log aggregation with Pino integration.
+github-actions-pipeline-builder;erichowens/some_claude_skills;github-actions-pipeline-builder;Build production CI/CD pipelines with GitHub Actions. Implements matrix builds, caching, deployments, testing, security scanning.
+git-workflow-designer;eddiebe147/claude-settings;;Design Git branching strategies like Git Flow, GitHub Flow, and trunk-based development.
 media-transcoding;bobmatnyc/claude-mpm-skills;;Automated media transcoding workflows using FFmpeg for web, mobile, and archive outputs.
 terraform;bobmatnyc/claude-mpm-skills;;Terraform infrastructure-as-code workflow patterns including state management, module design, and CI guardrails.
-zabbix;julianobarbosa/claude-code-skills;zabbix-api-skill;Zabbix monitoring system automation via API and Python for managing hosts, templates, items, triggers, and bulk operations.
-github-actions-pipeline-builder;erichowens/some_claude_skills;github-actions-pipeline-builder;Build production CI/CD pipelines with GitHub Actions. Implements matrix builds, caching, deployments, testing, security scanning.
+monitoring-setup;eddiebe147/claude-settings;;Guide for setting up monitoring dashboards, alerting, metrics collection, and observability.
+sentry-setup;andrelandgraf/fullstackrecipes;sentry-setup;Set up Sentry for error tracking, performance monitoring, and log aggregation with Pino integration.
 automation-architect;eddiebe147/claude-settings;;Design workflow automations using Zapier, Make, n8n, and other tools.
 devcontainer-setup;shipshitdev/library;devcontainer-setup;Set up a .devcontainer for VS Code with Docker and Claude Code CLI support.
 bun-validator;shipshitdev/library;bun-validator;Validates Bun workspace configuration and detects common monorepo issues.
 nginx-expert;personamanagmentlayer/pcl;;Expert-level Nginx configuration, reverse proxy, load balancing, SSL/TLS, caching, and performance tuning
-config-manager;eddiebe147/claude-settings;;Manages application configuration including env vars, config files, and secrets across environments.
-husky-test-coverage;shipshitdev/library;husky-test-coverage;Enforces test coverage via pre-commit hooks for Node.js/TypeScript projects using Husky.
 digitalocean-teams;bobmatnyc/claude-mpm-skills;;Manage DigitalOcean Teams and Organizations for billing, access control, roles, and membership.
 alembic;manutej/luxor-claude-marketplace;alembic;Manages database migrations for customer support systems using Alembic.
 env-manager;bobmatnyc/claude-mpm-skills;;Environment variable validation, security scanning, and management for Next.js, Vite, React, and Node.js applications
-creating-changesets;saleor/configurator;creating-changesets;Creates changesets for semantic versioning. Handles releases, version bumps, changelog entries, and documenting breaking changes.
-incident-responder;eddiebe147/claude-settings;;Manage production incidents with structured response, debugging, and post-mortem documentation.
+config-manager;eddiebe147/claude-settings;;Manages application configuration including env vars, config files, and secrets across environments.
 cicd-expert;martinholovsky/claude-skills-generator;cicd-expert;Expert CI/CD pipeline engineer for GitHub Actions, GitLab CI, Jenkins with security and deployment strategies.
+husky-test-coverage;shipshitdev/library;husky-test-coverage;Enforces test coverage via pre-commit hooks for Node.js/TypeScript projects using Husky.
 powershell-7-expert;404kidwiz/claude-supercode-skills;;Expert in modern, cross-platform PowerShell Core for Linux/macOS automation and REST API integration.
 vercel-storage-data;bobmatnyc/claude-mpm-skills;;Vercel data and storage services including Postgres, Redis, Vercel Blob, Edge Config, and data cache for Vercel platform storage solutions.
 vercel-teams-billing;bobmatnyc/claude-mpm-skills;;Vercel account, team, and billing management including plans and spend controls for cost governance.
 emergency-release-workflow;bobmatnyc/claude-mpm-skills;;Emergency release workflow for critical bug fixes and security patches requiring fast-track deployment in production environments.
+creating-changesets;saleor/configurator;creating-changesets;Creates changesets for semantic versioning. Handles releases, version bumps, changelog entries, and documenting breaking changes.
+incident-responder;eddiebe147/claude-settings;;Manage production incidents with structured response, debugging, and post-mortem documentation.
+verification-before-completion;bobmatnyc/claude-mpm-skills;;Run verification commands and confirm output before claiming success
 tailscale;el-feo/ai-context;tailscale;Comprehensive Tailscale VPN setup, configuration, and management for mesh networking, secure access, and zero-trust infrastructure.
 domain-management;sgcarstrends/sgcarstrends;domain-management;Configures domain routing and DNS settings. Useful for adding services, updating patterns, or debugging DNS issues.
 deployment-rollback;sgcarstrends/sgcarstrends;deployment-rollback;Handles deployment rollbacks, version restoration, and emergency recovery for failed production deployments or critical bugs.
-verification-before-completion;bobmatnyc/claude-mpm-skills;;Run verification commands and confirm output before claiming success
+loki;julianobarbosa/claude-code-skills;loki-skill;Guide for implementing Grafana Loki - a horizontally scalable, highly available log aggregation system with storage backends, LogQL queries,
+cloudflare-dns;julianobarbosa/claude-code-skills;cloudflare-dns-skill;Guide for managing Cloudflare DNS with Azure integration. Covers API records, tokens, security best practices, and Kubernetes External-DNS.
 conventional-commit;trancong12102/agentskills;;A skill for generating conventional commits following established patterns.
+podman;knoopx/pi;podman;Manages containers, builds images, configures pods and networks with Podman for container orchestration and resource management.
 migration-planner;eddiebe147/claude-settings;;Plan and execute data migrations, system migrations, and platform transitions.
 resend-setup;andrelandgraf/fullstackrecipes;resend-setup;Setup Resend for transactional emails such as password resets and email verification.
 env-workflow-vercel;andrelandgraf/fullstackrecipes;env-workflow-vercel;Manage environment variables across Vercel environments with sync and local override support.
@@ -659,51 +663,49 @@ ci-cd;cosmix/loom;ci-cd;Automates testing, building, deployment, and security sc
 powershell-master;josiahsiegel/claude-plugin-marketplace;powershell-master;A comprehensive PowerShell expert skill for cross-platform automation, CI/CD pipelines, and script optimization.
 grafana-expert;personamanagmentlayer/pcl;;Expert guidance on Grafana dashboards, visualization, data sources, alerting, and production operations.
 env-management;andrelandgraf/fullstackrecipes;env-management;Manages environment variables with type-safe validation and prebuild checks.
-podman;knoopx/pi;podman;Manages containers, builds images, configures pods and networks with Podman for container orchestration and resource management.
 grepai-watch-daemon;yoanbernabeu/grepai-skills;indexing/grepai-watch-daemon;Manage the GrepAI watch daemon for real-time code indexing and file monitoring.
 using-logging;andrelandgraf/fullstackrecipes;using-logging;Use structured logging with Pino for better application observability and error tracking.
 codeup;abcfed/claude-marketplace;codeup;A tool for managing Codeup repositories, including branch management, file operations, and MR management.
-loki;julianobarbosa/claude-code-skills;loki-skill;Guide for implementing Grafana Loki - a horizontally scalable, highly available log aggregation system with storage backends, LogQL queries,
-cloudflare-dns;julianobarbosa/claude-code-skills;cloudflare-dns-skill;Guide for managing Cloudflare DNS with Azure integration. Covers API records, tokens, security best practices, and Kubernetes External-DNS.
 github-cli;oldwinter/skills;main/devops-skills/github-cli;A skill for interacting with GitHub via the gh CLI, covering repo management, CI/CD, Issues, PRs, and more.
+celery-expert;martinholovsky/claude-skills-generator;celery-expert;Expert Celery distributed task queue engineer for async task processing and workflow orchestration.
 testing-cicd-init;shipshitdev/library;testing-cicd-init;Set up Vitest testing and GitHub Actions CI/CD for TypeScript projects with 80% coverage.
 grepai-storage-gob;yoanbernabeu/grepai-skills;storage/grepai-storage-gob;Configure local file storage for GrepAI on a single machine.
 using-sentry;andrelandgraf/fullstackrecipes;using-sentry;Capture exceptions and manage application errors with Sentry.
 gitlab;andrejones92/canifi-life-os;;Manage GitLab repositories, pipelines, merge requests, and CI/CD monitoring.
-celery-expert;martinholovsky/claude-skills-generator;celery-expert;Expert Celery distributed task queue engineer for async task processing and workflow orchestration.
+talos-os-expert;martinholovsky/claude-skills-generator;talos-os-expert;Expert in Talos Linux OS for immutable Kubernetes clusters, secure deployments, and machine configurations.
 prometheus;cosmix/loom;prometheus;Prometheus monitoring and alerting for cloud-native observability. Handles PromQL queries, scrape targets, alerting rules, and application i
 n8n-workflow-automation;aaaaqwq/claude-code-skills;disabled/n8n-workflow-automation;Automate workflow creation and management with n8n.
-talos-os-expert;martinholovsky/claude-skills-generator;talos-os-expert;Expert in Talos Linux OS for immutable Kubernetes clusters, secure deployments, and machine configurations.
 ec2-backend-deployer;shipshitdev/library;ec2-backend-deployer;Deploys backends to EC2 using CI/CD, Docker, and GitHub Actions.
 bash-master;josiahsiegel/claude-plugin-marketplace;bash-master;Expert bash/shell scripting skill for system automation, DevOps, and cross-platform script development.
 compose-patterns-2025;josiahsiegel/claude-plugin-marketplace;compose-patterns-2025;A Docker Compose production patterns guide for 2025 with multi-env strategies and health checks.
 env-validation;andrelandgraf/fullstackrecipes;env-validation;Validates environment variables at server start and build time to catch errors early.
 neon-test-branches;andrelandgraf/fullstackrecipes;neon-test-branches;Create isolated Neon database branches for testing with schema-only options and auto-cleanup.
-mise-expert;samhvw8/dotfiles;mise-expert;Manages development environments with tool version control, environment variables, and task running.
-monitoring-setup;shipshitdev/library;monitoring-setup;Set up Sentry error tracking and Google Analytics for NestJS and Next.js apps.
-error-monitoring;eddiebe147/claude-settings;;A skill for monitoring and handling errors in applications.
 auto-update-systems-expert;martinholovsky/claude-skills-generator;auto-update-systems;Expert in Tauri auto-update implementation with focus on signature verification, rollback mechanisms, staged rollouts, and secure update dis
 cilium-expert;martinholovsky/claude-skills-generator;cilium-expert;Expert in Cilium eBPF-based networking and security for Kubernetes.
-terraform-best-practices;nickcrew/claude-ctx-plugin;terraform-best-practices;Best practices for scalable and maintainable Terraform infrastructure-as-code.
-docker-expert;shipshitdev/library;docker-expert;Expert in Docker, docker-compose, Dockerfile patterns, and container orchestration for NestJS and Next.js applications.
+monitoring-setup;shipshitdev/library;monitoring-setup;Set up Sentry error tracking and Google Analytics for NestJS and Next.js apps.
 capacitor-ci-cd;cap-go/capacitor-skills;capacitor-ci-cd;A complete CI/CD guide for Capacitor apps with GitHub Actions, GitLab CI, build automation, app signing, and deployment pipelines.
-encore-infrastructure;encoredev/skills;main/encore/infrastructure;Declare databases, Pub/Sub, cron jobs, and secrets with Encore.ts.
-gitlab-code-review;dedalus-erp-pas/foundation-skills;gitlab-code-review;Performs comprehensive code reviews for GitLab merge requests, analyzing quality, security, and best practices.
+error-monitoring;eddiebe147/claude-settings;;A skill for monitoring and handling errors in applications.
 java-docker;pluginagentmarketplace/custom-plugin-java;java-docker;Containerize Java apps with Dockerfile optimization and JVM settings.
 harbor-expert;martinholovsky/claude-skills-generator;harbor-expert;Manage Harbor container registry with security policies, vulnerability scanning, and replication.
+terraform-best-practices;nickcrew/claude-ctx-plugin;terraform-best-practices;Best practices for scalable and maintainable Terraform infrastructure-as-code.
+docker-expert;shipshitdev/library;docker-expert;Expert in Docker, docker-compose, Dockerfile patterns, and container orchestration for NestJS and Next.js applications.
+encore-infrastructure;encoredev/skills;main/encore/infrastructure;Declare databases, Pub/Sub, cron jobs, and secrets with Encore.ts.
+gitlab-code-review;dedalus-erp-pas/foundation-skills;gitlab-code-review;Performs comprehensive code reviews for GitLab merge requests, analyzing quality, security, and best practices.
+dbus;martinholovsky/claude-skills-generator;dbus;A skill focused on D-Bus IPC for secure Linux system communication and service integration.
 docker-2025-features;josiahsiegel/claude-plugin-marketplace;docker-2025-features;Explore the latest Docker 2025 features including AI Assistant and enhanced container isolation.
 grafana;cosmix/loom;grafana;Grafana observability visualization with LGTM stack. Dashboard design, panel configuration, alerting, variables/templating, and data sources
 pulumi-typescript;dirien/claude-skills;;Handles Pulumi TypeScript projects for infrastructure automation, including code creation, OIDC setup, and Node.js integration.
 coolify-deploy;v1truv1us/ai-eng-system;coolify-deploy;Deploy applications to Coolify platform following best practices for optimized deployment workflows.
 deployment-automation;eddiebe147/claude-settings;;Automates deployment processes with CI/CD and tooling.
 gh-fix-ci;shipshitdev/library;gh-fix-ci;Debug and fix failing GitHub Actions CI/CD checks with automated log inspection and fix planning.
-dbus;martinholovsky/claude-skills-generator;dbus;A skill focused on D-Bus IPC for secure Linux system communication and service integration.
 helm-expert;personamanagmentlayer/pcl;;Expert-level Helm 3 package management, chart development, templating, and production operations
-logging-observability;cosmix/loom;logging-observability;Comprehensive logging and observability patterns for production systems with structured logging, distributed tracing, metrics collection, an
+sentry-cli;cli.sentry.dev;;A CLI tool for Sentry error tracking and monitoring.
 java-maven-gradle;pluginagentmarketplace/custom-plugin-java;java-maven-gradle;Master Maven and Gradle for build configuration, dependencies, plugins, and CI/CD.
+logging-observability;cosmix/loom;logging-observability;Comprehensive logging and observability patterns for production systems with structured logging, distributed tracing, metrics collection, an
 changelog-generator;shipshitdev/library;changelog-generator;Automatically generates user-friendly changelogs from git commits.
 using-tmux-for-interactive-commands;ovachiever/droid-tings;using-tmux-for-interactive-commands;Use tmux for running interactive CLI tools like vim, git rebase, and Python REPL in detached sessions.
 runpod-deployment;scientiacapital/skills;main/active/runpod-deployment-skill;Deploy GPU workloads to RunPod serverless and pods - vLLM endpoints, A100/H100 setup, scale-to-zero, cost optimization.
+grafana-skill;julianobarbosa/claude-code-skills;grafana-skill;Comprehensive skill for interacting with Grafana's HTTP API to manage dashboards, data sources, alerting, and user management tasks.
 azure-well-architected-framework;josiahsiegel/claude-plugin-marketplace;azure-well-architected-framework;Comprehensive Azure Well-Architected Framework covering five pillars: Reliability, Security, Cost Optimization, Operational Excellence, and
 opentofu-guide;josiahsiegel/claude-plugin-marketplace;opentofu-guide;Comprehensive OpenTofu expertise covering migration from Terraform, state encryption, new features, and CI/CD integration with decision matr
 wix-cli-app-validation;wix/skills;main/skills/wix-cli-app-validation;Validates Wix CLI app readiness, runtime behavior, and release quality with triggers like validate, test, and verify.
@@ -716,12 +718,15 @@ github-project-automation;ovachiever/droid-tings;github-project-automation;Autom
 gcp-console;andrejones92/canifi-life-os;;GCP Console management and operations skill for cloud infrastructure management.
 cloudflare;cloudflare/com;;Cloudflare configuration and setup management tool
 dokploy-deploy;jpropato/siba;;Deploy applications to Dokploy using CLI or API for production deployments and setup.
+argocd-cluster-bootstrapping;julianobarbosa/claude-code-skills;argocd-cluster-bootstrapping-skill;ArgoCD cluster bootstrapping for GitOps. Provisions Kubernetes clusters, configures ApplicationSets, secrets, and troubleshoots connectivity
 glab;henricook/claude-glab-skill;;Expert guidance for using GitLab CLI (glab) to manage GitLab issues, merge requests, CI/CD pipelines, repositories, and other GitLab operati
 altinity-expert-clickhouse-memory;altinity/skills;main/altinity-expert-clickhouse/skills/altinity-expert-clickhouse-memory;Diagnose ClickHouse memory usage, OOM errors, and allocation patterns for troubleshooting.
 docker-platform-guide;josiahsiegel/claude-plugin-marketplace;docker-platform-guide;Platform-specific Docker considerations for Windows, Linux, and macOS environments
 prometheus-expert;personamanagmentlayer/pcl;;Expert assistance for Prometheus monitoring, metrics collection, PromQL queries, alerting, and production operations.
+azure-devops-skill;julianobarbosa/claude-code-skills;azure-devops-skill;Integrates Azure DevOps REST API for work items, pipelines, repos, test plans, wikis, and search via MCP tools and direct API calls.
+gitops-principles-skill;julianobarbosa/claude-code-skills;gitops-principles-skill;GitOps skill for cloud-native ops. Covers Kubernetes deployments, declarative infra, CI/CD pipelines, and troubleshooting.
+jk;avivsinai/jenkins-cli;jk;Jenkins CLI for managing jobs, pipelines, runs, logs, artifacts, credentials, nodes, and queues.
 release-manager;daffy0208/ai-dev-standards;release-manager;Manage safe feature releases with progressive rollouts, feature flags, and canary deployments.
-grafana-skill;julianobarbosa/claude-code-skills;grafana-skill;Comprehensive skill for interacting with Grafana's HTTP API to manage dashboards, data sources, alerting, and user management tasks.
 agent-rdp;thisnick/agent-rdp;agent-rdp;Controls Windows Remote Desktop sessions for automation, testing, and remote administration of Windows machines.
 github-actions-2025;josiahsiegel/claude-plugin-marketplace;github-actions-2025;GitHub Actions 2025 features including 1 vCPU runners, immutable releases, and Node24 migration
 container-apps-gpu-2025;josiahsiegel/claude-plugin-marketplace;container-apps-gpu-2025;Azure Container Apps GPU support 2025 with serverless GPU, Dapr integration, and scale-to-zero capabilities.
@@ -739,10 +744,7 @@ ssdt-cicd-best-practices-2025;josiahsiegel/claude-plugin-marketplace;ssdt-cicd-b
 windows-git-bash-compatibility;josiahsiegel/claude-plugin-marketplace;windows-git-bash-compatibility;Windows and Git Bash compatibility guidance for Azure Data Factory development and CI/CD processes.
 sprint-254-features;josiahsiegel/claude-plugin-marketplace;sprint-254-features;Azure DevOps Sprint 254-262 new features and enhancements for 2025 planning and project management
 changelog-generator;dedalus-erp-pas/foundation-skills;changelog-generator;Automatically generates user-friendly changelogs from git commits.
-argocd-cluster-bootstrapping;julianobarbosa/claude-code-skills;argocd-cluster-bootstrapping-skill;ArgoCD cluster bootstrapping for GitOps. Provisions Kubernetes clusters, configures ApplicationSets, secrets, and troubleshoots connectivity
 container-orchestration;0xdarkmatter/claude-mods;container-orchestration;Docker and Kubernetes patterns for container orchestration, covering Dockerfile, docker-compose, k8s, helm, pods, deployments, services, and
-azure-devops-skill;julianobarbosa/claude-code-skills;azure-devops-skill;Integrates Azure DevOps REST API for work items, pipelines, repos, test plans, wikis, and search via MCP tools and direct API calls.
-gitops-principles-skill;julianobarbosa/claude-code-skills;gitops-principles-skill;GitOps skill for cloud-native ops. Covers Kubernetes deployments, declarative infra, CI/CD pipelines, and troubleshooting.
 sentry-setup-tracing;getsentry/agent-skills;sentry-setup-tracing;Setup Sentry Tracing for performance monitoring in JavaScript, Python, and Ruby projects.
 encore-go-infrastructure;encoredev/skills;main/encore/go-infrastructure;Declare infrastructure using Encore Go for backend development.
 zapier;andrejones92/canifi-life-os;;Automate workflows by connecting 5000+ apps with Zapier.

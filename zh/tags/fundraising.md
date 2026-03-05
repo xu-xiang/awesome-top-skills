@@ -1,11 +1,13 @@
 # 标签：fundraising (fundraising)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 9
+- 命中技能: 11
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [pitch-deck-visuals](https://github.com/inference-sh-9/skills/blob/main/skills/pitch-deck-visuals/SKILL.md) | [inference-sh-9/skills](https://github.com/inference-sh-9/skills) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 88 | 4.1K | 2026-03-03 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |
+| [pitch-deck-visuals](https://github.com/tul-sh/skills/blob/main/guides/design/pitch-deck-visuals/SKILL.md) | [tul-sh/skills](https://github.com/tul-sh/skills) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 95 | 922 | 2026-03-04 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |
+| [pitch-deck-visuals](https://github.com/inference-sh/skills/blob/main/guides/design/pitch-deck-visuals/SKILL.md) | [inference-sh/skills](https://github.com/inference-sh/skills) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 95 | 89 | 2026-03-04 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |
 | [pitch-deck-visuals](https://github.com/1nfsh/s/blob/main/skills/pitch-deck-visuals/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 0 | 84 | 2026-02-13 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |
 | [pitch-deck-visuals](https://github.com/1nfsh/skills/blob/main/skills/pitch-deck-visuals/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 34 | 71 | 2026-02-18 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |
 | [pitch-deck-visuals](https://github.com/inference-sh-1/skills/blob/main/skills/pitch-deck-visuals/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | 投资者演示文稿结构，包含逐页框架、视觉设计规则和数据展示，用于融资和投资者会议。 | 30 | 65 | 2026-02-11 | [演示 (presentation)](presentation.md), [pitch deck (pitch-deck)](pitch-deck.md), [fundraising (fundraising)](fundraising.md), [startup (startup)](startup.md), [investors (investors)](investors.md), [营销 (marketing)](marketing.md) |

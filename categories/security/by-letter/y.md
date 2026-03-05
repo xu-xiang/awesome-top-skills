@@ -5,4 +5,4 @@
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [yara-rule-authoring](https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md) | [trailofbits/skills](https://github.com/trailofbits/skills) | Create high-quality YARA-X rules for malware detection, covering naming, optimization, and false positive reduction. | 3.1K | 384 | 2026-03-04 | [binary-analysis](../../../tags/binary-analysis.md), [vulnerability-analysis](../../../tags/vulnerability-analysis.md), [rule](../../../tags/rule.md), [yara](../../../tags/yara.md) |
+| [yara-rule-authoring](https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md) | [trailofbits/skills](https://github.com/trailofbits/skills) | Create high-quality YARA-X rules for malware detection, covering naming, optimization, and false positive reduction. | 3.3K | 389 | 2026-03-04 | [binary-analysis](../../../tags/binary-analysis.md), [vulnerability-analysis](../../../tags/vulnerability-analysis.md), [rule](../../../tags/rule.md), [yara](../../../tags/yara.md) |

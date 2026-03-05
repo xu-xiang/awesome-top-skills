@@ -24,10 +24,10 @@ ab-test-setup;sickn33/antigravity-awesome-skills;ab-test-setup;A structured guid
 onboarding-cro;sickn33/antigravity-awesome-skills;onboarding-cro;Optimizes post-signup onboarding, user activation, and first-run experience to improve time-to-value.
 launch-strategy;sickn33/antigravity-awesome-skills;launch-strategy;Plan product launches, feature announcements, and release strategies with phased approaches and channel planning.
 signup-flow-cro;sickn33/antigravity-awesome-skills;signup-flow-cro;Optimize user signup and registration flows to reduce drop-off and improve conversion rates.
-page-cro;coreyhaines31/marketingskills;page-cro;Optimize marketing pages for better conversions, including homepage, landing pages, and blog posts.
 conductor-new-track;sickn33/antigravity-awesome-skills;conductor-new-track;Create a new track with specification and phased implementation plan
-wrike-automation;sickn33/antigravity-awesome-skills;wrike-automation;Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress.
 posthog-automation;sickn33/antigravity-awesome-skills;posthog-automation;Automate PostHog tasks via Rube MCP (Composio): events, feature flags, projects, user profiles, annotations. Always search tools first for c
+wrike-automation;sickn33/antigravity-awesome-skills;wrike-automation;Automate Wrike project management via Rube MCP (Composio): create tasks/folders, manage projects, assign work, and track progress.
+page-cro;coreyhaines31/marketingskills;page-cro;Optimize marketing pages for better conversions, including homepage, landing pages, and blog posts.
 launch-strategy;coreyhaines31/marketingskills;launch-strategy;Plan product launches, feature announcements, and release strategies with phased approaches and channel planning.
 onboarding-cro;coreyhaines31/marketingskills;onboarding-cro;Optimizes post-signup onboarding, user activation, and first-run experience to improve time-to-value.
 signup-flow-cro;coreyhaines31/marketingskills;signup-flow-cro;Optimize user signup and registration flows to reduce drop-off and improve conversion rates.
@@ -43,16 +43,17 @@ ralph-init;yeachan-heo/oh-my-claudecode;ralph-init;Initialize a Product Requirem
 task-estimation;supercent-io/skills-template;;Accurately estimate software development tasks using story points, t-shirt sizing, planning poker, and best practices.
 feature-forge;jeffallan/claude-skills;feature-forge;Define new features, gather requirements, and write specifications using EARS format.
 product-changelog;inference-sh-9/skills;main/skills/product-changelog;Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution.
-ralph-tui-prd;subsy/ralph-tui;ralph-tui-prd;Generates Product Requirements Documents (PRDs) with user stories for task orchestration, convertible to beads issues or prd.json.
-product-requirements;cexll/myclaude;product-requirements;An interactive Product Owner skill for gathering requirements, analyzing features, and generating PRDs with quality scoring and iterative di
 agile-product-owner;alirezarezvani/claude-skills;;An Agile product owner skill for backlog management, sprint planning, and user story writing.
+ralph-tui-prd;subsy/ralph-tui;ralph-tui-prd;Generates Product Requirements Documents (PRDs) with user stories for task orchestration, convertible to beads issues or prd.json.
 product-manager-toolkit;alirezarezvani/claude-skills;;A comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, and go-to-market str
+product-requirements;cexll/myclaude;product-requirements;An interactive Product Owner skill for gathering requirements, analyzing features, and generating PRDs with quality scoring and iterative di
 product-strategist;alirezarezvani/claude-skills;;A strategic product leadership toolkit for Head of Product, including OKR cascade generation, market analysis, vision setting, and team scal
 app-store-optimization;alirezarezvani/claude-skills;;An App Store Optimization toolkit for keyword research, metadata optimization, and performance tracking on Apple and Google Play stores.
 game-changing-features;softaworks/agent-toolkit;game-changing-features;Identifies high-impact product opportunities and improvements for strategic thinking.
 product-master;huangserva/skill-prompt-generator;;A skill for mastering product management processes and documentation.
-requirements-clarity;softaworks/agent-toolkit;requirements-clarity;Clarify ambiguous requirements through focused dialogue before implementation, using Why? and Simpler? checks.
+product-changelog;tul-sh/skills;main/guides/product/product-changelog;Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution.
 shaping;rjs/shaping-skills;;A methodology for collaboratively shaping solutions with users through iterative problem definition and solution exploration.
+requirements-clarity;softaworks/agent-toolkit;requirements-clarity;Clarify ambiguous requirements through focused dialogue before implementation, using Why? and Simpler? checks.
 avoid-feature-creep;waynesutton/convexskills;avoid-feature-creep;Prevent feature creep during software and AI product development to maintain focus and ship faster.
 requirements-engineering;jasonkneen/kiro;requirements-engineering;Transform vague feature ideas into clear, testable requirements using EARS format.
 brand-guidelines;getsentry/skills;main/plugins/sentry-skills/skills/brand-guidelines;Write copy following Sentry brand guidelines for UI text, error messages, documentation, and marketing content with Plain Speech and Sentry
@@ -73,7 +74,6 @@ retention-engagement;refoundai/lenny-skills;retention-engagement;Improve user re
 analyzing-user-feedback;refoundai/lenny-skills;analyzing-user-feedback;Analyze customer feedback including NPS responses, support tickets, and user research to identify patterns and insights.
 behavioral-product-design;refoundai/lenny-skills;behavioral-product-design;Apply behavioral science to product design for habit formation and user retention.
 product-taste-intuition;refoundai/lenny-skills;product-taste-intuition;Helps users develop product taste and intuition for better decision-making.
-requirements-analysis;jwynia/agent-skills;tech/development/architecture/requirements-analysis;Analyze requirements problems and guide discovery of real needs and constraints.
 evaluating-candidates;refoundai/lenny-skills;evaluating-candidates;Helps users make better hiring decisions by evaluating candidates, conducting reference checks, and reviewing work samples.
 measuring-product-market-fit;refoundai/lenny-skills;measuring-product-market-fit;Assess product-market fit through user engagement, retention, and surveys.
 planning-under-uncertainty;refoundai/lenny-skills;planning-under-uncertainty;Helps plan products and strategies under uncertainty, useful for ambiguous timelines and fast-moving markets.
@@ -85,6 +85,7 @@ dogfooding;refoundai/lenny-skills;dogfooding;Helps implement effective dogfoodin
 cross-functional-collaboration;refoundai/lenny-skills;cross-functional-collaboration;This skill helps users work effectively across different functions, especially in managing PM-engineering relationships and resolving cross-
 coaching-pms;refoundai/lenny-skills;coaching-pms;This skill helps coaches develop product managers by guiding performance reviews, team capability building, and career planning.
 organizational-transformation;refoundai/lenny-skills;organizational-transformation;Helps transform organizations towards modern product practices, including shifting from feature teams to product teams and driving cultural
+requirements-analysis;jwynia/agent-skills;tech/development/architecture/requirements-analysis;Analyze requirements problems and guide discovery of real needs and constraints.
 pre-mortem;boshu2/agentops;pre-mortem;Validate plans/specs before implementation using multi-model council to determine if ready for execution.
 product-manager;aj-geddes/claude-code-bmad-skills;bmm/pm;Product requirements and planning specialist. Creates PRDs and tech specs with functional/non-functional requirements, prioritizes features
 plan;boshu2/agentops;plan;Breaks down epics into trackable issues and tasks with various trigger phrases for planning work decomposition.
@@ -99,25 +100,27 @@ obviously-awesome;wondelai/skills;main/obviously-awesome;Defines product positio
 design-sprint;wondelai/skills;main/design-sprint;Runs a 5-day design sprint to prototype, test, and validate product ideas with users, reducing risk before building.
 drive-motivation;wondelai/skills;main/drive-motivation;Applies Daniel Pink's Drive framework (Autonomy, Mastery, Purpose) to product design, team incentives, and messaging to leverage intrinsic m
 app-store-optimization;alirezarezvani/claude-code-aso-skill;;A complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance.
-technical-roadmap-planning;aj-geddes/useful-ai-prompts;technical-roadmap-planning;Plan technical roadmaps aligned with business goals, covering technology investments and infrastructure improvements.
 requirements-gathering;aj-geddes/useful-ai-prompts;requirements-gathering;A skill for systematically gathering and validating stakeholder requirements to ensure clarity and completeness before development.
-project-brainstorming;athola/claude-night-market;project-brainstorming;Guide project ideation through Socratic questioning and constraint analysis for actionable project briefs. Use for starting projects, explor
+technical-roadmap-planning;aj-geddes/useful-ai-prompts;technical-roadmap-planning;Plan technical roadmaps aligned with business goals, covering technology investments and infrastructure improvements.
 user-persona-creation;aj-geddes/useful-ai-prompts;user-persona-creation;Create detailed user personas to guide product decisions and ensure user-centered design.
+project-brainstorming;athola/claude-night-market;project-brainstorming;Guide project ideation through Socratic questioning and constraint analysis for actionable project briefs. Use for starting projects, explor
 requirements-analysis;rsmdt/the-startup;;Analyze and manage project requirements to ensure clear understanding and alignment before development begins.
 product-management;vasilyu1983/ai-agents-public;product-management;Operational product management skill focusing on discovery, strategy, roadmaps, metrics, and leadership using templates and checklists.
 ln-210-epic-coordinator;levnikolaevich/claude-code-skills;;Create/replan epics from scope with batch preview and auto-extraction. Uses decompose-first pattern and auto-discovers team ID.
+product-changelog;inference-sh/skills;main/guides/product/product-changelog;Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution.
 amazon-working-backwards;robdefeo/agent-skills;amazon-working-backwards;Guides Amazon Working Backwards process, helping draft 5 Questions, critique answers, and generate PR-FAQ documents for product proposals.
 youtube-video-hook;kenneth-liao/ai-launchpad-marketplace;;Skill for creating optimized YouTube video opening hooks that maximize viewer retention and watch time.
 prd-generator;jamesrochabrun/skills;main/skills/prd-generator;Generate comprehensive Product Requirements Documents (PRDs) for product managers.
+product-strategist;borghei/claude-skills;;A strategic product leadership toolkit for Head of Product, including OKR cascade generation, market analysis, vision setting, and team scal
 product-manager;borghei/claude-skills;;A skill for product managers to handle product-related tasks and planning.
 feature-spec;pproenca/dot-skills;.experimental/feature-spec;A skill for software engineers to create feature specifications and plan product development.
 spec-driven-brainstorming;anton-abyzov/specweave;;A product discovery expert that helps teams brainstorm features, break down epics, and prioritize using frameworks like MoSCoW and RICE.
-product-strategist;borghei/claude-skills;;A strategic product leadership toolkit for Head of Product, including OKR cascade generation, market analysis, vision setting, and team scal
 prd-generator;ognjengt/founder-skills;prd-generator;Generates professional PRD documents optimized for AI coding tools, taking rough ideas and outputting structured PDFs.
 product-hunt-launch-plan;ognjengt/founder-skills;product-hunt-launch-plan;Creates a comprehensive, personalized Product Hunt launch plan to rank
 roadmap-planner;anton-abyzov/specweave;;A skill for planning and creating roadmaps to guide project or product development.
-appstore-readiness;eddiebe147/claude-settings;;Ensures app store readiness by checking compliance and setup requirements for app store submission.
 pm-architect;rysweet/amplihack;pm-architect;Expert project manager orchestrating sub-skills for backlog curation, work delegation, coordination, and roadmap strategy in complex softwar
+product-manager-toolkit;borghei/claude-skills;;A comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, and go-to-market str
+appstore-readiness;eddiebe147/claude-settings;;Ensures app store readiness by checking compliance and setup requirements for app store submission.
 discover-product;rand/cc-polymath;discover-product;Discover product management skills automatically for tasks like roadmap, user stories, and strategy.
 backlog-curator;rysweet/amplihack;backlog-curator;Expert backlog manager that prioritizes work using multi-criteria scoring, analyzes dependencies, and recommends optimal next tasks.
 product-discovery;majiayu000/claude-arsenal;product-discovery;Product discovery and market research expert for validating ideas, user interviews, competitive analysis using JTBD, Kano model, Value Propo
@@ -128,18 +131,17 @@ product-changelog;inference-sh-1/skills;main/skills/product-changelog;Product ch
 product-changelog;1nfsh/s;product-changelog;Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution.
 product-changelog;1nfsh-s3/skills;main/skills/product-changelog;Product changelog and release notes that users actually read. Covers categorization, user-facing language, visuals, and distribution.
 mvp-architect;shipshitdev/library;mvp-architect;Helps scope MVPs, define minimum viable features, and plan early product development.
-secondme-prd;mindverse/second-me-skills;secondme-prd;Defines product requirements through conversation, asks targeted questions based on selected modules, and updates state.json
 marketing-product-analytics;vasilyu1983/ai-agents-public;marketing-product-analytics;A skill for product analytics instrumentation and strategy, covering event taxonomy, tracking plans, and user behavior analysis.
+secondme-prd;mindverse/second-me-skills;secondme-prd;Defines product requirements through conversation, asks targeted questions based on selected modules, and updates state.json
 task-prd-creator;shipshitdev/library;task-prd-creator;Creates structured task files and PRDs for new features, enhancements, or bug fixes.
 endings;jwynia/agent-skills;creative/fiction/structure/endings;Diagnose weak story endings, rushed resolutions, and arbitrary conclusions to improve narrative quality and character arc completion.
 media-adaptation;jwynia/agent-skills;creative/fiction/application/media-adaptation;Systematically analyze existing media to extract transferable elements for new settings. Use when adapting TV, film, or games to fiction, tr
 app-store-optimization;wsbs20/claude-code-aso-skill;;A complete App Store Optimization (ASO) toolkit for researching, optimizing, and tracking mobile app performance.
 project-management;aaaaqwq/claude-code-skills;project-management;Project management and product requirement analysis skill for creating project plans, writing PRD documents, managing tasks, and conducting
 drama-creator;vangongwanxiaowan/screen-creative-skills;;Create vertical short drama scripts with macro construction, script writing, precise optimization, and creative ideation for various scenari
-mvp-planner;eddiebe147/claude-settings;;Plan and scope minimum viable products with feature prioritization.
-product-manager-toolkit;borghei/claude-skills;;A comprehensive toolkit for product managers including RICE prioritization, customer interview analysis, PRD templates, and go-to-market str
-prd-mastery:-context-aware;gocallum/nextjs16-agent-skills;;A skill for mastering PRD creation with context awareness.
 product-appeal-analyzer;erichowens/some_claude_skills;product-appeal-analyzer;Evaluates product desirability, market positioning, and emotional resonance to assess whether users will want a product.
+mvp-planner;eddiebe147/claude-settings;;Plan and scope minimum viable products with feature prioritization.
+prd-mastery:-context-aware;gocallum/nextjs16-agent-skills;;A skill for mastering PRD creation with context awareness.
 a/b-test-designer;eddiebe147/claude-settings;;Design statistically valid A/B tests for marketing optimization.
 roadmap-builder;eddiebe147/claude-settings;;Build strategic product roadmaps with theme-based planning and stakeholder alignment.
 onboarding-designer;eddiebe147/claude-settings;;Design effective user onboarding flows to drive activation, adoption, and retention.
@@ -150,9 +152,9 @@ roadmap-analyzer;shipshitdev/library;roadmap-analyzer;Analyze project features a
 pmf-analyzer;eddiebe147/claude-settings;;Analyze product-market fit using frameworks, metrics, and customer signals.
 customer-journey-mapper;eddiebe147/claude-settings;;Map customer journeys to optimize touchpoints and experiences.
 retention-engine;shipshitdev/library;retention-engine;A skill for reducing customer churn and increasing lifetime value through retention strategies and subscription optimization.
+doc-prd;vladm3105/aidoc-flow-framework;doc-prd;Create Product Requirements Documents (PRD) following SDD methodology - Layer 2 artifact defining product features and user needs
 nps-survey-creator;eddiebe147/claude-settings;;Create, deploy, and analyze NPS surveys to measure customer loyalty.
 client-onboarding-designer;eddiebe147/claude-settings;;Design smooth client onboarding experiences to ensure success and retention.
-doc-prd;vladm3105/aidoc-flow-framework;doc-prd;Create Product Requirements Documents (PRD) following SDD methodology - Layer 2 artifact defining product features and user needs
 user-stories-setup;andrelandgraf/fullstackrecipes;user-stories-setup;Setup structured user story format with testable acceptance criteria for feature requirements.
 product-analyst;daffy0208/ai-dev-standards;product-analyst;Analyze user metrics and behavior to drive product decisions.
 product-analytics;daffy0208/ai-dev-standards;product-analytics;Track events, funnels, cohorts, and metrics to measure product performance and user behavior.

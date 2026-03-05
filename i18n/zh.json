@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-03-04T05:28:57.619Z",
+  "generated_at": "2026-03-05T05:47:29.539Z",
   "categories": {
     "ai-llm": {
       "zh": "AI/LLM（大模型）",
@@ -6568,10 +6568,6 @@
       "zh": "rabbitmq",
       "bilingual": true
     },
-    "race-condition": {
-      "zh": "race condition",
-      "bilingual": true
-    },
     "radiology": {
       "zh": "radiology",
       "bilingual": true
@@ -6602,10 +6598,6 @@
     },
     "ranking": {
       "zh": "ranking",
-      "bilingual": true
-    },
-    "rankings": {
-      "zh": "rankings",
       "bilingual": true
     },
     "rapier": {
@@ -7100,10 +7092,6 @@
       "zh": "sap fiori",
       "bilingual": true
     },
-    "sapui5": {
-      "zh": "sapui5",
-      "bilingual": true
-    },
     "sarif": {
       "zh": "sarif",
       "bilingual": true
@@ -7238,10 +7226,6 @@
     },
     "search-intent": {
       "zh": "search intent",
-      "bilingual": true
-    },
-    "search-ranking": {
-      "zh": "search ranking",
       "bilingual": true
     },
     "searxng": {
@@ -8212,10 +8196,6 @@
       "zh": "tamagui",
       "bilingual": true
     },
-    "tambo": {
-      "zh": "tambo",
-      "bilingual": true
-    },
     "tana": {
       "zh": "tana",
       "bilingual": true
@@ -8428,10 +8408,6 @@
       "zh": "things",
       "bilingual": true
     },
-    "thread-safety": {
-      "zh": "thread safety",
-      "bilingual": true
-    },
     "threads": {
       "zh": "threads",
       "bilingual": true
@@ -8454,6 +8430,10 @@
     },
     "tiktok": {
       "zh": "tiktok",
+      "bilingual": true
+    },
+    "tikz": {
+      "zh": "tikz",
       "bilingual": true
     },
     "tilt": {
@@ -8778,6 +8758,10 @@
     },
     "unreal": {
       "zh": "unreal",
+      "bilingual": true
+    },
+    "unsplash": {
+      "zh": "unsplash",
       "bilingual": true
     },
     "update": {

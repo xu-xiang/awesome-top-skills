@@ -4,11 +4,11 @@ COLUMNS: id;repo;path;summary
 
 ## DEV SKILLS (TOP 800)
 peekaboo;steipete/clawdis;peekaboo;Capture and automate macOS UI with the Peekaboo CLI tool for UI automation tasks.
-coding-agent;steipete/clawdis;coding-agent;Delegates coding tasks to AI agents (Codex, Claude, Pi) via background process for building, PR review, and refactoring. Requires bash with
+coding-agent;steipete/clawdis;coding-agent;Delegate coding tasks to AI agents (Codex, Claude Code) for building features, PR reviews, and refactoring via background processes.
 mcporter;steipete/clawdis;mcporter;CLI tool for managing MCP servers/tools with listing, configuration, authentication, and direct calling capabilities.
 tmux;steipete/clawdis;tmux;Remote-control tmux sessions for interactive CLIs by sending keystrokes and scraping pane output.
-video-frames;steipete/clawdis;video-frames;Extract frames or short clips from videos using ffmpeg.
 github;steipete/clawdis;github;GitHub operations via gh CLI for issues, PRs, CI, and code review. Automates dev workflows without browser UI.
+video-frames;steipete/clawdis;video-frames;Extract frames or short clips from videos using ffmpeg.
 wacli;steipete/clawdis;wacli;Send WhatsApp messages and sync WhatsApp history via CLI tool wacli for non-normal user chats.
 sonoscli;steipete/clawdis;sonoscli;Control Sonos speakers via CLI for discovery, status, play, volume, and grouping.
 gifgrep;steipete/clawdis;gifgrep;Search GIF providers with CLI/TUI, download results, and extract stills/sheets.
@@ -28,7 +28,6 @@ update-docs;vercel/next.js;update-docs;A skill for updating Next.js documentatio
 component-refactoring;langgenius/dify;component-refactoring;Refactor complex React components in Dify frontend based on complexity analysis and user requests.
 frontend-code-review;langgenius/dify;frontend-code-review;A skill for reviewing frontend code files like .tsx, .ts, and .js with checklist rules.
 frontend-testing;langgenius/dify;frontend-testing;Generates Vitest and React Testing Library tests for Dify frontend components, hooks, and utilities.
-orpc-contract-first;langgenius/dify;orpc-contract-first;A skill for implementing oRPC contract-first API patterns in Dify frontend, useful for API layer development.
 release-note-generation;microsoft/powertoys;release-note-generation;Toolkit for generating PowerToys release notes from GitHub milestone PRs or commit ranges.
 electron-chromium-upgrade;electron/electron;electron-chromium-upgrade;A guide for upgrading Chromium in Electron projects, covering patch application and conflict resolution.
 bun-file-io;anomalyco/opencode;;A skill for handling file I/O operations like reading, writing, and deleting files using Bun.
@@ -38,6 +37,7 @@ python-expert;shubhamsaboo/awesome-llm-apps;;Senior Python developer expertise f
 debugger;shubhamsaboo/awesome-llm-apps;;Systematic debugging and root cause analysis for identifying and fixing software issues. Handles errors, bugs, crashes, stack traces, and br
 remotion-best-practices;remotion-dev/skills;main/skills/remotion;Best practices for creating videos with React and Remotion.
 vitest;supabase/supabase;vitest;A fast unit testing framework for JavaScript projects using Vite.
+vercel-composition-patterns;supabase/supabase;vercel-composition-patterns;A skill for applying React composition patterns that scale, useful for refactoring components and building flexible libraries.
 docstring;pytorch/pytorch;docstring;Generate PyTorch docstrings following conventions.
 at-dispatch-v2;pytorch/pytorch;at-dispatch-v2;Convert PyTorch AT_DISPATCH macros to AT_DISPATCH_V2 format in ATen C++ code for kernel porting.
 metal-kernel;pytorch/pytorch;metal-kernel;Write Metal/MPS kernels for PyTorch operators with native_functions.yaml dispatch and host-side implementations.
@@ -47,8 +47,8 @@ docs-changelog;google-gemini/gemini-cli;docs-changelog;Generates and formats cha
 zig-system-calls;oven-sh/bun;zig-system-calls;Guides using bun.sys for system calls and file I/O in Zig programming language
 writing-dev-server-tests;oven-sh/bun;writing-dev-server-tests;Guides writing tests for dev servers, HMR, and bundling. Useful when modifying dev server or hot reloading configurations.
 playwright-cli;microsoft/playwright;;Automate browser interactions and test web pages using Playwright via command line.
-playwright-mcp-dev;microsoft/playwright;;Playwright testing automation for MCP development workflows
 playwright-dev;microsoft/playwright;playwright-dev;Explains how to extend Playwright by adding APIs, MCP tools, CLI commands, and vendor dependencies.
+playwright-mcp-dev;microsoft/playwright;;Playwright testing automation for MCP development workflows
 playwright-api;microsoft/playwright;;Playwright API for browser automation and testing
 writing-hookify-rules;anthropics/claude-code;writing-rules;Writing Hookify Rules: A guide for creating rules in Hookify, likely related to React hooks or similar framework patterns.
 typescript;lobehub/lobehub;typescript;Provides TypeScript coding guidelines, optimization tips, and type safety patterns for .ts/.tsx files.
@@ -60,8 +60,8 @@ add-setting-env;lobehub/lobehub;add-setting-env;Guide for adding environment var
 desktop;lobehub/lobehub;desktop;A guide for Electron desktop application development, covering IPC, window management, and preload scripts.
 hotkey;lobehub/lobehub;hotkey;A guide for adding keyboard shortcuts, useful for implementing hotkeys and managing keyboard interactions.
 typescript;lobehub/lobe-chat;typescript;Provides TypeScript coding guidelines, optimization tips, and type safety patterns for .ts/.tsx files.
-project-overview;lobehub/lobe-chat;project-overview;Provides a complete project architecture and structure guide for exploring codebases and understanding project organization.
 zustand;lobehub/lobe-chat;zustand;A guide for using Zustand, a lightweight state management library for React applications.
+project-overview;lobehub/lobe-chat;project-overview;Provides a complete project architecture and structure guide for exploring codebases and understanding project organization.
 debug;lobehub/lobe-chat;debug;A skill for debugging package usage, log namespaces, and implementing debugging features.
 desktop;lobehub/lobe-chat;desktop;A guide for Electron desktop application development, covering IPC, window management, and preload scripts.
 add-setting-env;lobehub/lobe-chat;add-setting-env;Guide for adding environment variables to configure user settings on the server side.
@@ -75,21 +75,21 @@ write-concept;leonardomso/33-js-concepts;write-concept;Create or review JavaScri
 requesting-code-review;obra/superpowers;requesting-code-review;Request code review for task completion or feature implementation before merging.
 verification-before-completion;obra/superpowers;verification-before-completion;Ensures code quality and correctness before completion by running verification commands.
 receiving-code-review;obra/superpowers;receiving-code-review;A skill for handling code review feedback with technical rigor and verification.
-finishing-a-development-branch;obra/superpowers;finishing-a-development-branch;Guides developers through finishing a branch by presenting options for merge, PR, or cleanup after tests pass.
 coding-standards;affaan-m/everything-claude-code;coding-standards;Provides universal coding standards and best practices for TypeScript, JavaScript, React, and Node.js.
 backend-patterns;affaan-m/everything-claude-code;backend-patterns;A skill focused on backend architecture patterns, API design, and server-side best practices for Node.js, Express, and Next.js.
 golang-patterns;affaan-m/everything-claude-code;golang-patterns;This skill provides idiomatic Go patterns, best practices, and conventions for building robust, efficient, and maintainable Go applications.
+finishing-a-development-branch;obra/superpowers;finishing-a-development-branch;Guides developers through finishing a branch by presenting options for merge, PR, or cleanup after tests pass.
 golang-testing;affaan-m/everything-claude-code;golang-testing;A Go testing patterns skill covering table-driven tests, subtests, benchmarks, fuzzing, and test coverage following TDD methodology.
 tdd-workflow;affaan-m/everything-claude-code;tdd-workflow;Enforces test-driven development with 80%+ coverage including unit, integration, and E2E tests.
 springboot-patterns;affaan-m/everything-claude-code;springboot-patterns;A Spring Boot skill focusing on architecture patterns, REST APIs, and backend development practices.
 python-testing;affaan-m/everything-claude-code;python-testing;A Python testing skill using pytest, TDD, fixtures, mocking, parametrization, and coverage.
 python-patterns;affaan-m/everything-claude-code;python-patterns;A skill focused on Pythonic idioms, PEP 8 standards, type hints, and best practices for robust Python development.
 springboot-tdd;affaan-m/everything-claude-code;springboot-tdd;A TDD skill for Spring Boot using JUnit 5, Mockito, and more.
-jpa-patterns;affaan-m/everything-claude-code;jpa-patterns;A skill for JPA/Hibernate patterns in Spring Boot including entity design, query optimization, and transactions.
 api-design;affaan-m/everything-claude-code;api-design;REST API design patterns including resource naming, status codes, pagination, filtering, error responses, versioning, and rate limiting for
+jpa-patterns;affaan-m/everything-claude-code;jpa-patterns;A skill for JPA/Hibernate patterns in Spring Boot including entity design, query optimization, and transactions.
 django-tdd;affaan-m/everything-claude-code;django-tdd;A Django TDD skill using pytest-django, factory_boy, mocking, and coverage for API testing.
-database-migrations;affaan-m/everything-claude-code;database-migrations;Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments across multiple databases an
 java-coding-standards;affaan-m/everything-claude-code;java-coding-standards;Java coding standards for Spring Boot services covering naming, immutability, Optional usage, streams, exceptions, generics, and project lay
+database-migrations;affaan-m/everything-claude-code;database-migrations;Database migration best practices for schema changes, data migrations, rollbacks, and zero-downtime deployments across multiple databases an
 e2e-testing;affaan-m/everything-claude-code;e2e-testing;Playwright E2E testing patterns with Page Object Model, CI/CD integration, and flaky test strategies.
 nutrient-document-processing;affaan-m/everything-claude-code;nutrient-document-processing;Process, convert, OCR, extract, redact, sign, and fill documents using the Nutrient DWS API. Supports PDFs, DOCX, XLSX, PPTX, HTML, and imag
 cpp-testing;affaan-m/everything-claude-code;cpp-testing;C++ testing assistant for writing, updating, fixing tests, configuring GoogleTest/CTest, diagnosing failures, and adding coverage/sanitizers
@@ -111,10 +111,10 @@ write-tbp;tldraw/tldraw;write-tbp;Writes technical blog posts about tldraw featu
 update-release-notes;tldraw/tldraw;;Updates release notes file based on merged PRs or archives when new version is published
 ccxt-python;ccxt/ccxt;ccxt-python;CCXT cryptocurrency exchange library for Python. Handles REST and WebSocket APIs for market data, orders, real-time streaming, authenticatio
 generate-translations;payloadcms/payload;generate-translations;Generates new translation strings when new keys are added to packages.
-vercel-react-best-practices;calcom/cal.com;;Provides React and Next.js performance optimization guidelines from Vercel Engineering.
 supabase-automation;composiohq/awesome-claude-skills;;Automates tasks and workflows within the Supabase backend platform, handling database operations or edge functions.
 discord-automation;composiohq/awesome-claude-skills;;Automate Discord tasks via Rube MCP (Composio): messages, channels, roles, webhooks, reactions. Always search tools first for current schema
 make-automation;composiohq/awesome-claude-skills;;Automates tasks and workflows using Make or similar automation tools.
+vercel-react-best-practices;calcom/cal.com;;Provides React and Next.js performance optimization guidelines from Vercel Engineering.
 vercel-composition-patterns;vercel-labs/agent-skills;composition-patterns;A skill for applying React composition patterns that scale, useful for refactoring components and building flexible libraries.
 web-renderer-test;remotion-dev/remotion;web-renderer-test;Add a test case for web renderer functionality.
 writing-docs;remotion-dev/remotion;writing-docs;A skill for writing and editing Remotion documentation, including adding docs pages and editing MDX files.
@@ -125,8 +125,8 @@ github-pr-triage;code-yeongyu/oh-my-opencode;;A skill for triaging and managing 
 git-master;code-yeongyu/oh-my-opencode;;Master Git operations including atomic commits, rebase/squash, history search with blame/bisect/log -S. Essential for developers.
 dev-browser;code-yeongyu/oh-my-opencode;;Automate browser tasks like navigation, form filling, and data scraping with persistent page state.
 api-design-principles;wshobson/agents;api-design-principles;Learn REST and GraphQL API design principles for scalable, maintainable APIs.
-vercel-react-native-skills;vercel-labs/agent-skills;react-native-skills;Best practices for React Native and Expo app development, focusing on performance and native module integration.
 nodejs-backend-patterns;wshobson/agents;nodejs-backend-patterns;Create production-ready Node.js backend services with Express/Fastify, following best practices for middleware, error handling, auth, and AP
+vercel-react-native-skills;vercel-labs/agent-skills;react-native-skills;Best practices for React Native and Expo app development, focusing on performance and native module integration.
 python-performance-optimization;wshobson/agents;python-performance-optimization;Optimize Python code performance using profiling and best practices.
 architecture-patterns;wshobson/agents;architecture-patterns;Implement proven backend architecture patterns like Clean Architecture and Domain-Driven Design for better maintainability.
 code-review-excellence;wshobson/agents;code-review-excellence;Improve code review practices for better feedback and bug detection.
@@ -180,17 +180,18 @@ parallel-debugging;wshobson/agents;parallel-debugging;Debug complex issues using
 parallel-feature-development;wshobson/agents;parallel-feature-development;Coordinate parallel feature development with file ownership strategies, conflict avoidance rules, and integration patterns for multi-agent i
 multi-reviewer-patterns;wshobson/agents;multi-reviewer-patterns;Coordinate parallel code reviews across multiple quality dimensions with finding deduplication, severity calibration, and consolidated repor
 heroui-native;heroui-inc/heroui;heroui-native;A React Native UI component library using Tailwind CSS via Uniwind for HeroUI Native.
+refactor;github/awesome-copilot;refactor;A skill for surgical code refactoring to improve maintainability without changing behavior.
+run-nx-generator;nrwl/nx;run-nx-generator;Runs Nx generators prioritizing workspace plugins for code generation, scaffolding, and automation in monorepos.
 nx-run-tasks;nrwl/nx;nx-run-tasks;Executes build, test, lint, serve and other tasks in Nx workspaces for efficient monorepo management.
 nx-plugins;nrwl/nx;nx-plugins;Find and add Nx plugins for discovering available plugins, installing new plugins, or adding framework support to workspace.
 chrome-devtools;chromedevtools/chrome-devtools-mcp;chrome-devtools;Debug, troubleshoot, and automate browser interactions using Chrome DevTools via MCP.
-refactor;github/awesome-copilot;refactor;A skill for surgical code refactoring to improve maintainability without changing behavior.
 chrome-devtools;github/awesome-copilot;chrome-devtools;Use Chrome DevTools MCP for browser automation, debugging, and performance analysis.
 microsoft-docs;github/awesome-copilot;microsoft-docs;Query official Microsoft documentation to find concepts, tutorials, and code examples across Azure, .NET, Agent Framework, Aspire, VS Code,
 nuget-manager;github/awesome-copilot;nuget-manager;Manage NuGet packages in .NET projects using dotnet CLI with strict version update procedures.
 plantuml-ascii;github/awesome-copilot;plantuml-ascii;Generate ASCII art diagrams from PlantUML text descriptions.
 image-manipulation-image-magick;github/awesome-copilot;image-manipulation-image-magick;Process and manipulate images using ImageMagick for resizing, format conversion, and batch operations.
-vscode-ext-commands;github/awesome-copilot;vscode-ext-commands;Provides guidelines for creating VS Code extension commands with naming, visibility, and localization standards.
 markdown-to-html;github/awesome-copilot;markdown-to-html;Convert Markdown files to HTML with support for GFM, CommonMark, and standard Markdown flavors. Works with web templating systems like Jekyl
+vscode-ext-commands;github/awesome-copilot;vscode-ext-commands;Provides guidelines for creating VS Code extension commands with naming, visibility, and localization standards.
 legacy-circuit-mockups;github/awesome-copilot;legacy-circuit-mockups;Generate breadboard circuit mockups and visual diagrams using HTML5 Canvas.
 vscode-ext-localization;github/awesome-copilot;vscode-ext-localization;Provides guidelines for localizing VS Code extensions following best practices.
 make-repo-contribution;github/awesome-copilot;make-repo-contribution;Ensures all code changes follow repository guidelines before creating issues, branches, commits, or pull requests.
@@ -200,6 +201,7 @@ receiving-code-review;srbhr/resume-matcher;code-review;A skill for handling code
 reviewing-code;jlowin/fastmcp;code-review;Review code for quality, maintainability, and correctness with focus on API design and patterns.
 senior-backend;davila7/claude-code-templates;development/senior-backend;A comprehensive backend development skill for building scalable systems with NodeJS, Express, Go, Python, Postgres, GraphQL, and REST APIs.
 backend-dev-guidelines;langfuse/langfuse;backend-dev-guidelines;A comprehensive backend development guide for Langfuse's Next.js/tRPC/Express/TypeScript monorepo, covering architecture, databases, observa
+clean-code;sickn33/antigravity-awesome-skills;clean-code;Applies Robert C. Martin's Clean Code principles for writing, reviewing, and refactoring code to ensure quality, readability, and maintainab
 capture-api-response-test-fixture;vercel/ai;capture-api-response-test-fixture;Capture API response test fixtures for testing purposes.
 senior-architect;davila7/claude-code-templates;development/senior-architect;A comprehensive software architecture skill for scalable system design using modern web and mobile technologies.
 senior-qa;davila7/claude-code-templates;development/senior-qa;A comprehensive QA and testing skill for ReactJS, NextJS, and NodeJS applications, covering test automation, E2E testing, and quality metric
@@ -209,14 +211,14 @@ clean-code;davila7/claude-code-templates;development/clean-code;A skill for appl
 mermaid-diagram-specialist;davila7/claude-code-templates;development/mermaid-diagram-specialist;A specialist skill for creating Mermaid diagrams including flowcharts, sequence diagrams, ERDs, and architecture visualizations.
 nestjs-expert;davila7/claude-code-templates;development/nestjs-expert;Expert in Nest.js framework for backend development, covering module architecture, dependency injection, middleware, guards, interceptors, t
 api-integration-specialist;davila7/claude-code-templates;development/api-integration-specialist;Specializes in integrating third-party APIs with authentication, error handling, and rate limiting.
-architecture;davila7/claude-code-templates;development/architecture;A framework for architectural decision-making, including requirements analysis and ADR documentation.
 mermaid-diagrams;davila7/claude-code-templates;creative-design/mermaid-diagrams;Create and visualize software diagrams using Mermaid syntax for various types like flowcharts, sequence diagrams, and UML.
+architecture;davila7/claude-code-templates;development/architecture;A framework for architectural decision-making, including requirements analysis and ADR documentation.
 api-documentation-generator;davila7/claude-code-templates;development/api-documentation-generator;Generates comprehensive API documentation from code with endpoints, parameters, and examples.
 coding-standards;davila7/claude-code-templates;development/cc-skill-coding-standards;Provides universal coding standards and best practices for TypeScript, JavaScript, React, and Node.js.
 software-architecture;davila7/claude-code-templates;development/software-architecture;A guide for quality-focused software architecture, useful for design and development tasks.
 game-development;davila7/claude-code-templates;creative-design/game-development;Orchestrates game development tasks by routing to platform-specific skills.
-nodejs-best-practices;davila7/claude-code-templates;development/nodejs-best-practices;Teaches Node.js best practices, architecture, and decision-making without copying.
 react-useeffect;davila7/claude-code-templates;development/react-useeffect;Best practices for React useEffect hook usage, including when not to use it and better alternatives.
+nodejs-best-practices;davila7/claude-code-templates;development/nodejs-best-practices;Teaches Node.js best practices, architecture, and decision-making without copying.
 i18n-localization;davila7/claude-code-templates;development/i18n-localization;A skill for handling internationalization and localization, including detecting hardcoded strings and managing translations.
 backend-patterns;davila7/claude-code-templates;development/cc-skill-backend-patterns;A skill focused on backend architecture patterns, API design, and server-side best practices for Node.js, Express, and Next.js.
 backend-dev-guidelines;davila7/claude-code-templates;development/backend-dev-guidelines;A comprehensive backend development guide for Node.js/Express/TypeScript microservices, covering architecture, error handling, and more.
@@ -225,8 +227,8 @@ find-bugs;davila7/claude-code-templates;sentry/find-bugs;Review code changes for
 git-commit-helper;davila7/claude-code-templates;development/git-commit-helper;A Git Commit Helper that generates descriptive commit messages by analyzing git diffs.
 code-review;davila7/claude-code-templates;sentry/code-review;Perform code reviews following Sentry engineering practices for pull requests and code changes.
 code-review-checklist;davila7/claude-code-templates;development/code-review-checklist;A comprehensive code review checklist covering functionality, security, performance, and maintainability.
-vercel-react-best-practices;davila7/claude-code-templates;development/react-best-practices;Provides React and Next.js performance optimization guidelines from Vercel Engineering.
 jira;davila7/claude-code-templates;ai-research/jira;A skill for managing Jira issues, tickets, and workflows with support for sprint status and backlog tracking.
+vercel-react-best-practices;davila7/claude-code-templates;development/react-best-practices;Provides React and Next.js performance optimization guidelines from Vercel Engineering.
 json-canvas;davila7/claude-code-templates;document-processing/json-canvas;Create and edit JSON Canvas files with nodes, edges, groups, and connections for visual diagrams and mind maps.
 frontend-to-backend-requirements;davila7/claude-code-templates;enterprise-communication/frontend-to-backend-requirements;Helps frontend teams document API requirements for backend developers.
 test-driven-development;davila7/claude-code-templates;development/test-driven-development;A skill for implementing features or bug fixes using test-driven development before writing code.
@@ -234,43 +236,44 @@ bun-development;davila7/claude-code-templates;development/bun-development;A skil
 backend-to-frontend-handoff-docs;davila7/claude-code-templates;enterprise-communication/backend-to-frontend-handoff-docs;Generate API handoff documentation for frontend developers when backend work is complete.
 firebase;davila7/claude-code-templates;development/firebase;A skill covering Firebase services including Authentication, Firestore, Realtime Database, Cloud Functions, Storage, and Hosting.
 documentation-templates;davila7/claude-code-templates;document-processing/documentation-templates;Provides documentation templates and structure guidelines for README, API docs, and AI-friendly documentation.
-prisma-expert;davila7/claude-code-templates;development/prisma-expert;A Prisma ORM expert for schema design, migrations, query optimization, and database operations.
-systematic-debugging;davila7/claude-code-templates;development/systematic-debugging;A skill for systematic debugging to identify and resolve bugs or unexpected behaviors before proposing fixes.
 c4-architecture;davila7/claude-code-templates;creative-design/c4-architecture;Generate C4 model Mermaid diagrams for architecture documentation.
+systematic-debugging;davila7/claude-code-templates;development/systematic-debugging;A skill for systematic debugging to identify and resolve bugs or unexpected behaviors before proposing fixes.
+prisma-expert;davila7/claude-code-templates;development/prisma-expert;A Prisma ORM expert for schema design, migrations, query optimization, and database operations.
 best-practices;davila7/claude-code-templates;development/best-practices;Apply modern web development best practices for security, compatibility, and code quality.
+prisma-expert;sickn33/antigravity-awesome-skills;prisma-expert;Expert assistant for Prisma ORM covering schema design, migrations, query optimization, relations modeling, and database operations.
 shopify-development;davila7/claude-code-templates;web-development/shopify-development;Develop Shopify apps, themes, and extensions using GraphQL, CLI, and Polaris.
 playwright-skill;davila7/claude-code-templates;utilities/playwright-skill;Automate browser tasks with Playwright for testing websites and validating web functionality.
 receiving-code-review;davila7/claude-code-templates;development/receiving-code-review;A skill for handling code review feedback with technical rigor and verification.
 javascript-mastery;davila7/claude-code-templates;development/javascript-mastery;A comprehensive JavaScript reference covering 33+ essential concepts for developers.
-requesting-code-review;davila7/claude-code-templates;development/requesting-code-review;Request code review for task completion or feature implementation before merging.
-sympy;davila7/claude-code-templates;scientific/sympy;A skill for symbolic mathematics in Python, useful for solving equations, calculus, and algebraic manipulations.
 performance-profiling;davila7/claude-code-templates;development/performance-profiling;Learn performance profiling principles including measurement, analysis, and optimization techniques.
 stripe-integration;davila7/claude-code-templates;development/stripe-integration;A comprehensive guide to integrating Stripe for payments, subscriptions, and billing.
+requesting-code-review;davila7/claude-code-templates;development/requesting-code-review;Request code review for task completion or feature implementation before merging.
+sympy;davila7/claude-code-templates;scientific/sympy;A skill for symbolic mathematics in Python, useful for solving equations, calculus, and algebraic manipulations.
 gh-address-comments;davila7/claude-code-templates;development/gh-address-comments;Automatically address GitHub PR comments using gh CLI with authentication check.
-move-code-quality;davila7/claude-code-templates;development/move-code-quality;Analyzes Move language packages for code quality and best practices.
 python-patterns;davila7/claude-code-templates;development/python-patterns;Teaches Python development principles, patterns, and project structure.
+move-code-quality;davila7/claude-code-templates;development/move-code-quality;Analyzes Move language packages for code quality and best practices.
 production-code-audit;davila7/claude-code-templates;development/production-code-audit;Automatically audits and improves code quality by scanning line-by-line and applying optimizations.
 browser-extension-builder;davila7/claude-code-templates;utilities/browser-extension-builder;Build browser extensions for Chrome, Firefox, and cross-browser platforms with manifest v3 support.
-verification-before-completion;davila7/claude-code-templates;development/verification-before-completion;Ensures code quality and correctness before completion by running verification commands.
 environment-setup-guide;davila7/claude-code-templates;development/environment-setup-guide;A guide for setting up development environments with proper tools and configurations.
+verification-before-completion;davila7/claude-code-templates;development/verification-before-completion;Ensures code quality and correctness before completion by running verification commands.
+powershell-windows;davila7/claude-code-templates;development/powershell-windows;A PowerShell skill for Windows with patterns, pitfalls, and error handling.
+create-pr;davila7/claude-code-templates;sentry/create-pr;Automatically create pull requests following Sentry's code review conventions.
 deslop;davila7/claude-code-templates;sentry/deslop;Clean up AI-generated code by removing unnecessary elements and fixing style inconsistencies.
 manim;davila7/claude-code-templates;video/manim;A skill for creating mathematical animations and educational videos using the Manim Python framework.
-create-pr;davila7/claude-code-templates;sentry/create-pr;Automatically create pull requests following Sentry's code review conventions.
 dependency-updater;davila7/claude-code-templates;development/dependency-updater;Automatically manages dependencies for any language with smart updates and issue diagnosis.
-powershell-windows;davila7/claude-code-templates;development/powershell-windows;A PowerShell skill for Windows with patterns, pitfalls, and error handling.
 tdd-workflow;davila7/claude-code-templates;development/tdd-workflow;A Test-Driven Development workflow focusing on the RED-GREEN-REFACTOR cycle.
 finishing-a-development-branch;davila7/claude-code-templates;development/finishing-a-development-branch;Guides developers through finishing a branch by presenting options for merge, PR, or cleanup after tests pass.
 testing-patterns;davila7/claude-code-templates;development/testing-patterns;A skill for Jest testing patterns, factory functions, mocking strategies, and TDD workflow.
 bullmq-specialist;davila7/claude-code-templates;development/bullmq-specialist;Expert skill for managing Redis-backed job queues and background processing in Node.js/TypeScript apps.
-remotion-best-practices;davila7/claude-code-templates;creative-design/remotion-best-practices;Best practices for creating videos with React and Remotion.
 test-fixing;davila7/claude-code-templates;development/test-fixing;Fix failing tests systematically using smart error grouping.
-lint-and-validate;davila7/claude-code-templates;development/lint-and-validate;Automatically checks code quality, linting, and static analysis after each modification.
+remotion-best-practices;davila7/claude-code-templates;creative-design/remotion-best-practices;Best practices for creating videos with React and Remotion.
 commit-work;davila7/claude-code-templates;productivity/commit-work;Helps create high-quality Git commits with clear messages and logical splits.
+lint-and-validate;davila7/claude-code-templates;development/lint-and-validate;Automatically checks code quality, linting, and static analysis after each modification.
 simpy;davila7/claude-code-templates;scientific/simpy;A process-based discrete-event simulation framework in Python for modeling systems with processes, queues, and time-based events.
 discord-bot-architect;davila7/claude-code-templates;enterprise-communication/discord-bot-architect;Build production-ready Discord bots with support for JavaScript and Python frameworks.
 personal-tool-builder;davila7/claude-code-templates;productivity/personal-tool-builder;Build custom tools for personal use first, then scale to solve broader problems.
-file-uploads;davila7/claude-code-templates;security/file-uploads;Handles file uploads and cloud storage including S3, R2, and image optimization.
 shopify-apps;davila7/claude-code-templates;web-development/shopify-apps;A skill for developing Shopify apps with React, App Bridge, GraphQL, and Polaris components.
+file-uploads;davila7/claude-code-templates;security/file-uploads;Handles file uploads and cloud storage including S3, R2, and image optimization.
 benchling-integration;davila7/claude-code-templates;scientific/benchling-integration;Integrate with Benchling R&D platform to access registry, inventory, ELN entries, and workflows via API for lab data automation.
 protocolsio-integration;davila7/claude-code-templates;scientific/protocolsio-integration;Integrate with protocols.io API for managing scientific protocols.
 kaizen;davila7/claude-code-templates;productivity/kaizen;A skill for continuous improvement, error proofing, and standardization to enhance code quality and process efficiency.
@@ -279,49 +282,46 @@ opentrons-integration;davila7/claude-code-templates;scientific/opentrons-integra
 openapi-to-typescript;davila7/claude-code-templates;development/openapi-to-typescript;Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards.
 writing-hookify-rules;davila7/claude-code-templates;productivity/writing-rules;Writing Hookify Rules: A guide for creating rules in Hookify, likely related to React hooks or similar framework patterns.
 slack-bot-builder;davila7/claude-code-templates;enterprise-communication/slack-bot-builder;Build Slack apps with Bolt framework in Python, JavaScript, and Java, supporting Block Kit, interactive components, and slash commands.
-hubspot-integration;davila7/claude-code-templates;development/hubspot-integration;Expert patterns for HubSpot CRM integration with OAuth, webhooks, and custom objects.
 twilio-communications;davila7/claude-code-templates;enterprise-communication/twilio-communications;Build communication features with Twilio including SMS, voice calls, WhatsApp API, and 2FA.
+hubspot-integration;davila7/claude-code-templates;development/hubspot-integration;Expert patterns for HubSpot CRM integration with OAuth, webhooks, and custom objects.
 plaid-fintech;davila7/claude-code-templates;development/plaid-fintech;Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks
-reducing-entropy;davila7/claude-code-templates;productivity/reducing-entropy;A manual-only skill to minimize codebase size by biasing toward deletion.
 address-github-comments;davila7/claude-code-templates;productivity/address-github-comments;Address GitHub pull request comments using the gh CLI.
-avalonia-zafiro-development;davila7/claude-code-templates;development/avalonia-zafiro-development;Essential skills and conventions for Avalonia UI development with Zafiro toolkit.
+reducing-entropy;davila7/claude-code-templates;productivity/reducing-entropy;A manual-only skill to minimize codebase size by biasing toward deletion.
 salesforce-development;davila7/claude-code-templates;development/salesforce-development;Expert patterns for Salesforce platform development including LWC, Apex, REST APIs, and Salesforce DX.
+avalonia-zafiro-development;davila7/claude-code-templates;development/avalonia-zafiro-development;Essential skills and conventions for Avalonia UI development with Zafiro toolkit.
 avalonia-viewmodels-zafiro;davila7/claude-code-templates;development/avalonia-viewmodels-zafiro;Creates optimal ViewModels and Wizards for Avalonia using Zafiro and ReactiveUI.
 avalonia-layout-zafiro;davila7/claude-code-templates;development/avalonia-layout-zafiro;Provides guidelines for modern Avalonia UI layout using Zafiro.Avalonia with shared styles and generic components.
 moodle-external-api-development;davila7/claude-code-templates;development/moodle-external-api-development;Develop custom external web service APIs for Moodle LMS with focus on course management, user tracking, and quiz operations.
 using-neon;davila7/claude-code-templates;database/using-neon;Guides and best practices for Neon Serverless Postgres, covering setup, CLI, SDKs, and API usage for development.
 telegram-bot-builder;davila7/claude-code-templates;development/telegram-bot-builder;Comprehensive guidance for building production-ready Telegram bots with Node.js and Python, handling webhooks, inline keyboards, payments, a
-vercel-composition-patterns;vercel-labs/claude-skills;composition-patterns;A skill for applying React composition patterns that scale, useful for refactoring components and building flexible libraries.
 doc;davila7/claude-code-templates;document-processing/doc;Process .docx documents with formatting and layout fidelity.
+vercel-composition-patterns;vercel-labs/claude-skills;composition-patterns;A skill for applying React composition patterns that scale, useful for refactoring components and building flexible libraries.
 vercel-react-best-practices;vercel-labs/claude-skills;react-best-practices;Provides React and Next.js performance optimization guidelines from Vercel Engineering.
+playwright-skill;sickn33/antigravity-awesome-skills;playwright-skill;Automates browser tasks with Playwright, writes test scripts, handles forms, screenshots, and UX validation.
 coding-guidelines;rustfs/rustfs;;Provides coding guidelines and best practices for software development.
 m07-concurrency;rustfs/rustfs;;A skill for managing concurrent operations in backend systems.
 rust-learner;rustfs/rustfs;;A skill for learning Rust programming language with structured guidance.
 rust-router;rustfs/rustfs;;A Rust-based router skill for building efficient web applications.
 domain-cli;rustfs/rustfs;;A CLI tool for domain-related tasks.
+typescript-expert;sickn33/antigravity-awesome-skills;typescript-expert;Expert-level TypeScript assistance for coding, debugging, and adhering to best practices in software development.
 react-best-practices;mastra-ai/mastra;react-best-practices;A skill for optimizing React performance with best practices from Mastra Engineering.
 smoke-test;mastra-ai/mastra;smoke-test;Set up and test a Mastra project with Chrome browser.
 e2e-tests-studio;mastra-ai/mastra;e2e-tests-studio;Generates Playwright E2E tests for React components and UI changes in playground environment
-clean-code;sickn33/antigravity-awesome-skills;clean-code;Applies Robert C. Martin's Clean Code principles for writing, reviewing, and refactoring code to ensure quality, readability, and maintainab
-prisma-expert;sickn33/antigravity-awesome-skills;prisma-expert;Expert assistant for Prisma ORM covering schema design, migrations, query optimization, relations modeling, and database operations.
 code-review;shareai-lab/learn-claude-code;code-review;Perform thorough code reviews with security, performance, and maintainability analysis. Use when user asks to review code, check for bugs, o
-playwright-skill;sickn33/antigravity-awesome-skills;playwright-skill;Automates browser tasks with Playwright, writes test scripts, handles forms, screenshots, and UX validation.
-typescript-expert;sickn33/antigravity-awesome-skills;typescript-expert;Expert-level TypeScript assistance for coding, debugging, and adhering to best practices in software development.
 bun-development;sickn33/antigravity-awesome-skills;bun-development;Modern JS/TS development with Bun runtime. Covers package management, bundling, testing, and migration from Node.js.
 software-architecture;sickn33/antigravity-awesome-skills;software-architecture;A guide for quality-focused software architecture, useful for design and development tasks.
 game-development;sickn33/antigravity-awesome-skills;game-development;Orchestrates game development tasks by routing to platform-specific skills.
 senior-architect;sickn33/antigravity-awesome-skills;senior-architect;AI skill for senior architects to design scalable systems using React, Node, Swift, Flutter, Postgres, GraphQL, Go, and Python.
 nodejs-best-practices;sickn33/antigravity-awesome-skills;nodejs-best-practices;Teaches Node.js best practices, architecture, and decision-making without copying.
 api-documentation-generator;sickn33/antigravity-awesome-skills;api-documentation-generator;Generates comprehensive API documentation from code with endpoints, parameters, and examples.
-nestjs-expert;sickn33/antigravity-awesome-skills;nestjs-expert;Nest.js expert for module architecture, dependency injection, middleware, testing, database integration, and authentication implementation.
 telegram-bot-builder;sickn33/antigravity-awesome-skills;telegram-bot-builder;Expert skill for building Telegram bots from automation to AI-powered solutions. Covers bot architecture, Telegram Bot API, UX, and monetiza
+nestjs-expert;sickn33/antigravity-awesome-skills;nestjs-expert;Nest.js expert for module architecture, dependency injection, middleware, testing, database integration, and authentication implementation.
 firebase;sickn33/antigravity-awesome-skills;firebase;Helps set up and secure Firebase backends, covering auth, database, storage, and security rules to mitigate setup complexity.
 i18n-localization;sickn33/antigravity-awesome-skills;i18n-localization;A skill for handling internationalization and localization, including detecting hardcoded strings and managing translations.
-senior-fullstack;sickn33/antigravity-awesome-skills;senior-fullstack;A comprehensive fullstack development skill for React, Next.js, Node.js, GraphQL, and PostgreSQL.
 shopify-development;sickn33/antigravity-awesome-skills;shopify-development;Development skills for Shopify platform including theme customization, app building, and API integration.
+senior-fullstack;sickn33/antigravity-awesome-skills;senior-fullstack;A comprehensive fullstack development skill for React, Next.js, Node.js, GraphQL, and PostgreSQL.
 documentation-templates;sickn33/antigravity-awesome-skills;documentation-templates;Provides documentation templates and structure guidelines for README, API docs, and AI-friendly documentation.
 backend-dev-guidelines;sickn33/antigravity-awesome-skills;backend-dev-guidelines;Opinionated backend development standards for Node.js + Express + TypeScript microservices covering architecture, patterns, and validation.
-pr-draft-summary;openai/openai-agents-python;pr-draft-summary;Automates PR title and draft description generation. Summarizes code, tests, and config changes into PR-ready blocks.
 powershell-windows;sickn33/antigravity-awesome-skills;powershell-windows;A PowerShell skill for Windows with patterns, pitfalls, and error handling.
 browser-extension-builder;sickn33/antigravity-awesome-skills;browser-extension-builder;Expert in building Chrome/Firefox extensions, covering architecture, manifest v3, scripts, UIs, and monetization.
 python-patterns;sickn33/antigravity-awesome-skills;python-patterns;Teaches Python development principles, patterns, and project structure.
@@ -331,160 +331,163 @@ discord-bot-architect;sickn33/antigravity-awesome-skills;discord-bot-architect;B
 bullmq-specialist;sickn33/antigravity-awesome-skills;bullmq-specialist;Expert skill for managing Redis-backed job queues and background processing in Node.js/TypeScript apps.
 code-review-checklist;sickn33/antigravity-awesome-skills;code-review-checklist;A comprehensive code review checklist covering functionality, security, performance, and maintainability.
 testing-patterns;sickn33/antigravity-awesome-skills;testing-patterns;A skill for Jest testing patterns, factory functions, mocking strategies, and TDD workflow.
-coding-standards;sickn33/antigravity-awesome-skills;;Defines and enforces coding standards and best practices to ensure code quality and consistency across development projects.
 architecture;sickn33/antigravity-awesome-skills;architecture;A framework for architectural decision-making, including requirements analysis and ADR documentation.
-production-code-audit;sickn33/antigravity-awesome-skills;production-code-audit;Automatically audits and improves code quality by scanning line-by-line and applying optimizations.
+coding-standards;sickn33/antigravity-awesome-skills;;Defines and enforces coding standards and best practices to ensure code quality and consistency across development projects.
 systematic-debugging;sickn33/antigravity-awesome-skills;systematic-debugging;A skill for systematic debugging to identify and resolve bugs or unexpected behaviors before proposing fixes.
+production-code-audit;sickn33/antigravity-awesome-skills;production-code-audit;Automatically audits and improves code quality by scanning line-by-line and applying optimizations.
 shopify-apps;sickn33/antigravity-awesome-skills;shopify-apps;A skill for developing Shopify apps with React, App Bridge, GraphQL, and Polaris components.
 performance-profiling;sickn33/antigravity-awesome-skills;performance-profiling;Learn performance profiling principles including measurement, analysis, and optimization techniques.
 backend-patterns;sickn33/antigravity-awesome-skills;;A collection of design patterns and best practices for backend development.
 javascript-mastery;sickn33/antigravity-awesome-skills;javascript-mastery;A comprehensive JavaScript reference covering 33+ essential concepts for developers.
-twilio-communications;sickn33/antigravity-awesome-skills;twilio-communications;Build communication features with Twilio including SMS, voice calls, WhatsApp API, and 2FA.
 test-driven-development;sickn33/antigravity-awesome-skills;test-driven-development;A skill for implementing features or bug fixes using test-driven development before writing code.
-slack-bot-builder;sickn33/antigravity-awesome-skills;slack-bot-builder;Build Slack apps with Bolt framework in Python, JavaScript, and Java, supporting Block Kit, interactive components, and slash commands.
+twilio-communications;sickn33/antigravity-awesome-skills;twilio-communications;Build communication features with Twilio including SMS, voice calls, WhatsApp API, and 2FA.
 lint-and-validate;sickn33/antigravity-awesome-skills;lint-and-validate;Automatically checks code quality, linting, and static analysis after each modification.
+slack-bot-builder;sickn33/antigravity-awesome-skills;slack-bot-builder;Build Slack apps with Bolt framework in Python, JavaScript, and Java, supporting Block Kit, interactive components, and slash commands.
 kaizen;sickn33/antigravity-awesome-skills;kaizen;A skill for continuous improvement, error proofing, and standardization to enhance code quality and process efficiency.
 address-github-comments;sickn33/antigravity-awesome-skills;address-github-comments;Address GitHub pull request comments using the gh CLI.
 hubspot-integration;sickn33/antigravity-awesome-skills;hubspot-integration;Expert patterns for HubSpot CRM integration with OAuth, webhooks, and custom objects.
 test-fixing;sickn33/antigravity-awesome-skills;test-fixing;Fix failing tests systematically using smart error grouping.
 file-uploads;sickn33/antigravity-awesome-skills;file-uploads;Handles file uploads and cloud storage including S3, R2, and image optimization.
-salesforce-development;sickn33/antigravity-awesome-skills;salesforce-development;Expert patterns for Salesforce platform development including LWC, Apex, REST APIs, and Salesforce DX.
 backend-architect;sickn33/antigravity-awesome-skills;backend-architect;Expert backend architect for scalable API design, microservices, and distributed systems.
+salesforce-development;sickn33/antigravity-awesome-skills;salesforce-development;Expert patterns for Salesforce platform development including LWC, Apex, REST APIs, and Salesforce DX.
 personal-tool-builder;sickn33/antigravity-awesome-skills;personal-tool-builder;Build custom tools for personal use first, then scale to solve broader problems.
 remotion-best-practices;sickn33/antigravity-awesome-skills;remotion-best-practices;Best practices for creating videos with React and Remotion.
 verification-before-completion;sickn33/antigravity-awesome-skills;verification-before-completion;Ensures code quality and correctness before completion by running verification commands.
 environment-setup-guide;sickn33/antigravity-awesome-skills;environment-setup-guide;A guide for setting up development environments with proper tools and configurations.
 plaid-fintech;sickn33/antigravity-awesome-skills;plaid-fintech;Expert patterns for Plaid API integration including Link token flows, transactions sync, identity verification, Auth for ACH, balance checks
-receiving-code-review;sickn33/antigravity-awesome-skills;receiving-code-review;A skill for handling code review feedback with technical rigor and verification.
 requesting-code-review;sickn33/antigravity-awesome-skills;requesting-code-review;Request code review for task completion or feature implementation before merging.
+receiving-code-review;sickn33/antigravity-awesome-skills;receiving-code-review;A skill for handling code review feedback with technical rigor and verification.
+flutter-expert;sickn33/antigravity-awesome-skills;flutter-expert;Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
 finishing-a-development-branch;sickn33/antigravity-awesome-skills;finishing-a-development-branch;Guides developers through finishing a branch by presenting options for merge, PR, or cleanup after tests pass.
 moodle-external-api-development;sickn33/antigravity-awesome-skills;moodle-external-api-development;Develop custom external web service APIs for Moodle LMS with focus on course management, user tracking, and quiz operations.
-flutter-expert;sickn33/antigravity-awesome-skills;flutter-expert;Master Flutter development with Dart 3, advanced widgets, and multi-platform deployment.
 code-refactoring-refactor-clean;sickn33/antigravity-awesome-skills;code-refactoring-refactor-clean;Refactor code using clean code principles and SOLID design patterns for improved quality and maintainability.
-avalonia-layout-zafiro;sickn33/antigravity-awesome-skills;avalonia-layout-zafiro;Provides guidelines for modern Avalonia UI layout using Zafiro.Avalonia with shared styles and generic components.
 codebase-cleanup-refactor-clean;sickn33/antigravity-awesome-skills;codebase-cleanup-refactor-clean;A code refactoring expert that improves code quality, maintainability, and performance using clean code principles and SOLID patterns.
+avalonia-layout-zafiro;sickn33/antigravity-awesome-skills;avalonia-layout-zafiro;Provides guidelines for modern Avalonia UI layout using Zafiro.Avalonia with shared styles and generic components.
 avalonia-viewmodels-zafiro;sickn33/antigravity-awesome-skills;avalonia-viewmodels-zafiro;Creates optimal ViewModels and Wizards for Avalonia using Zafiro and ReactiveUI.
 avalonia-zafiro-development;sickn33/antigravity-awesome-skills;avalonia-zafiro-development;Essential skills and conventions for Avalonia UI development with Zafiro toolkit.
 api-design-principles;sickn33/antigravity-awesome-skills;api-design-principles;Learn REST and GraphQL API design principles for scalable, maintainable APIs.
 code-refactoring-tech-debt;sickn33/antigravity-awesome-skills;code-refactoring-tech-debt;A skill for identifying, quantifying, and prioritizing technical debt in software projects.
 architecture-patterns;sickn33/antigravity-awesome-skills;architecture-patterns;Implements backend architecture patterns like Clean, Hexagonal, and DDD. Used for complex backend systems or refactoring.
-backend-development-feature-development;sickn33/antigravity-awesome-skills;backend-development-feature-development;Orchestrate end-to-end backend feature development from requirements to deployment across teams and services.
+typescript-advanced-types;sickn33/antigravity-awesome-skills;typescript-advanced-types;Master advanced TypeScript type systems including generics, conditionals, and utility types for type-safe development.
 blockchain-developer;sickn33/antigravity-awesome-skills;blockchain-developer;Build Web3 apps, smart contracts, and decentralized systems with DeFi, NFTs, and DAOs.
 python-pro;sickn33/antigravity-awesome-skills;python-pro;Master modern Python 3.12+ with async, optimization, and latest ecosystem tools like uv, ruff, pydantic, FastAPI.
-typescript-advanced-types;sickn33/antigravity-awesome-skills;typescript-advanced-types;Master advanced TypeScript type systems including generics, conditionals, and utility types for type-safe development.
+backend-development-feature-development;sickn33/antigravity-awesome-skills;backend-development-feature-development;Orchestrate end-to-end backend feature development from requirements to deployment across teams and services.
 architecture-decision-records;sickn33/antigravity-awesome-skills;architecture-decision-records;Create and maintain Architecture Decision Records (ADRs) for technical decision documentation.
 frontend-developer;sickn33/antigravity-awesome-skills;frontend-developer;Build React components, implement responsive layouts, and handle client-side state management with modern frontend tools.
 golang-pro;sickn33/antigravity-awesome-skills;golang-pro;Master modern Go development with concurrency, performance optimization, and microservices.
+unreal-engine-cpp-pro;sickn33/antigravity-awesome-skills;unreal-engine-cpp-pro;Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices.
 code-review-excellence;sickn33/antigravity-awesome-skills;code-review-excellence;Improve code review practices for better feedback and bug detection.
 api-testing-observability-api-mock;sickn33/antigravity-awesome-skills;api-testing-observability-api-mock;Create realistic API mocks for development, testing, and demos with observability support.
-unreal-engine-cpp-pro;sickn33/antigravity-awesome-skills;unreal-engine-cpp-pro;Expert guide for Unreal Engine 5.x C++ development, covering UObject hygiene, performance patterns, and best practices.
 codebase-cleanup-tech-debt;sickn33/antigravity-awesome-skills;codebase-cleanup-tech-debt;A skill for identifying, quantifying, and prioritizing technical debt in software projects.
-mobile-developer;sickn33/antigravity-awesome-skills;mobile-developer;Develop React Native, Flutter, or native mobile apps with modern architecture patterns.
 documentation-generation-doc-generate;sickn33/antigravity-awesome-skills;documentation-generation-doc-generate;Generate comprehensive technical documentation from code using AI and best practices.
+mobile-developer;sickn33/antigravity-awesome-skills;mobile-developer;Develop React Native, Flutter, or native mobile apps with modern architecture patterns.
 full-stack-orchestration-full-stack-feature;sickn33/antigravity-awesome-skills;full-stack-orchestration-full-stack-feature;A skill for managing full-stack orchestration features in development workflows.
 monorepo-architect;sickn33/antigravity-awesome-skills;monorepo-architect;Expert in monorepo architecture, build systems, and dependency management at scale.
-api-documenter;sickn33/antigravity-awesome-skills;api-documenter;Create interactive API documentation and developer portals using OpenAPI 3.1 and AI tools.
 python-development-python-scaffold;sickn33/antigravity-awesome-skills;python-development-python-scaffold;Generate Python project scaffolding with modern tooling like uv, FastAPI, and Django.
-unit-testing-test-generate;sickn33/antigravity-awesome-skills;unit-testing-test-generate;Generate comprehensive unit tests with strong coverage and edge case focus across multiple languages.
+api-documenter;sickn33/antigravity-awesome-skills;api-documenter;Create interactive API documentation and developer portals using OpenAPI 3.1 and AI tools.
 code-documentation-doc-generate;sickn33/antigravity-awesome-skills;code-documentation-doc-generate;Generate comprehensive technical documentation from code using AI analysis and best practices.
-python-performance-optimization;sickn33/antigravity-awesome-skills;python-performance-optimization;Optimize Python code performance using profiling and best practices.
+unit-testing-test-generate;sickn33/antigravity-awesome-skills;unit-testing-test-generate;Generate comprehensive unit tests with strong coverage and edge case focus across multiple languages.
 ios-developer;sickn33/antigravity-awesome-skills;ios-developer;Develop native iOS apps with Swift/SwiftUI, covering iOS 18, UIKit integration, Core Data, networking, and App Store optimization.
+python-performance-optimization;sickn33/antigravity-awesome-skills;python-performance-optimization;Optimize Python code performance using profiling and best practices.
 async-python-patterns;sickn33/antigravity-awesome-skills;async-python-patterns;Learn Python async/await patterns for high-performance, non-blocking applications.
-rust-pro;sickn33/antigravity-awesome-skills;rust-pro;Master modern Rust with async patterns, advanced types, and production-ready systems programming.
 nodejs-backend-patterns;sickn33/antigravity-awesome-skills;nodejs-backend-patterns;Create production-ready Node.js backend services with Express/Fastify, following best practices for middleware, error handling, auth, and AP
 react-native-architecture;sickn33/antigravity-awesome-skills;react-native-architecture;Build production React Native apps with Expo, navigation, native modules, offline sync, and cross-platform patterns.
+rust-pro;sickn33/antigravity-awesome-skills;rust-pro;Master modern Rust with async patterns, advanced types, and production-ready systems programming.
 uv-package-manager;sickn33/antigravity-awesome-skills;uv-package-manager;Master the uv package manager for fast Python dependency management and virtual environments.
 c-pro;sickn33/antigravity-awesome-skills;c-pro;Write efficient C code with proper memory management, pointer arithmetic, and system calls. Handles embedded systems, kernel modules, and pe
 typescript-pro;sickn33/antigravity-awesome-skills;typescript-pro;Master advanced TypeScript with generics, decorators, and strict type safety for enterprise applications.
 python-testing-patterns;sickn33/antigravity-awesome-skills;python-testing-patterns;Implement comprehensive Python testing strategies with pytest, fixtures, mocking, and TDD.
-error-handling-patterns;sickn33/antigravity-awesome-skills;error-handling-patterns;Learn error handling patterns across languages to build resilient applications.
-python-packaging;sickn33/antigravity-awesome-skills;python-packaging;Package Python libraries and tools for distribution via PyPI.
-error-diagnostics-smart-debug;sickn33/antigravity-awesome-skills;error-diagnostics-smart-debug;A skill for smart debugging and error diagnostics.
 arm-cortex-expert;sickn33/antigravity-awesome-skills;arm-cortex-expert;Expert in firmware and driver development for ARM Cortex-M microcontrollers.
+python-packaging;sickn33/antigravity-awesome-skills;python-packaging;Package Python libraries and tools for distribution via PyPI.
+error-handling-patterns;sickn33/antigravity-awesome-skills;error-handling-patterns;Learn error handling patterns across languages to build resilient applications.
+error-diagnostics-smart-debug;sickn33/antigravity-awesome-skills;error-diagnostics-smart-debug;A skill for smart debugging and error diagnostics.
 debugging-strategies;sickn33/antigravity-awesome-skills;debugging-strategies;Learn systematic debugging techniques and root cause analysis for efficient bug tracking across any codebase.
 swiftui-expert-skill;sickn33/antigravity-awesome-skills;swiftui-expert-skill;A skill for writing, reviewing, and improving SwiftUI code with modern practices and performance optimization.
 e2e-testing-patterns;sickn33/antigravity-awesome-skills;e2e-testing-patterns;Master end-to-end testing with Playwright and Cypress for reliable test suites.
-systems-programming-rust-project;sickn33/antigravity-awesome-skills;systems-programming-rust-project;Generate production-ready Rust project structures with proper module organization and testing.
 php-pro;sickn33/antigravity-awesome-skills;php-pro;Write idiomatic PHP code using modern OOP and SPL features for high-performance applications.
-tdd-orchestrator;sickn33/antigravity-awesome-skills;tdd-orchestrator;Orchestrates Test-Driven Development (TDD) workflows with red-green-refactor discipline and multi-agent coordination.
+systems-programming-rust-project;sickn33/antigravity-awesome-skills;systems-programming-rust-project;Generate production-ready Rust project structures with proper module organization and testing.
 code-refactoring-context-restore;sickn33/antigravity-awesome-skills;code-refactoring-context-restore;A skill for restoring context during code refactoring tasks.
+tdd-orchestrator;sickn33/antigravity-awesome-skills;tdd-orchestrator;Orchestrates Test-Driven Development (TDD) workflows with red-green-refactor discipline and multi-agent coordination.
 javascript-typescript-typescript-scaffold;sickn33/antigravity-awesome-skills;javascript-typescript-typescript-scaffold;Generate production-ready Node.js and frontend project structures with modern tooling.
 unity-developer;sickn33/antigravity-awesome-skills;unity-developer;Develop Unity games with optimized C# scripts, efficient rendering, and asset management.
-tdd-workflows-tdd-cycle;sickn33/antigravity-awesome-skills;tdd-workflows-tdd-cycle;A skill for managing TDD workflows and cycles.
-tdd-workflows-tdd-green;sickn33/antigravity-awesome-skills;tdd-workflows-tdd-green;Implement minimal code to pass failing tests in TDD's green phase.
 find-bugs;sickn33/antigravity-awesome-skills;find-bugs;Review code changes for bugs, vulnerabilities, and quality issues.
 java-pro;sickn33/antigravity-awesome-skills;java-pro;Master modern Java 21+ features like virtual threads, pattern matching, and Spring Boot 3.x with GraalVM and cloud-native patterns.
 microservices-patterns;sickn33/antigravity-awesome-skills;microservices-patterns;Design microservices architectures with service boundaries, event-driven communication, and resilience patterns for distributed systems.
-tdd-workflows-tdd-refactor;sickn33/antigravity-awesome-skills;tdd-workflows-tdd-refactor;A skill for guiding TDD workflows and refactoring practices.
+tdd-workflows-tdd-cycle;sickn33/antigravity-awesome-skills;tdd-workflows-tdd-cycle;A skill for managing TDD workflows and cycles.
 readme;sickn33/antigravity-awesome-skills;readme;Creates and updates README.md files with thorough documentation covering local setup, architecture, and deployment for projects.
+tdd-workflows-tdd-green;sickn33/antigravity-awesome-skills;tdd-workflows-tdd-green;Implement minimal code to pass failing tests in TDD's green phase.
+tdd-workflows-tdd-refactor;sickn33/antigravity-awesome-skills;tdd-workflows-tdd-refactor;A skill for guiding TDD workflows and refactoring practices.
 temporal-python-pro;sickn33/antigravity-awesome-skills;temporal-python-pro;Master Temporal workflow orchestration with Python SDK, covering durable workflows, saga patterns, and distributed transactions.
 c4-architecture-c4-architecture;sickn33/antigravity-awesome-skills;c4-architecture-c4-architecture;Generate comprehensive C4 architecture documentation for repositories using bottom-up analysis approach.
-go-concurrency-patterns;sickn33/antigravity-awesome-skills;go-concurrency-patterns;Master Go concurrency patterns including goroutines, channels, and context for building concurrent applications.
-javascript-testing-patterns;sickn33/antigravity-awesome-skills;javascript-testing-patterns;Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for JavaScript/TypeScript projects.
 event-sourcing-architect;sickn33/antigravity-awesome-skills;event-sourcing-architect;Expert in event sourcing, CQRS, and event-driven architecture patterns with focus on event store design, projections, and saga orchestration
-godot-gdscript-patterns;sickn33/antigravity-awesome-skills;godot-gdscript-patterns;Learn Godot 4 GDScript patterns for game development, including signals, scenes, state machines, and optimization.
 debugging-toolkit-smart-debug;sickn33/antigravity-awesome-skills;debugging-toolkit-smart-debug;A skill for using a debugging toolkit in smart debug mode.
+go-concurrency-patterns;sickn33/antigravity-awesome-skills;go-concurrency-patterns;Master Go concurrency patterns including goroutines, channels, and context for building concurrent applications.
+godot-gdscript-patterns;sickn33/antigravity-awesome-skills;godot-gdscript-patterns;Learn Godot 4 GDScript patterns for game development, including signals, scenes, state machines, and optimization.
+javascript-testing-patterns;sickn33/antigravity-awesome-skills;javascript-testing-patterns;Implement comprehensive testing strategies using Jest, Vitest, and Testing Library for JavaScript/TypeScript projects.
 cpp-pro;sickn33/antigravity-awesome-skills;cpp-pro;Write idiomatic C++ code with modern features, RAII, smart pointers, and STL algorithms.
 monorepo-management;sickn33/antigravity-awesome-skills;monorepo-management;Manage monorepos using Turborepo, Nx, and pnpm for efficient multi-package development.
 javascript-pro;sickn33/antigravity-awesome-skills;javascript-pro;Master modern JavaScript with ES6+, async patterns, and Node.js APIs. Handles promises, event loops, and browser/Node compatibility.
-posix-shell-pro;sickn33/antigravity-awesome-skills;posix-shell-pro;Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-com
-tdd-workflows-tdd-red;sickn33/antigravity-awesome-skills;tdd-workflows-tdd-red;Generates failing tests for TDD red phase to define behavior and edge cases.
 dotnet-backend-patterns;sickn33/antigravity-awesome-skills;dotnet-backend-patterns;Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications.
-conductor-implement;sickn33/antigravity-awesome-skills;conductor-implement;Execute tasks from a track's implementation plan following TDD workflow
+posix-shell-pro;sickn33/antigravity-awesome-skills;posix-shell-pro;Expert in strict POSIX sh scripting for maximum portability across Unix-like systems. Specializes in shell scripts that run on any POSIX-com
 dotnet-architect;sickn33/antigravity-awesome-skills;dotnet-architect;A .NET backend architect skilled in C#, ASP.NET Core, and enterprise patterns.
-rust-async-patterns;sickn33/antigravity-awesome-skills;rust-async-patterns;Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns for building async Rust applications.
-multi-platform-apps-multi-platform;sickn33/antigravity-awesome-skills;multi-platform-apps-multi-platform;Build and deploy consistent features across web, mobile, and desktop using API-first architecture.
-dependency-upgrade;sickn33/antigravity-awesome-skills;dependency-upgrade;Manages major dependency upgrades with compatibility analysis and staged rollout.
 ruby-pro;sickn33/antigravity-awesome-skills;ruby-pro;Write idiomatic Ruby code with metaprogramming, Rails patterns, and performance optimization.
+tdd-workflows-tdd-red;sickn33/antigravity-awesome-skills;tdd-workflows-tdd-red;Generates failing tests for TDD red phase to define behavior and edge cases.
+conductor-implement;sickn33/antigravity-awesome-skills;conductor-implement;Execute tasks from a track's implementation plan following TDD workflow
+rust-async-patterns;sickn33/antigravity-awesome-skills;rust-async-patterns;Master Rust async programming with Tokio, async traits, error handling, and concurrent patterns for building async Rust applications.
+dependency-upgrade;sickn33/antigravity-awesome-skills;dependency-upgrade;Manages major dependency upgrades with compatibility analysis and staged rollout.
+multi-platform-apps-multi-platform;sickn33/antigravity-awesome-skills;multi-platform-apps-multi-platform;Build and deploy consistent features across web, mobile, and desktop using API-first architecture.
 angular-migration;sickn33/antigravity-awesome-skills;angular-migration;Migrate AngularJS applications to Angular using hybrid mode and incremental rewriting.
 web3-testing;sickn33/antigravity-awesome-skills;web3-testing;Test smart contracts with Hardhat and Foundry using unit and integration tests.
 conductor-setup;sickn33/antigravity-awesome-skills;conductor-setup;Set up a project with Conductor artifacts including product definition and workflow.
-conductor-revert;sickn33/antigravity-awesome-skills;conductor-revert;Git-aware undo by logical work unit (track, phase, or task)
-openapi-spec-generation;sickn33/antigravity-awesome-skills;openapi-spec-generation;Generate and maintain OpenAPI 3.1 specifications from code and design-first specs for API documentation and SDK generation.
-memory-safety-patterns;sickn33/antigravity-awesome-skills;memory-safety-patterns;Implement memory-safe programming patterns using RAII, ownership, and smart pointers in Rust, C++, and C.
-unity-ecs-patterns;sickn33/antigravity-awesome-skills;unity-ecs-patterns;Master Unity ECS with DOTS, Jobs, and Burst for high-performance game development.
 mermaid-expert;sickn33/antigravity-awesome-skills;mermaid-expert;Generate Mermaid diagrams for flowcharts, sequences, ERDs, and architectures with full syntax support.
-comprehensive-review-pr-enhance;sickn33/antigravity-awesome-skills;comprehensive-review-pr-enhance;PR optimization expert for creating high-quality pull requests with comprehensive descriptions and automated review processes following best
-framework-migration-code-migrate;sickn33/antigravity-awesome-skills;framework-migration-code-migrate;Code migration expert for transitioning codebases between frameworks, languages, versions, and platforms with comprehensive migration plans
+openapi-spec-generation;sickn33/antigravity-awesome-skills;openapi-spec-generation;Generate and maintain OpenAPI 3.1 specifications from code and design-first specs for API documentation and SDK generation.
+conductor-revert;sickn33/antigravity-awesome-skills;conductor-revert;Git-aware undo by logical work unit (track, phase, or task)
 csharp-pro;sickn33/antigravity-awesome-skills;csharp-pro;Write modern C# code with advanced features and optimize .NET applications.
+memory-safety-patterns;sickn33/antigravity-awesome-skills;memory-safety-patterns;Implement memory-safe programming patterns using RAII, ownership, and smart pointers in Rust, C++, and C.
+framework-migration-code-migrate;sickn33/antigravity-awesome-skills;framework-migration-code-migrate;Code migration expert for transitioning codebases between frameworks, languages, versions, and platforms with comprehensive migration plans
+unity-ecs-patterns;sickn33/antigravity-awesome-skills;unity-ecs-patterns;Master Unity ECS with DOTS, Jobs, and Burst for high-performance game development.
+c4-context;sickn33/antigravity-awesome-skills;c4-context;Expert C4 Context-level documentation specialist for creating high-level system context diagrams, personas, user journeys, and comprehensive
+comprehensive-review-pr-enhance;sickn33/antigravity-awesome-skills;comprehensive-review-pr-enhance;PR optimization expert for creating high-quality pull requests with comprehensive descriptions and automated review processes following best
+haskell-pro;sickn33/antigravity-awesome-skills;haskell-pro;Expert Haskell engineer for advanced type systems, pure functional design, and high-reliability software development with proactive type-lev
 cqrs-implementation;sickn33/antigravity-awesome-skills;cqrs-implementation;Implement Command Query Responsibility Segregation for scalable architectures, separating read and write models to optimize query performanc
 modern-javascript-patterns;sickn33/antigravity-awesome-skills;modern-javascript-patterns;Learn modern JavaScript patterns like async/await, destructuring, and modules for clean, efficient code.
-c4-context;sickn33/antigravity-awesome-skills;c4-context;Expert C4 Context-level documentation specialist for creating high-level system context diagrams, personas, user journeys, and comprehensive
-haskell-pro;sickn33/antigravity-awesome-skills;haskell-pro;Expert Haskell engineer for advanced type systems, pure functional design, and high-reliability software development with proactive type-lev
-payment-integration;sickn33/antigravity-awesome-skills;payment-integration;Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance for payments, billing,
-team-collaboration-issue;sickn33/antigravity-awesome-skills;team-collaboration-issue;GitHub issue resolution expert for systematic bug investigation, feature implementation, and collaborative development workflows.
-scala-pro;sickn33/antigravity-awesome-skills;scala-pro;Expert in enterprise-grade Scala development with functional programming, distributed systems, and big data processing using Apache Pekko, A
-skill-rails-upgrade;sickn33/antigravity-awesome-skills;skill-rails-upgrade;Analyze Rails apps and provide upgrade assessments
-n8n-node-configuration;sickn33/antigravity-awesome-skills;n8n-node-configuration;Guidance for configuring n8n nodes with awareness of operations and property dependencies.
-conductor-validator;sickn33/antigravity-awesome-skills;conductor-validator;Validates Conductor project artifacts for completeness, consistency, and correctness.
 event-store-design;sickn33/antigravity-awesome-skills;event-store-design;Design and implement event stores for event-sourced systems, including technology selection and persistence patterns.
+elixir-pro;sickn33/antigravity-awesome-skills;elixir-pro;Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distribute
+payment-integration;sickn33/antigravity-awesome-skills;payment-integration;Integrate Stripe, PayPal, and payment processors. Handles checkout flows, subscriptions, webhooks, and PCI compliance for payments, billing,
+n8n-node-configuration;sickn33/antigravity-awesome-skills;n8n-node-configuration;Guidance for configuring n8n nodes with awareness of operations and property dependencies.
+team-collaboration-issue;sickn33/antigravity-awesome-skills;team-collaboration-issue;GitHub issue resolution expert for systematic bug investigation, feature implementation, and collaborative development workflows.
+skill-rails-upgrade;sickn33/antigravity-awesome-skills;skill-rails-upgrade;Analyze Rails apps and provide upgrade assessments
+scala-pro;sickn33/antigravity-awesome-skills;scala-pro;Expert in enterprise-grade Scala development with functional programming, distributed systems, and big data processing using Apache Pekko, A
+conductor-validator;sickn33/antigravity-awesome-skills;conductor-validator;Validates Conductor project artifacts for completeness, consistency, and correctness.
 temporal-python-testing;sickn33/antigravity-awesome-skills;temporal-python-testing;Test Temporal workflows with pytest, time-skipping, and mocking strategies.
 screenshots;sickn33/antigravity-awesome-skills;screenshots;Generate marketing screenshots of apps using Playwright for Product Hunt, social media, and documentation.
 c4-component;sickn33/antigravity-awesome-skills;c4-component;Expert C4 Component-level documentation specialist. Synthesizes code-level docs into component architecture with boundaries, interfaces, and
 c4-code;sickn33/antigravity-awesome-skills;c4-code;Expert C4 Code-level documentation specialist analyzing code directories to create comprehensive documentation including function signatures
-elixir-pro;sickn33/antigravity-awesome-skills;elixir-pro;Write idiomatic Elixir code with OTP patterns, supervision trees, and Phoenix LiveView. Masters concurrency, fault tolerance, and distribute
 framework-migration-legacy-modernize;sickn33/antigravity-awesome-skills;framework-migration-legacy-modernize;Orchestrate comprehensive legacy system modernization using strangler fig pattern for gradual component replacement while maintaining busine
 framework-migration-deps-upgrade;sickn33/antigravity-awesome-skills;framework-migration-deps-upgrade;A dependency management expert for safe, incremental upgrades of project dependencies with minimal risk and proper testing.
-defi-protocol-templates;sickn33/antigravity-awesome-skills;defi-protocol-templates;Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems.
 minecraft-bukkit-pro;sickn33/antigravity-awesome-skills;minecraft-bukkit-pro;Master Minecraft server plugin development with Bukkit, Spigot, and Paper APIs.
+defi-protocol-templates;sickn33/antigravity-awesome-skills;defi-protocol-templates;Implement DeFi protocols with production-ready templates for staking, AMMs, governance, and lending systems.
 nx-workspace-patterns;sickn33/antigravity-awesome-skills;nx-workspace-patterns;Configure and optimize Nx monorepo workspaces for project boundaries, build caching, and affected commands.
 saga-orchestration;sickn33/antigravity-awesome-skills;saga-orchestration;Implement saga patterns for distributed transactions and cross-aggregate workflows.
 nft-standards;sickn33/antigravity-awesome-skills;nft-standards;Implement NFT standards (ERC-721, ERC-1155) with metadata handling, minting, and marketplace integration.
+create-pr;sickn33/antigravity-awesome-skills;create-pr;Automatically create pull requests following Sentry's code review conventions.
+c4-container;sickn33/antigravity-awesome-skills;c4-container;Expert C4 Container-level documentation specialist. Synthesizes Component-level documentation into Container-level architecture, mapping com
 projection-patterns;sickn33/antigravity-awesome-skills;projection-patterns;Build read models and projections from event streams for CQRS implementations.
 graphql-architect;sickn33/antigravity-awesome-skills;graphql-architect;Master modern GraphQL with federation, performance optimization, and enterprise security. Build scalable schemas, implement advanced caching
 fix-review;sickn33/antigravity-awesome-skills;fix-review;Verify fix commits address audit findings without introducing new bugs
-create-pr;sickn33/antigravity-awesome-skills;create-pr;Automatically create pull requests following Sentry's code review conventions.
-c4-container;sickn33/antigravity-awesome-skills;c4-container;Expert C4 Container-level documentation specialist. Synthesizes Component-level documentation into Container-level architecture, mapping com
+n8n-code-python;sickn33/antigravity-awesome-skills;n8n-code-python;Write Python code in n8n Code nodes with support for standard library and syntax.
 context-driven-development;sickn33/antigravity-awesome-skills;context-driven-development;A skill for managing project context artifacts using Conductor's context-driven development methodology.
 legacy-modernizer;sickn33/antigravity-awesome-skills;legacy-modernizer;Refactor legacy codebases, migrate outdated frameworks, and implement gradual modernization with backward compatibility handling.
-n8n-code-python;sickn33/antigravity-awesome-skills;n8n-code-python;Write Python code in n8n Code nodes with support for standard library and syntax.
+pypict-skill;sickn33/antigravity-awesome-skills;pypict-skill;Generates pairwise test cases using Python to optimize coverage for parameter combinations.
 julia-pro;sickn33/antigravity-awesome-skills;julia-pro;Master Julia 1.10+ with modern features, performance optimization, multiple dispatch, and production-ready practices. Expert in the Julia ec
 dx-optimizer;sickn33/antigravity-awesome-skills;dx-optimizer;Developer Experience specialist that improves tooling, setup, and workflows proactively for better development efficiency.
 supabase-automation;sickn33/antigravity-awesome-skills;supabase-automation;Automate Supabase database operations including queries, table management, project administration, storage, and edge functions via Rube MCP
 reference-builder;sickn33/antigravity-awesome-skills;reference-builder;Creates exhaustive technical references and API documentation with comprehensive parameter listings and configuration guides.
-pypict-skill;sickn33/antigravity-awesome-skills;pypict-skill;Generates pairwise test cases using Python to optimize coverage for parameter combinations.
+makepad-skills;sickn33/antigravity-awesome-skills;makepad-skills;Guide for Makepad UI development in Rust: setup, patterns, shaders, packaging, and troubleshooting.
+upgrading-expo;sickn33/antigravity-awesome-skills;upgrading-expo;Assists developers in upgrading Expo SDK versions, handling dependencies and compatibility for React Native applications.
 track-management;sickn33/antigravity-awesome-skills;track-management;Manage Conductor tracks for features, bugs, and refactors.
 make-automation;sickn33/antigravity-awesome-skills;make-automation;Automate Make (Integromat) tasks via Rube MCP (Composio): operations, enums, language and timezone lookups.
+pr-draft-summary;openai/openai-agents-python;pr-draft-summary;Automates PR title and draft description generation. Summarizes code, tests, and config changes into PR-ready blocks.
 sparc-methodology;ruvnet/claude-flow;sparc-methodology;SPARC development workflow: Specification, Pseudocode, Architecture, Refinement, Completion. A structured approach for complex implementatio
 pair-programming;ruvnet/claude-flow;pair-programming;AI-assisted pair programming with driver/navigator roles, real-time verification, quality monitoring, and comprehensive testing support.
 v3-ddd-architecture;ruvnet/claude-flow;v3-ddd-architecture;Domain-Driven Design architecture for claude-flow v3 with modular, bounded context implementation.
@@ -505,8 +508,8 @@ testing;tursodatabase/turso;testing;A skill for writing and running tests, inclu
 json-canvas;kepano/obsidian-skills;json-canvas;Create and edit JSON Canvas files with nodes, edges, groups, and connections for visual diagrams and mind maps.
 trigger-dev-tasks;triggerdotdev/trigger.dev;trigger-dev-tasks;A skill for creating and managing Trigger.dev background tasks and workflows.
 tamagui;tamagui/tamagui;tamagui;Universal React UI framework for web and native cross-platform development with styled components and design tokens.
-zod-4;prowler-cloud/prowler;zod-4;A skill for Zod v4 schema validation patterns, including v3 to v4 migration.
 telegram-dev;2025emma/vibe-coding-cn;telegram-dev;A CLI tool for Telegram development.
+zod-4;prowler-cloud/prowler;zod-4;A skill for Zod v4 schema validation patterns, including v3 to v4 migration.
 zustand-5;prowler-cloud/prowler;zustand-5;A skill for implementing client-side state management with Zustand patterns.
 typescript;prowler-cloud/prowler;typescript;A skill for implementing TypeScript strict patterns and best practices.
 playwright;prowler-cloud/prowler;playwright;A skill for Playwright E2E testing patterns, including Page Object Model and selector strategies.
@@ -515,14 +518,19 @@ building-native-ui;expo/skills;main/plugins/expo-app-design/skills/building-nati
 json-render-core;vercel-labs/json-render;json-render-core;Core package for defining schemas, catalogs, and AI prompt generation for json-render. Used with @json-render/core for UI/video generation.
 json-render-remotion;vercel-labs/json-render;json-render-remotion;Remotion renderer for json-render that turns JSON timeline specs into videos. Use when working with @json-render/remotion, building video co
 remotion-best-practices;vercel-labs/json-render;remotion-best-practices;Best practices for creating videos with React and Remotion.
-add-to-existing-project;tambo-ai/tambo;add-to-existing-project;Integrates Tambo into existing React projects by detecting tech stack and adapting installation for AI/generative UI addition.
-cli;tambo-ai/tambo;cli;Tambo CLI reference for project setup and component installation. Agent-friendly, non-interactive. Covers init, add, and browsing commands.
+baoyu-compress-image;jimliu/baoyu-skills;baoyu-compress-image;Compresses images to WebP or PNG with automatic tool selection.
 opencode-primitives;different-ai/openwork;opencode-primitives;Reference OpenCode docs for implementing skills, plugins, MCPs, and config-driven behavior.
 tauri-solidjs;different-ai/openwork;tauri-solidjs;Tauri 2.x + SolidJS stack for building OpenWork native desktop applications
-baoyu-compress-image;jimliu/baoyu-skills;baoyu-compress-image;Compresses images to WebP or PNG with automatic tool selection.
 gh-address-comments;openai/skills;main/skills/.curated/gh-address-comments;Automatically address GitHub PR comments using gh CLI with authentication check.
+add-components-to-registry;tambo-ai/tambo;;Automates adding software components to a registry. Helps manage component libraries and streamline setup workflows.
+components;tambo-ai/tambo;;Skill template for working with software components, covering coding and architecture tasks.
+component-rendering;tambo-ai/tambo;;Handles logic and strategies for rendering UI components in applications.
+add-to-existing-project;tambo-ai/tambo;;Utility for adding elements or configurations to an existing project structure.
+cli;tambo-ai/tambo;;CLI tool for command line operations and automation
 pdf;openai/skills;main/skills/.curated/pdf;Process PDF files including reading, creating, and reviewing with rendering and layout support.
 doc;openai/skills;main/skills/.curated/doc;Process .docx documents with formatting and layout fidelity.
+codex-wrapped;openai/skills;;A skill for code generation and assistance using Codex technology
+build-things;openai/skills;;A skill for building things, typically involving development workflows and build processes.
 gpui-layout-and-style;longbridge/gpui-component;gpui-layout-and-style;A skill for managing layout and styling in GPUI applications.
 gpui-async;longbridge/gpui-component;gpui-async;Handle async operations and background tasks in GPUI with spawn and concurrent execution.
 gpui-action;longbridge/gpui-component;gpui-action;Defines actions and keyboard shortcuts for GPUI applications.
@@ -532,22 +540,21 @@ gpui-style-guide;longbridge/gpui-component;gpui-style-guide;A style guide for GP
 gpui-element;longbridge/gpui-component;gpui-element;A skill for implementing custom UI elements using GPUI's low-level Element API for maximum control over layout and rendering.
 gpui-global;longbridge/gpui-component;gpui-global;Manages global state and app-wide configuration in GPUI applications.
 gpui-test;longbridge/gpui-component;gpui-test;A skill for writing tests for GPUI applications, covering components, async operations, and UI behavior.
-codex-wrapped;openai/skills;;A skill for code generation and assistance using Codex technology
-build-things;openai/skills;;A skill for building things, typically involving development workflows and build processes.
 new-component;longbridge/gpui-component;new-component;Generate new GPUI components for UI development and implementation.
 generate-component-documentation;longbridge/gpui-component;generate-component-documentation;Generates documentation for new components using AI.
-generate-component-story;longbridge/gpui-component;generate-component-story;Generate story examples for UI components to demonstrate usage and create examples.
 github-pull-request-description;longbridge/gpui-component;github-pull-request-description;Automatically generate GitHub pull request descriptions.
+generate-component-story;longbridge/gpui-component;generate-component-story;Generate story examples for UI components to demonstrate usage and create examples.
 woocommerce-backend-dev;woocommerce/woocommerce;woocommerce-backend-dev;Add or modify WooCommerce backend PHP code following project conventions. Must be invoked before writing PHP unit tests.
 woocommerce-code-review;woocommerce/woocommerce;woocommerce-code-review;Review WooCommerce code changes for coding standards compliance during local review, automated PR review, or code quality checks.
 dhh-rails-style;everyinc/compound-engineering-plugin;dhh-rails-style;A skill for writing Ruby and Rails code in DHH's 37signals style, emphasizing REST purity and clarity.
-andrew-kane-gem-writer;everyinc/compound-engineering-plugin;andrew-kane-gem-writer;A skill for writing Ruby gems following Andrew Kane's patterns and philosophy.
 baoyu-markdown-to-html;jimliu/baoyu-skills;baoyu-markdown-to-html;Converts Markdown to styled HTML with WeChat-compatible themes, supporting code highlighting, math, PlantUML, footnotes, alerts, and infogra
-stripe-best-practices;anthropics/claude-plugins-official;stripe-best-practices;Best practices for building Stripe integrations including payments, subscriptions, and webhooks.
+andrew-kane-gem-writer;everyinc/compound-engineering-plugin;andrew-kane-gem-writer;A skill for writing Ruby gems following Andrew Kane's patterns and philosophy.
 baoyu-format-markdown;jimliu/baoyu-skills;baoyu-format-markdown;Formats markdown files with frontmatter, titles, headings, lists, and code blocks.
+stripe-best-practices;anthropics/claude-plugins-official;stripe-best-practices;Best practices for building Stripe integrations including payments, subscriptions, and webhooks.
 backend-dev-guidelines;diet103/claude-code-infrastructure-showcase;backend-dev-guidelines;A comprehensive backend development guide for Node.js/Express/TypeScript microservices, covering architecture, error handling, and more.
-cowork-plugin-customizer;anthropics/knowledge-work-plugins;cowork-plugin-customizer;Customize Claude Code plugins for specific organizational tools and workflows, replacing tool placeholders and configuring MCP servers.
 golang-pro;jeffallan/claude-skills;golang-pro;A skill for building Go applications with concurrent programming, microservices, and high-performance systems using goroutines, channels, an
+cowork-plugin-customizer;anthropics/knowledge-work-plugins;cowork-plugin-customizer;Customize Claude Code plugins for specific organizational tools and workflows, replacing tool placeholders and configuring MCP servers.
+flutter-expert;jeffallan/claude-skills;flutter-expert;A skill for building cross-platform apps with Flutter and Dart, covering widgets, state management, and performance optimization.
 deepinit;yeachan-heo/oh-my-claudecode;deepinit;Initialize codebases with hierarchical AGENTS.md documentation.
 omc-setup;yeachan-heo/oh-my-claudecode;omc-setup;Setup and configure oh-my-claudecode with a single command
 build-fix;yeachan-heo/oh-my-claudecode;build-fix;Fix build and TypeScript errors with minimal changes
@@ -556,10 +563,10 @@ skill;yeachan-heo/oh-my-claudecode;skill;A CLI tool for managing local skills in
 ultraqa;yeachan-heo/oh-my-claudecode;ultraqa;A QA cycling workflow for testing, verifying, and fixing until goals are met.
 project-session-manager;yeachan-heo/oh-my-claudecode;project-session-manager;Manage isolated development environments using git worktrees and tmux sessions for better project workflow isolation
 git-master;yeachan-heo/oh-my-claudecode;;A Git expert skill for atomic commits, rebasing, and history management with style detection.
-flutter-expert;jeffallan/claude-skills;flutter-expert;A skill for building cross-platform apps with Flutter and Dart, covering widgets, state management, and performance optimization.
 deepsearch;yeachan-heo/oh-my-claudecode;;A skill for thorough codebase search and analysis.
 doctor;yeachan-heo/oh-my-claudecode;;A skill for debugging and diagnosing system issues, helping identify and resolve problems in development environments.
 local-skills-setup;yeachan-heo/oh-my-claudecode;;Local skills setup configuration for development environment
+laravel-specialist;jeffallan/claude-skills;laravel-specialist;A Laravel specialist skill for building applications with Eloquent ORM, API resources, and queue systems.
 native-data-fetching;expo/skills;main/plugins/expo-app-design/skills/native-data-fetching;A skill for implementing or debugging network requests, API calls, and data fetching with various libraries and strategies.
 upgrading-expo;expo/skills;main/plugins/upgrading-expo/skills/upgrading-expo;Guidelines for upgrading Expo SDK versions and resolving dependency conflicts.
 markitdown;k-dense-ai/claude-scientific-skills;;Convert various file types including PDF, DOCX, PPTX, XLSX, images, audio, HTML, CSV, JSON, XML, ZIP, YouTube URLs, and EPUB to Markdown.
@@ -571,26 +578,30 @@ pylabrobot;k-dense-ai/claude-scientific-skills;;A vendor-agnostic lab automation
 protocolsio-integration;k-dense-ai/claude-scientific-skills;;Integrate with protocols.io API for managing scientific protocols.
 opentrons-integration;k-dense-ai/claude-scientific-skills;;A skill for integrating with Opentrons lab automation hardware using the official Protocol API v2.
 benchling-integration;k-dense-ai/claude-scientific-skills;;Integrate with Benchling R&D platform to access registry, inventory, ELN entries, and workflows via API for lab data automation.
-laravel-specialist;jeffallan/claude-skills;laravel-specialist;A Laravel specialist skill for building applications with Eloquent ORM, API resources, and queue systems.
-expo-dev-client;expo/skills;main/plugins/expo-app-design/skills/expo-dev-client;Build and distribute Expo development clients locally or via TestFlight.
 playwright-cli;microsoft/playwright-cli;playwright-cli;A CLI tool for automating browser interactions including testing, form filling, and data extraction.
+expo-dev-client;expo/skills;main/plugins/expo-app-design/skills/expo-dev-client;Build and distribute Expo development clients locally or via TestFlight.
 meilisearch-admin;civitai/civitai;meilisearch-admin;Meilisearch admin tool for monitoring index health, tasks, and settings. Read-only operations for debugging search issues and configuration.
 expo-tailwind-setup;expo/skills;main/plugins/expo-app-design/skills/expo-tailwind-setup;Set up Tailwind CSS v4 in Expo with react-native-css and NativeWind v5 for universal styling.
 dev-server;civitai/civitai;dev-server;Manages Next.js dev servers across worktrees, enabling start/stop operations and log access for agents from any running session.
 expo-api-routes;expo/skills;main/plugins/expo-app-design/skills/expo-api-routes;Create API routes in Expo Router with EAS Hosting guidelines.
-preline-theme-generator;htmlstreamofficial/preline;theme-generator;Generates Preline Theme CSS files with consistent styling.
 contributing;nuxt/ui;contributing;Guide for contributing to Nuxt UI with component patterns, theming, testing conventions, and documentation guidelines.
+preline-theme-generator;htmlstreamofficial/preline;theme-generator;Generates Preline Theme CSS files with consistent styling.
+php-pro;jeffallan/claude-skills;php-pro;A skill for building PHP applications with modern features, Laravel, and Symfony frameworks.
 react-native-best-practices;callstackincubator/agent-skills;react-native-best-practices;Provides React Native best practices for performance optimization including FPS, TTI, bundle size, and memory leaks.
 vite;antfu/skills;main/skills/vite;A skill for configuring Vite build tools, plugins, SSR, and migration to Vite 8 Rolldown.
-swiftui-expert-skill;avdlee/swiftui-agent-skill;;Expert assistance for writing, reviewing, and improving SwiftUI code with focus on state management, performance, and modern iOS patterns.
+skill-standardization;supercent-io/skills-template;;Standardizes and validates SKILL.md files to ensure compliance with project specifications.
+npm-git-install;supercent-io/skills-template;;Install npm packages directly from GitHub using git URLs for private repos, specific branches, or unreleased versions.
 agentation;benjitaylor/agentation;agentation;Adds visual feedback toolbar to Next.js projects for enhanced development experience.
-php-pro;jeffallan/claude-skills;php-pro;A skill for building PHP applications with modern features, Laravel, and Symfony frameworks.
+swiftui-expert-skill;avdlee/swiftui-agent-skill;;Expert assistance for writing, reviewing, and improving SwiftUI code with focus on state management, performance, and modern iOS patterns.
 vitest;antfu/skills;main/skills/vitest;A fast unit testing framework for JavaScript projects using Vite.
+java-architect;jeffallan/claude-skills;java-architect;A skill for building enterprise Java applications with Spring Boot, microservices, and reactive programming.
 pnpm;antfu/skills;main/skills/pnpm;A Node.js package manager with strict dependency resolution for managing packages and workspaces.
 flutter-animations;madteacher/mad-agents-skills;;A comprehensive guide for implementing animations in Flutter apps, covering implicit, explicit, hero, staggered, and physics-based animation
-antfu;antfu/skills;main/skills/antfu;A skill for setting up JavaScript/TypeScript projects with Anthony Fu's preferred tooling and conventions.
+playwright-expert;jeffallan/claude-skills;playwright-expert;A skill for Playwright-based browser automation and E2E testing.
 code-review-checklist;vudovn/antigravity-kit;code-review-checklist;A code review checklist focusing on quality, security, and best practices.
+antfu;antfu/skills;main/skills/antfu;A skill for setting up JavaScript/TypeScript projects with Anthony Fu's preferred tooling and conventions.
 clean-code;vudovn/antigravity-kit;clean-code;A skill for applying pragmatic coding standards focusing on conciseness and clarity.
+python-pro;jeffallan/claude-skills;python-pro;A skill for building Python 3.11+ applications with type safety, async support, and production-grade patterns.
 architecture;vudovn/antigravity-kit;architecture;A framework for architectural decision-making, including requirements analysis and ADR documentation.
 nodejs-best-practices;vudovn/antigravity-kit;nodejs-best-practices;Teaches Node.js best practices, architecture, and decision-making without copying.
 systematic-debugging;vudovn/antigravity-kit;systematic-debugging;A 4-phase systematic debugging methodology with root cause analysis and evidence-based verification for complex issue resolution.
@@ -601,16 +612,10 @@ tdd-workflow;vudovn/antigravity-kit;tdd-workflow;A Test-Driven Development workf
 performance-profiling;vudovn/antigravity-kit;performance-profiling;Learn performance profiling principles including measurement, analysis, and optimization techniques.
 powershell-windows;vudovn/antigravity-kit;powershell-windows;A PowerShell skill for Windows with patterns, pitfalls, and error handling.
 documentation-templates;vudovn/antigravity-kit;documentation-templates;Provides documentation templates and structure guidelines for README, API docs, and AI-friendly documentation.
-java-architect;jeffallan/claude-skills;java-architect;A skill for building enterprise Java applications with Spring Boot, microservices, and reactive programming.
 python-patterns;vudovn/antigravity-kit;python-patterns;Teaches Python development principles, patterns, and project structure.
 code-review-expert;sanyuan0704/code-review-expert;code-review-expert;Expert code review of current git changes with a senior engineer lens. Detects SOLID violations, security risks, and proposes actionable imp
-shadcn-ui;google-labs-code/stitch-skills;shadcn-ui;Guidance for integrating shadcn/ui components into applications.
-playwright-expert;jeffallan/claude-skills;playwright-expert;A skill for Playwright-based browser automation and E2E testing.
-python-pro;jeffallan/claude-skills;python-pro;A skill for building Python 3.11+ applications with type safety, async support, and production-grade patterns.
 spring-boot-engineer;jeffallan/claude-skills;spring-boot-engineer;A skill for building Spring Boot 3.x applications, microservices, and reactive Java apps with Spring Data JPA, Spring Security 6, WebFlux, a
-remotion-video-production;supercent-io/skills-template;;Generate programmable videos with Remotion using scene planning and asset orchestration.
-tsdown;antfu/skills;main/skills/tsdown;Bundle TypeScript and JavaScript libraries quickly with Rolldown.
-remotion-best-practices;millionco/react-doctor;remotion-best-practices;Best practices for creating videos with React and Remotion.
+shadcn-ui;google-labs-code/stitch-skills;shadcn-ui;Guidance for integrating shadcn/ui components into applications.
 architecture-designer;jeffallan/claude-skills;architecture-designer;A skill for designing and reviewing system architectures, including design patterns and scalability planning.
 rust-engineer;jeffallan/claude-skills;rust-engineer;A skill for building Rust applications with memory safety and systems programming capabilities.
 kotlin-specialist;jeffallan/claude-skills;kotlin-specialist;A skill for Kotlin developers working with coroutines, multiplatform, and Android Compose.
@@ -625,30 +630,31 @@ javascript-pro;jeffallan/claude-skills;javascript-pro;A skill for building moder
 game-developer;jeffallan/claude-skills;game-developer;A skill for game development tasks including Unity/Unreal features and performance optimization.
 rails-expert;jeffallan/claude-skills;rails-expert;A skill for building Rails 7+ web apps with Hotwire, real-time features, and background job processing.
 swift-expert;jeffallan/claude-skills;swift-expert;A skill for building iOS/macOS apps with Swift, SwiftUI, and async/await concurrency.
-code-refactoring;supercent-io/skills-template;;Refactor and simplify code while preserving behavior and improving clarity.
 embedded-systems;jeffallan/claude-skills;embedded-systems;A skill for developing firmware, RTOS applications, and optimizing power consumption for microcontrollers like STM32 and ESP32.
 microservices-architect;jeffallan/claude-skills;microservices-architect;Design and implement microservices architectures, distributed systems, and service boundaries.
 react-native-expert;jeffallan/claude-skills;react-native-expert;A skill for building cross-platform mobile apps with React Native or Expo, covering navigation, platform-specific code, and FlatList optimiz
 test-master;jeffallan/claude-skills;test-master;A skill for writing tests, creating test strategies, and building automation frameworks including unit, integration, and E2E testing.
-api-documentation;supercent-io/skills-template;;Generate comprehensive API documentation including REST, GraphQL, and SDK methods with OpenAPI/Swagger support.
-code-review;supercent-io/skills-template;;Conduct thorough code reviews focusing on quality, security, and best practices.
 fullstack-guardian;jeffallan/claude-skills;fullstack-guardian;A skill for implementing fullstack features, building APIs with UI, and creating end-to-end data flows.
 cli-developer;jeffallan/claude-skills;cli-developer;A skill for building CLI tools with argument parsing, interactive prompts, and shell completions.
-backend-testing;supercent-io/skills-template;;Write comprehensive backend tests including unit, integration, and API tests for REST APIs, databases, and authentication.
 nestjs-expert;jeffallan/claude-skills;nestjs-expert;A skill for building NestJS applications with modular architecture and TypeScript.
+remotion-best-practices;millionco/react-doctor;remotion-best-practices;Best practices for creating videos with React and Remotion.
+remotion-video-production;supercent-io/skills-template;;Generate programmable videos with Remotion using scene planning and asset orchestration.
+tsdown;antfu/skills;main/skills/tsdown;Bundle TypeScript and JavaScript libraries quickly with Rolldown.
+salesforce-developer;jeffallan/claude-skills;salesforce-developer;A skill for developing Salesforce applications, including Apex, Lightning Web Components, and SOQL queries.
+legacy-modernizer;jeffallan/claude-skills;legacy-modernizer;Modernize legacy systems with incremental migration and technical debt reduction strategies.
+graphql-architect;jeffallan/claude-skills;graphql-architect;Design GraphQL schemas, implement Apollo Federation, and build real-time subscriptions.
+code-refactoring;supercent-io/skills-template;;Refactor and simplify code while preserving behavior and improving clarity.
+api-documentation;supercent-io/skills-template;;Generate comprehensive API documentation including REST, GraphQL, and SDK methods with OpenAPI/Swagger support.
+code-review;supercent-io/skills-template;;Conduct thorough code reviews focusing on quality, security, and best practices.
+backend-testing;supercent-io/skills-template;;Write comprehensive backend tests including unit, integration, and API tests for REST APIs, databases, and authentication.
 file-organization;supercent-io/skills-template;;Organize project files and folders for maintainability and scalability.
 codebase-search;supercent-io/skills-template;;Search and navigate large codebases efficiently with semantic search, grep patterns, and AST analysis.
 git-workflow;supercent-io/skills-template;;Manage Git workflows including commits, branches, merges, and collaboration for effective repository management.
 performance-optimization;supercent-io/skills-template;;Optimize application performance for speed, efficiency, and scalability with React-specific techniques.
 testing-strategies;supercent-io/skills-template;;Design comprehensive testing strategies for software quality assurance, covering unit, integration, and end-to-end testing.
 debugging;supercent-io/skills-template;;Systematically debug code issues using proven methodologies for error analysis and root cause identification.
-salesforce-developer;jeffallan/claude-skills;salesforce-developer;A skill for developing Salesforce applications, including Apex, Lightning Web Components, and SOQL queries.
 changelog-maintenance;supercent-io/skills-template;;Maintain clear and informative changelogs for software releases with semantic versioning support.
-skill-standardization;supercent-io/skills-template;;Standardizes and validates SKILL.md files to ensure compliance with project specifications.
-npm-git-install;supercent-io/skills-template;;Install npm packages directly from GitHub using git URLs for private repos, specific branches, or unreleased versions.
 vercel-react-best-practices;am-will/codex-skills;vercel-react-best-practices;Provides React and Next.js performance optimization guidelines from Vercel Engineering.
-legacy-modernizer;jeffallan/claude-skills;legacy-modernizer;Modernize legacy systems with incremental migration and technical debt reduction strategies.
-graphql-architect;jeffallan/claude-skills;graphql-architect;Design GraphQL schemas, implement Apollo Federation, and build real-time subscriptions.
 xcodebuildmcp;cameroncooke/xcodebuildmcp;xcodebuildmcp;A skill for XcodeBuildMCP to handle iOS/macOS/watchOS/tvOS/visionOS development tasks like building, testing, and debugging.
 xcodebuildmcp-cli;cameroncooke/xcodebuildmcp;xcodebuildmcp-cli;Official XcodeBuildMCP CLI skill for iOS/macOS/watchOS/tvOS/visionOS development workflows including build, test, run, debug, and UI automat
 resolve-conflicts;antinomyhq/forge;resolve-conflicts;A skill for resolving merge conflicts by providing a structured framework for merging imports, tests, lock files, configuration files, and h
@@ -658,86 +664,90 @@ wrangler;cloudflare/cloudflare-docs;;A CLI tool for managing Cloudflare Workers 
 durable-objects;cloudflare/cloudflare-docs;;Durable Objects for persistent state management in web applications
 agents-sdk;cloudflare/cloudflare-docs;;SDK for building and managing AI agents
 sandbox-sdk;cloudflare/cloudflare-docs;sandbox-sdk;Build sandboxed applications for secure code execution in AI, CI/CD, and development environments with lifecycle management.
+playwriter;remorses/playwriter;playwriter;Automates existing Chrome browser via Playwright code snippets in a local JS sandbox. Ideal for JS-heavy sites requiring live sessions.
 firebase-firestore-basics;firebase/firebase-tools;;Learn Firebase Firestore basics for database management and data handling in web applications.
 firebase-basics;firebase/firebase-tools;;Firebase basics setup and configuration for backend services
 firebase-auth-basics;firebase/firebase-tools;;Firebase authentication basics setup and configuration guide
+swiftui-performance-audit;dimillian/skills;main/swiftui-performance-audit;Audit and improve SwiftUI runtime performance through code review and architecture analysis.
 documentation;epicenterhq/epicenter;documentation;A skill for creating in-code documentation, READMEs, and code comments.
-playwriter;remorses/playwriter;playwriter;Automates existing Chrome browser via Playwright code snippets in a local JS sandbox. Ideal for JS-heavy sites requiring live sessions.
 typescript;epicenterhq/epicenter;typescript;TypeScript coding standards covering style, type co-location, naming, test organization, and arktype patterns.
 error-handling;epicenterhq/epicenter;error-handling;Provides error handling patterns using trySync and tryAsync for robust code.
 rust-errors;epicenterhq/epicenter;rust-errors;Rust to TypeScript error handling patterns for Tauri apps, covering Rust errors passed to TypeScript and discriminated union error types.
 control-flow;epicenterhq/epicenter;control-flow;Patterns for human-readable control flow, including early returns, guard clauses, and linearizing nested logic for better refactoring.
 swift-concurrency;avdlee/swift-concurrency-agent-skill;;Diagnoses data races, refactors callbacks to async/await, implements actor isolation, and guides Swift 6 migration for developers.
 technical-blog-writing;inference-sh-9/skills;main/skills/technical-blog-writing;Technical blog post writing with structure, code examples, and developer audience conventions.
-dev-browser;sawyerhood/dev-browser;dev-browser;Automate browser tasks like navigation, form filling, and data scraping with persistent page state.
 property-based-testing;trailofbits/skills;main/plugins/property-based-testing/skills/property-based-testing;Guidance for property-based testing across multiple languages and smart contracts.
-tsdown;rolldown/tsdown;tsdown;Bundle TypeScript and JavaScript libraries quickly with Rolldown.
-simplify;brianlovin/claude-config;simplify;Simplify and refine recently modified code for clarity and consistency.
 modern-python;trailofbits/skills;main/plugins/modern-python/skills/modern-python;Sets up modern Python projects with uv, ruff, and ty for efficient development.
+dev-browser;sawyerhood/dev-browser;dev-browser;Automate browser tasks like navigation, form filling, and data scraping with persistent page state.
 cargo-fuzz;trailofbits/skills;main/plugins/testing-handbook-skills/skills/cargo-fuzz;A fuzzing tool for Rust projects using Cargo and libFuzzer.
 atheris;trailofbits/skills;main/plugins/testing-handbook-skills/skills/atheris;A coverage-guided Python fuzzer based on libFuzzer for testing Python code and C extensions.
 libfuzzer;trailofbits/skills;main/plugins/testing-handbook-skills/skills/libfuzzer;A coverage-guided fuzzer for C/C++ projects using LLVM.
 libafl;trailofbits/skills;main/plugins/testing-handbook-skills/skills/libafl;A modular fuzzing library for building custom fuzzers with custom mutators.
 dwarf-expert;trailofbits/skills;main/plugins/dwarf-expert/skills/dwarf-expert;Analyzes DWARF debug files and understands the DWARF debug format/standard (v3-v5).
+tsdown;rolldown/tsdown;tsdown;Bundle TypeScript and JavaScript libraries quickly with Rolldown.
+simplify;brianlovin/claude-config;simplify;Simplify and refine recently modified code for clarity and consistency.
+fix-review;trailofbits/skills;;A skill for fixing and reviewing code issues to improve code quality and maintainability.
 dead-code;parcadei/continuous-claude-v3;dead-code;Find unused functions and dead code in the codebase.
 github-search;parcadei/continuous-claude-v3;github-search;Search GitHub code, repositories, issues, and PRs via MCP.
 ast-grep-find;parcadei/continuous-claude-v3;ast-grep-find;Find and refactor code using AST-based search with ast-grep MCP.
 debug-hooks;parcadei/continuous-claude-v3;debug-hooks;A systematic workflow for debugging React hooks that aren't firing correctly or producing expected outputs.
-fix-review;trailofbits/skills;;A skill for fixing and reviewing code issues to improve code quality and maintainability.
 react-native-testing;callstack/react-native-testing-library;react-native-testing;Write tests using React Native Testing Library (RNTL) v13 and v14 for React Native component testing.
+second-opinion;trailofbits/skills;main/plugins/second-opinion/skills/second-opinion;Runs external LLM code reviews on uncommitted changes, branch diffs, or specific commits using OpenAI Codex or Google Gemini CLI.
+git-cleanup;trailofbits/skills;main/plugins/git-cleanup/skills/git-cleanup;Safely analyzes and cleans up local git branches and worktrees by categorizing them as merged, squash-merged, superseded, or active work.
 next-upgrade;vercel-labs/next-skills;next-upgrade;Upgrade Next.js to the latest version using official guides and codemods.
+using-gh-cli;trailofbits/skills;;Guidance and workflows for using the GitHub Command Line Interface (gh-cli) to manage repositories and automation.
+swiftui-liquid-glass;dimillian/skills;main/swiftui-liquid-glass;Implement or improve SwiftUI features using iOS 26+ Liquid Glass API.
 mgrep;mixedbread-ai/mgrep;mgrep;A CLI search tool that replaces built-in search functions like WebSearch, Grep, and Glob with enhanced capabilities.
 n8n-node-configuration;czlonkowski/n8n-skills;n8n-node-configuration;Guidance for n8n node configuration, covering property dependencies, required fields, detail levels, and common patterns.
 tdd;mattpocock/skills;main/tdd;Test-driven development with red-green-refactor loop for building features and fixing bugs using TDD methodology.
 n8n-code-javascript;czlonkowski/n8n-skills;n8n-code-javascript;Write and debug JavaScript code within n8n Code nodes using specific syntax and helpers.
-second-opinion;trailofbits/skills;main/plugins/second-opinion/skills/second-opinion;Runs external LLM code reviews on uncommitted changes, branch diffs, or specific commits using OpenAI Codex or Google Gemini CLI.
-git-cleanup;trailofbits/skills;main/plugins/git-cleanup/skills/git-cleanup;Safely analyzes and cleans up local git branches and worktrees by categorizing them as merged, squash-merged, superseded, or active work.
-using-gh-cli;trailofbits/skills;;Guidance and workflows for using the GitHub Command Line Interface (gh-cli) to manage repositories and automation.
 n8n-expression-syntax;czlonkowski/n8n-skills;n8n-expression-syntax;Validates n8n expression syntax and fixes common errors in workflow development.
 n8n-code-python;czlonkowski/n8n-skills;n8n-code-python;Write Python code in n8n Code nodes with support for standard library and syntax.
 wrangler;cloudflare/skills;main/skills/wrangler;Cloudflare Workers CLI for deploying, developing, and managing. Ensures syntax and best practices via Cloudflare docs.
 cloudflare;cloudflare/skills;main/skills/cloudflare;Cloudflare platform skill for Workers, Pages, storage, AI, networking, security, and IaC. Prioritizes official docs for development tasks.
+swiftui-ui-patterns;dimillian/skills;main/swiftui-ui-patterns;Provides best practices and examples for SwiftUI UI development, including tab architecture and component design.
 game-engine-resources;gmh5225/awesome-game-security;game-engine;A guide for game engine development resources including source code, plugins, and development guides for Unreal, Unity, Godot, and custom en
 create-docs;nuxt-content/docus;create-docs;Generates complete documentation sites for projects using Docus-based templates with search, dark mode, and LLM integration.
 graphics-api-hooking;gmh5225/awesome-game-security;graphics-api;A guide for graphics API hooking and rendering techniques for DirectX, OpenGL, and Vulkan.
+worktrunk;max-sixty/worktrunk;worktrunk;Guidance for Worktrunk, a CLI tool for managing Git worktrees. Covers configuration, hooks, usage, and troubleshooting for automation.
 senior-backend;alirezarezvani/claude-skills;;A skill for backend development tasks including REST API design, database optimization, and authentication.
-swiftui-ui-patterns;dimillian/skills;main/swiftui-ui-patterns;Provides best practices and examples for SwiftUI UI development, including tab architecture and component design.
-swiftui-liquid-glass;dimillian/skills;main/swiftui-liquid-glass;Implement or improve SwiftUI features using iOS 26+ Liquid Glass API.
+swiftui-view-refactor;dimillian/skills;main/swiftui-view-refactor;Refactor and review SwiftUI views for structure, dependency injection, and Observation usage.
+tech-stack-evaluator;alirezarezvani/claude-skills;;Evaluate technology stacks with TCO, security, and ecosystem scoring.
+tdd-guide;alirezarezvani/claude-skills;;A TDD guide for test-driven development with multi-framework support.
 code-review-expert;sanyuan0704/sanyuan-skills;code-review-expert;Expert code review of current git changes with a senior engineer lens. Detects SOLID violations, security risks, and proposes actionable imp
 design-patterns;tencentblueking/bk-ci;design-patterns;A guide to design patterns in BK-CI projects, covering factory, strategy, observer, decorator, and template method patterns.
+ios-debugger-agent;dimillian/skills;main/ios-debugger-agent;Debug iOS apps using XcodeBuildMCP for building, running, and launching on simulators.
 backend-microservice-development;tencentblueking/bk-ci;backend-microservice-development;A skill for backend microservice development with Spring Boot best practices.
-tech-stack-evaluator;alirezarezvani/claude-skills;;Evaluate technology stacks with TCO, security, and ecosystem scoring.
-stripe-best-practices;exceptionless/exceptionless;stripe-best-practices;Best practices for building Stripe integrations
-tdd-guide;alirezarezvani/claude-skills;;A TDD guide for test-driven development with multi-framework support.
+stripe-best-practices;exceptionless/exceptionless;stripe-best-practices;Best practices for building Stripe integrations.
+.net-conventions;exceptionless/exceptionless;dotnet-conventions;Provides .NET coding conventions and best practices for consistent development standards.
 unit-testing;tencentblueking/bk-ci;unit-testing;A guide for writing unit tests using JUnit5/MockK, covering test naming, mocking techniques, and TDD practices.
 api-interface-design;tencentblueking/bk-ci;api-interface-design;Design RESTful APIs with proper URL naming, HTTP methods, and error handling.
-.net-conventions;exceptionless/exceptionless;dotnet-conventions;Provides .NET coding conventions and best practices for consistent development standards.
 project-module-architecture;tencentblueking/bk-ci;project-module-architecture;A guide for project management module architecture including CRUD, member management, and configuration.
 common-technical-practices;tencentblueking/bk-ci;common-technical-practices;A guide for common backend development practices including AOP, distributed locks, retry mechanisms, and performance monitoring.
 utility-components;tencentblueking/bk-ci;utility-components;A guide for utility components including JWT auth, expression parser, thread pool tools, and chain of responsibility patterns.
-.net-cli;exceptionless/exceptionless;dotnet-cli;A CLI tool for .NET development tasks and project management
 threejs-fundamentals;cloudai-x/threejs-skills;threejs-fundamentals;A skill for setting up Three.js 3D scenes, including cameras, renderers, and object hierarchies.
+.net-cli;exceptionless/exceptionless;dotnet-cli;A CLI tool for .NET development tasks and project management
+swift-concurrency-expert;dimillian/skills;main/swift-concurrency-expert;Review and improve Swift concurrency usage for Swift 6.2+.
 typescript-conventions;exceptionless/exceptionless;typescript-conventions;TypeScript coding standards for Exceptionless frontend including naming, imports, error handling, and configuration.
 frontend-testing;exceptionless/exceptionless;frontend-testing;Unit and component testing for frontend with Vitest and Testing Library.
 releasenotes;exceptionless/exceptionless;releasenotes;Generates formatted changelogs from git history since the last release tag, categorizing changes into breaking, features, and fixes.
 svelte-code-writer;sveltejs/mcp;svelte-code-writer;CLI tools for Svelte 5 documentation lookup and code analysis. MUST be used whenever creating, editing or analyzing any Svelte component (.s
 browser;cexll/myclaude;browser;A skill for browser automation using Chrome DevTools Protocol (CDP), enabling tasks like navigation, JavaScript execution, and screenshot ca
 dev;cexll/myclaude;dev;A lightweight end-to-end development workflow with intelligent backend selection and 90% test coverage.
-swiftui-performance-audit;dimillian/skills;main/swiftui-performance-audit;Audit and improve SwiftUI runtime performance through code review and architecture analysis.
 commit-work;softaworks/agent-toolkit;commit-work;Helps create high-quality Git commits with clear messages and logical splits.
 mermaid-diagrams;softaworks/agent-toolkit;mermaid-diagrams;Create and visualize software diagrams using Mermaid syntax for various types like flowcharts, sequence diagrams, and UML.
 dependency-updater;softaworks/agent-toolkit;dependency-updater;Automatically manages dependencies for any language with smart updates and issue diagnosis.
 reducing-entropy;softaworks/agent-toolkit;reducing-entropy;A manual-only skill to minimize codebase size by biasing toward deletion.
 c4-architecture;softaworks/agent-toolkit;c4-architecture;Generate C4 model Mermaid diagrams for architecture documentation.
 stripe-best-practices;stripe/ai;stripe-best-practices;Best practices for building Stripe integrations.
-swiftui-view-refactor;dimillian/skills;main/swiftui-view-refactor;Refactor and review SwiftUI views for structure, dependency injection, and Observation usage.
-swift-concurrency-expert;dimillian/skills;main/swift-concurrency-expert;Review and improve Swift concurrency usage for Swift 6.2+.
+macos-spm-app-packaging;dimillian/skills;main/macos-spm-app-packaging;Scaffold, build, and package SwiftPM-based macOS apps without Xcode.
+app-store-changelog;dimillian/skills;main/app-store-changelog;Generate App Store release notes from git changes.
 angular-di;analogjs/angular-skills;angular-di;Implement Angular dependency injection with inject(), tokens, and provider config for service architecture.
-ios-debugger-agent;dimillian/skills;main/ios-debugger-agent;Debug iOS apps using XcodeBuildMCP for building, running, and launching on simulators.
 video-transcript-downloader;steipete/agent-scripts;video-transcript-downloader;Download videos, audio, subtitles, and transcripts from YouTube and other yt-dlp supported sites.
 naming-analyzer;softaworks/agent-toolkit;naming-analyzer;Analyzes and suggests better naming conventions for variables, functions, and classes.
 react-useeffect;softaworks/agent-toolkit;react-useeffect;Best practices for React useEffect hook usage, including when not to use it and better alternatives.
 openapi-to-typescript;softaworks/agent-toolkit;openapi-to-typescript;Converts OpenAPI 3.0 JSON/YAML to TypeScript interfaces and type guards.
+gh-issue-fix-flow;dimillian/skills;;Automates the workflow for tracking and fixing GitHub issues efficiently.
 create-cli;steipete/agent-scripts;create-cli;Design CLI parameters, UX, and behavior for consistent and discoverable command-line interfaces.
 markdown-converter;steipete/agent-scripts;markdown-converter;Convert various file formats including PDF, DOCX, PPTX, XLSX, HTML, CSV, JSON, XML, images, audio, ZIP, YouTube, and EPUB to Markdown for LL
 swiftui-liquid-glass;steipete/agent-scripts;swiftui-liquid-glass;Implement or improve SwiftUI features using iOS 26+ Liquid Glass API.
@@ -746,60 +756,50 @@ instruments-profiling;steipete/agent-scripts;instruments-profiling;Profiling nat
 swiftui-performance-audit;steipete/agent-scripts;swiftui-performance-audit;Audit and improve SwiftUI runtime performance through code review and architecture analysis.
 oracle;steipete/agent-scripts;oracle;CLI tool for bundling prompts with files and getting second-model reviews for debugging, refactoring, design checks, or cross-validation.
 convex;waynesutton/convexskills;convex;A skill for managing Convex development patterns including functions, realtime, and agents.
-app-store-changelog;dimillian/skills;main/app-store-changelog;Generate App Store release notes from git changes.
-macos-spm-app-packaging;dimillian/skills;main/macos-spm-app-packaging;Scaffold, build, and package SwiftPM-based macOS apps without Xcode.
 pinia-best-practices;hyf0/vue-skills;;A skill focused on best practices for Pinia, a state management library for Vue.js.
-backend-development;mrgoonie/claudekit-skills;backend-development;Build robust backend systems with modern tech stack including Node.js, Python, Go, Rust, and frameworks like NestJS, FastAPI, Django.
-angular-testing;analogjs/angular-skills;angular-testing;Write unit/integration tests for Angular v20+ apps using Vitest/Jasmine. Covers components, services, HTTP, signals, mocking. No E2E.
-chrome-devtools;mrgoonie/claudekit-skills;chrome-devtools;Automate browser tasks, debug, and analyze performance using Puppeteer CLI scripts.
-angular-tooling;analogjs/angular-skills;angular-tooling;Assists with Angular CLI operations for v20+ projects, including setup, code generation, building, testing, and configuration optimization.
 create-mcp-app;modelcontextprotocol/ext-apps;create-mcp-app;Provides comprehensive guidance for building MCP Apps with interactive UIs, including scaffolding, UI-resource registration, lifecycle manag
-linear-cli;schpet/linear-cli;linear-cli;A CLI tool for managing Linear issues from the command line.
-durable-objects;cloudflare/skills;main/skills/durable-objects;Assists in creating and reviewing Cloudflare Durable Objects code. Covers stateful coordination, Workers, SQLite, WebSockets, Wrangler, and
-code-review;llama-farm/llamafarm;code-review;Comprehensive code review for diffs analyzing security vulnerabilities, anti-patterns, and quality issues with auto-detection of domain from
+backend-development;mrgoonie/claudekit-skills;backend-development;Build robust backend systems with modern tech stack including Node.js, Python, Go, Rust, and frameworks like NestJS, FastAPI, Django.
 github;dimillian/skills;main/github;Interact with GitHub via CLI for issues, PRs, CI runs, and API queries.
-playwright-skill;lackeyjb/playwright-skill;playwright-skill;Automate browser tasks with Playwright for testing websites and validating web functionality.
+linear-cli;schpet/linear-cli;linear-cli;A CLI tool for managing Linear issues from the command line.
+angular-testing;analogjs/angular-skills;angular-testing;Write unit/integration tests for Angular v20+ apps using Vitest/Jasmine. Covers components, services, HTTP, signals, mocking. No E2E.
+angular-tooling;analogjs/angular-skills;angular-tooling;Assists with Angular CLI operations for v20+ projects, including setup, code generation, building, testing, and configuration optimization.
+chrome-devtools;mrgoonie/claudekit-skills;chrome-devtools;Automate browser tasks, debug, and analyze performance using Puppeteer CLI scripts.
+durable-objects;cloudflare/skills;main/skills/durable-objects;Assists in creating and reviewing Cloudflare Durable Objects code. Covers stateful coordination, Workers, SQLite, WebSockets, Wrangler, and
 cartography;alvinunreal/oh-my-opencode-slim;cartography;Repository understanding and hierarchical codemap generation for codebase analysis and architecture visualization.
+code-review;llama-farm/llamafarm;code-review;Comprehensive code review for diffs analyzing security vulnerabilities, anti-patterns, and quality issues with auto-detection of domain from
+playwright-skill;lackeyjb/playwright-skill;playwright-skill;Automate browser tasks with Playwright for testing websites and validating web functionality.
 mermaid-visualizer;axtonliu/axton-obsidian-visual-skills;;Convert text into professional Mermaid diagrams for documentation and presentations.
 code-review;mrgoonie/claudekit-skills;code-review;A skill for handling code review feedback with technical rigor and verification gates.
 media-processing;mrgoonie/claudekit-skills;media-processing;Process multimedia files using FFmpeg and ImageMagick for encoding, conversion, and effects.
 debugging;mrgoonie/claudekit-skills;debugging;A systematic debugging framework for finding and fixing bugs with root cause analysis and verification protocols.
-shopify;mrgoonie/claudekit-skills;shopify;Build Shopify applications, extensions, and themes using GraphQL/REST APIs, Shopify CLI, Polaris UI components, and Liquid templating.
-mermaidjs-v11;mrgoonie/claudekit-skills;mermaidjs-v11;Generate various diagrams and visualizations using Mermaid.js v11 syntax with CLI support.
-codebase-summary;mikeyobrien/ralph-orchestrator;;Generates a summary of a codebase to help understand its structure and content.
 clerk;clerk/skills;main/skills/clerk;Routes requests to Clerk auth tasks: setup, sign-in flows, iOS/Swift auth, Next.js patterns, and user management.
+shopify;mrgoonie/claudekit-skills;shopify;Build Shopify applications, extensions, and themes using GraphQL/REST APIs, Shopify CLI, Polaris UI components, and Liquid templating.
+apify-actor-development;apify/agent-skills;apify-actor-development;Develop, debug, and deploy Apify Actors for web scraping and automation tasks.
+mermaidjs-v11;mrgoonie/claudekit-skills;mermaidjs-v11;Generate various diagrams and visualizations using Mermaid.js v11 syntax with CLI support.
+migrate-oai-app;modelcontextprotocol/ext-apps;migrate-oai-app;Guides migration from OpenAI Apps SDK to MCP Apps SDK with API mapping tables and step-by-step instructions.
+codebase-summary;mikeyobrien/ralph-orchestrator;;Generates a summary of a codebase to help understand its structure and content.
 migrate-from-openai-app;modelcontextprotocol/ext-apps;;Migrate from OpenAI app to alternative AI services and APIs
-migrate-nativewind-to-uniwind;uni-stack/uniwind;migrate-nativewind-to-uniwind;Migrate React Native projects from NativeWind to Uniwind, handling package removal, config migration, Tailwind 4 upgrade, and breaking chang
 agent-device;callstackincubator/agent-device;agent-device;Automates interactions for iOS simulators/devices and Android emulators/devices for app navigation, screenshots, tapping, typing, scrolling,
+javascript-sdk;tul-sh/skills;main/sdk/javascript-sdk;JavaScript/TypeScript SDK for inference.sh - run AI apps, build agents, integrate 150+ models with full TypeScript support, streaming, and f
+migrate-nativewind-to-uniwind;uni-stack/uniwind;migrate-nativewind-to-uniwind;Migrate React Native projects from NativeWind to Uniwind, handling package removal, config migration, Tailwind 4 upgrade, and breaking chang
+rust-best-practices;apollographql/skills;main/skills/rust-best-practices;A guide for writing idiomatic Rust code based on Apollo GraphQL's best practices.
+python-executor;tul-sh/skills;main/tools/utilities/python-executor;Execute Python code safely with pre-installed libraries for data processing, web scraping, and automation.
 fumadocs-component-docs;theorcdev/8bitcn-ui;fumadocs-component-docs;Generate component documentation with installation, usage examples, and previews using FumaDocs.
 fumadocs-registry-integration;theorcdev/8bitcn-ui;fumadocs-registry-integration;Register 8-bit components in registry.json for shadcn/ui add command when adding new components to the component library distribution.
 nestjs-best-practices;kadajett/agent-nestjs-skills;;Provides NestJS best practices and architecture patterns for production-ready applications.
-workers-best-practices;cloudflare/skills;main/skills/workers-best-practices;Reviews and authors Cloudflare Workers code against production best practices, focusing on configuration and anti-pattern detection.
-playwright-best-practices;currents-dev/playwright-best-practices-skill;;Comprehensive guidance for writing, debugging, and maintaining Playwright tests in TypeScript with focus on best practices.
 upgrading-react-native;callstackincubator/agent-skills;upgrading-react-native;React Native upgrade workflow covering updated templates, dependencies, and common pitfalls for migrating apps to newer releases.
+workers-best-practices;cloudflare/skills;main/skills/workers-best-practices;Reviews and authors Cloudflare Workers code against production best practices, focusing on configuration and anti-pattern detection.
 upgrade-stripe;stripe/ai;upgrade-stripe;A guide for upgrading Stripe API versions and SDKs.
+playwright-best-practices;currents-dev/playwright-best-practices-skill;;Comprehensive guidance for writing, debugging, and maintaining Playwright tests in TypeScript with focus on best practices.
 code-review-analysis;aj-geddes/useful-ai-prompts;code-review-analysis;Performs comprehensive code reviews with best practices, security checks, and constructive feedback for pull requests.
 kotlin-multiplatform;vitorpamplona/amethyst;kotlin-multiplatform;Guides Kotlin Multiplatform project decisions on abstraction, source sets, and expect/actual patterns.
-apify-actor-development;apify/agent-skills;apify-actor-development;Develop, debug, and deploy Apify Actors for web scraping and automation tasks.
-rust-best-practices;apollographql/skills;main/skills/rust-best-practices;A guide for writing idiomatic Rust code based on Apollo GraphQL's best practices.
 unit-test-bean-validation;giuseppe-trisciuoglio/developer-kit;unit-test-bean-validation;Provides patterns for unit testing Jakarta Bean Validation with custom validators and constraint violations outside Spring context.
-compose-expert;vitorpamplona/amethyst;compose-expert;A skill for advanced Compose Multiplatform UI patterns and state management.
 swagger-doc-creator;jeremylongshore/claude-code-plugins-plus-skills;;Auto-activating skill for creating Swagger documentation for API development.
+compose-expert;vitorpamplona/amethyst;compose-expert;A skill for advanced Compose Multiplatform UI patterns and state management.
 pydantic;bobmatnyc/claude-mpm-skills;;Validate Python data using type hints and Pydantic v2 for high-performance validation in FastAPI and Django.
 review-code;catlog22/claude-code-workflow;review-code;Multi-dimensional code review with structured reports analyzing correctness, readability, performance, security, testing, and architecture.
 ts-library;onmax/nuxt-skills;ts-library;Assists in authoring TypeScript libraries and npm packages. Covers setup, build tooling, API design, testing, bundling, and publishing workf
+best-practices;addyosmani/web-quality-skills;best-practices;Apply modern web development best practices for security, compatibility, and code quality.
+rivetkit;rivet-dev/skills;main/rivetkit;Guidance for building, modifying, debugging, and testing Rivet Actors and serverless/runner modes.
 spec-kit-skill;feiskyer/claude-code-settings;spec-kit-skill;A GitHub integration for spec-driven development with a 7-phase workflow.
 actionbook-scraper;actionbook/actionbook;actionbook-scraper;Generate and validate web scraper scripts using Actionbook's verified selectors with auto-validation and error fixing.
-rivetkit;rivet-dev/skills;main/rivetkit;Guidance for building, modifying, debugging, and testing Rivet Actors and serverless/runner modes.
-writing-react-native-storybook-stories;storybookjs/react-native;writing-react-native-storybook-stories;Create and edit React Native Storybook stories using CSF format for component documentation and testing.
-lesson-learned;softaworks/agent-toolkit;lesson-learned;Analyze recent code changes via git history and extract software engineering lessons for user queries about learning from code.
-agentscope-java;agentscope-ai/agentscope-java;;Expert Java developer skill for AgentScope framework - reactive, message-driven multi-agent system built on Project Reactor.
-rust-learner;actionbook/actionbook;rust-learner;Learn Rust language features, crate updates, and ecosystem tools like Tokio, Serde, and Axum. Get help with Rust version changelogs, Cargo.t
-setup-react-native-storybook;storybookjs/react-native;setup-react-native-storybook;Set up Storybook for React Native projects across Expo, React Native CLI, and Re.Pack configurations with proper metro setup and routing.
-rivetkit-client-javascript;rivet-dev/skills;main/rivetkit-client-javascript;A JavaScript client for RivetKit to connect to Rivet Actors, supporting browser, Node.js, and Bun environments.
-convex-backend;cloudai-x/claude-workflow-v2;convex-backend;Guidelines for Convex backend development including functions, schemas, and real-time operations.
-react-native-expo;jezweb/claude-skills;;Develop mobile apps using React Native and Expo framework.
-code-review;skillcreatorai/ai-agent-skills;code-review;Automated code review for pull requests analyzing quality, security, and best practices.
-designing-architecture;cloudai-x/claude-workflow-v2;designing-architecture;Designs software architecture and selects appropriate patterns for projects.
-stripe-best-practices;stripe/agent-toolkit;stripe-best-practices;Best practices for building Stripe integrations.
-upgrade-stripe;stripe/agent-toolkit;upgrade-stripe;A guide for upgrading Stripe API versions and SDKs.

@@ -1,12 +1,14 @@
 # 标签：film (film)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 7
+- 命中技能: 9
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [storyboard-creation](https://github.com/inference-sh-9/skills/blob/main/skills/storyboard-creation/SKILL.md) | [inference-sh-9/skills](https://github.com/inference-sh-9/skills) | 影视视频分镜制作，涵盖镜头词汇、连续性规则和面板布局，用于视频规划和前期制作。 | 88 | 4.1K | 2026-03-03 | [内容创作 (content-creation)](content-creation.md), [规划 (planning)](planning.md), [video (video)](video.md), [film (film)](film.md), [animation (animation)](animation.md) |
+| [storyboard-creation](https://github.com/tul-sh/skills/blob/main/guides/video/storyboard-creation/SKILL.md) | [tul-sh/skills](https://github.com/tul-sh/skills) | 影视视频分镜制作，涵盖镜头词汇、连续性规则和面板布局，用于视频规划和前期制作。 | 95 | 915 | 2026-03-04 | [内容创作 (content-creation)](content-creation.md), [规划 (planning)](planning.md), [video (video)](video.md), [film (film)](film.md), [animation (animation)](animation.md) |
 | [storyboard-creation](https://github.com/1nfsh/s/blob/main/skills/storyboard-creation/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | 影视视频分镜制作，涵盖镜头词汇、连续性规则和面板布局，用于视频规划和前期制作。 | 0 | 96 | 2026-02-13 | [内容创作 (content-creation)](content-creation.md), [规划 (planning)](planning.md), [video (video)](video.md), [film (film)](film.md), [animation (animation)](animation.md) |
+| [storyboard-creation](https://github.com/inference-sh/skills/blob/main/guides/video/storyboard-creation/SKILL.md) | [inference-sh/skills](https://github.com/inference-sh/skills) | 影视视频分镜制作，涵盖镜头词汇、连续性规则和面板布局，用于视频规划和前期制作。 | 95 | 91 | 2026-03-04 | [内容创作 (content-creation)](content-creation.md), [规划 (planning)](planning.md), [video (video)](video.md), [film (film)](film.md), [animation (animation)](animation.md) |
 | [storyboard-creation](https://github.com/inference-sh-1/skills/blob/main/skills/storyboard-creation/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | 影视视频分镜制作，涵盖镜头词汇、连续性规则和面板布局，用于视频规划和前期制作。 | 30 | 70 | 2026-02-11 | [内容创作 (content-creation)](content-creation.md), [规划 (planning)](planning.md), [video (video)](video.md), [film (film)](film.md), [animation (animation)](animation.md) |
 | [storyboard-creation](https://github.com/1nfsh/skills/blob/main/skills/storyboard-creation/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | 影视视频分镜制作，涵盖镜头词汇、连续性规则和面板布局，用于视频规划和前期制作。 | 34 | 62 | 2026-02-18 | [内容创作 (content-creation)](content-creation.md), [规划 (planning)](planning.md), [video (video)](video.md), [film (film)](film.md), [animation (animation)](animation.md) |
 | [storyboard-creation](https://github.com/1nfsh-s3/skills/blob/main/skills/storyboard-creation/SKILL.md) | [1nfsh-s3/skills](https://github.com/1nfsh-s3/skills) | 影视视频分镜制作，涵盖镜头词汇、连续性规则和面板布局，用于视频规划和前期制作。 | 34 | 50 | 2026-02-18 | [内容创作 (content-creation)](content-creation.md), [规划 (planning)](planning.md), [video (video)](video.md), [film (film)](film.md), [animation (animation)](animation.md) |

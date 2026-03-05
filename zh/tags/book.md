@@ -1,11 +1,13 @@
 # 标签：book (book)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 11
+- 命中技能: 13
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [book-cover-design](https://github.com/inference-sh-9/skills/blob/main/skills/book-cover-design/SKILL.md) | [inference-sh-9/skills](https://github.com/inference-sh-9/skills) | 书籍封面设计，包含类型特定规范、排版规则和AI图像生成，适用于自出版和各种格式。 | 88 | 4K | 2026-03-03 | [内容创作 (content-creation)](content-creation.md), [branding (branding)](branding.md), [book (book)](book.md), [image generation (image-generation)](image-generation.md), [typography (typography)](typography.md) |
+| [book-cover-design](https://github.com/tul-sh/skills/blob/main/guides/design/book-cover-design/SKILL.md) | [tul-sh/skills](https://github.com/tul-sh/skills) | 书籍封面设计，包含类型特定规范、排版规则和AI图像生成，适用于自出版和各种格式。 | 95 | 919 | 2026-03-04 | [内容创作 (content-creation)](content-creation.md), [branding (branding)](branding.md), [book (book)](book.md), [image generation (image-generation)](image-generation.md), [typography (typography)](typography.md) |
+| [book-cover-design](https://github.com/inference-sh/skills/blob/main/guides/design/book-cover-design/SKILL.md) | [inference-sh/skills](https://github.com/inference-sh/skills) | 书籍封面设计，包含类型特定规范、排版规则和AI图像生成，适用于自出版和各种格式。 | 95 | 91 | 2026-03-04 | [内容创作 (content-creation)](content-creation.md), [branding (branding)](branding.md), [book (book)](book.md), [image generation (image-generation)](image-generation.md), [typography (typography)](typography.md) |
 | [ebook-analysis](https://github.com/jwynia/agent-skills/blob/main/skills/general/document-processing/analysis/ebook-analysis/SKILL.md) | [jwynia/agent-skills](https://github.com/jwynia/agent-skills) | 分析电子书以提取概念、实体和引用，并按类型或层级分类。 | 27 | 73 | 2026-02-24 | [分析 (analysis)](analysis.md), [document processing (document-processing)](document-processing.md), [book (book)](book.md), [epub (epub)](epub.md) |
 | [book-cover-design](https://github.com/1nfsh/skills/blob/main/skills/book-cover-design/SKILL.md) | [1nfsh/skills](https://github.com/1nfsh/skills) | 书籍封面设计，包含类型特定规范、排版规则和AI图像生成，适用于自出版和各种格式。 | 34 | 61 | 2026-02-18 | [内容创作 (content-creation)](content-creation.md), [branding (branding)](branding.md), [book (book)](book.md), [image generation (image-generation)](image-generation.md), [typography (typography)](typography.md) |
 | [book-cover-design](https://github.com/1nfsh-s3/skills/blob/main/skills/book-cover-design/SKILL.md) | [1nfsh-s3/skills](https://github.com/1nfsh-s3/skills) | 书籍封面设计，包含类型特定规范、排版规则和AI图像生成，适用于自出版和各种格式。 | 34 | 59 | 2026-02-18 | [内容创作 (content-creation)](content-creation.md), [branding (branding)](branding.md), [book (book)](book.md), [image generation (image-generation)](image-generation.md), [typography (typography)](typography.md) |

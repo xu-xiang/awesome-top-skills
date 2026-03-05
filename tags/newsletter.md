@@ -1,10 +1,12 @@
 # Tag: newsletter
 
 - Back: [Tags](README.md)
-- Tagged skills: 7
+- Tagged skills: 9
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
+| [newsletter-curation](https://github.com/tul-sh/skills/blob/main/guides/writing/newsletter-curation/SKILL.md) | [tul-sh/skills](https://github.com/tul-sh/skills) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 95 | 870 | 2026-03-04 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |
+| [newsletter-curation](https://github.com/inference-sh/skills/blob/main/guides/writing/newsletter-curation/SKILL.md) | [inference-sh/skills](https://github.com/inference-sh/skills) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 95 | 92 | 2026-03-04 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |
 | [newsletter-curation](https://github.com/1nfsh/s/blob/main/skills/newsletter-curation/SKILL.md) | [1nfsh/s](https://github.com/1nfsh/s) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 0 | 66 | 2026-02-13 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |
 | [newsletter-curation](https://github.com/inference-sh-4/skills/blob/main/skills/newsletter-curation/SKILL.md) | [inference-sh-4/skills](https://github.com/inference-sh-4/skills) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 32 | 53 | 2026-02-18 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |
 | [newsletter-curation](https://github.com/inference-sh-1/skills/blob/main/skills/newsletter-curation/SKILL.md) | [inference-sh-1/skills](https://github.com/inference-sh-1/skills) | Newsletter curation with content sourcing, editorial structure, and subscriber growth strategies. Covers issue formatting, link roundups, co | 30 | 52 | 2026-02-11 | [content-creation](content-creation.md), [email](email.md), [newsletter](newsletter.md), [content-planning](content-planning.md), [marketing](marketing.md) |

@@ -5,4 +5,4 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [yara-rule-authoring](https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md) | [trailofbits/skills](https://github.com/trailofbits/skills) | 编写高质量YARA-X规则以进行恶意软件检测。 | 3.1K | 384 | 2026-03-04 | [binary analysis (binary-analysis)](../../../tags/binary-analysis.md), [vulnerability analysis (vulnerability-analysis)](../../../tags/vulnerability-analysis.md), [rule (rule)](../../../tags/rule.md), [yara (yara)](../../../tags/yara.md) |
+| [yara-rule-authoring](https://github.com/trailofbits/skills/blob/main/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md) | [trailofbits/skills](https://github.com/trailofbits/skills) | 编写高质量YARA-X规则以进行恶意软件检测。 | 3.3K | 389 | 2026-03-04 | [binary analysis (binary-analysis)](../../../tags/binary-analysis.md), [vulnerability analysis (vulnerability-analysis)](../../../tags/vulnerability-analysis.md), [rule (rule)](../../../tags/rule.md), [yara (yara)](../../../tags/yara.md) |
