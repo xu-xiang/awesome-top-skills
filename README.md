@@ -4,7 +4,7 @@
 
 # Top Agent Skills
 
-![skills: 11,599](https://img.shields.io/badge/skills-11%2C599-2b6cb0) ![tags: 2,367](https://img.shields.io/badge/tags-2%2C367-805ad5) ![categories: 13](https://img.shields.io/badge/categories-13-0f766e) ![updated: 2026-03-05](https://img.shields.io/badge/updated-2026-03-05-374151)
+![skills: 11,739](https://img.shields.io/badge/skills-11%2C739-2b6cb0) ![tags: 2,371](https://img.shields.io/badge/tags-2%2C371-805ad5) ![categories: 13](https://img.shields.io/badge/categories-13-0f766e) ![updated: 2026-03-06](https://img.shields.io/badge/updated-2026-03-06-374151)
 
 **Global Discovery · Automated Updates · Precise Classification**
 
@@ -18,61 +18,61 @@ The definitive collection of AI Agent Skills, automatically curated from across 
 
 | Category | Skills | Top tags |
 | - | -: | - |
-| [ai-llm](categories/ai-llm/README.md) | 2,081 | agents (380), tooling (279), content-creation (212), workflows (206), llm-optimization (190) |
-| [dev](categories/dev/README.md) | 2,367 | best-practices (457), coding (380), backend (338), api (275), testing (240) |
-| [web](categories/web/README.md) | 1,073 | frontend (550), react (210), ui (175), best-practices (140), api (130) |
-| [devops](categories/devops/README.md) | 788 | deployment (244), automation (158), monitoring (143), ci-cd (142), configuration (92) |
-| [data](categories/data/README.md) | 532 | data-analysis (225), databases (194), data-management (109), visualization (59), query-optimization (54) |
-| [research](categories/research/README.md) | 264 | data-analysis (93), analysis (86), academic-papers (69), bioinformatics (55), literature-review (52) |
-| [security](categories/security/README.md) | 392 | auth (95), vulnerability-analysis (95), appsec (83), audit (72), vuln-scanning (72) |
-| [productivity](categories/productivity/README.md) | 460 | task-management (130), automation (95), content-creation (84), planning (70), workflows (69) |
-| [design](categories/design/README.md) | 463 | ui (184), ux (160), design-systems (135), content-creation (94), image-generation (90) |
-| [product](categories/product/README.md) | 173 | planning (95), product-analytics (89), prd (44), strategy (36), user-research (27) |
-| [business](categories/business/README.md) | 583 | marketing (224), finance (121), strategy (114), sales (72), analysis (68) |
-| [other](categories/other/README.md) | 250 | workflows (95), task-management (59), tooling (52), automation (42), planning (27) |
-| [pending](categories/pending/README.md) | 2,173 | pending (2173) |
+| [ai-llm](categories/ai-llm/README.md) | 2,110 | agents (390), tooling (278), content-creation (210), workflows (210), llm-optimization (194) |
+| [dev](categories/dev/README.md) | 2,436 | best-practices (475), coding (388), backend (341), api (282), testing (247) |
+| [web](categories/web/README.md) | 1,085 | frontend (553), react (215), ui (178), best-practices (143), api (130) |
+| [devops](categories/devops/README.md) | 795 | deployment (244), automation (161), ci-cd (145), monitoring (144), configuration (93) |
+| [data](categories/data/README.md) | 540 | data-analysis (226), databases (196), data-management (108), visualization (59), query-optimization (55) |
+| [research](categories/research/README.md) | 272 | data-analysis (93), analysis (87), academic-papers (70), bioinformatics (55), literature-review (52) |
+| [security](categories/security/README.md) | 398 | auth (96), vulnerability-analysis (95), appsec (83), vuln-scanning (73), audit (72) |
+| [productivity](categories/productivity/README.md) | 470 | task-management (130), automation (97), content-creation (87), planning (74), workflows (71) |
+| [design](categories/design/README.md) | 470 | ui (189), ux (164), design-systems (137), content-creation (94), image-generation (90) |
+| [product](categories/product/README.md) | 176 | planning (97), product-analytics (89), prd (46), strategy (36), user-research (27) |
+| [business](categories/business/README.md) | 592 | marketing (227), finance (122), strategy (116), sales (73), analysis (69) |
+| [other](categories/other/README.md) | 254 | workflows (96), task-management (59), tooling (53), automation (43), planning (27) |
+| [pending](categories/pending/README.md) | 2,141 | pending (2141) |
 
 ## Popular Tags
 
 | Tag | Skills |
 | - | -: |
-| [pending](tags/pending.md) | 2,173 |
-| [best-practices](tags/best-practices.md) | 941 |
-| [frontend](tags/frontend.md) | 809 |
-| [api](tags/api.md) | 738 |
-| [automation](tags/automation.md) | 713 |
-| [tooling](tags/tooling.md) | 678 |
-| [backend](tags/backend.md) | 582 |
-| [content-creation](tags/content-creation.md) | 568 |
-| [workflows](tags/workflows.md) | 568 |
-| [coding](tags/coding.md) | 486 |
-| [ui](tags/ui.md) | 455 |
-| [agents](tags/agents.md) | 428 |
-| [documentation](tags/documentation.md) | 420 |
-| [cli](tags/cli.md) | 414 |
-| [analysis](tags/analysis.md) | 414 |
-| [data-analysis](tags/data-analysis.md) | 406 |
-| [architecture](tags/architecture.md) | 391 |
-| [planning](tags/planning.md) | 385 |
-| [databases](tags/databases.md) | 380 |
-| [marketing](tags/marketing.md) | 365 |
-| [testing](tags/testing.md) | 354 |
-| [task-management](tags/task-management.md) | 347 |
-| [deployment](tags/deployment.md) | 341 |
-| [react](tags/react.md) | 332 |
-| [mobile](tags/mobile.md) | 277 |
-| [writing](tags/writing.md) | 273 |
-| [python](tags/python.md) | 265 |
-| [setup](tags/setup.md) | 255 |
-| [code-review](tags/code-review.md) | 251 |
-| [configuration](tags/configuration.md) | 250 |
-| [debugging](tags/debugging.md) | 231 |
-| [optimization](tags/optimization.md) | 219 |
-| [performance](tags/performance.md) | 217 |
-| [claude](tags/claude.md) | 214 |
-| [finance](tags/finance.md) | 212 |
+| [pending](tags/pending.md) | 2,141 |
+| [best-practices](tags/best-practices.md) | 969 |
+| [frontend](tags/frontend.md) | 815 |
+| [api](tags/api.md) | 748 |
+| [automation](tags/automation.md) | 731 |
+| [tooling](tags/tooling.md) | 684 |
+| [backend](tags/backend.md) | 584 |
+| [workflows](tags/workflows.md) | 582 |
+| [content-creation](tags/content-creation.md) | 569 |
+| [coding](tags/coding.md) | 495 |
+| [ui](tags/ui.md) | 466 |
+| [agents](tags/agents.md) | 441 |
+| [documentation](tags/documentation.md) | 432 |
+| [cli](tags/cli.md) | 424 |
+| [analysis](tags/analysis.md) | 421 |
+| [data-analysis](tags/data-analysis.md) | 409 |
+| [architecture](tags/architecture.md) | 398 |
+| [planning](tags/planning.md) | 392 |
+| [databases](tags/databases.md) | 383 |
+| [marketing](tags/marketing.md) | 367 |
+| [testing](tags/testing.md) | 362 |
+| [task-management](tags/task-management.md) | 351 |
+| [deployment](tags/deployment.md) | 343 |
+| [react](tags/react.md) | 337 |
+| [mobile](tags/mobile.md) | 281 |
+| [writing](tags/writing.md) | 274 |
+| [python](tags/python.md) | 266 |
+| [setup](tags/setup.md) | 262 |
+| [configuration](tags/configuration.md) | 262 |
+| [code-review](tags/code-review.md) | 258 |
+| [debugging](tags/debugging.md) | 236 |
+| [optimization](tags/optimization.md) | 222 |
+| [performance](tags/performance.md) | 219 |
+| [claude](tags/claude.md) | 218 |
+| [finance](tags/finance.md) | 215 |
 | [image-generation](tags/image-generation.md) | 209 |
-| [data-management](tags/data-management.md) | 206 |
-| [ux](tags/ux.md) | 204 |
-| [design-systems](tags/design-systems.md) | 203 |
-| [typescript](tags/typescript.md) | 202 |
+| [ux](tags/ux.md) | 208 |
+| [typescript](tags/typescript.md) | 206 |
+| [data-management](tags/data-management.md) | 205 |
+| [strategy](tags/strategy.md) | 205 |

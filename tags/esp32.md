@@ -1,10 +1,12 @@
 # Tag: esp32
 
 - Back: [Tags](README.md)
-- Tagged skills: 3
+- Tagged skills: 5
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
+| [home-assistant-esphome](https://github.com/bradsjm/hassio-addons/blob/master/addon-opencode/skills/home-assistant-esphome/SKILL.md) | [bradsjm/hassio-addons](https://github.com/bradsjm/hassio-addons) | Workflows for ESPHome and Home Assistant integration: provisioning, adoption, entity naming, encryption, OTA updates, and YAML generation. | 38 | 100 | 2026-02-22 | [workflows](workflows.md), [configuration](configuration.md), [home-assistant](home-assistant.md), [esp32](esp32.md) |
+| [esp32-rust-embedded](https://github.com/psytraxx/esp32-homecontrol-no-std-rs/blob/main/.claude/skills/esp32-rust-embedded/SKILL.md) | [psytraxx/esp32-homecontrol-no-std-rs](https://github.com/psytraxx/esp32-homecontrol-no-std-rs) | Expert Rust development for ESP32 using no-std and Embassy. Covers sensors, power, WiFi, MQTT, and async patterns for embedded projects. | 2 | 22 | 2026-02-17 | [coding](coding.md), [debugging](debugging.md), [esp32](esp32.md), [rust](rust.md) |
 | [arduino-project-builder](https://github.com/wedsamuel1230/arduino-skills/blob/main/skills/arduino-project-builder/SKILL.md) | [wedsamuel1230/arduino-skills](https://github.com/wedsamuel1230/arduino-skills) | Build complete, production-ready Arduino projects with multi-component systems, sensors, actuators, communication protocols, and board-speci | 5 | 21 | 2026-02-01 | [build-tools](build-tools.md), [automation](automation.md), [embedded-systems](embedded-systems.md), [arduino](arduino.md), [esp32](esp32.md), [raspberry-pi](raspberry-pi.md) |
 | [esp32-serial-commands](https://github.com/h1d/agent-skills-esp32/blob/main/skills/esp32-serial-commands/SKILL.md) | [h1d/agent-skills-esp32](https://github.com/h1d/agent-skills-esp32) | Send commands to ESP32 and microcontrollers via serial port for automated testing, stress testing, and debugging without physical interactio | 5 | 21 | 2026-01-25 | [automation](automation.md), [testing](testing.md), [esp32](esp32.md), [microcontrollers](microcontrollers.md) |
 | [esp-idf](https://github.com/synqing/k1.hardware/blob/feat/mcp-rag-bootstrap/.claude/skills/ESP-IDF/SKILL.md) | [synqing/k1.hardware](https://github.com/synqing/k1.hardware) | ESP32 Integrated Development Framework documentation covering I2S, GPIO, FreeRTOS, peripherals, and ESP32S3-specific APIs. | 5 | 21 | 2025-11-11 | [documentation](documentation.md), [embedded-systems](embedded-systems.md), [esp32](esp32.md), [freertos](freertos.md) |

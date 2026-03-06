@@ -1,10 +1,12 @@
 # 标签：software development (software-development)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 3
+- 命中技能: 5
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [task-planning](https://github.com/supercent-io/skills-template/blob/main/.agent-skills/task-planning/SKILL.md) | [supercent-io/skills-template](https://github.com/supercent-io/skills-template) | 有效规划和组织软件开发任务，包括任务分解、用户故事和冲刺计划。 | 21 | 5K | 2026-03-05 | [规划 (planning)](planning.md), [任务管理 (task-management)](task-management.md), [项目管理](project-management.md), [software development (software-development)](software-development.md) |
+| [task-planning](https://github.com/supercent-io/skills-template/blob/main/.agent-skills/task-planning/SKILL.md) | [supercent-io/skills-template](https://github.com/supercent-io/skills-template) | 有效规划和组织软件开发任务，包括任务分解、用户故事和冲刺计划。 | 24 | 5K | 2026-03-05 | [规划 (planning)](planning.md), [任务管理 (task-management)](task-management.md), [项目管理](project-management.md), [software development (software-development)](software-development.md) |
+| [n-version-workflow](https://github.com/rysweet/amplihack/blob/main/.claude/skills/n-version-workflow/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) | 为关键实现生成 N 个独立方案并通过比较选择最佳方案。 | 29 | 58 | 2026-03-06 | [代码生成](code-generation.md), [工作流 (workflows)](workflows.md), [quality management (quality-management)](quality-management.md), [software development (software-development)](software-development.md), [AI coding (ai-coding)](ai-coding.md) |
 | [wshobson-api-design-principles](https://github.com/smithery/ai) | [smithery/ai](https://github.com/smithery/ai) | 设计高效且一致 API 的指南与原则。 | 0 | 26 |  | [API](api.md), [最佳实践 (best-practices)](best-practices.md), [software development (software-development)](software-development.md), [web development (web-development)](web-development.md) |
+| [bdd-principles](https://github.com/thebushidocollective/han/blob/main/plugins/patterns/bdd/skills/bdd-principles/SKILL.md) | [thebushidocollective/han](https://github.com/thebushidocollective/han) | 涵盖行为驱动开发核心概念、理念及三方协作实践。 | 101 | 25 | 2026-03-03 | [测试 (testing)](testing.md), [最佳实践 (best-practices)](best-practices.md), [agile (agile)](agile.md), [software development (software-development)](software-development.md) |
 | [architecture-patterns](https://github.com/miles990/claude-software-skills/blob/main/software-design/architecture-patterns/SKILL.md) | [miles990/claude-software-skills](https://github.com/miles990/claude-software-skills) | 软件架构模式和最佳实践 | 5 | 24 | 2026-01-20 | [架构 (architecture)](architecture.md), [最佳实践 (best-practices)](best-practices.md), [software development (software-development)](software-development.md), [design patterns (design-patterns)](design-patterns.md) |

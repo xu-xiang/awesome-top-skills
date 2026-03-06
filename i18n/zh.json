@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-03-05T05:47:29.539Z",
+  "generated_at": "2026-03-06T05:44:32.903Z",
   "categories": {
     "ai-llm": {
       "zh": "AI/LLM（大模型）",
@@ -3296,6 +3296,10 @@
       "zh": "gaap",
       "bilingual": true
     },
+    "gadget": {
+      "zh": "gadget",
+      "bilingual": true
+    },
     "gallery": {
       "zh": "gallery",
       "bilingual": true
@@ -4728,6 +4732,10 @@
       "zh": "lsp",
       "bilingual": true
     },
+    "lua": {
+      "zh": "lua",
+      "bilingual": true
+    },
     "lwc": {
       "zh": "lwc",
       "bilingual": true
@@ -5502,6 +5510,10 @@
     },
     "nsfc": {
       "zh": "nsfc",
+      "bilingual": true
+    },
+    "nuget": {
+      "zh": "nuget",
       "bilingual": true
     },
     "numpy": {
@@ -6866,6 +6878,10 @@
     },
     "resemble-ai": {
       "zh": "resemble AI",
+      "bilingual": true
+    },
+    "resend": {
+      "zh": "resend",
       "bilingual": true
     },
     "resilience": {

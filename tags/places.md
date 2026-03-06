@@ -5,5 +5,5 @@
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [goplaces](https://github.com/steipete/clawdis/blob/main/skills/goplaces/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | Query Google Places API via goplaces CLI for text search, place details, reviews with human-friendly or JSON output. | 261K | 103 | 2026-03-05 | [api](api.md), [cli](cli.md), [query](query.md), [google](google.md), [places](places.md) |
-| [local-places](https://github.com/steipete/clawdis) | [steipete/clawdis](https://github.com/steipete/clawdis) | A skill for handling local places and location-based services | 261K | 22 | 2026-03-05 | [places](places.md), [workflows](workflows.md), [tooling](tooling.md) |
+| [goplaces](https://github.com/steipete/clawdis/blob/main/skills/goplaces/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | Query Google Places API via goplaces CLI for text search, place details, reviews with human-friendly or JSON output. | 267K | 105 | 2026-03-06 | [api](api.md), [cli](cli.md), [query](query.md), [google](google.md), [places](places.md) |
+| [local-places](https://github.com/steipete/clawdis) | [steipete/clawdis](https://github.com/steipete/clawdis) | A skill for handling local places and location-based services | 267K | 22 | 2026-03-06 | [places](places.md), [workflows](workflows.md), [tooling](tooling.md) |

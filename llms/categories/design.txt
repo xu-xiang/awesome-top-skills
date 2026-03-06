@@ -3,6 +3,7 @@ URL_TEMPLATE: https://raw.githubusercontent.com/{repo}/main/skills/{path}/SKILL.
 COLUMNS: id;repo;path;summary
 
 ## DESIGN SKILLS (TOP 800)
+content-design;n8n-io/n8n;content-design;Product content designer for UI copy. Helps write, review, and audit user-facing text like buttons, errors, tooltips, and onboarding flows.
 web-design-guidelines;langgenius/dify;;Provides guidelines for web design practices and principles.
 canvas-design;anthropics/skills;main/skills/canvas-design;Create beautiful visual art and designs in PNG and PDF formats using design principles.
 theme-factory;anthropics/skills;main/skills/theme-factory;A toolkit for applying themes to various artifacts like slides and documents.
@@ -51,8 +52,8 @@ ui-ux-pro-max;sickn33/antigravity-awesome-skills;ui-ux-pro-max;UI/UX design inte
 mobile-design;sickn33/antigravity-awesome-skills;mobile-design;Mobile-first design and engineering doctrine for iOS and Android apps, covering interaction, performance, and platform conventions.
 frontend-design;sickn33/antigravity-awesome-skills;frontend-design;Create distinctive frontend interfaces with intentional aesthetics and non-generic visual identity for web UIs, components, and applications
 web-design-guidelines;sickn33/antigravity-awesome-skills;web-design-guidelines;Reviews UI code for web interface guidelines compliance, focusing on accessibility and design best practices.
-canvas-design;sickn33/antigravity-awesome-skills;canvas-design;Create beautiful visual art and designs in PNG and PDF formats using design principles.
 ui-ux-designer;sickn33/antigravity-awesome-skills;ui-ux-designer;A UI/UX designer skill for creating user interfaces and experiences.
+canvas-design;sickn33/antigravity-awesome-skills;canvas-design;Create beautiful visual art and designs in PNG and PDF formats using design principles.
 core-components;sickn33/antigravity-awesome-skills;core-components;A core component library and design system for building consistent UIs with design tokens.
 algorithmic-art;sickn33/antigravity-awesome-skills;algorithmic-art;Generate algorithmic art using p5.js with seeded randomness and interactive parameters.
 theme-factory;sickn33/antigravity-awesome-skills;theme-factory;A toolkit for applying themes to various artifacts like slides and documents.
@@ -60,8 +61,8 @@ brand-guidelines;sickn33/antigravity-awesome-skills;;Applies Anthropic's brand g
 tailwind-design-system;sickn33/antigravity-awesome-skills;tailwind-design-system;Create scalable design systems and component libraries using Tailwind CSS and design tokens.
 stitch-ui-design;sickn33/antigravity-awesome-skills;stitch-ui-design;Expert guide for creating effective prompts for Google Stitch AI UI design tool. Covers prompt structure, specificity techniques, iteration
 design-orchestration;sickn33/antigravity-awesome-skills;design-orchestration;Orchestrates design workflows through brainstorming, review, and execution readiness.
-ui-skills;sickn33/antigravity-awesome-skills;ui-skills;Opinionated constraints to guide agents when building interfaces
 nanobanana-ppt-skills;sickn33/antigravity-awesome-skills;nanobanana-ppt-skills;AI-powered PPT generation with document analysis and styled images
+ui-skills;sickn33/antigravity-awesome-skills;ui-skills;Opinionated constraints to guide agents when building interfaces
 kpi-dashboard-design;sickn33/antigravity-awesome-skills;kpi-dashboard-design;Design effective KPI dashboards with metrics selection and visualization best practices.
 design-md;sickn33/antigravity-awesome-skills;design-md;Analyze Stitch projects and generate semantic design systems in DESIGN.md files.
 figma-automation;sickn33/antigravity-awesome-skills;figma-automation;Automate Figma tasks via Rube MCP (Composio): files, components, design tokens, comments, exports. Always search tools first for current sch
@@ -73,8 +74,8 @@ frontend-design;everyinc/compound-engineering-plugin;frontend-design;Creates hig
 art;danielmiessler/personal_ai_infrastructure;Art;Complete visual content system for creating illustrations, diagrams, infographics and other visual assets
 frontend-slides;zarazhangrui/frontend-slides;;Creates animation-rich HTML presentations from scratch or by converting PowerPoint files, helping non-designers achieve visual aesthetics.
 frontend-ui-ux;yeachan-heo/oh-my-claudecode;;A skill for creating stunning UI/UX designs without design mockups.
-design-md;google-labs-code/stitch-skills;design-md;Analyze Stitch projects and generate semantic design systems in DESIGN.md files.
 remotion;google-labs-code/stitch-skills;remotion;Generate walkthrough videos from Stitch projects using Remotion with smooth transitions, zooming, and text overlays
+design-md;google-labs-code/stitch-skills;design-md;Analyze Stitch projects and generate semantic design systems in DESIGN.md files.
 pptx-posters;k-dense-ai/claude-scientific-skills;;Create research posters in PPTX format using HTML/CSS with responsive layouts.
 quick-mockups;civitai/civitai;quick-mockups;Create multiple UI design mockups in parallel using HTML, Mantine v7, and Tailwind.
 interface-design;dammyjay93/interface-design;interface-design;A skill for designing interfaces including dashboards, admin panels, apps, and interactive products.
@@ -100,17 +101,30 @@ social-media-carousel;inference-sh-9/skills;main/skills/social-media-carousel;Mu
 product-photography;inference-sh-9/skills;main/skills/product-photography;AI-powered product photography skill for generating professional product images with studio lighting, lifestyle shots, and e-commerce standa
 youtube-thumbnail-design;inference-sh-9/skills;main/skills/youtube-thumbnail-design;YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face
 logo-design-guide;inference-sh-9/skills;main/skills/logo-design-guide;Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules
+agentation-self-driving;benjitaylor/agentation;agentation-self-driving;Autonomous AI agent for design critique. Auto-annotates web pages via browser toolbar to review UI or add design feedback.
 ui-ux-pro-max;likaia/nginxpulse;ui-ux-pro-max;Comprehensive UI/UX design skill with 50 styles, 21 palettes, multiple framework support (React, Vue, etc.) for websites, apps, and various
 implement-design;figma/mcp-server-guide;implement-design;Implement Figma designs into production-ready code with visual fidelity.
 ui-design-system;alirezarezvani/claude-skills;;A UI design system toolkit for senior designers including design tokens, component docs, responsive design, and dev handoff tools.
 ux-researcher-designer;alirezarezvani/claude-skills;;A UX research and design toolkit for senior designers, including persona generation, journey mapping, and usability testing.
 implementing-figma-designs;onekeyhq/app-monorepo;implementing-figma-designs;Implement Figma designs using OneKey component library for UI development.
 excalidraw-diagram;axtonliu/axton-obsidian-visual-skills;;Generate Excalidraw diagrams from text with multiple output formats.
-ui-ux-pro-max;kimny1143/claude-code-template;ui-ux-pro-max;AI skill for UI/UX design intelligence. Plans, builds, and improves UI/UX code for landing pages, dashboards, SaaS, and mobile apps.
 superdesign;superdesigndev/superdesign-skill;superdesign;Design agent for frontend UI/UX. Creates projects, drafts, and components via CLI. Supports iteration, context files, and line ranges.
+ui-ux-pro-max;kimny1143/claude-code-template;ui-ux-pro-max;AI skill for UI/UX design intelligence. Plans, builds, and improves UI/UX code for landing pages, dashboards, SaaS, and mobile apps.
 macos-design-guidelines;ehmo/platform-design-skills;macos;Provides Apple's macOS design guidelines for SwiftUI and AppKit app development.
 aesthetic;mrgoonie/claudekit-skills;aesthetic;Create aesthetically beautiful interfaces using design principles and AI tools.
+character-design-sheet;tul-sh/skills;main/guides/design/character-design-sheet;Create character consistency sheets for AI image generation with reference materials, LoRA techniques, turnaround views, expressions, and co
+youtube-thumbnail-design;tul-sh/skills;main/guides/design/youtube-thumbnail-design;YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face
+email-design;tul-sh/skills;main/guides/design/email-design;Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails,
+social-media-carousel;tul-sh/skills;main/guides/social/social-media-carousel;Multi-slide carousel design for Instagram, LinkedIn, and Twitter with layout rules and hooks. Covers slide structure, text hierarchy, swipe
+app-store-screenshots;tul-sh/skills;main/guides/design/app-store-screenshots;Create App Store and Google Play screenshots with exact platform specifications including iOS/Android dimensions, device mockups, and previe
+logo-design-guide;tul-sh/skills;main/guides/design/logo-design-guide;Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules
 product-designer;borghei/claude-skills;;Expert product design covering UI/UX design, design systems, prototyping, user research, and design thinking.
+book-cover-design;tul-sh/skills;main/guides/design/book-cover-design;Book cover design with genre-specific conventions, typography rules, and AI image generation for self-publishing and various formats.
+og-image-design;tul-sh/skills;main/guides/design/og-image-design;Design Open Graph and social sharing images with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn
+storyboard-creation;tul-sh/skills;main/guides/video/storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
+landing-page-design;tul-sh/skills;main/guides/design/landing-page-design;Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof
+explainer-video-guide;tul-sh/skills;main/guides/video/explainer-video-guide;Explainer video production guide covering scripting, voiceover, visuals, and assembly with multi-tool pipelines.
+product-photography;tul-sh/skills;main/guides/photo/product-photography;AI-powered product photography skill for generating professional product images with studio lighting, lifestyle shots, and e-commerce standa
 8-bit-pixel-art-patterns;theorcdev/8bitcn-ui;8-bit-pixel-art-patterns;Create pixelated borders, shadows, and effects for 8-bit retro components with authentic pixel art aesthetics.
 ui-animation;mblode/agent-skills;ui-animation;Guidelines and examples for UI motion and animation covering design, implementation, and review of motion, easing, timing, and reduced-motio
 svg-icon-generator;jeremylongshore/claude-code-plugins-plus-skills;;Auto-activating skill for generating SVG icons as part of Visual Content category
@@ -118,42 +132,31 @@ openscad;mitsuhiko/agent-stuff;openscad;Create and render OpenSCAD 3D models wit
 frontend-design;jwynia/agent-skills;tech/frontend/design/frontend-design;Create high-quality frontend interfaces with design tools for palettes, typography, and components.
 motion;jezweb/claude-skills;;Motion design and animation skill for creating dynamic user interfaces and visual effects.
 color-palette;jezweb/claude-skills;color-palette;Generate accessible color palettes from a single brand hex with 11-shade scale, semantic tokens, and dark mode variants.
-anti-render;lionad-morotar/anti-render-skill;anti-render;Generates visual contrasts between ideal promises and harsh realities across any domain using three distinct visual styles.
 logo-creator;resciencelab/opc-skills;logo-creator;Create logos using AI image generation with style discussion, variations, user feedback iteration, cropping, background removal, and SVG exp
+anti-render;lionad-morotar/anti-render-skill;anti-render;Generates visual contrasts between ideal promises and harsh realities across any domain using three distinct visual styles.
 design-master;huangserva/skill-prompt-generator;;A skill for mastering design principles and practices.
 banner-creator;resciencelab/opc-skills;banner-creator;Create banners using AI image generation with format/style discussion, variations, user feedback iteration, and target ratio cropping.
-social-media-carousel;tul-sh/skills;main/guides/social/social-media-carousel;Multi-slide carousel design for Instagram, LinkedIn, and Twitter with layout rules and hooks. Covers slide structure, text hierarchy, swipe
-landing-page-design;tul-sh/skills;main/guides/design/landing-page-design;Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof
-og-image-design;tul-sh/skills;main/guides/design/og-image-design;Design Open Graph and social sharing images with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn
-youtube-thumbnail-design;tul-sh/skills;main/guides/design/youtube-thumbnail-design;YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face
-email-design;tul-sh/skills;main/guides/design/email-design;Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails,
 icon-design;jezweb/claude-skills;;Provides guidance and tools for creating icons, focusing on visual assets and UI design elements.
-book-cover-design;tul-sh/skills;main/guides/design/book-cover-design;Book cover design with genre-specific conventions, typography rules, and AI image generation for self-publishing and various formats.
-storyboard-creation;tul-sh/skills;main/guides/video/storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
-logo-design-guide;tul-sh/skills;main/guides/design/logo-design-guide;Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules
-explainer-video-guide;tul-sh/skills;main/guides/video/explainer-video-guide;Explainer video production guide covering scripting, voiceover, visuals, and assembly with multi-tool pipelines.
-app-store-screenshots;tul-sh/skills;main/guides/design/app-store-screenshots;Create App Store and Google Play screenshots with exact platform specifications including iOS/Android dimensions, device mockups, and previe
-character-design-sheet;tul-sh/skills;main/guides/design/character-design-sheet;Create character consistency sheets for AI image generation with reference materials, LoRA techniques, turnaround views, expressions, and co
+draw-io;softaworks/agent-toolkit;draw-io;Create, edit, and review draw.io diagrams with XML editing, PNG conversion, and AWS icon support.
+excalidraw;softaworks/agent-toolkit;excalidraw;Handles Excalidraw diagram operations and visualizations for architecture and flowcharts.
+design-system-starter;softaworks/agent-toolkit;design-system-starter;Create and evolve design systems with design tokens, component architecture, accessibility guidelines, and documentation templates.
 ui-design;tencentcloudbase/cloudbase-mcp;ui-design;A skill for creating professional UI designs and frontend interfaces with high aesthetic quality.
 web-design-guidelines;skillcreatorai/ai-agent-skills;web-design-guidelines;Provides modern web design principles for responsive layouts, accessibility, and visual hierarchy.
-product-photography;tul-sh/skills;main/guides/photo/product-photography;AI-powered product photography skill for generating professional product images with studio lighting, lifestyle shots, and e-commerce standa
 canvas-design;skillcreatorai/ai-agent-skills;canvas-design;Create beautiful visual art and designs in PNG and PDF formats using design principles.
 algorithmic-art;skillcreatorai/ai-agent-skills;algorithmic-art;Create algorithmic art using p5.js with seeded randomness and interactive parameters.
 brand-guidelines;skillcreatorai/ai-agent-skills;brand-guidelines;Applies brand colors and typography to artifacts for consistent branded content.
 theme-factory;skillcreatorai/ai-agent-skills;theme-factory;A toolkit for applying themes to various artifacts like slides and documents.
-excalidraw;softaworks/agent-toolkit;excalidraw;Handles Excalidraw diagram operations and visualizations for architecture and flowcharts.
-draw-io;softaworks/agent-toolkit;draw-io;Create, edit, and review draw.io diagrams with XML editing, PNG conversion, and AWS icon support.
-design-system-starter;softaworks/agent-toolkit;design-system-starter;Create and evolve design systems with design tokens, component architecture, accessibility guidelines, and documentation templates.
 create-design-system-rules;figma/mcp-server-guide;create-design-system-rules;Generates custom design system rules for codebases, especially for Figma-to-code workflows.
 moai-domain-uiux;modu-ai/moai-adk;moai-domain-uiux;Specialist in UI/UX design systems, accessibility, icons, theming, and user experience patterns.
+moai-tool-svg;modu-ai/moai-adk;moai-tool-svg;SVG specialist for creating, optimizing (SVGO), and transforming vector graphics, icons, data visualizations, and animations.
 gemini-logo-remover;bear2u/my-skills;gemini-logo-remover;Remove Gemini logos, watermarks, or AI-generated image markers using OpenCV inpainting for clean image output.
 ui-designer;daymade/claude-code-skills;;Generate UI design prompts and design systems from reference UI images.
 code-connect-components;figma/mcp-server-guide;code-connect-components;Connects Figma design components to code components using Code Connect for seamless design-to-code mapping.
 axiom-liquid-glass;charleswiltgen/axiom;axiom-liquid-glass;A skill for implementing and reviewing Liquid Glass effects in UI design, with guidance from WWDC 2025.
 axiom-hig-ref;charleswiltgen/axiom;axiom-hig-ref;A comprehensive reference for Apple's Human Interface Guidelines, covering UI elements, design principles, and platform-specific considerati
-ui-mobile;alinaqi/claude-bootstrap;ui-mobile;A skill for creating mobile UI patterns using React Native and touch targets for iOS/Android.
 axiom-hig;charleswiltgen/axiom;axiom-hig;A skill for making design decisions and ensuring UI compliance with Apple's Human Interface Guidelines.
 axiom-typography-ref;charleswiltgen/axiom;axiom-typography-ref;Provides Apple platform typography reference for San Francisco fonts and text styles.
+ui-mobile;alinaqi/claude-bootstrap;ui-mobile;A skill for creating mobile UI patterns using React Native and touch targets for iOS/Android.
 design;subframeapp/subframe;design;Design UI pages in Subframe for creating, iterating, and exploring design options as visual starting points before implementation.
 user-journeys;alinaqi/claude-bootstrap;user-journeys;A skill for mapping user journeys and validating UX flows.
 ios-design-guidelines;ehmo/platform-design-skills;ios;Provides Apple's Human Interface Guidelines for iOS UI design, focusing on SwiftUI/UIKit interfaces and HIG compliance.
@@ -163,98 +166,99 @@ design-lab;0xdesign/design-plugin;design-lab;Conduct design interviews, generate
 refactoring-ui;wondelai/skills;main/refactoring-ui;A practical UI design system based on Refactoring UI, useful for creating and improving user interfaces, web components, dashboards, and lan
 figma-use;dannote/figma-use;;Control Figma via CLI to create and modify designs, automate design tasks like creating shapes, frames, components, and exporting images.
 android-design-guidelines;ehmo/platform-design-skills;android;Provides Android design guidelines for Material Design 3 and Jetpack Compose.
+premium-frontend-design;kv0906/cc-skills;;Create award-winning, cinematic frontend interfaces with WebGL and custom shaders for high-end aesthetics.
 rams;brianlovin/claude-config;rams;Review UI components for accessibility and visual design compliance with WCAG standards.
-tech-logos;crafter-station/elements;tech-logos;Install official tech brand logos from Elements registry for tech companies, AI providers, and social platforms.
 design-systems;refoundai/lenny-skills;design-systems;Helps users build and scale design systems, including component libraries and brand consistency.
 design-engineering;refoundai/lenny-skills;design-engineering;Helps users understand and build design engineering capabilities, including creating functions, hiring engineers, and bridging design and en
 running-design-reviews;refoundai/lenny-skills;running-design-reviews;Helps run effective design reviews and critiques for teams discussing design work.
+tech-logos;crafter-station/elements;tech-logos;Install official tech brand logos from Elements registry for tech companies, AI providers, and social platforms.
+ui-design;tencentcloudbase/skills;main/skills/ui-design;A skill for creating professional UI designs and frontend interfaces with high aesthetic quality.
 ui-ux-pro-max;guanyang/antigravity-skills;ui-ux-pro-max;Comprehensive UI/UX design skill with 50 styles, 21 palettes, multiple framework support (React, Vue, etc.) for websites, apps, and various
 smart-illustrator;axtonliu/smart-illustrator;;Smart Illustrator: AI-powered image generation for articles, PPT slides, and covers with multiple modes and customizable output.
 ipados-design-guidelines;ehmo/platform-design-skills;ipados;Provides Apple's iPad design guidelines for building optimized interfaces and supporting multitasking features.
 ux-designer;aj-geddes/claude-code-bmad-skills;;UX Designer skill for creating user experiences, wireframes, user flows with accessibility focus and responsive design principles.
 watchos-design-guidelines;ehmo/platform-design-skills;watchos;Provides Apple Watch design guidelines for UI, Digital Crown, and glanceable interfaces.
-presentation-design;jwynia/agent-skills;general/communication/presentation-design;Design and evaluate effective presentations with slides, talks, and feedback.
 tvos-design-guidelines;ehmo/platform-design-skills;tvos;Provides Apple TV design guidelines for focus-based navigation and media playback.
+presentation-design;jwynia/agent-skills;general/communication/presentation-design;Design and evaluate effective presentations with slides, talks, and feedback.
 ux-heuristics;wondelai/skills;main/ux-heuristics;Apply UX heuristics from Steve Krug and Jakob Nielsen for UI audits, usability problem identification, navigation improvement, and design va
 visionos-design-guidelines;ehmo/platform-design-skills;visionos;Provides Apple's Human Interface Guidelines for Vision Pro app development, focusing on spatial computing and immersive experiences.
-ui-design;tencentcloudbase/skills;main/skills/ui-design;A skill for creating professional UI designs and frontend interfaces with high aesthetic quality.
-ios-hig-design;wondelai/skills;main/ios-hig-design;Design native iOS apps using Apple's Human Interface Guidelines with SwiftUI/UIKit components.
 wireframe-prototyping;aj-geddes/useful-ai-prompts;wireframe-prototyping;Create wireframes and interactive prototypes for user interface visualization and early feedback gathering.
+ios-hig-design;wondelai/skills;main/ios-hig-design;Design native iOS apps using Apple's Human Interface Guidelines with SwiftUI/UIKit components.
 emilkowal-animations;pproenca/dot-skills;.experimental/emilkowal-animations;Best practices for web interface animations using React, CSS, and Framer Motion.
 brand-analyzer;ailabs-393/ai-labs-claude-skills;brand-analyzer;Analyze brand elements and create actionable brand guidelines.
 anthropics-frontend-design;smithery/ai;;Frontend design skill for Anthropic projects
+infographic-creator;antvis/chart-visualization-skills;infographic-creator;Create beautiful infographics from text content.
 mobile-first-design;aj-geddes/useful-ai-prompts;mobile-first-design;Design interfaces optimized for mobile devices first, ensuring seamless responsiveness across all screen sizes.
 frontend-design;smithery/ai;;A skill for frontend design tasks.
 design-motion-principles;kylezantos/design-engineer-auditor-package;design-motion-principles;Audits motion and interaction design using techniques from Emil Kowalski, Jakub Krehel, and Jhey Tompkins.
-infographic-creator;antvis/chart-visualization-skills;infographic-creator;Create beautiful infographics from text content.
-ux-writing;content-designer/ux-writing-skill;;Create user-centered interface copy for digital products with accessibility and clarity standards.
+figma;hoodini/ai-agents-skills;figma;Integrate with Figma API for design automation and code generation.
 canvas-design;aiskillstore/marketplace;canvas-design;Create beautiful visual art and designs in PNG and PDF formats using design principles.
 algorithmic-art;aiskillstore/marketplace;algorithmic-art;Generate algorithmic art using p5.js with seeded randomness and interactive parameters.
+ux-writing;content-designer/ux-writing-skill;;Create user-centered interface copy for digital products with accessibility and clarity standards.
 theme-factory;aiskillstore/marketplace;theme-factory;A toolkit for applying themes to various artifacts like slides and documents.
 brand-guidelines;aiskillstore/marketplace;brand-guidelines;Applies Anthropic's brand guidelines including colors and typography to artifacts.
 color-accessibility;aj-geddes/useful-ai-prompts;color-accessibility;Create accessible color palettes for users with color blindness, ensuring sufficient contrast and inclusive design.
 design-everyday-things;wondelai/skills;main/design-everyday-things;Based on Don Norman's principles. Design affordances, analyze confusion, apply constraints, design feedback, and create intuitive models for
 excalidraw;ooiyeefei/ccc;excalidraw;Generate architecture diagrams as .excalidraw files from codebase analysis, with optional PNG/SVG export for visualizing code structures.
 web-design-guidelines;dmmulroy/overseer;web-design-guidelines;Reviews UI code for web interface guidelines compliance, focusing on accessibility and design best practices.
+anthropics-frontend-design;smithery.ai;;Frontend design skill for Anthropic projects
+information-architecture;aj-geddes/useful-ai-prompts;information-architecture;Design navigation systems and information structures for clarity and discoverability.
 atomic-design-fundamentals;thebushidocollective/han;atomic-design-fundamentals;Apply Atomic Design methodology to organize UI components into quarks, atoms, molecules, organisms, templates, and pages.
 design-motion-principles;kylezantos/design-motion-principles;design-motion-principles;Audits motion and interaction design using techniques from Emil Kowalski, Jakub Krehel, and Jhey Tompkins.
-information-architecture;aj-geddes/useful-ai-prompts;information-architecture;Design navigation systems and information structures for clarity and discoverability.
-bencium-innovative-ux-designer;bencium/bencium-claude-code-design-skill;bencium-innovative-ux-designer;Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI
 design-system-creation;aj-geddes/useful-ai-prompts;design-system-creation;Create comprehensive design systems with components, patterns, and guidelines for consistent design and development.
+bencium-innovative-ux-designer;bencium/bencium-claude-code-design-skill;bencium-innovative-ux-designer;Create distinctive, production-grade frontend interfaces with high design quality. Generates creative, polished code that avoids generic AI
 app-icon;code-with-beto/skills;main/plugins/cwb-app-icon/skills/app-icon;Generate app icons for React Native Expo apps with iOS support.
+resend-design-skills;resend/design-skills;;Provides access to Resend design resources including brand guidelines, visual identity, UI components, and design tokens.
 dashboard-patterns;yonatangross/orchestkit;;Dashboard patterns for UI/UX design and development
-ui-ux-pro-max;binjuhor/shadcn-lar;ui-ux-pro-max;Frontend UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings, and support for multiple frameworks like React, Vue, and F
-resend-design-skills;resend/design-skills;;Access Resend design resources including brand guidelines and visual identity.
 design-handoff;aj-geddes/useful-ai-prompts;design-handoff;Helps prepare design assets and documentation for efficient development handoff.
+ui-ux-pro-max;binjuhor/shadcn-lar;ui-ux-pro-max;Frontend UI/UX design intelligence with 50 styles, 21 palettes, 50 font pairings, and support for multiple frameworks like React, Vue, and F
 interaction-design;aj-geddes/useful-ai-prompts;interaction-design;Design meaningful interactions and microinteractions for delightful user experiences.
 kpi-dashboard-design;aj-geddes/useful-ai-prompts;kpi-dashboard-design;Design and build dashboards to track KPIs, select metrics, visualize data, and communicate insights.
-anthropics-frontend-design;smithery.ai;;Frontend design skill for Anthropic projects
 frontend-design-pro;binjuhor/shadcn-lar;frontend-design-pro;Creates stunning frontend interfaces with real photos or custom image prompts.
-animation-designer;daffy0208/ai-dev-standards;animation-designer;A skill for creating web animations and motion designs using Framer Motion and CSS.
 app-store-screenshots;inference-sh/skills;main/guides/design/app-store-screenshots;Create App Store and Google Play screenshots with exact platform specifications including iOS/Android dimensions, device mockups, and previe
-figma;hoodini/ai-agents-skills;figma;Integrate with Figma API for design automation and code generation.
-marketing-visual-design;vasilyu1983/ai-agents-public;marketing-visual-design;Create visual marketing assets for ads, social media, email, presentations, and brand collateral with AI tools and best practices.
 youtube-thumbnail-design;inference-sh/skills;main/guides/design/youtube-thumbnail-design;YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face
 landing-page-design;inference-sh/skills;main/guides/design/landing-page-design;Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof
-book-cover-design;inference-sh/skills;main/guides/design/book-cover-design;Book cover design with genre-specific conventions, typography rules, and AI image generation for self-publishing and various formats.
 social-media-carousel;inference-sh/skills;main/guides/social/social-media-carousel;Multi-slide carousel design for Instagram, LinkedIn, and Twitter with layout rules and hooks. Covers slide structure, text hierarchy, swipe
+book-cover-design;inference-sh/skills;main/guides/design/book-cover-design;Book cover design with genre-specific conventions, typography rules, and AI image generation for self-publishing and various formats.
 storyboard-creation;inference-sh/skills;main/guides/video/storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
-character-design-sheet;inference-sh/skills;main/guides/design/character-design-sheet;Create character consistency sheets for AI image generation with reference materials, LoRA techniques, turnaround views, expressions, and co
-ui-design;pproenca/dot-skills;.curated/ui-design;A skill for UI/UX and frontend design best practices, focusing on accessibility, performance, and usability.
-drawio-flowchart;teachingai/full-stack-skills;drawio-flowchart;Comprehensive guidance for draw.io flowcharts including creation, shapes, connectors, and diagramming for visualizing workflows and process
-og-image-design;inference-sh/skills;main/guides/design/og-image-design;Design Open Graph and social sharing images with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn
-product-photography;inference-sh/skills;main/guides/photo/product-photography;AI-powered product photography skill for generating professional product images with studio lighting, lifestyle shots, and e-commerce standa
 logo-design-guide;inference-sh/skills;main/guides/design/logo-design-guide;Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules
 explainer-video-guide;inference-sh/skills;main/guides/video/explainer-video-guide;Explainer video production guide covering scripting, voiceover, visuals, and assembly with multi-tool pipelines.
+animation-designer;daffy0208/ai-dev-standards;animation-designer;A skill for creating web animations and motion designs using Framer Motion and CSS.
+character-design-sheet;inference-sh/skills;main/guides/design/character-design-sheet;Create character consistency sheets for AI image generation with reference materials, LoRA techniques, turnaround views, expressions, and co
+og-image-design;inference-sh/skills;main/guides/design/og-image-design;Design Open Graph and social sharing images with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn
 email-design;inference-sh/skills;main/guides/design/email-design;Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails,
-pencil-to-code;phrazzld/claude-config;;Convert Pencil design files to React and Tailwind code.
+drawio-flowchart;teachingai/full-stack-skills;drawio-flowchart;Comprehensive guidance for draw.io flowcharts including creation, shapes, connectors, and diagramming for visualizing workflows and process
+product-photography;inference-sh/skills;main/guides/photo/product-photography;AI-powered product photography skill for generating professional product images with studio lighting, lifestyle shots, and e-commerce standa
+ui-design;pproenca/dot-skills;.curated/ui-design;A skill for UI/UX and frontend design best practices, focusing on accessibility, performance, and usability.
+marketing-visual-design;vasilyu1983/ai-agents-public;marketing-visual-design;Create visual marketing assets for ads, social media, email, presentations, and brand collateral with AI tools and best practices.
 drawio-architecture;teachingai/full-stack-skills;drawio-architecture;Comprehensive guidance for draw.io architecture diagrams including diagram creation, shapes, templates, and collaboration features.
 ios-hig;johnrogers/claude-swift-engineering;ios-hig;A skill for designing iOS interfaces with HIG compliance, including accessibility, dark mode, and touch targets.
+pencil-to-code;phrazzld/claude-config;;Convert Pencil design files to React and Tailwind code.
+icon-retrieval;antvis/chart-visualization-skills;icon-retrieval;Retrieve icon SVG strings from a library with customizable results.
 mapbox-cartography;mapbox/mapbox-agent-skills;mapbox-cartography;Guidance on map design principles, color theory, and cartographic best practices for creating effective and beautiful maps with Mapbox.
 web-design-guidelines;vercel-labs/agent-eval;web-design-guidelines;Reviews UI code for web interface guidelines compliance, focusing on accessibility and design best practices.
-icon-retrieval;antvis/chart-visualization-skills;icon-retrieval;Retrieve icon SVG strings from a library with customizable results.
-ui-ux-polish;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;ui-ux-polish;A skill for iterative UI/UX polishing to achieve high visual quality in web apps.
 youtube-thumbnail;kenneth-liao/ai-launchpad-marketplace;;A skill for creating and editing YouTube thumbnails optimized for click-through rate.
+ui-ux-polish;dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations;ui-ux-polish;A skill for iterative UI/UX polishing to achieve high visual quality in web apps.
 ux-audit-rethink;mastepanoski/claude-skills;ux-audit-rethink;Comprehensive UX audit using IxDF's 7 factors, 5 usability characteristics, and 5 interaction dimensions with redesign proposals.
-mobile-ux-optimizer;erichowens/some_claude_skills;mobile-ux-optimizer;Mobile-first UX optimization for touch interfaces, responsive layouts, and performance with viewport handling, touch targets, gestures, and
 design;rshankras/claude-code-apple-skills;design;Create modern Apple platform UI with design system skills including Liquid Glass and animations.
+mobile-ux-optimizer;erichowens/some_claude_skills;mobile-ux-optimizer;Mobile-first UX optimization for touch interfaces, responsive layouts, and performance with viewport handling, touch targets, gestures, and
 apple-hig-designer;jamesrochabrun/skills;main/skills/apple-hig-designer;Design iOS apps following Apple's Human Interface Guidelines with native components and accessibility compliance.
 ui-ux-pro-max;jmerta/codex-skills;;Design and refine frontend UI/UX with visual systems, typography, and stack best practices for React, Vue, Flutter, and Tailwind.
 motion-animation-patterns;yonatangross/orchestkit;;Provides motion animation patterns for UI/UX design and development
-landing-page-designer;eddiebe147/claude-settings;;A skill for designing landing pages with a focus on UI/UX and frontend design.
 color-theory-palette-harmony-expert;erichowens/some_claude_skills;color-theory-palette-harmony-expert;Expert in color theory, palette harmony, and perceptual color science for computational photo composition with advanced optimization techniq
 macos-app-design;petekp/agent-skills;macos-app-design;A skill for designing native macOS apps with SwiftUI or AppKit, focusing on UI elements and user experience.
 software-ui-ux-design;vasilyu1983/ai-agents-public;software-ui-ux-design;Design or audit UI/UX, run accessibility reviews, define design systems, improve flows and conversion across platforms.
-architecture-design;thebushidocollective/han;;Architecture design skill for planning and structuring system designs with best practices.
-graphic-designer;thepexcel/agent-skills;;Designs graphics for thumbnails, social media, banners, and presentations using design principles and research-backed techniques.
-atomic-design-atoms;thebushidocollective/han;atomic-design-atoms;Creates atomic-level UI components like buttons and icons. Serves as the smallest building blocks for a design system.
-premium-frontend-design;kv0906/cc-skills;;Create award-winning, cinematic frontend interfaces with WebGL and custom shaders for high-end aesthetics.
 chrome-extension-ui;pproenca/dot-skills;.experimental/chrome-extension-ui;Chrome Extensions UX/UI design and implementation guidelines for popups, side panels, content scripts, and options pages with Chrome API int
+architecture-design;thebushidocollective/han;;Architecture design skill for planning and structuring system designs with best practices.
+atomic-design-atoms;thebushidocollective/han;atomic-design-atoms;Creates atomic-level UI components like buttons and icons. Serves as the smallest building blocks for a design system.
+landing-page-designer;eddiebe147/claude-settings;;A skill for designing landing pages with a focus on UI/UX and frontend design.
+graphic-designer;thepexcel/agent-skills;;Designs graphics for thumbnails, social media, banners, and presentations using design principles and research-backed techniques.
+designing-beautiful-websites;tristanmanchester/agent-skills;;Designs UX/UI for websites and web apps including strategy, architecture, flows, wireframes, and visual systems.
 pencil-renderer;phrazzld/claude-config;;Renders DNA codes into Pencil .pen frames for visual exploration.
 character-sprite;paulrobello/claude-office;character-sprite;Generate character sprite sheets for agents with consistent design. Creates animation frames (idle, walking) using iterative workflows.
-landing-page-design;1nfsh/s;landing-page-design;Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof
-web-design-expert;erichowens/some_claude_skills;web-design-expert;Creates unique web designs with brand identity, color palettes, typography, and modern UI/UX patterns for brand identity development and vis
 book-illustrator;jamesrochabrun/skills;main/skills/book-illustrator;A guide for children's book illustrators focusing on age-appropriate styles, character design, and visual storytelling.
+web-design-expert;erichowens/some_claude_skills;web-design-expert;Creates unique web designs with brand identity, color palettes, typography, and modern UI/UX patterns for brand identity development and vis
+landing-page-design;1nfsh/s;landing-page-design;Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof
 ui-design-review;mastepanoski/claude-skills;ui-design-review;Comprehensive UI design review and assessment tool analyzing visual elements like typography, color, spacing, and hierarchy for professional
 youtube-thumbnail-design;inference-sh-4/skills;main/skills/youtube-thumbnail-design;YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face
 ui-ux-pro-max;cin12211/orca-q;ui-ux-pro-max;Comprehensive UI/UX design skill with 50 styles, 21 palettes, multiple framework support (React, Vue, etc.) for websites, apps, and various
@@ -263,31 +267,31 @@ character-design-sheet;1nfsh/skills;main/skills/character-design-sheet;Create ch
 product-photography;1nfsh/skills;main/skills/product-photography;AI-powered product photography skill for generating professional product images with studio lighting, lifestyle shots, and e-commerce standa
 social-media-carousel;inference-sh-1/skills;main/skills/social-media-carousel;Multi-slide carousel design for Instagram, LinkedIn, and Twitter with layout rules and hooks. Covers slide structure, text hierarchy, swipe
 explainer-video-guide;inference-sh-1/skills;main/skills/explainer-video-guide;Explainer video production guide covering scripting, voiceover, visuals, and assembly with multi-tool pipelines.
+sound-engineer;erichowens/some_claude_skills;sound-engineer;Expert in spatial audio, procedural sound design, game audio middleware, and app UX sound design. Specializes in HRTF/Ambisonics, Wwise/FMOD
 app-store-screenshots;1nfsh-s3/skills;main/skills/app-store-screenshots;Create App Store and Google Play screenshots with exact platform specifications including iOS/Android dimensions, device mockups, and previe
 explainer-video-guide;1nfsh-s3/skills;main/skills/explainer-video-guide;Explainer video production guide covering scripting, voiceover, visuals, and assembly with multi-tool pipelines.
 email-design;1nfsh/skills;main/skills/email-design;Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails,
 social-media-carousel;1nfsh/s;social-media-carousel;Multi-slide carousel design for Instagram, LinkedIn, and Twitter with layout rules and hooks. Covers slide structure, text hierarchy, swipe
-sound-engineer;erichowens/some_claude_skills;sound-engineer;Expert in spatial audio, procedural sound design, game audio middleware, and app UX sound design. Specializes in HRTF/Ambisonics, Wwise/FMOD
 landing-page-design;1nfsh/skills;main/skills/landing-page-design;Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof
-bencium-controlled-ux-designer;bencium/bencium-claude-code-design-skill;;Expert UI/UX design guidance for unique, accessible interfaces with visual decisions on colors, typography, and layouts.
 voice-audio-engineer;erichowens/some_claude_skills;voice-audio-engineer;Expert in voice synthesis, TTS, voice cloning, podcast production, speech processing, and voice UI design via ElevenLabs integration.
-og-image-design;inference-sh-1/skills;main/skills/og-image-design;Design Open Graph and social sharing images with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn
+bencium-controlled-ux-designer;bencium/bencium-claude-code-design-skill;;Expert UI/UX design guidance for unique, accessible interfaces with visual decisions on colors, typography, and layouts.
 interactive-fiction;jwynia/agent-skills;creative/fiction/application/interactive-fiction;Diagnose branching narrative problems in interactive fiction. Address meaningless choices, unmanageable branching, and conflicts between pla
+og-image-design;inference-sh-1/skills;main/skills/og-image-design;Design Open Graph and social sharing images with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn
 character-design-sheet;1nfsh/s;character-design-sheet;Create character consistency sheets for AI image generation with reference materials, LoRA techniques, turnaround views, expressions, and co
-storyboard-creation;inference-sh-1/skills;main/skills/storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
 app-ui-design;majiayu000/claude-arsenal;app-ui-design;Mobile app UI design expert for iOS and Android, covering Material Design 3, Human Interface Guidelines, color theory, typography, and 2025
-email-design;inference-sh-1/skills;main/skills/email-design;Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails,
+storyboard-creation;inference-sh-1/skills;main/skills/storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
 ui-ux-expert;martinholovsky/claude-skills-generator;ui-ux-expert;A UI/UX expert skilled in user-centered design, accessibility, and responsive interfaces.
-logo-design-guide;1nfsh/skills;main/skills/logo-design-guide;Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules
+interior-design-expert;erichowens/some_claude_skills;interior-design-expert;Expert interior designer with deep knowledge of space planning, color theory, lighting design, furniture proportions, and AI-assisted visual
+email-design;inference-sh-1/skills;main/skills/email-design;Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails,
 design-thinking;melodic-software/claude-code-plugins;design-thinking;Design Thinking methodology for human-centered innovation covering the 5-phase IDEO/Stanford d.school approach with workshop templates.
+logo-design-guide;1nfsh/skills;main/skills/logo-design-guide;Logo design principles and AI image generation best practices for creating logos. Covers logo types, prompting techniques, scalability rules
 product-photography;1nfsh-s3/skills;main/skills/product-photography;AI-powered product photography skill for generating professional product images with studio lighting, lifestyle shots, and e-commerce standa
 storyboard-creation;1nfsh/skills;main/skills/storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
 storyboard-creation;1nfsh/s;storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
-interior-design-expert;erichowens/some_claude_skills;interior-design-expert;Expert interior designer with deep knowledge of space planning, color theory, lighting design, furniture proportions, and AI-assisted visual
-book-cover-design;1nfsh/skills;main/skills/book-cover-design;Book cover design with genre-specific conventions, typography rules, and AI image generation for self-publishing and various formats.
-ui-ux-designer;lotosbin/claude-skills;;A UI/UX designer skill for creating user interfaces and experiences.
-mapbox-cartography;mapbox/mcp-devkit-server;mapbox-cartography;Guidance on map design principles, color theory, and cartographic best practices for creating effective and beautiful maps with Mapbox.
 typography-expert;erichowens/some_claude_skills;typography-expert;Master typographer specializing in font pairing, typographic hierarchy, OpenType features, variable fonts, and performance-optimized web typ
+ui-ux-designer;lotosbin/claude-skills;;A UI/UX designer skill for creating user interfaces and experiences.
+book-cover-design;1nfsh/skills;main/skills/book-cover-design;Book cover design with genre-specific conventions, typography rules, and AI image generation for self-publishing and various formats.
+mapbox-cartography;mapbox/mcp-devkit-server;mapbox-cartography;Guidance on map design principles, color theory, and cartographic best practices for creating effective and beautiful maps with Mapbox.
 youtube-thumbnail-design;inference-sh-1/skills;main/skills/youtube-thumbnail-design;YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face
 svg-logo-designer;rknall/claude-skills;;Design professional SVG logos from descriptions with multiple layout options.
 vaporwave-glassomorphic-ui-designer;erichowens/some_claude_skills;vaporwave-glassomorphic-ui-designer;Vaporwave + glassomorphic UI designer for photo/memory apps with expertise in SwiftUI, neon pastels, frosted glass effects, and retro-futuri
@@ -307,51 +311,52 @@ email-design;inference-sh-4/skills;main/skills/email-design;Email marketing desi
 character-design-sheet;inference-sh-4/skills;main/skills/character-design-sheet;Create character consistency sheets for AI image generation with reference materials, LoRA techniques, turnaround views, expressions, and co
 youtube-thumbnail-design;1nfsh-s3/skills;main/skills/youtube-thumbnail-design;YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face
 og-image-design;1nfsh-s3/skills;main/skills/og-image-design;Design Open Graph and social sharing images with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn
+presentation-generator;glebis/claude-skills;;Generate interactive HTML presentations with neobrutalism styling, ASCII art, and agency brand colors. Outputs HTML, PNG, and PDF formats.
 explainer-video-guide;inference-sh-4/skills;main/skills/explainer-video-guide;Explainer video production guide covering scripting, voiceover, visuals, and assembly with multi-tool pipelines.
 character-design-sheet;1nfsh-s3/skills;main/skills/character-design-sheet;Create character consistency sheets for AI image generation with reference materials, LoRA techniques, turnaround views, expressions, and co
 brand-designer;daffy0208/ai-dev-standards;brand-designer;A skill for creating brand identity, logo design, and visual brand systems.
 diagramming-expert;erichowens/some_claude_skills;diagramming-expert;Expert in text-based visual communication using ASCII art, Unicode box-drawing, and structured diagram notation for creating clear, maintain
-presentation-generator;glebis/claude-skills;;Generate interactive HTML presentations with neobrutalism styling, ASCII art, and agency brand colors. Outputs HTML, PNG, and PDF formats.
 og-image-design;inference-sh-4/skills;main/skills/og-image-design;Design Open Graph and social sharing images with platform specs, text placement, and branding. Covers OG meta tags, Twitter cards, LinkedIn
+typography;petekp/agent-skills;typography;Apply professional typography principles for readable and aesthetically pleasing interfaces.
 app-store-screenshots;inference-sh-1/skills;main/skills/app-store-screenshots;Create App Store and Google Play screenshots with exact platform specifications including iOS/Android dimensions, device mockups, and previe
 storyboard-creation;1nfsh-s3/skills;main/skills/storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
+web-design-guidelines;uni-helper/skills;main/skills/web-design-guidelines;Reviews UI code for web interface guidelines compliance, focusing on accessibility and design best practices.
 game-design-theory;pluginagentmarketplace/custom-plugin-game-developer;game-design-theory;A comprehensive guide to game design theory including MDA framework, player psychology, and progression systems.
-typography;petekp/agent-skills;typography;Apply professional typography principles for readable and aesthetically pleasing interfaces.
 product-photography;inference-sh-4/skills;main/skills/product-photography;AI-powered product photography skill for generating professional product images with studio lighting, lifestyle shots, and e-commerce standa
 social-media-carousel;1nfsh-s3/skills;main/skills/social-media-carousel;Multi-slide carousel design for Instagram, LinkedIn, and Twitter with layout rules and hooks. Covers slide structure, text hierarchy, swipe
 youtube-thumbnail-design;1nfsh/skills;main/skills/youtube-thumbnail-design;YouTube thumbnail design with specific dimensions, contrast rules, and mobile preview optimization. Covers safe zones, text placement, face
 educational-video-creator;skindhu/skind-skills;educational-video-creator;Create educational videos using Remotion with Kurzgesagt/回形针 style for teaching, storyboards, and animated explainers.
 storyboard-creation;inference-sh-4/skills;main/skills/storyboard-creation;Film and video storyboarding with shot vocabulary, continuity rules, and panel layout for video planning and pre-production.
-web-design-guidelines;uni-helper/skills;main/skills/web-design-guidelines;Reviews UI code for web interface guidelines compliance, focusing on accessibility and design best practices.
 book-cover-design;inference-sh-1/skills;main/skills/book-cover-design;Book cover design with genre-specific conventions, typography rules, and AI image generation for self-publishing and various formats.
 landing-page-design;inference-sh-1/skills;main/skills/landing-page-design;Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof
 book-cover-design;inference-sh-4/skills;main/skills/book-cover-design;Book cover design with genre-specific conventions, typography rules, and AI image generation for self-publishing and various formats.
+abstract-strategy;jwynia/agent-skills;tech/game-development/design/abstract-strategy;Design abstract strategy games with perfect information and strategic depth. For board game design, game mechanics brainstorming, and balanc
 design-ui;mblode/agent-skills;design-ui;Provides design direction and visual system for web UI including layout, typography, color, and aesthetics for SaaS, admin, data-heavy, or m
 social-media-carousel;inference-sh-4/skills;main/skills/social-media-carousel;Multi-slide carousel design for Instagram, LinkedIn, and Twitter with layout rules and hooks. Covers slide structure, text hierarchy, swipe
 landing-page-design;inference-sh-4/skills;main/skills/landing-page-design;Landing page conversion optimization with layout rules, hero section design, and CTA psychology. Covers above-the-fold formula, social proof
 brand-identity-builder;eddiebe147/claude-settings;;Create comprehensive brand identity systems and guidelines.
-abstract-strategy;jwynia/agent-skills;tech/game-development/design/abstract-strategy;Design abstract strategy games with perfect information and strategic depth. For board game design, game mechanics brainstorming, and balanc
 help-center-design;vasilyu1983/ai-agents-public;help-center-design;Design or audit AI-first help centers, knowledge bases, and FAQs with RAG, chatbots, and analytics.
 social-media-carousel;1nfsh/skills;main/skills/social-media-carousel;Multi-slide carousel design for Instagram, LinkedIn, and Twitter with layout rules and hooks. Covers slide structure, text hierarchy, swipe
 settlement-design;jwynia/agent-skills;creative/fiction/worldbuilding/settlement-design;Design cities, towns, and settlements for fictional worlds with realistic urban environments and spatial logic.
+pencil-ui-design;allenai2014/pencil-ui-design;pencil-ui-design;Complete workflow and component library for industrial-grade UI design using Pencil MCP
 logo-ideator;eddiebe147/claude-settings;;Generate creative logo concepts and design directions.
 memetic-depth;jwynia/agent-skills;creative/fiction/character/memetic-depth;Create cultural depth through strategic juxtaposition of familiar and unfamiliar elements for rich worldbuilding.
-pencil-ui-design;allenai2014/pencil-ui-design;pencil-ui-design;Complete workflow and component library for industrial-grade UI design using Pencil MCP
-app-store-screenshots;inference-sh-4/skills;main/skills/app-store-screenshots;Create App Store and Google Play screenshots with exact platform specifications including iOS/Android dimensions, device mockups, and previe
 theme-factory;shajith003/awesome-claude-skills;;A toolkit for applying themes to various artifacts like slides and documents.
-email-design;1nfsh/s;email-design;Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails,
+app-store-screenshots;inference-sh-4/skills;main/skills/app-store-screenshots;Create App Store and Google Play screenshots with exact platform specifications including iOS/Android dimensions, device mockups, and previe
 frontend-ui-ux-engineer;404kidwiz/claude-supercode-skills;;A frontend UI/UX engineer who creates stunning interfaces without design mockups.
+shader-effects;bbeierle12/skill-mcp-claude;shader-effects;Add visual shader effects like glow, bloom, and distortion to enhance rendering quality.
+email-design;1nfsh/s;email-design;Email marketing design with layout patterns, subject line formulas, and deliverability rules. Covers welcome sequences, promotional emails,
 canvas-design;shajith003/awesome-claude-skills;;Create beautiful visual art and designs in PNG and PDF formats using design principles.
 explainer-video-guide;1nfsh/s;explainer-video-guide;Explainer video production guide covering scripting, voiceover, visuals, and assembly with multi-tool pipelines.
+algorithmic-art;shajith003/awesome-claude-skills;;Generate algorithmic art using p5.js with seeded randomness and interactive parameters.
 layout-designer;eddiebe147/claude-settings;;Design expert for page layouts and grid systems.
 ui-design-patterns;manutej/luxor-claude-marketplace;ui-design-patterns;A skill for understanding common UI design patterns including interface, navigation, form, data display, feedback, and accessibility.
 ux-principles;manutej/luxor-claude-marketplace;ux-principles;A skill focused on UX principles including user research, usability heuristics, accessibility, and inclusive design.
 remotion-ads;maartenlouis/remotion-ads;;Professional video ad creation with Remotion for Instagram Reels, website explainers, and carousels. Includes ElevenLabs voiceover, AI icon
-algorithmic-art;shajith003/awesome-claude-skills;;Generate algorithmic art using p5.js with seeded randomness and interactive parameters.
+brand-guidelines;shajith003/awesome-claude-skills;;Applies Anthropic's brand guidelines including colors and typography to artifacts.
 social-media-designer;eddiebe147/claude-settings;;Create platform-optimized social media graphics.
 adhd-design-expert;erichowens/some_claude_skills;adhd-design-expert;Designs digital experiences for ADHD brains using neuroscience research and UX principles to reduce cognitive load and improve engagement.
 native-app-designer;erichowens/some_claude_skills;native-app-designer;Expert in creating iOS/Mac and web apps with organic, non-AI aesthetic using SwiftUI, React animations, and physics-based motion.
-brand-guidelines;shajith003/awesome-claude-skills;;Applies Anthropic's brand guidelines including colors and typography to artifacts.
 ux-friction-analyzer;erichowens/some_claude_skills;ux-friction-analyzer;Comprehensive UX analysis using cognitive psychology, ADHD-friendly design, Gestalt principles, and flow state engineering for friction audi
 modern-ui-designer;sitechfromgeorgia/georgian-distribution-system;;A skill for creating modern UI designs with contemporary design principles and best practices.
 icon-designer;eddiebe147/claude-settings;;Design cohesive icon sets and style guides.
@@ -363,15 +368,15 @@ design-language-system;sgcarstrends/sgcarstrends;design-language-system;Apply pr
 design-system-creator;erichowens/some_claude_skills;design-system-creator;Builds comprehensive design systems with production-ready CSS, design tokens, and component libraries.
 mockup-generator;eddiebe147/claude-settings;;Generate realistic product mockups and presentations.
 slide-deck-designer;eddiebe147/claude-settings;;Design effective presentation slide decks for PowerPoint, Keynote, and Google Slides.
-color-palette-generator;eddiebe147/claude-settings;;Generate accessible color palettes for projects.
 ux-researcher;404kidwiz/claude-supercode-skills;;A UX researcher expert in user behavior analysis using qualitative and quantitative methods for user-centered design.
+color-palette-generator;eddiebe147/claude-settings;;Generate accessible color palettes for projects.
+design-consistency-auditor;shipshitdev/library;design-consistency-auditor;Audits and maintains design system consistency, UX/UI patterns, and design best practices across frontend applications.
 drawio-diagram-forge;aktsmm/agent-skills;;Generate draw.io diagrams from text/images/Excel with 3-agent workflow. Creates architecture/flow/sequence diagrams with quality gates.
 pw-redbook-image;plugins-world/pw-skills;;Breaks down article content into Xiaohongshu-style series of images with cover, content and ending images.
 wireframe-creator;eddiebe147/claude-settings;;Create low-fidelity wireframes for rapid prototyping.
-design-consistency-auditor;shipshitdev/library;design-consistency-auditor;Audits and maintains design system consistency, UX/UI patterns, and design best practices across frontend applications.
 carousel-designer;eddiebe147/claude-settings;;Create educational carousel posts for Instagram and LinkedIn to inform and engage audiences.
-nextlevelbuilder-ui-ux-pro-max;smithery/ai;;UI/UX design skill for advanced interface and user experience optimization
 ai-loading-ux;shipshitdev/library;ai-loading-ux;Design AI loading, thinking, and progress indicator UX for AI interfaces.
+nextlevelbuilder-ui-ux-pro-max;smithery/ai;;UI/UX design skill for advanced interface and user experience optimization
 motion-designer;dylantarre/animation-principles;03-by-role-persona/motion-designer;A skill for designing visual motion systems and creating animation specifications.
 terminal-ui-design;eddiebe147/claude-settings;;A skill for designing terminal user interfaces with focus on usability and aesthetics.
 table-filters;shipshitdev/library;table-filters;Designs optimal filtering UX for data tables by analyzing columns and determining best filter types.
@@ -383,24 +388,26 @@ web-interface-design;ratacat/claude-skills;web-interface-design;A skill for desi
 figma-ui-design;aaaaqwq/claude-code-skills;disabled/figma-ui-design;Automates Figma UI design tasks like creating designs, generating components, and exporting assets.
 midjourney-replicate-flux;rawveg/skillsforge-marketplace;;Generate Midjourney-style image prompts optimized for FLUX 1.1 Pro model on Replicate. Transforms basic descriptions into rich, cinematic pr
 unsplash;andrejones92/canifi-life-os;;Access and manage free high-quality stock photos from Unsplash.
-shader-effects;bbeierle12/skill-mcp-claude;shader-effects;Add visual shader effects like glow, bloom, and distortion to enhance rendering quality.
+3d-modeling;omer-metin/skills-for-antigravity;3d-modeling;Expert 3D modeling specialist with knowledge of topology, UV mapping, and DCC tools.
 excalidraw-diagrams;robtaylor/excalidraw-diagrams;;Creates Excalidraw diagrams programmatically for flowcharts, architecture diagrams, and system designs with .excalidraw file output.
 figma-plugin;srstomp/pokayokay;figma-plugin;Figma plugin development for design automation, UI communication, and API integration for node/styles/components.
+create-design-system-rules;dedalus-erp-pas/foundation-skills;create-design-system-rules;Generates custom design system rules for codebases, especially for Figma-to-code workflows.
 canva;andrejones92/canifi-life-os;;Create and edit designs in Canva for graphics, presentations, social media posts, and marketing materials.
-3d-modeling;omer-metin/skills-for-antigravity;3d-modeling;Expert 3D modeling specialist with knowledge of topology, UV mapping, and DCC tools.
+pixel-art-sprites;omer-metin/skills-for-antigravity;pixel-art-sprites;Create pixel art sprites and animations with limited palettes.
 app-store-screenshots;1nfsh/s;app-store-screenshots;Create App Store and Google Play screenshots with exact platform specifications including iOS/Android dimensions, device mockups, and previe
 frontend-design;b-open-io/prompts;frontend-design;Create distinctive, bold UI designs that avoid generic AI aesthetics with strong visual identity, creative typography, intentional color pal
 anime-js;dylantarre/animation-principles;09-by-tool-framework/anime-js;Implement Disney's 12 animation principles using Anime.js for web animations.
 design-system-architect;daffy0208/ai-dev-standards;design-system-architect;Create scalable design systems with unified product experiences using atomic design and Storybook.
 adobe-photoshop-web;andrejones92/canifi-life-os;;Edit images with Photoshop on the web, perform advanced photo editing and apply AI features.
-pixel-art-sprites;omer-metin/skills-for-antigravity;pixel-art-sprites;Create pixel art sprites and animations with limited palettes.
-ux-designer;daffy0208/ai-dev-standards;ux-designer;A skill for designing user experiences and interfaces, including user journeys, wireframes, and prototypes.
 product-ux-expert;majiayu000/claude-arsenal;product-ux-expert;Product interaction and UX expert for UI/UX reviews, heuristic evaluations, user journey design, cognitive psychology application, and WCAG
+nextlevelbuilder-ui-ux-pro-max;smithery.ai;;UI/UX design skill for advanced interface and user experience optimization
+ux-designer;daffy0208/ai-dev-standards;ux-designer;A skill for designing user experiences and interfaces, including user journeys, wireframes, and prototypes.
+web-design-guidelines;dedalus-erp-pas/foundation-skills;web-design-guidelines;Audits web interface guidelines compliance with visual inspection and code review.
 draw-io;i9wa4/dotfiles;draw-io;Create, edit, and review draw.io diagrams with XML editing, PNG conversion, and AWS icon support.
 usability-tester;daffy0208/ai-dev-standards;usability-tester;Conduct usability tests to identify UX issues through systematic observation and validate designs.
 applying-brand-guidelines;ovachiever/droid-tings;applying-brand-guidelines;Apply consistent corporate branding to generated documents with colors, fonts, layouts, and messaging.
-premium_web_design;jerrar670/surf-website;premium_web_design;Guidelines and principles for creating premium, high-end web designs with focus on quality and professional standards.
 theme-factory;shipshitdev/library;theme-factory;A toolkit for applying themes to various artifacts like slides and documents.
+premium_web_design;jerrar670/surf-website;premium_web_design;Guidelines and principles for creating premium, high-end web designs with focus on quality and professional standards.
 figma-developer;daffy0208/ai-dev-standards;figma-developer;Automatically convert Figma designs into React components and sync design tokens.
 visual-designer;daffy0208/ai-dev-standards;visual-designer;Create beautiful, consistent UIs with proper color theory, typography, and visual hierarchy.
 web-design-guidelines;connorads/dotfiles;web-design-guidelines;Reviews UI code for web interface guidelines compliance, focusing on accessibility and design best practices.
@@ -418,11 +425,9 @@ adobe-express;andrejones92/canifi-life-os;;Adobe Express skill for content creat
 runway;andrejones92/canifi-life-os;;Runway is an AI-powered creative suite for video and image generation, offering tools for content creators to produce visual media using art
 slide-creator;roasbeef/claude-files;slide-creator;Transform written content into visual slide deck images for presentations and visual summaries.
 elite-powerpoint-designer;willem4130/claude-code-skills;elite-powerpoint-designer;Create professional PowerPoint presentations with design, branding, and animations.
-create-design-system-rules;dedalus-erp-pas/foundation-skills;create-design-system-rules;Generates custom design system rules for codebases, especially for Figma-to-code workflows.
 zeplin;andrejones92/canifi-life-os;;A skill for working with Zeplin, a design collaboration platform that bridges design and development workflows.
 dribbble;andrejones92/canifi-life-os;;Dribbble design inspiration and portfolio platform integration
 adobe-illustrator-web;andrejones92/canifi-life-os;;Adobe Illustrator web design templates and workflows for creating responsive layouts and visual assets.
-web-design-guidelines;dedalus-erp-pas/foundation-skills;web-design-guidelines;Audits web interface guidelines compliance with visual inspection and code review.
 ui-ux-pro-max;smithery/ai;;Advanced UI/UX design skill for creating professional user interfaces and experiences.
 figma;andrejones92/canifi-life-os;;Figma design system and UI/UX workflow automation skill template
 clipchamp;andrejones92/canifi-life-os;;A video creation and editing tool from Microsoft for generating and editing video content.
@@ -451,6 +456,7 @@ network;markdown-viewer/skills;main/network;Create network topology diagrams usi
 engineering;markdown-viewer/skills;main/engineering;Create professional engineering diagrams using drawio XML format with industry-standard symbols for electrical schematics, P&ID, rack diagra
 postfx-effects;bbeierle12/skill-mcp-claude;postfx-effects;Post-processing visual effects including chromatic aberration, vignette, depth of field, film grain, color grading, and LUT support for cine
 blockbench-texturing;jasonjgardner/blockbench-mcp-project;blockbench-texturing;Create and paint textures in Blockbench using MCP tools for 3D modeling and UV mapping.
+github-web-design-reviewer;smithery/ai;;Reviews web design implementations and assets, integrated with GitHub workflows.
 storyboard-generator;benzema216/dreamina-claude-skills;;A skill for generating storyboards to visualize narratives and design concepts.
 web-design-guidelines;hairyf/skills;main/skills/web-design-guidelines;Reviews UI code for web interface guidelines compliance, focusing on accessibility and design best practices.
 blockbench-mcp-overview;jasonjgardner/blockbench-mcp-project;blockbench-mcp-overview;Overview of Blockbench MCP server tools, resources, and prompts for understanding full MCP capabilities across modeling, animation, texturin
@@ -462,6 +468,7 @@ svg-illustration;narumiruna/agent-skills;svg-illustration;Provides SVG diagram r
 ux-specification;abhsin/designskills;;Converts PRDs into UX specs (user flows, screens, components, interactions). Bridges product requirements to implementation details before d
 aesthetic-analysis;qodex-ai/ai-agent-skills;aesthetic-analysis;Analyze and extract design patterns from visual examples including design systems, color palettes, and typography.
 mobile-first-designer;sitechfromgeorgia/georgian-distribution-system;;A designer focused on mobile-first design principles and responsive user interfaces.
+uxui-designer;garbray/claude-config;uxui-designer;UX/UI design skill creating minimalist interfaces, ASCII layouts, component systems, and interaction patterns for mobile and web apps.
 canvas-design;smithery/ai;;Canvas design skill for creating visual designs and UI elements using canvas-based tools.
 japanese-webdesign;ronantakizawa/japanese-webdesign;;Guidance for designing websites optimized for Japanese audiences with cultural UX principles and localization best practices.
 notebooklm-ppt-designer;orangon/learning2peak;notebooklm-ppt-designer;International PPT design architect transforming content materials into executable PPT design solutions.

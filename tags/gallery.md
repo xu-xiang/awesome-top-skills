@@ -5,5 +5,5 @@
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [openai-image-gen](https://github.com/steipete/clawdis/blob/main/skills/openai-image-gen/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | Batch-generate images via OpenAI Images API with random prompt sampling and HTML gallery output. | 261K | 103 | 2026-03-05 | [image-generation](image-generation.md), [batch-processing](batch-processing.md), [openai](openai.md), [gallery](gallery.md) |
+| [openai-image-gen](https://github.com/steipete/clawdis/blob/main/skills/openai-image-gen/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | Batch-generate images via OpenAI Images API with random prompt sampling and HTML gallery output. | 267K | 109 | 2026-03-06 | [image-generation](image-generation.md), [batch-processing](batch-processing.md), [openai](openai.md), [gallery](gallery.md) |
 | [openai-image-gen](https://github.com/steipete/agent-scripts/blob/main/skills/openai-image-gen/SKILL.md) | [steipete/agent-scripts](https://github.com/steipete/agent-scripts) | Batch-generate images via OpenAI Images API with random prompt sampling and HTML gallery output. | 2.1K | 22 | 2026-02-14 | [image-generation](image-generation.md), [batch-processing](batch-processing.md), [openai](openai.md), [gallery](gallery.md) |

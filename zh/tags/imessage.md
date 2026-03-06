@@ -5,5 +5,5 @@
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [imsg](https://github.com/steipete/clawdis/blob/main/skills/imsg/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | 通过 Messages.app 列出聊天、历史及发送消息的 iMessage/SMS CLI 工具。 | 261K | 100 | 2026-03-05 | [命令行（CLI）](cli.md), [communication (communication)](communication.md), [imessage (imessage)](imessage.md), [macOS (macos)](macos.md) |
-| [bluebubbles](https://github.com/steipete/clawdis/blob/main/skills/bluebubbles/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | 通过BlueBubbles集成发送和管理iMessage消息 | 261K | 97 | 2026-03-05 | [communication (communication)](communication.md), [messaging (messaging)](messaging.md), [imessage (imessage)](imessage.md), [bluebubbles (bluebubbles)](bluebubbles.md) |
+| [imsg](https://github.com/steipete/clawdis/blob/main/skills/imsg/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | 通过 Messages.app 列出聊天、历史及发送消息的 iMessage/SMS CLI 工具。 | 267K | 103 | 2026-03-06 | [命令行（CLI）](cli.md), [communication (communication)](communication.md), [imessage (imessage)](imessage.md), [macOS (macos)](macos.md) |
+| [bluebubbles](https://github.com/steipete/clawdis/blob/main/skills/bluebubbles/SKILL.md) | [steipete/clawdis](https://github.com/steipete/clawdis) | 通过BlueBubbles集成发送和管理iMessage消息 | 267K | 99 | 2026-03-06 | [communication (communication)](communication.md), [messaging (messaging)](messaging.md), [imessage (imessage)](imessage.md), [bluebubbles (bluebubbles)](bluebubbles.md) |
