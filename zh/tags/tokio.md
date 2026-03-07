@@ -1,9 +1,10 @@
 # 标签：tokio (tokio)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 2
+- 命中技能: 3
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
+| [rust-engineer](https://github.com/jeffallan/claude-skills/blob/main/skills/rust-engineer/SKILL.md) | [jeffallan/claude-skills](https://github.com/jeffallan/claude-skills) | Rust 编程助手，用于编写、审查和调试惯用代码。处理所有权、生命周期、异步 Tokio 应用和错误处理，注重内存安全。 | 5.3K | 916 | 2026-03-06 | [编码 (coding)](coding.md), [调试 (debugging)](debugging.md), [Rust (rust)](rust.md), [tokio (tokio)](tokio.md) |
 | [rust-learner](https://github.com/actionbook/actionbook/blob/main/playground/rust-learner/skills/rust-learner/SKILL.md) | [actionbook/actionbook](https://github.com/actionbook/actionbook) | 学习 Rust 语言特性、crate 更新和生态系统工具，如 Tokio、Serde 和 Axum。获取 Rust 版本 | 1.3K | 108 | 2026-03-04 | [learning (learning)](learning.md), [文档 (documentation)](documentation.md), [Rust (rust)](rust.md), [cargo (cargo)](cargo.md), [tokio (tokio)](tokio.md), [serde (serde)](serde.md) |
-| [moai-lang-rust](https://github.com/modu-ai/moai-adk/blob/main/.claude/skills/moai-lang-rust/SKILL.md) | [modu-ai/moai-adk](https://github.com/modu-ai/moai-adk) | Rust 1.92+开发专家，使用Axum、Tokio、SQLx和WebAssembly构建高性能、内存安全的应用程序。 | 791 | 48 | 2026-03-06 | [编码 (coding)](coding.md), [性能优化 (performance)](performance.md), [Rust (rust)](rust.md), [axum (axum)](axum.md), [tokio (tokio)](tokio.md), [sqlx (sqlx)](sqlx.md) |
+| [moai-lang-rust](https://github.com/modu-ai/moai-adk/blob/main/.claude/skills/moai-lang-rust/SKILL.md) | [modu-ai/moai-adk](https://github.com/modu-ai/moai-adk) | Rust 1.92+开发专家，使用Axum、Tokio、SQLx和WebAssembly构建高性能、内存安全的应用程序。 | 797 | 49 | 2026-03-07 | [编码 (coding)](coding.md), [性能优化 (performance)](performance.md), [Rust (rust)](rust.md), [axum (axum)](axum.md), [tokio (tokio)](tokio.md), [sqlx (sqlx)](sqlx.md) |

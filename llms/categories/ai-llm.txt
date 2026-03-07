@@ -11,8 +11,8 @@ sherpa-onnx-tts;steipete/clawdis;sherpa-onnx-tts;Local text-to-speech via sherpa
 openai-whisper-api;steipete/clawdis;openai-whisper-api;Transcribe audio using OpenAI's Whisper API for converting speech to text.
 nano-banana-pro;steipete/clawdis;nano-banana-pro;Generate or edit images via Gemini 3 Pro Image (Nano Banana Pro)
 voice-call;steipete/clawdis;voice-call;Start voice calls via the OpenClaw voice-call plugin for AI-powered communication.
-sag;steipete/clawdis;sag;ElevenLabs text-to-speech with mac-style say UX.
 openai-image-gen;steipete/clawdis;openai-image-gen;Batch-generate images via OpenAI Images API with random prompt sampling and HTML gallery output.
+sag;steipete/clawdis;sag;ElevenLabs text-to-speech with mac-style say UX.
 gemini;steipete/clawdis;gemini;Gemini CLI for one-shot Q&A, summaries, and generation.
 skill-creator;steipete/clawdis;skill-creator;Create or update AgentSkills for designing, structuring, or packaging skills with scripts, references, and assets.
 skill-lookup;f/awesome-chatgpt-prompts;skill-lookup;Search, retrieve, and install Agent Skills from the prompts.chat registry via MCP. Extends Claude's capabilities with reusable AI components
@@ -52,16 +52,16 @@ fact-check;leonardomso/33-js-concepts;fact-check;Verify technical accuracy of Ja
 agent-browser;vercel-labs/agent-browser;agent-browser;A CLI tool for AI agents to automate browser tasks like navigation, form filling, and data scraping.
 executing-plans;obra/superpowers;executing-plans;Execute written implementation plans with review checkpoints.
 using-superpowers;obra/superpowers;using-superpowers;Establishes skill usage protocol at conversation start, requiring skill tool invocation before any response.
-subagent-driven-development;obra/superpowers;subagent-driven-development;Execute implementation plans with independent tasks using subagents.
-writing-skills;obra/superpowers;writing-skills;A skill for creating, editing, and verifying other skills before deployment.
 continuous-learning-v2;affaan-m/everything-claude-code;continuous-learning-v2;Instinct-based learning system observing sessions via hooks, creating atomic instincts, and evolving them into skills/agents with project sc
 continuous-learning;affaan-m/everything-claude-code;continuous-learning;Automatically extract reusable patterns from Claude Code sessions and save them as learned skills for future use.
 strategic-compact;affaan-m/everything-claude-code;strategic-compact;Helps manage and compact LLM context manually at logical intervals to preserve information across task phases.
 iterative-retrieval;affaan-m/everything-claude-code;iterative-retrieval;An iterative retrieval pattern for progressively refining context in subagent systems.
 eval-harness;affaan-m/everything-claude-code;eval-harness;An evaluation framework for Claude Code sessions implementing eval-driven development principles.
-dispatching-parallel-agents;obra/superpowers;dispatching-parallel-agents;Dispatch parallel agents for independent tasks without shared state or dependencies.
+subagent-driven-development;obra/superpowers;subagent-driven-development;Execute implementation plans with independent tasks using subagents.
 configure-ecc;affaan-m/everything-claude-code;configure-ecc;Interactive installer for Everything Claude Code - guides users through selecting and installing skills and rules with path verification and
 verification-loop;affaan-m/everything-claude-code;verification-loop;A comprehensive verification system for Claude Code sessions to ensure code quality and correctness.
+writing-skills;obra/superpowers;writing-skills;A skill for creating, editing, and verifying other skills before deployment.
+dispatching-parallel-agents;obra/superpowers;dispatching-parallel-agents;Dispatch parallel agents for independent tasks without shared state or dependencies.
 documentation-lookup;upstash/context7;documentation-lookup;A skill for looking up documentation, APIs, and code examples for libraries and frameworks.
 docs-write;metabase/metabase;docs-write;Writes documentation in Metabase's clear, user-focused style for markdown and MDX files.
 skill-creator;tldraw/tldraw;skill-creator;A guide for creating effective AI skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
@@ -104,25 +104,27 @@ copilot-sdk;github/awesome-copilot;copilot-sdk;Build agentic applications with G
 mcp-cli;github/awesome-copilot;mcp-cli;A CLI interface for interacting with MCP (Model Context Protocol) servers to access external tools, APIs, and data sources.
 agentic-eval;github/awesome-copilot;agentic-eval;Evaluate and improve AI agent outputs using self-critique, reflection loops, and LLM-as-judge systems.
 scoutqa-test;github/awesome-copilot;scoutqa-test;Automated QA testing for web applications including accessibility, smoke tests, and user flow validation.
-workiq-copilot;github/awesome-copilot;workiq-copilot;A skill that helps Copilot CLI access and utilize Microsoft 365 data for context, summaries, and recommendations.
 nano-banana-pro-openrouter;github/awesome-copilot;nano-banana-pro-openrouter;Generate or edit images via OpenRouter with the Gemini 3 Pro Image model. Supports prompt-only generation, image edits, and multi-image comp
+workiq-copilot;github/awesome-copilot;workiq-copilot;A skill that helps Copilot CLI access and utilize Microsoft 365 data for context, summaries, and recommendations.
 microsoft-skill-creator;github/awesome-copilot;microsoft-skill-creator;Creates agent skills for Microsoft tech using MCP. Investigates topics deeply and generates hybrid skills with local knowledge storage.
-ai-sdk;vercel/ai;use-ai-sdk;An AI SDK skill for answering questions and building AI-powered features like agents, chatbots, and text generation.
 copywriting;coreyhaines31/marketingskills;copywriting;Helps with writing, rewriting, and improving marketing copy for various web pages.
+ai-sdk;vercel/ai;use-ai-sdk;An AI SDK skill for answering questions and building AI-powered features like agents, chatbots, and text generation.
 navigator;srbhr/resume-matcher;navigator;A skill for codebase orientation, helping explore code, find files, and understand project structure.
 gpt-researcher;assafelovic/gpt-researcher;;An autonomous research agent for deep web and local research with citation capabilities, designed for developers to understand, extend, debu
 find-skills;bytedance/deer-flow;public/find-skills;Helps users discover and install agent skills based on their queries.
-skill-creator;vercel-labs/agent-browser;;A skill for creating new skills or templates.
 skill-creator;bytedance/deer-flow;public/skill-creator;A guide for creating effective AI skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
+skill-creator;vercel-labs/agent-browser;;A skill for creating new skills or templates.
 develop-ai-functions-example;vercel/ai;develop-ai-functions-example;Create and manage AI SDK function examples for validation and demonstration.
 skill-developer;langfuse/langfuse;skill-developer;Create and manage Claude Code skills using Anthropic's best practices.
+agent-builder;shareai-lab/learn-claude-code;agent-builder;Design and build AI agents for any domain, covering agent architecture, autonomous systems, and tool usage.
 senior-prompt-engineer;davila7/claude-code-templates;development/senior-prompt-engineer;Expert-level prompt engineering skill for LLM optimization, structured outputs, and AI product development.
 langchain;davila7/claude-code-templates;ai-research/agents-langchain;A framework for building LLM-powered applications with agents, chains, and RAG, supporting multiple providers and integrations.
+mcp-builder;shareai-lab/learn-claude-code;mcp-builder;Build MCP servers to extend Claude AI capabilities with custom tools and external service integrations.
 whisper;davila7/claude-code-templates;ai-research/multimodal-whisper;OpenAI's speech recognition model supporting 99 languages, transcription, translation, and language identification.
 senior-computer-vision;davila7/claude-code-templates;development/senior-computer-vision;A world-class computer vision skill for image/video processing, object detection, segmentation, and visual AI systems using PyTorch, OpenCV,
-context7-auto-research;davila7/claude-code-templates;ai-research/context7-auto-research;Automatically fetches latest library/framework docs for Claude Code via Context7 API.
 generate-image;davila7/claude-code-templates;scientific/generate-image;Generate or edit images using AI models like FLUX and Gemini for general purposes.
 code-reviewer;davila7/claude-code-templates;development/code-reviewer;A comprehensive code review skill for multiple languages with automated analysis and security scanning.
+context7-auto-research;davila7/claude-code-templates;ai-research/context7-auto-research;Automatically fetches latest library/framework docs for Claude Code via Context7 API.
 crewai-multi-agent;davila7/claude-code-templates;ai-research/agents-crewai;A multi-agent orchestration framework for autonomous AI collaboration, enabling role-based agent teamwork with memory and sequential executi
 senior-ml-engineer;davila7/claude-code-templates;development/senior-ml-engineer;A world-class ML engineering skill for productionizing ML models, MLOps, and building scalable ML systems with expertise in PyTorch, TensorF
 prompt-engineer;davila7/claude-code-templates;ai-research/prompt-engineer;Expert in designing effective prompts for LLM-powered applications, mastering prompt structure, context management, and output formatting.
@@ -131,103 +133,102 @@ copywriting;davila7/claude-code-templates;business-marketing/copywriting;Helps w
 agent-memory-systems;davila7/claude-code-templates;ai-research/agent-memory-systems;This skill explores agent memory systems including short-term and long-term memory architectures and retrieval strategies.
 prompt-engineering;davila7/claude-code-templates;ai-research/prompt-engineering;Expert guide on prompt engineering patterns, best practices, and optimization techniques for LLMs.
 claude-code-guide;davila7/claude-code-templates;ai-research/claude-code-guide;A comprehensive guide to effectively using Claude Code, covering configuration, prompting, debugging, and best practices.
-agent-manager-skill;davila7/claude-code-templates;ai-research/agent-manager-skill;Manage multiple local CLI agents via tmux sessions with cron-friendly scheduling.
 qdrant-vector-search;davila7/claude-code-templates;ai-research/rag-qdrant;A high-performance vector similarity search engine for RAG and semantic search, optimized for fast nearest neighbor search and scalable vect
+agent-manager-skill;davila7/claude-code-templates;ai-research/agent-manager-skill;Manage multiple local CLI agents via tmux sessions with cron-friendly scheduling.
 stable-diffusion-image-generation;davila7/claude-code-templates;ai-research/multimodal-stable-diffusion;Generate high-quality images from text prompts using Stable Diffusion models via HuggingFace Diffusers.
 agent-memory-mcp;davila7/claude-code-templates;ai-research/agent-memory-mcp;A hybrid memory system for AI agents providing persistent and searchable knowledge management.
 agent-evaluation;davila7/claude-code-templates;ai-research/agent-evaluation;Evaluate and benchmark LLM agents with behavioral testing, capability assessment, and reliability metrics.
-ai-sdk;vercel-labs/ai;use-ai-sdk;An AI SDK skill for answering questions and building AI-powered features like agents, chatbots, and text generation.
 scientific-schematics;davila7/claude-code-templates;scientific/scientific-schematics;Generate publication-quality scientific diagrams with AI, focusing on neural networks, flowcharts, and biological pathways.
 brainstorming;davila7/claude-code-templates;development/brainstorming;A skill for brainstorming and exploring user intent before implementing creative work.
 agent-tool-builder;davila7/claude-code-templates;ai-research/agent-tool-builder;A skill for designing effective AI agent tools with JSON Schema, error handling, and MCP standard.
 pytorch-lightning;davila7/claude-code-templates;ai-research/distributed-training-pytorch-lightning;A high-level PyTorch framework for clean training loops with distributed training and callbacks.
 content-creator;davila7/claude-code-templates;business-marketing/content-creator;Generate SEO-optimized marketing content with consistent brand voice using AI.
-content-research-writer;davila7/claude-code-templates;business-marketing/content-research-writer;A skill for enhancing content writing through research, citations, and real-time feedback.
 conversation-memory;davila7/claude-code-templates;ai-research/conversation-memory;Manages persistent memory for LLM conversations with short-term, long-term, and entity-based storage.
+content-research-writer;davila7/claude-code-templates;business-marketing/content-research-writer;A skill for enhancing content writing through research, citations, and real-time feedback.
 skill-creator;davila7/claude-code-templates;development/skill-creator;A guide for creating effective AI skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
-cto-advisor;davila7/claude-code-templates;business-marketing/cto-advisor;Provides technical leadership guidance for engineering teams, including architecture decisions, technology strategy, and tech debt analysis.
+ai-sdk;vercel-labs/ai;use-ai-sdk;An AI SDK skill for answering questions and building AI-powered features like agents, chatbots, and text generation.
 feature-design-assistant;davila7/claude-code-templates;development/feature-design-assistant;Assists in turning feature ideas into detailed designs and specs via natural dialogue.
+cto-advisor;davila7/claude-code-templates;business-marketing/cto-advisor;Provides technical leadership guidance for engineering teams, including architecture decisions, technology strategy, and tech debt analysis.
 autogpt-agents;davila7/claude-code-templates;ai-research/agents-autogpt;An autonomous AI agent platform for building and deploying continuous agents and complex multi-step automation systems.
 scikit-learn;davila7/claude-code-templates;scientific/scikit-learn;A skill for machine learning tasks using scikit-learn in Python, including classification, regression, clustering, and model evaluation.
-add-provider-package;vercel/ai;add-provider-package;Guide for adding new AI provider packages to the AI SDK to integrate AI services.
-create-plan;davila7/claude-code-templates;development/create-plan;Generate concise plans for coding tasks upon explicit user request.
 docx;davila7/claude-code-templates;document-processing/docx-official;Create, edit, and analyze .docx documents with support for tracked changes, comments, and formatting preservation.
+create-plan;davila7/claude-code-templates;development/create-plan;Generate concise plans for coding tasks upon explicit user request.
 skill-creation-guide;davila7/claude-code-templates;development/skill-creation-guide;A guide for creating effective skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
-context-window-management;davila7/claude-code-templates;ai-research/context-window-management;Manage LLM context windows with strategies like summarization, trimming, and routing to avoid context rot.
 perplexity-search;davila7/claude-code-templates;scientific/perplexity-search;Perform AI-powered web searches with real-time information using Perplexity models via LiteLLM and OpenRouter.
-long-context;davila7/claude-code-templates;ai-research/emerging-techniques-long-context;Extend transformer model context windows using RoPE, YaRN, ALiBi, and position interpolation techniques for long document processing.
-repomix-explorer;yamadashy/repomix;repomix-explorer;Analyze or explore codebases using Repomix CLI.
+context-window-management;davila7/claude-code-templates;ai-research/context-window-management;Manage LLM context windows with strategies like summarization, trimming, and routing to avoid context rot.
 agent-development;davila7/claude-code-templates;development/agent-development;A skill for developing autonomous agents with guidance on structure, prompts, and best practices for Claude Code plugins.
+long-context;davila7/claude-code-templates;ai-research/emerging-techniques-long-context;Extend transformer model context windows using RoPE, YaRN, ALiBi, and position interpolation techniques for long document processing.
 humanizer;davila7/claude-code-templates;productivity/humanizer;Remove AI-generated writing signs from text to make it sound more natural.
-llamaindex;davila7/claude-code-templates;ai-research/agents-llamaindex;A data framework for building LLM applications with RAG, supporting document ingestion, indexing, and querying.
 planning-with-files;davila7/claude-code-templates;productivity/planning-with-files;A skill for file-based planning of complex tasks using task_plan.md, findings.md, and progress.md files.
+llamaindex;davila7/claude-code-templates;ai-research/agents-llamaindex;A data framework for building LLM applications with RAG, supporting document ingestion, indexing, and querying.
 autonomous-agent-patterns;davila7/claude-code-templates;ai-research/autonomous-agent-patterns;Design patterns for building autonomous coding agents, covering tool integration, permission systems, and human-in-the-loop workflows.
 typescript-expert;davila7/claude-code-templates;development/typescript-expert;A TypeScript/JavaScript expert skill for type-level programming, performance optimization, and modern tooling.
-knowledge-distillation;davila7/claude-code-templates;ai-research/emerging-techniques-knowledge-distillation;Compress large language models using knowledge distillation techniques for efficient deployment and reduced inference costs.
 autonomous-agents;davila7/claude-code-templates;ai-research/autonomous-agents;An autonomous agent skill focusing on goal decomposition, planning, tool execution, and reliability in LLM systems.
-prompt-library;davila7/claude-code-templates;ai-research/prompt-library;A curated library of high-quality prompts for coding, writing, analysis, and creative tasks.
+knowledge-distillation;davila7/claude-code-templates;ai-research/emerging-techniques-knowledge-distillation;Compress large language models using knowledge distillation techniques for efficient deployment and reduced inference costs.
 agent-md-refactor;davila7/claude-code-templates;development/agent-md-refactor;Refactors large agent instruction files into organized, linked documentation using progressive disclosure.
-agent-memory;yamadashy/repomix;agent-memory;Manages memory for agents, enabling saving, recalling, and organizing information.
+prompt-library;davila7/claude-code-templates;ai-research/prompt-library;A curated library of high-quality prompts for coding, writing, analysis, and creative tasks.
 audiocraft-audio-generation;davila7/claude-code-templates;ai-research/multimodal-audiocraft;Generate music and sound effects from text using PyTorch libraries like MusicGen and AudioGen.
 langgraph;davila7/claude-code-templates;ai-research/langgraph;A skill for building stateful, multi-actor AI applications using LangGraph framework.
 screenshot-feature-extractor;davila7/claude-code-templates;development/screenshot-feature-extractor;Extract features from product screenshots and generate development task checklists.
 computer-use-agents;davila7/claude-code-templates;ai-research/computer-use-agents;Build AI agents that interact with computers like humans do, covering screen viewing, cursor movement, button clicking, and text typing.
-writing-skills;davila7/claude-code-templates;development/writing-skills;A skill for creating, editing, and verifying other skills before deployment.
-writing-plans;davila7/claude-code-templates;development/writing-plans;This skill helps create writing plans for multi-step tasks based on specs or requirements.
 skill-installer;davila7/claude-code-templates;development/skill-installer;Install Codex skills from curated lists or GitHub repos.
 subagent-driven-development;davila7/claude-code-templates;ai-research/subagent-driven-development;Execute implementation plans with independent tasks using subagents.
 app-builder;davila7/claude-code-templates;business-marketing/app-builder;An orchestrator that builds full-stack applications from natural language requests using LLMs and agent coordination.
+writing-skills;davila7/claude-code-templates;development/writing-skills;A skill for creating, editing, and verifying other skills before deployment.
+writing-plans;davila7/claude-code-templates;development/writing-plans;This skill helps create writing plans for multi-step tasks based on specs or requirements.
 gemini;davila7/claude-code-templates;ai-research/gemini;A skill for using Gemini CLI to perform code reviews, plan reviews, and process large contexts with Gemini 3 Pro.
 mcp-integration;davila7/claude-code-templates;development/mcp-integration;Integrates Model Context Protocol (MCP) servers into Claude Code plugins for external tool and service connectivity.
 mlflow;davila7/claude-code-templates;ai-research/mlops-mlflow;Manage machine learning experiments, model registry, and deployment with MLflow.
-dispatching-parallel-agents;davila7/claude-code-templates;ai-research/dispatching-parallel-agents;Dispatch parallel agents for independent tasks without shared state or dependencies.
-prompt-caching;davila7/claude-code-templates;ai-research/prompt-caching;Optimize LLM prompt caching with Anthropic, response caching, and CAG strategies.
 rag-engineer;davila7/claude-code-templates;ai-research/rag-engineer;Build Retrieval-Augmented Generation systems with expertise in embeddings, vector databases, and retrieval optimization.
-pytorch-fsdp;davila7/claude-code-templates;ai-research/distributed-training-pytorch-fsdp;Expert guidance for PyTorch FSDP training with parameter sharding, mixed precision, and CPU offloading.
+dispatching-parallel-agents;davila7/claude-code-templates;ai-research/dispatching-parallel-agents;Dispatch parallel agents for independent tasks without shared state or dependencies.
 modal-serverless-gpu;davila7/claude-code-templates;ai-research/infrastructure-modal;A serverless GPU platform for running ML workloads without managing infrastructure.
+prompt-caching;davila7/claude-code-templates;ai-research/prompt-caching;Optimize LLM prompt caching with Anthropic, response caching, and CAG strategies.
+pytorch-fsdp;davila7/claude-code-templates;ai-research/distributed-training-pytorch-fsdp;Expert guidance for PyTorch FSDP training with parameter sharding, mixed precision, and CPU offloading.
+add-provider-package;vercel/ai;add-provider-package;Guide for adding new AI provider packages to the AI SDK to integrate AI services.
+ai-product;davila7/claude-code-templates;business-marketing/ai-product;An AI-powered product skill covering LLM integration, RAG, prompt engineering, and cost optimization.
 qa-test-planner;davila7/claude-code-templates;ai-research/qa-test-planner;Generate comprehensive QA test plans and cases with Figma integration.
 huggingface-accelerate;davila7/claude-code-templates;ai-research/distributed-training-accelerate;Simplifies distributed training for PyTorch with minimal code changes and supports multiple frameworks like DeepSpeed and FSDP.
 mcp-builder;davila7/claude-code-templates;development/mcp-builder;A guide for building high-quality MCP servers to enable LLMs to interact with external services via well-designed tools.
-ai-product;davila7/claude-code-templates;business-marketing/ai-product;An AI-powered product skill covering LLM integration, RAG, prompt engineering, and cost optimization.
+clinical-reports;davila7/claude-code-templates;scientific/clinical-reports;Generate comprehensive clinical reports with regulatory compliance and validation tools.
 error-resolver;davila7/claude-code-templates;development/error-resolver;A skill for systematic error diagnosis and resolution using first-principle analysis.
 llama-cpp;davila7/claude-code-templates;ai-research/inference-serving-llama-cpp;Run LLM inference on CPU, Apple Silicon, and consumer GPUs with GGUF quantization support.
-clinical-reports;davila7/claude-code-templates;scientific/clinical-reports;Generate comprehensive clinical reports with regulatory compliance and validation tools.
 notebooklm;davila7/claude-code-templates;productivity/notebooklm;Query Google NotebookLM notebooks directly from Claude Code with source-grounded answers and reduced hallucinations.
 serving-llms-vllm;davila7/claude-code-templates;ai-research/inference-serving-vllm;Deploy LLM APIs with high throughput using vLLM's optimizations and support for OpenAI-compatible endpoints.
 using-superpowers;davila7/claude-code-templates;development/using-superpowers;Establishes skill usage protocol at conversation start, requiring skill tool invocation before any response.
 sentence-transformers;davila7/claude-code-templates;ai-research/rag-sentence-transformers;A framework for state-of-the-art sentence, text, and image embeddings with 5000+ pre-trained models for semantic similarity and retrieval.
 behavioral-modes;davila7/claude-code-templates;ai-research/behavioral-modes;Adapts AI behavior based on task type using predefined operational modes.
-skill-development;davila7/claude-code-templates;development/skill-development;A skill for creating, improving, and organizing Claude Code plugin skills with best practices.
 deepspeed;davila7/claude-code-templates;ai-research/distributed-training-deepspeed;Expert guidance for distributed training with DeepSpeed including ZeRO optimization and FP16/BF16 support.
+skill-development;davila7/claude-code-templates;development/skill-development;A skill for creating, improving, and organizing Claude Code plugin skills with best practices.
 dspy;davila7/claude-code-templates;ai-research/prompt-engineering-dspy;A framework for systematic LM programming, enabling declarative AI system building with automatic prompt optimization and modular RAG system
+rag-implementation;davila7/claude-code-templates;ai-research/rag-implementation;Implement Retrieval-Augmented Generation with chunking, embeddings, vector stores, and retrieval optimization.
 parallel-agents;davila7/claude-code-templates;ai-research/parallel-agents;Orchestrate multiple independent agents for diverse domain tasks or comprehensive analysis.
 moe-training;davila7/claude-code-templates;ai-research/emerging-techniques-moe-training;Train Mixture of Experts (MoE) models using DeepSpeed or HuggingFace for large-scale, sparse architectures.
-rag-implementation;davila7/claude-code-templates;ai-research/rag-implementation;Implement Retrieval-Augmented Generation with chunking, embeddings, vector stores, and retrieval optimization.
 langsmith-observability;davila7/claude-code-templates;ai-research/observability-langsmith;A LangSmith observability platform for tracing, evaluating, and monitoring LLM applications.
+social-content;davila7/claude-code-templates;business-marketing/social-content;A skill for creating, scheduling, and optimizing social media content for various platforms like LinkedIn, Twitter, Instagram, TikTok, and F
+evaluating-llms-harness;davila7/claude-code-templates;ai-research/evaluation-lm-evaluation-harness;Evaluates LLMs on 60+ academic benchmarks like MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag. Supports HuggingFace, vLLM, and APIs.
+copy-editing;davila7/claude-code-templates;business-marketing/copy-editing;A skill for editing, reviewing, and improving marketing copy with systematic approaches.
 model-merging;davila7/claude-code-templates;ai-research/emerging-techniques-model-merging;Merge multiple fine-tuned models using mergekit for enhanced performance and experimentation.
 notion-spec-to-implementation;davila7/claude-code-templates;productivity/notion-spec-to-implementation;Convert Notion specifications into implementation plans and tasks.
-copy-editing;davila7/claude-code-templates;business-marketing/copy-editing;A skill for editing, reviewing, and improving marketing copy with systematic approaches.
-evaluating-llms-harness;davila7/claude-code-templates;ai-research/evaluation-lm-evaluation-harness;Evaluates LLMs on 60+ academic benchmarks like MMLU, HumanEval, GSM8K, TruthfulQA, HellaSwag. Supports HuggingFace, vLLM, and APIs.
-social-content;davila7/claude-code-templates;business-marketing/social-content;A skill for creating, scheduling, and optimizing social media content for various platforms like LinkedIn, Twitter, Instagram, TikTok, and F
 training-llms-megatron;davila7/claude-code-templates;ai-research/distributed-training-megatron-core;Train large language models with NVIDIA Megatron-Core for high GPU efficiency and advanced parallelism.
 competitive-ads-extractor;davila7/claude-code-templates;business-marketing/competitive-ads-extractor;Extracts and analyzes competitors' ads from ad libraries to inspire ad campaign improvements.
 model-pruning;davila7/claude-code-templates;ai-research/emerging-techniques-model-pruning;Prune large language models to reduce size and improve inference speed using techniques like Wanda and SparseGPT.
 peft-fine-tuning;davila7/claude-code-templates;ai-research/fine-tuning-peft;Efficient LLM fine-tuning with LoRA, QLoRA, and 25+ methods for limited GPU memory scenarios.
 tensorboard;davila7/claude-code-templates;ai-research/mlops-tensorboard;Visualize training metrics, debug models, and compare experiments with TensorBoard.
+evaluating-code-models;davila7/claude-code-templates;ai-research/evaluation-bigcode-evaluation-harness;Evaluates code generation models using benchmarks like HumanEval and MBPP with pass@k metrics.
+repomix-explorer;yamadashy/repomix;repomix-explorer;Analyze or explore codebases using Repomix CLI.
 instructor;davila7/claude-code-templates;ai-research/prompt-engineering-instructor;Extract structured data from LLM responses with Pydantic validation and automatic retries.
 outlines;davila7/claude-code-templates;ai-research/prompt-engineering-outlines;Ensures valid JSON/XML/code structure during generation using Pydantic models and supports local models for fast inference.
-evaluating-code-models;davila7/claude-code-templates;ai-research/evaluation-bigcode-evaluation-harness;Evaluates code generation models using benchmarks like HumanEval and MBPP with pass@k metrics.
-nowait-reasoning-optimizer;davila7/claude-code-templates;productivity/nowait;Optimizes reasoning in LLMs using the NOWAIT technique, reducing token usage by 27-51% while maintaining accuracy.
 task-execution-engine;davila7/claude-code-templates;development/task-execution-engine;Execute implementation tasks from design documents using markdown checkboxes.
-tensorrt-llm;davila7/claude-code-templates;ai-research/inference-serving-tensorrt-llm;Optimizes LLM inference using NVIDIA TensorRT for high throughput and low latency on A100/H100 GPUs.
+nowait-reasoning-optimizer;davila7/claude-code-templates;productivity/nowait;Optimizes reasoning in LLMs using the NOWAIT technique, reducing token usage by 27-51% while maintaining accuracy.
 transformers;davila7/claude-code-templates;scientific/transformers;A skill for working with pre-trained transformer models in NLP, computer vision, and multimodal tasks.
-codex;davila7/claude-code-templates;development/codex;A skill for using Codex CLI with GPT-5.2 for code analysis, refactoring, and automated editing.
+tensorrt-llm;davila7/claude-code-templates;ai-research/inference-serving-tensorrt-llm;Optimizes LLM inference using NVIDIA TensorRT for high throughput and low latency on A100/H100 GPUs.
 blip-2-vision-language;davila7/claude-code-templates;ai-research/multimodal-blip-2;A vision-language model for image captioning, visual Q&A, and multimodal chat with zero-shot performance.
+codex;davila7/claude-code-templates;development/codex;A skill for using Codex CLI with GPT-5.2 for code analysis, refactoring, and automated editing.
+perplexity;davila7/claude-code-templates;ai-research/perplexity;A skill for web search and research using Perplexity AI, triggered by queries like 'search', 'find', 'look up', 'ask', 'research', or 'what'
 weights-and-biases;davila7/claude-code-templates;ai-research/mlops-weights-and-biases;Track ML experiments, visualize training, optimize hyperparameters, and manage model registry with W&B.
 unsloth;davila7/claude-code-templates;ai-research/fine-tuning-unsloth;Fast fine-tuning with Unsloth for LLMs, 2-5x faster training and 50-80% less memory usage.
 guidance;davila7/claude-code-templates;ai-research/prompt-engineering-guidance;Control LLM output with regex and grammars to ensure valid JSON/XML/code generation and structured formats.
 codex-review;davila7/claude-code-templates;development/codex-review;Automated code review with changelog generation using Codex AI.
-perplexity;davila7/claude-code-templates;ai-research/perplexity;A skill for web search and research using Perplexity AI, triggered by queries like 'search', 'find', 'look up', 'ask', 'research', or 'what'
 huggingface-tokenizers;davila7/claude-code-templates;ai-research/tokenization-huggingface-tokenizers;High-performance tokenizer for NLP tasks, supporting BPE, WordPiece, and Unigram algorithms.
 executing-plans;davila7/claude-code-templates;development/executing-plans;Execute written implementation plans with review checkpoints.
 notion-meeting-intelligence;davila7/claude-code-templates;productivity/notion-meeting-intelligence;Prepare meeting materials using Notion context and Codex research.
@@ -242,83 +243,84 @@ voice-ai-development;davila7/claude-code-templates;ai-research/voice-ai-developm
 developer-growth-analysis;davila7/claude-code-templates;development/developer-growth-analysis;Analyzes coding patterns and development gaps from Claude chat history, curates learning resources from HackerNews, and sends personalized g
 constitutional-ai;davila7/claude-code-templates;ai-research/safety-alignment-constitutional-ai;Training safe AI via self-improvement with supervised learning and RLAIF, powers Claude's safety system.
 crewai;davila7/claude-code-templates;ai-research/crewai;A skill for building collaborative AI agent teams using CrewAI framework.
+llm-app-patterns;davila7/claude-code-templates;ai-research/llm-app-patterns;Production-ready patterns for building LLM apps, covering RAG, agents, prompt IDEs, and LLMOps monitoring.
 skypilot-multi-cloud-orchestration;davila7/claude-code-templates;ai-research/infrastructure-skypilot;Orchestrate ML workloads across multiple clouds with cost optimization and spot instance support.
 sglang;davila7/claude-code-templates;ai-research/inference-serving-sglang;Fast structured generation and serving for LLMs with RadixAttention prefix caching, optimized for JSON/regex outputs and agentic workflows.
-llm-app-patterns;davila7/claude-code-templates;ai-research/llm-app-patterns;Production-ready patterns for building LLM apps, covering RAG, agents, prompt IDEs, and LLMOps monitoring.
-claude-opus-4-5-migration;davila7/claude-code-templates;development/claude-opus-4-5-migration;Migrate prompts and code from older Claude models to Opus 4.5, handling model string updates and prompt adjustments.
 optimizing-attention-flash;davila7/claude-code-templates;ai-research/optimization-flash-attention;Optimizes transformer attention using Flash Attention for faster inference and reduced memory usage.
+claude-opus-4-5-migration;davila7/claude-code-templates;development/claude-opus-4-5-migration;Migrate prompts and code from older Claude models to Opus 4.5, handling model string updates and prompt adjustments.
 transformer-lens-interpretability;davila7/claude-code-templates;ai-research/mechanistic-interpretability-transformer-lens;A skill for mechanistic interpretability research using TransformerLens to inspect transformer internals.
 segment-anything-model;davila7/claude-code-templates;ai-research/multimodal-segment-anything;A foundation model for image segmentation with zero-shot transfer capabilities using prompts like points, boxes, or masks.
 lambda-labs-gpu-cloud;davila7/claude-code-templates;ai-research/infrastructure-lambda-labs;Provides reserved and on-demand GPU cloud instances for ML training and inference with SSH access and persistent filesystems.
+nemo-guardrails;davila7/claude-code-templates;ai-research/safety-alignment-nemo-guardrails;NVIDIA's runtime safety framework for LLM applications with features like jailbreak detection and PII filtering.
 plan-writing;davila7/claude-code-templates;productivity/plan-writing;A structured task planning skill for breaking down complex work into clear steps with dependencies and verification criteria.
 implementing-llms-litgpt;davila7/claude-code-templates;ai-research/model-architecture-litgpt;Implement and train LLMs using LitGPT with 20+ architectures like Llama, Gemma, Phi, Qwen, Mistral.
 image-enhancer;davila7/claude-code-templates;media/image-enhancer;Enhances image quality, especially screenshots, for presentations and documentation.
 quantizing-models-bitsandbytes;davila7/claude-code-templates;ai-research/optimization-bitsandbytes;Quantizes LLMs to 8-bit or 4-bit for memory reduction and faster inference.
 sparse-autoencoder-training;davila7/claude-code-templates;ai-research/mechanistic-interpretability-saelens;Guides training and analysis of Sparse Autoencoders for interpreting neural network activations.
+agent-memory;yamadashy/repomix;agent-memory;Manages memory for agents, enabling saving, recalling, and organizing information.
 command-development;davila7/claude-code-templates;development/command-development;A skill for developing slash commands with Claude Code, covering structure, arguments, and execution patterns.
-nemo-guardrails;davila7/claude-code-templates;ai-research/safety-alignment-nemo-guardrails;NVIDIA's runtime safety framework for LLM applications with features like jailbreak detection and PII filtering.
 clip;davila7/claude-code-templates;ai-research/multimodal-clip;A vision-language model for image classification, matching, and retrieval without fine-tuning.
 mamba-architecture;davila7/claude-code-templates;ai-research/model-architecture-mamba;Mamba architecture: State-space model with O(n) complexity, 5x faster inference, million-token sequences, no KV cache.
 pyvene-interventions;davila7/claude-code-templates;ai-research/mechanistic-interpretability-pyvene;Guides causal interventions on PyTorch models using pyvene framework for causal tracing and activation patching.
 phoenix-observability;davila7/claude-code-templates;ai-research/observability-phoenix;An open-source AI observability platform for LLM tracing, evaluation, and monitoring.
 grpo-rl-training;davila7/claude-code-templates;ai-research/post-training-grpo-rl-training;Expert guidance for GRPO/RL fine-tuning with TRL for reasoning and task-specific model training.
+skill-developer;davila7/claude-code-templates;productivity/skill-developer;Create and manage Claude Code skills using Anthropic's best practices.
 skill-judge;davila7/claude-code-templates;productivity/skill-judge;Evaluate agent skill design quality against specifications and best practices, providing scoring and improvement suggestions for SKILL.md fi
 voice-agents;davila7/claude-code-templates;ai-research/voice-agents;A skill for building voice agents with low-latency speech-to-speech or pipeline architectures.
-skill-developer;davila7/claude-code-templates;productivity/skill-developer;Create and manage Claude Code skills using Anthropic's best practices.
-email-sequence;davila7/claude-code-templates;business-marketing/email-sequence;Create or optimize email sequences, drip campaigns, and automated email flows for customer engagement.
 hook-development;davila7/claude-code-templates;development/hook-development;A skill for creating and implementing Claude Code plugin hooks, focusing on advanced prompt-based APIs.
+email-sequence;davila7/claude-code-templates;business-marketing/email-sequence;Create or optimize email sequences, drip campaigns, and automated email flows for customer engagement.
+openrlhf-training;davila7/claude-code-templates;ai-research/post-training-openrlhf;A high-performance RLHF framework using Ray and vLLM for large model training.
 pyhealth;davila7/claude-code-templates;scientific/pyhealth;A comprehensive healthcare AI toolkit for developing and deploying ML models with clinical data.
 aeon;davila7/claude-code-templates;scientific/aeon;A skill for time series machine learning tasks including classification, regression, clustering, forecasting, anomaly detection, segmentatio
+competitor-alternatives;davila7/claude-code-templates;business-marketing/competitor-alternatives;Create competitor comparison and alternative pages for SEO and sales enablement with deep research and modular content architecture.
 axolotl;davila7/claude-code-templates;ai-research/fine-tuning-axolotl;Guidance for fine-tuning LLMs with Axolotl using YAML configs, LoRA/QLoRA, DPO/KTO/ORPO/GRPO, and multimodal support.
-openrlhf-training;davila7/claude-code-templates;ai-research/post-training-openrlhf;A high-performance RLHF framework using Ray and vLLM for large model training.
 llava;davila7/claude-code-templates;ai-research/multimodal-llava;A vision-language model for image-based conversations and visual question answering.
+railway-docs;davila7/claude-code-templates;railway/railway-docs;A skill to fetch up-to-date Railway documentation for accurate answers about Railway features and functionality.
 nnsight-remote-interpretability;davila7/claude-code-templates;ai-research/mechanistic-interpretability-nnsight;Interprets and manipulates neural network internals using nnsight with remote execution support for large models.
 llamaguard;davila7/claude-code-templates;ai-research/safety-alignment-llamaguard;Meta's 7-8B specialized moderation model for LLM input/output filtering with 6 safety categories.
-competitor-alternatives;davila7/claude-code-templates;business-marketing/competitor-alternatives;Create competitor comparison and alternative pages for SEO and sales enablement with deep research and modular content architecture.
-railway-docs;davila7/claude-code-templates;railway/railway-docs;A skill to fetch up-to-date Railway documentation for accurate answers about Railway features and functionality.
 shap;davila7/claude-code-templates;scientific/shap;A skill for model interpretability and explainability using SHAP, useful for debugging ML models and analyzing feature importance.
 gptq;davila7/claude-code-templates;ai-research/optimization-gptq;Post-training 4-bit quantization for LLMs with minimal accuracy loss, enabling deployment of large models on consumer GPUs.
 writing-clearly-and-concisely;davila7/claude-code-templates;enterprise-communication/writing-clearly-and-concisely;A skill for writing clear and concise prose, suitable for documentation, commit messages, and UI text.
 loki-mode;davila7/claude-code-templates;ai-research/loki-mode;A multi-agent autonomous system for Claude Code that orchestrates specialized agents to build and deploy products.
+langfuse;davila7/claude-code-templates;ai-research/langfuse;A skill expert in Langfuse, an open-source LLM observability platform for tracing, prompt management, and evaluation.
+viral-generator-builder;davila7/claude-code-templates;business-marketing/viral-generator-builder;Build viral generator tools like quizzes, name generators, and avatar creators with sharing psychology.
 zapier-workflows;davila7/claude-code-templates;development/zapier-workflows;Manage and trigger Zapier workflows and MCP tool orchestration for automations and research tasks.
 skill-share;davila7/claude-code-templates;utilities/skill-share;Creates and shares Claude skills on Slack for team collaboration.
 awq-quantization;davila7/claude-code-templates;ai-research/optimization-awq;Activation-aware weight quantization for 4-bit LLM compression with 3x speedup and minimal accuracy loss.
 sentencepiece;davila7/claude-code-templates;ai-research/tokenization-sentencepiece;A language-independent tokenizer for text preprocessing in NLP tasks, supporting BPE and Unigram algorithms.
+torch-geometric;davila7/claude-code-templates;scientific/torch_geometric;A skill for graph neural networks using PyTorch Geometric, supporting node/graph classification and link prediction.
 stable-baselines3;davila7/claude-code-templates;scientific/stable-baselines3;A skill for reinforcement learning tasks using stable-baselines3, including training RL agents and creating custom environments.
 paywall-upgrade-cro;davila7/claude-code-templates;business-marketing/paywall-upgrade-cro;Optimizes in-app paywalls and upgrade flows for freemium conversion.
-langfuse;davila7/claude-code-templates;ai-research/langfuse;A skill expert in Langfuse, an open-source LLM observability platform for tracing, prompt management, and evaluation.
-viral-generator-builder;davila7/claude-code-templates;business-marketing/viral-generator-builder;Build viral generator tools like quizzes, name generators, and avatar creators with sharing psychology.
 rwkv-architecture;davila7/claude-code-templates;ai-research/model-architecture-rwkv;RWKV is a hybrid RNN+Transformer architecture with O(n) inference, supporting linear time and infinite context.
 meeting-insights-analyzer;davila7/claude-code-templates;productivity/meeting-insights-analyzer;Analyzes meeting transcripts to provide communication insights and behavioral feedback.
+treatment-plans;davila7/claude-code-templates;scientific/treatment-plans;Generate concise medical treatment plans in LaTeX/PDF format with SMART goals and evidence-based interventions.
 simpo-training;davila7/claude-code-templates;ai-research/post-training-simpo;A simple and efficient method for LLM preference alignment without reference models.
 pymoo;davila7/claude-code-templates;scientific/pymoo;A multi-objective optimization framework supporting NSGA-II, NSGA-III, MOEA/D, and Pareto fronts for engineering design and optimization pro
-torch-geometric;davila7/claude-code-templates;scientific/torch_geometric;A skill for graph neural networks using PyTorch Geometric, supporting node/graph classification and link prediction.
-treatment-plans;davila7/claude-code-templates;scientific/treatment-plans;Generate concise medical treatment plans in LaTeX/PDF format with SMART goals and evidence-based interventions.
 command-creator;davila7/claude-code-templates;development/command-creator;A skill for creating Claude Code slash commands with proper structure and best practices.
 hqq-quantization;davila7/claude-code-templates;ai-research/optimization-hqq;Quantize LLMs to 4/3/2-bit precision without calibration data, suitable for fast workflows with vLLM or HuggingFace.
 plugin-settings;davila7/claude-code-templates;development/plugin-settings;A skill for managing plugin settings using .local.md files with YAML frontmatter.
+quality-manager-qms-iso13485;davila7/claude-code-templates;enterprise-communication/quality-manager-qms-iso13485;An ISO 13485 Quality Management System specialist for medical device companies, providing QMS implementation, maintenance, and compliance ex
 slack-gif-creator;davila7/claude-code-templates;creative-design/slack-gif-creator;Creates animated GIFs optimized for Slack with size validation and composable animation primitives.
 cc-skill-continuous-learning;davila7/claude-code-templates;development/cc-skill-continuous-learning;A skill for continuous learning and LLM optimization.
-quality-manager-qms-iso13485;davila7/claude-code-templates;enterprise-communication/quality-manager-qms-iso13485;An ISO 13485 Quality Management System specialist for medical device companies, providing QMS implementation, maintenance, and compliance ex
+mdr-745-specialist;davila7/claude-code-templates;enterprise-communication/mdr-745-specialist;MDR 2017/745 regulation specialist for medical device compliance, offering expertise in gap analysis, technical documentation, and post-mark
 plugin-structure;davila7/claude-code-templates;development/plugin-structure;A skill for creating and understanding plugin structures, including directory layout, manifest configuration, and component organization for
 template-skill;davila7/claude-code-templates;utilities/template-skill;A template skill for generating descriptions and usage guidance for AI assistants.
-mdr-745-specialist;davila7/claude-code-templates;enterprise-communication/mdr-745-specialist;MDR 2017/745 regulation specialist for medical device compliance, offering expertise in gap analysis, technical documentation, and post-mark
 marp-slide;davila7/claude-code-templates;creative-design/marp-slide;Create professional Marp presentation slides with customizable themes and layouts.
 qiskit;davila7/claude-code-templates;scientific/qiskit;A comprehensive quantum computing toolkit for building, optimizing, and executing quantum circuits.
 pennylane;davila7/claude-code-templates;scientific/pennylane;A cross-platform Python library for quantum computing, quantum machine learning, and quantum chemistry with automatic differentiation and ha
 doc-coauthoring;davila7/claude-code-templates;productivity/doc-coauthoring;A skill for guiding users through structured documentation co-authoring workflows.
-concise-planning;davila7/claude-code-templates;productivity/concise-planning;Generates clear, actionable checklists for coding tasks.
-geo-fundamentals;davila7/claude-code-templates;utilities/geo-fundamentals;Optimizes AI search engines like ChatGPT, Claude, and Perplexity with generative engine techniques.
 fda-consultant-specialist;davila7/claude-code-templates;enterprise-communication/fda-consultant-specialist;A senior FDA consultant specializing in medical device compliance, QSR, cybersecurity, and regulatory submissions.
 gepetto;davila7/claude-code-templates;ai-research/gepetto;Generates detailed implementation plans using LLMs and stakeholder research for feature planning.
+concise-planning;davila7/claude-code-templates;productivity/concise-planning;Generates clear, actionable checklists for coding tasks.
+geo-fundamentals;davila7/claude-code-templates;utilities/geo-fundamentals;Optimizes AI search engines like ChatGPT, Claude, and Perplexity with generative engine techniques.
 qms-audit-expert;davila7/claude-code-templates;enterprise-communication/qms-audit-expert;A senior QMS audit expert for ISO 13485 compliance and audit program management.
 torchdrug;davila7/claude-code-templates;scientific/torchdrug;A graph-based drug discovery toolkit using GNNs for molecular property prediction and protein modeling.
 meme-factory;davila7/claude-code-templates;creative-design/meme-factory;Generate memes using the memegen.link API for social media and content humor.
 cc-skill-strategic-compact;davila7/claude-code-templates;development/cc-skill-strategic-compact;A development skill for Claude code generation and management.
 pufferlib;davila7/claude-code-templates;scientific/pufferlib;A skill for reinforcement learning tasks including PPO training, custom environment development, and multi-agent systems.
 popup-cro;davila7/claude-code-templates;business-marketing/popup-cro;Optimize popups, modals, and banners for conversion rate improvement.
-session-handoff;davila7/claude-code-templates;enterprise-communication/session-handoff;Generates handoff documents for AI agent sessions to ensure seamless transitions and context preservation.
 esm;davila7/claude-code-templates;scientific/esm;A comprehensive toolkit for protein language models including ESM3 and ESM C, supporting protein sequence analysis, structure prediction, an
+session-handoff;davila7/claude-code-templates;enterprise-communication/session-handoff;Generates handoff documents for AI agent sessions to ensure seamless transitions and context preservation.
 cirq;davila7/claude-code-templates;scientific/cirq;A skill for quantum computing framework to build, simulate, optimize, and execute quantum circuits.
 heygen-best-practices;davila7/claude-code-templates;development/heygen-best-practices;Best practices for using HeyGen's AI avatar video creation API.
 ship-learn-next;davila7/claude-code-templates;productivity/ship-learn-next;Transform learning content into actionable implementation plans using the Ship-Learn-Next framework.
@@ -327,26 +329,24 @@ tavily-web;davila7/claude-code-templates;web-development/tavily-web;A skill for 
 plugin-forge;davila7/claude-code-templates;development/plugin-forge;Create and manage Claude Code plugins with proper structure and marketplace integration.
 feedback-mastery;davila7/claude-code-templates;enterprise-communication/feedback-mastery;Master difficult conversations and give constructive feedback using structured frameworks like SBI and P-D-F model.
 exa-search;davila7/claude-code-templates;web-development/exa-search;Perform semantic search and content discovery using the Exa API.
-blockrun;davila7/claude-code-templates;web-development/blockrun;This skill enables access to external models and capabilities that Claude lacks, such as image generation and real-time data.
 zapier-make-patterns;davila7/claude-code-templates;workflow-automation/zapier-make-patterns;This skill helps users choose between Zapier and Make for no-code automation, focusing on when to use each platform and how to build reliabl
+blockrun;davila7/claude-code-templates;web-development/blockrun;This skill enables access to external models and capabilities that Claude lacks, such as image generation and real-time data.
 openai-docs;davila7/claude-code-templates;ai-research/openai-docs;Provides up-to-date OpenAI official documentation with citations for building with OpenAI products, APIs, and SDKs.
 nemo-evaluator-sdk;davila7/claude-code-templates;ai-research/evaluation-nemo-evaluator;Evaluates LLMs across 100+ benchmarks from 18+ harnesses with multi-backend execution on local Docker, Slurm HPC, or cloud platforms.
 verl-rl-training;davila7/claude-code-templates;ai-research/post-training-verl;Guidance for training LLMs with reinforcement learning (RLHF, PPO, GRPO) using verl infrastructure.
 distributed-llm-pretraining-torchtitan;davila7/claude-code-templates;ai-research/model-architecture-torchtitan;Enables PyTorch-native distributed LLM pretraining via torchtitan with 4D parallelism, scaling from 8 to 512+ GPUs.
 screenshot;davila7/claude-code-templates;media/screenshot;Automatically capture screenshots of desktop, system, apps, or windows when requested.
 m05-type-driven;rustfs/rustfs;;A skill for type-driven development with AI assistance.
-agent-builder;shareai-lab/learn-claude-code;agent-builder;Design and build AI agents for any domain, covering agent architecture, autonomous systems, and tool usage.
 m06-error-handling;rustfs/rustfs;;A skill for handling errors in AI/LLM applications.
 m04-zero-cost;rustfs/rustfs;;A skill for zero-cost LLM prompting and tooling.
 m10-performance;rustfs/rustfs;;Optimizes LLM performance and efficiency.
-mcp-builder;shareai-lab/learn-claude-code;mcp-builder;Build MCP servers to extend Claude AI capabilities with custom tools and external service integrations.
 ralph-plan;mastra-ai/mastra;ralph-plan;An interactive planning assistant for creating structured ralph-loop commands via conversation.
 prompt-engineer;sickn33/antigravity-awesome-skills;prompt-engineer;Transforms user prompts into optimized prompts using various frameworks like RTF, RISEN, Chain of Thought, etc.
 agent-memory-systems;sickn33/antigravity-awesome-skills;agent-memory-systems;Explores agent memory architecture, covering short-term context windows and long-term vector storage strategies for intelligent agents.
 ai-agents-architect;sickn33/antigravity-awesome-skills;ai-agents-architect;Expert in designing and building autonomous AI agents. Masters tool use, memory systems, planning strategies, and multi-agent orchestration.
 langgraph;sickn33/antigravity-awesome-skills;langgraph;Expert in LangGraph framework for building stateful, multi-actor AI applications. Covers graph construction, state management, and persisten
-geo-fundamentals;sickn33/antigravity-awesome-skills;geo-fundamentals;Optimizes AI search engines like ChatGPT, Claude, and Perplexity with generative engine techniques.
 prompt-engineering;sickn33/antigravity-awesome-skills;prompt-engineering;Expert guide on prompt engineering patterns, best practices, and optimization techniques for LLMs.
+geo-fundamentals;sickn33/antigravity-awesome-skills;geo-fundamentals;Optimizes AI search engines like ChatGPT, Claude, and Perplexity with generative engine techniques.
 conversation-memory;sickn33/antigravity-awesome-skills;conversation-memory;Manages persistent memory for LLM conversations with short-term, long-term, and entity-based storage.
 content-creator;sickn33/antigravity-awesome-skills;content-creator;Generate SEO-optimized marketing content with consistent brand voice using AI.
 autonomous-agents;sickn33/antigravity-awesome-skills;autonomous-agents;An autonomous agent skill focusing on goal decomposition, planning, tool execution, and reliability in LLM systems.
@@ -355,38 +355,38 @@ copywriting;sickn33/antigravity-awesome-skills;copywriting;This skill helps crea
 context-window-management;sickn33/antigravity-awesome-skills;context-window-management;Manage LLM context windows with strategies like summarization, trimming, and routing to avoid context rot.
 concise-planning;sickn33/antigravity-awesome-skills;concise-planning;Generates clear, actionable checklists for coding tasks.
 agent-memory-mcp;sickn33/antigravity-awesome-skills;agent-memory-mcp;A hybrid memory system for AI agents providing persistent and searchable knowledge management.
+daily-news-report;sickn33/antigravity-awesome-skills;daily-news-report;Automatically scrapes and summarizes technical news into daily Markdown reports.
 app-builder;sickn33/antigravity-awesome-skills;app-builder;An orchestrator that builds full-stack applications from natural language requests using LLMs and agent coordination.
 ai-product;sickn33/antigravity-awesome-skills;ai-product;An AI-powered product skill covering LLM integration, RAG, prompt engineering, and cost optimization.
-rag-engineer;sickn33/antigravity-awesome-skills;rag-engineer;Build Retrieval-Augmented Generation systems with expertise in embeddings, vector databases, and retrieval optimization.
-daily-news-report;sickn33/antigravity-awesome-skills;daily-news-report;Automatically scrapes and summarizes technical news into daily Markdown reports.
 autonomous-agent-patterns;sickn33/antigravity-awesome-skills;autonomous-agent-patterns;Design patterns for building autonomous coding agents, covering tool integration, permission systems, and human-in-the-loop workflows.
+rag-engineer;sickn33/antigravity-awesome-skills;rag-engineer;Build Retrieval-Augmented Generation systems with expertise in embeddings, vector databases, and retrieval optimization.
 voice-ai-development;sickn33/antigravity-awesome-skills;voice-ai-development;Build voice AI applications with real-time agents, speech-to-text, and text-to-speech capabilities using OpenAI, Deepgram, ElevenLabs, and m
 agent-tool-builder;sickn33/antigravity-awesome-skills;agent-tool-builder;A skill for designing effective AI agent tools with JSON Schema, error handling, and MCP standard.
 llm-app-patterns;sickn33/antigravity-awesome-skills;llm-app-patterns;Production-ready patterns for building LLM apps, covering RAG, agents, prompt IDEs, and LLMOps monitoring.
 computer-use-agents;sickn33/antigravity-awesome-skills;computer-use-agents;Build AI agents that interact with computers like humans do, covering screen viewing, cursor movement, button clicking, and text typing.
 planning-with-files;sickn33/antigravity-awesome-skills;planning-with-files;A skill for file-based planning of complex tasks using task_plan.md, findings.md, and progress.md files.
-agent-manager-skill;sickn33/antigravity-awesome-skills;agent-manager-skill;Manage multiple local CLI agents via tmux sessions with cron-friendly scheduling.
 skill-creator;sickn33/antigravity-awesome-skills;skill-creator;A guide for creating effective AI coding skills tailored for Azure SDKs and Microsoft Foundry services.
+agent-manager-skill;sickn33/antigravity-awesome-skills;agent-manager-skill;Manage multiple local CLI agents via tmux sessions with cron-friendly scheduling.
 prompt-library;sickn33/antigravity-awesome-skills;prompt-library;A curated library of high-quality prompts for coding, writing, analysis, and creative tasks.
+youtube-summarizer;sickn33/antigravity-awesome-skills;youtube-summarizer;Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks
 voice-agents;sickn33/antigravity-awesome-skills;voice-agents;A skill for building voice agents with low-latency speech-to-speech or pipeline architectures.
 agent-evaluation;sickn33/antigravity-awesome-skills;agent-evaluation;Evaluate and benchmark LLM agents with behavioral testing, capability assessment, and reliability metrics.
 notebooklm;sickn33/antigravity-awesome-skills;notebooklm;Query Google NotebookLM notebooks directly from Claude Code with source-grounded answers and reduced hallucinations.
 parallel-agents;sickn33/antigravity-awesome-skills;parallel-agents;Orchestrate multiple independent agents for diverse domain tasks or comprehensive analysis.
 langfuse;sickn33/antigravity-awesome-skills;langfuse;A skill expert in Langfuse, an open-source LLM observability platform for tracing, prompt management, and evaluation.
-skill-developer;sickn33/antigravity-awesome-skills;skill-developer;Create and manage Claude Code skills using Anthropic's best practices.
-youtube-summarizer;sickn33/antigravity-awesome-skills;youtube-summarizer;Extract transcripts from YouTube videos and generate comprehensive, detailed summaries using intelligent analysis frameworks
 prompt-caching;sickn33/antigravity-awesome-skills;prompt-caching;Optimize LLM prompt caching with Anthropic, response caching, and CAG strategies.
-plan-writing;sickn33/antigravity-awesome-skills;plan-writing;A structured task planning skill for breaking down complex work into clear steps with dependencies and verification criteria.
+skill-developer;sickn33/antigravity-awesome-skills;skill-developer;Create and manage Claude Code skills using Anthropic's best practices.
 writing-skills;sickn33/antigravity-awesome-skills;writing-skills;A skill for creating, updating, or improving agent skills.
-rag-implementation;sickn33/antigravity-awesome-skills;rag-implementation;Implement Retrieval-Augmented Generation (RAG) systems with vector databases and semantic search for LLM applications.
+plan-writing;sickn33/antigravity-awesome-skills;plan-writing;A structured task planning skill for breaking down complex work into clear steps with dependencies and verification criteria.
 viral-generator-builder;sickn33/antigravity-awesome-skills;viral-generator-builder;Build viral generator tools like quizzes, name generators, and avatar creators with sharing psychology.
+rag-implementation;sickn33/antigravity-awesome-skills;rag-implementation;Implement Retrieval-Augmented Generation (RAG) systems with vector databases and semantic search for LLM applications.
 crewai;sickn33/antigravity-awesome-skills;crewai;A skill for building collaborative AI agent teams using CrewAI framework.
+cc-skill-strategic-compact;sickn33/antigravity-awesome-skills;cc-skill-strategic-compact;A development skill for Claude code generation and management.
 competitor-alternatives;sickn33/antigravity-awesome-skills;competitor-alternatives;Create competitor comparison and alternative pages for SEO and sales enablement with deep research and modular content architecture.
+writing-plans;sickn33/antigravity-awesome-skills;writing-plans;This skill helps create writing plans for multi-step tasks based on specs or requirements.
 loki-mode;sickn33/antigravity-awesome-skills;loki-mode;A multi-agent autonomous system for Claude Code that orchestrates specialized agents to build and deploy products.
 executing-plans;sickn33/antigravity-awesome-skills;executing-plans;Execute written implementation plans with review checkpoints.
 social-content;sickn33/antigravity-awesome-skills;social-content;A skill for creating, scheduling, and optimizing social media content for various platforms like LinkedIn, Twitter, Instagram, TikTok, and F
-writing-plans;sickn33/antigravity-awesome-skills;writing-plans;This skill helps create writing plans for multi-step tasks based on specs or requirements.
-cc-skill-strategic-compact;sickn33/antigravity-awesome-skills;cc-skill-strategic-compact;A development skill for Claude code generation and management.
 zapier-make-patterns;sickn33/antigravity-awesome-skills;zapier-make-patterns;This skill helps users choose between Zapier and Make for no-code automation, focusing on when to use each platform and how to build reliabl
 behavioral-modes;sickn33/antigravity-awesome-skills;behavioral-modes;Adapts AI behavior based on task type using predefined operational modes.
 subagent-driven-development;sickn33/antigravity-awesome-skills;subagent-driven-development;Execute implementation plans with independent tasks using subagents.
@@ -403,76 +403,75 @@ architect-review;sickn33/antigravity-awesome-skills;architect-review;A skill for
 blockrun;sickn33/antigravity-awesome-skills;blockrun;This skill enables access to external models and capabilities that Claude lacks, such as image generation and real-time data.
 slack-gif-creator;sickn33/antigravity-awesome-skills;slack-gif-creator;Create animated GIFs optimized for Slack with validation tools and animation concepts.
 form-cro;sickn33/antigravity-awesome-skills;form-cro;Optimize various forms (lead capture, contact, demo request, etc.) to increase completion rates and improve lead quality.
-claude-code-guide;sickn33/antigravity-awesome-skills;;A comprehensive guide to effectively using Claude Code, covering configuration, prompting, debugging, and best practices.
 code-documentation-code-explain;sickn33/antigravity-awesome-skills;code-documentation-code-explain;Explain complex code through narratives and step-by-step breakdowns for educational purposes.
+claude-code-guide;sickn33/antigravity-awesome-skills;;A comprehensive guide to effectively using Claude Code, covering configuration, prompting, debugging, and best practices.
 context7-auto-research;sickn33/antigravity-awesome-skills;context7-auto-research;Automatically fetches latest library/framework docs for Claude Code via Context7 API.
 codex-review;sickn33/antigravity-awesome-skills;codex-review;Automated code review with changelog generation using Codex AI.
 agent-orchestration-multi-agent-optimize;sickn33/antigravity-awesome-skills;agent-orchestration-multi-agent-optimize;Optimize multi-agent systems with coordinated profiling, workload distribution, and cost-aware orchestration.
 code-reviewer;sickn33/antigravity-awesome-skills;code-reviewer;An elite code review expert focusing on AI-powered analysis, security, performance, and reliability.
 audio-transcriber;sickn33/antigravity-awesome-skills;audio-transcriber;Transforms audio recordings into Markdown docs with intelligent LLM-powered summaries.
-tavily-web;sickn33/antigravity-awesome-skills;tavily-web;A skill for web search, content extraction, crawling, and research using Tavily API.
 content-marketer;sickn33/antigravity-awesome-skills;content-marketer;An AI-powered content marketing strategist for omnichannel distribution and SEO optimization.
+tavily-web;sickn33/antigravity-awesome-skills;tavily-web;A skill for web search, content extraction, crawling, and research using Tavily API.
 exa-search;sickn33/antigravity-awesome-skills;exa-search;Perform semantic search and content discovery using the Exa API.
 agent-orchestration-improve-agent;sickn33/antigravity-awesome-skills;agent-orchestration-improve-agent;Improve agent performance through analysis and iterative refinement.
-context-compression;sickn33/antigravity-awesome-skills;context-compression;Design and evaluate compression strategies for long-running AI sessions to optimize context usage and performance.
+context-compression;sickn33/antigravity-awesome-skills;context-compression;Optimizes token usage and compresses conversation history for long-running agent sessions.
 ui-visual-validator;sickn33/antigravity-awesome-skills;ui-visual-validator;A skill for rigorous visual validation of UI components, design systems, and accessibility.
 code-review-ai-ai-review;sickn33/antigravity-awesome-skills;code-review-ai-ai-review;An AI-powered code review skill combining static analysis, pattern recognition, and DevOps practices.
 prompt-engineering-patterns;sickn33/antigravity-awesome-skills;prompt-engineering-patterns;Master advanced prompt engineering techniques for maximizing LLM performance, reliability, and controllability in production.
 skill-seekers;sickn33/antigravity-awesome-skills;skill-seekers;Automatically convert documentation websites, GitHub repositories, and PDFs into Claude AI skills in minutes.
 voice-ai-engine-development;sickn33/antigravity-awesome-skills;voice-ai-engine-development;Develop real-time conversational AI voice engines with LLM agents, TTS, and streaming capabilities.
 comprehensive-review-full-review;sickn33/antigravity-awesome-skills;comprehensive-review-full-review;A skill for conducting comprehensive reviews and analysis of content or systems.
-seo-content-writer;sickn33/antigravity-awesome-skills;seo-content-writer;Generates SEO-optimized content based on keywords and topic briefs.
 backtesting-frameworks;sickn33/antigravity-awesome-skills;backtesting-frameworks;Build robust backtesting systems for trading strategies with proper handling of look-ahead bias, survivorship bias, and transaction costs.
-llm-application-dev-langchain-agent;sickn33/antigravity-awesome-skills;llm-application-dev-langchain-agent;Expert LangChain agent developer for production-grade AI systems using LangChain 0.1+ and LangGraph.
+seo-content-writer;sickn33/antigravity-awesome-skills;seo-content-writer;Generates SEO-optimized content based on keywords and topic briefs.
 memory-systems;sickn33/antigravity-awesome-skills;memory-systems;Design short-term, long-term, and graph-based memory architectures for AI systems
-docs-architect;sickn33/antigravity-awesome-skills;docs-architect;Generates comprehensive technical documentation from codebases, analyzing architecture and implementation details.
 customer-support;sickn33/antigravity-awesome-skills;customer-support;An AI-powered customer support specialist with conversational AI, ticketing, and sentiment analysis capabilities.
+llm-application-dev-langchain-agent;sickn33/antigravity-awesome-skills;llm-application-dev-langchain-agent;Expert LangChain agent developer for production-grade AI systems using LangChain 0.1+ and LangGraph.
+docs-architect;sickn33/antigravity-awesome-skills;docs-architect;Generates comprehensive technical documentation from codebases, analyzing architecture and implementation details.
 context-manager;sickn33/antigravity-awesome-skills;context-manager;Manages conversation context and memory for optimal AI performance.
-multi-agent-patterns;sickn33/antigravity-awesome-skills;multi-agent-patterns;Master orchestrator, peer-to-peer, and hierarchical multi-agent architectures for AI systems
-langchain-architecture;sickn33/antigravity-awesome-skills;langchain-architecture;Design LLM applications using LangChain framework with agents, memory, and tool integration.
 error-debugging-multi-agent-review;sickn33/antigravity-awesome-skills;error-debugging-multi-agent-review;A skill for error debugging in multi-agent review processes.
-llm-application-dev-prompt-optimize;sickn33/antigravity-awesome-skills;llm-application-dev-prompt-optimize;Optimize prompts for LLMs using constitutional AI, chain-of-thought reasoning, and model-specific techniques.
+langchain-architecture;sickn33/antigravity-awesome-skills;langchain-architecture;Design LLM applications using LangChain framework with agents, memory, and tool integration.
+multi-agent-patterns;sickn33/antigravity-awesome-skills;multi-agent-patterns;Helps design and coordinate multi-agent systems, including supervisor patterns, swarm architecture, and agent handoffs.
 debugger;sickn33/antigravity-awesome-skills;debugger;A debugging specialist skill for identifying and resolving errors, test failures, and unexpected behavior in AI/LLM systems.
 context-management-context-restore;sickn33/antigravity-awesome-skills;context-management-context-restore;Restore context for LLM interactions.
+llm-application-dev-prompt-optimize;sickn33/antigravity-awesome-skills;llm-application-dev-prompt-optimize;Optimize prompts for LLMs using constitutional AI, chain-of-thought reasoning, and model-specific techniques.
 legal-advisor;sickn33/antigravity-awesome-skills;legal-advisor;A legal advisor skill powered by LLM to provide legal guidance and support.
-context-optimization;sickn33/antigravity-awesome-skills;context-optimization;Apply compaction, masking, and caching strategies for context optimization in AI/LLM applications
+context-optimization;sickn33/antigravity-awesome-skills;context-optimization;Optimizes LLM context usage to reduce token costs and improve efficiency via KV-cache optimization and context partitioning.
 context-management-context-save;sickn33/antigravity-awesome-skills;context-management-context-save;Context management skill for saving and handling context in AI/LLM workflows
 mlops-engineer;sickn33/antigravity-awesome-skills;mlops-engineer;Build ML pipelines, experiment tracking, and model registries with MLflow, Kubeflow, and modern MLOps tools.
-git-pr-workflows-onboard;sickn33/antigravity-awesome-skills;git-pr-workflows-onboard;An expert onboarding specialist and knowledge transfer architect for remote-first organizations.
 tutorial-engineer;sickn33/antigravity-awesome-skills;tutorial-engineer;Creates step-by-step tutorials and educational content from code, transforming complex concepts into progressive learning experiences.
+git-pr-workflows-onboard;sickn33/antigravity-awesome-skills;git-pr-workflows-onboard;An expert onboarding specialist and knowledge transfer architect for remote-first organizations.
 seo-content-planner;sickn33/antigravity-awesome-skills;seo-content-planner;Plan SEO content strategies with outlines, topic clusters, and calendars.
 llm-application-dev-ai-assistant;sickn33/antigravity-awesome-skills;llm-application-dev-ai-assistant;AI assistant development expert for creating intelligent conversational interfaces, chatbots, and AI-powered applications with natural langu
 performance-testing-review-ai-review;sickn33/antigravity-awesome-skills;performance-testing-review-ai-review;An AI-powered code review skill using static analysis and pattern recognition.
 ml-engineer;sickn33/antigravity-awesome-skills;ml-engineer;Build production ML systems with PyTorch and TensorFlow.
+context-degradation;sickn33/antigravity-awesome-skills;context-degradation;Diagnoses and fixes LLM context issues like lost-in-middle, poisoning, and agent failures to improve performance.
 llm-evaluation;sickn33/antigravity-awesome-skills;llm-evaluation;Evaluate LLM applications using automated metrics, human feedback, and benchmarking.
-context-degradation;sickn33/antigravity-awesome-skills;context-degradation;Recognize patterns of context failure in LLMs: lost-in-middle, poisoning, distraction, and clash
-context-fundamentals;sickn33/antigravity-awesome-skills;context-fundamentals;Learn about context in AI agent systems: what it is, why it matters, and how it works.
+context-fundamentals;sickn33/antigravity-awesome-skills;context-fundamentals;Explains LLM context windows, attention mechanics, and agent architecture. Helps debug context issues and optimize context usage budgeting.
 seo-content-refresher;sickn33/antigravity-awesome-skills;seo-content-refresher;Refreshes outdated SEO content by identifying and suggesting updates for statistics, dates, and examples.
-n8n-mcp-tools-expert;sickn33/antigravity-awesome-skills;n8n-mcp-tools-expert;Guide for effectively using n8n-mcp tools, including node search, configuration validation, and workflow management.
+beautiful-prose;sickn33/antigravity-awesome-skills;beautiful-prose;A writing style contract for timeless, forceful English prose. Ensures clean, exact, concrete output free of AI cadence, filler, or therapeu
+n8n-mcp-tools-expert;sickn33/antigravity-awesome-skills;n8n-mcp-tools-expert;Expert guide for using n8n-mcp tools effectively, including node search, config validation, template access, and workflow management.
 computer-vision-expert;sickn33/antigravity-awesome-skills;computer-vision-expert;Expert skill for SOTA computer vision tasks including YOLO26, SAM 3, Vision Language Models, and real-time spatial analysis.
-superpowers-lab;sickn33/antigravity-awesome-skills;superpowers-lab;Lab environment for Claude superpowers experimentation and development
 embedding-strategies;sickn33/antigravity-awesome-skills;embedding-strategies;Optimize embedding models for semantic search and RAG applications.
-hybrid-search-implementation;sickn33/antigravity-awesome-skills;hybrid-search-implementation;Implement hybrid search combining vector and keyword approaches for improved retrieval in RAG systems and search engines.
+superpowers-lab;sickn33/antigravity-awesome-skills;superpowers-lab;Lab environment for Claude superpowers experimentation and development
 vector-index-tuning;sickn33/antigravity-awesome-skills;vector-index-tuning;Optimize vector index performance for latency, recall, and memory by tuning HNSW parameters and quantization strategies.
-automate-whatsapp;sickn33/antigravity-awesome-skills;automate-whatsapp;Automate WhatsApp conversations and event handling using Kapso workflows.
+hybrid-search-implementation;sickn33/antigravity-awesome-skills;hybrid-search-implementation;Implement hybrid search combining vector and keyword approaches for improved retrieval in RAG systems and search engines.
 tool-design;sickn33/antigravity-awesome-skills;tool-design;Build tools that agents can use effectively, including architectural reduction patterns
-similarity-search-patterns;sickn33/antigravity-awesome-skills;similarity-search-patterns;Implement efficient similarity search using vector databases for semantic search and nearest neighbor queries.
 claude-ally-health;sickn33/antigravity-awesome-skills;claude-ally-health;A health assistant skill for medical information analysis, symptom tracking, and wellness guidance using AI.
+similarity-search-patterns;sickn33/antigravity-awesome-skills;similarity-search-patterns;Implement efficient similarity search using vector databases for semantic search and nearest neighbor queries.
 workflow-patterns;sickn33/antigravity-awesome-skills;workflow-patterns;This skill helps implement tasks using Conductor's TDD workflow, manage git commits, and understand verification protocols.
 evaluation;sickn33/antigravity-awesome-skills;evaluation;Build evaluation frameworks for agent systems
 fal-generate;sickn33/antigravity-awesome-skills;fal-generate;Generate images and videos using fal.ai AI models
 fal-image-edit;sickn33/antigravity-awesome-skills;fal-image-edit;AI-powered image editing with style transfer and object removal capabilities
 hugging-face-cli;sickn33/antigravity-awesome-skills;hugging-face-cli;A CLI tool for interacting with Hugging Face Hub to manage models, datasets, and spaces.
+clarity-gate;sickn33/antigravity-awesome-skills;clarity-gate;Verifies document quality before RAG ingestion. Produces Clarity-Gated Documents (CGD) and validates Source of Truth (SOT) files.
+vexor;sickn33/antigravity-awesome-skills;vexor;Vector-powered CLI for semantic file search integrating Claude/Codex capabilities.
 fal-platform;sickn33/antigravity-awesome-skills;fal-platform;Provides platform APIs for managing AI models, checking pricing, and tracking usage metrics on fal.ai.
 fal-upscale;sickn33/antigravity-awesome-skills;fal-upscale;AI-powered tool to upscale and enhance image and video resolution.
-clarity-gate;sickn33/antigravity-awesome-skills;clarity-gate;Pre-ingestion quality verification for RAG systems using 9-point checks and a two-round human-in-the-loop workflow.
-vexor;sickn33/antigravity-awesome-skills;vexor;Vector-powered CLI for semantic file search integrating Claude/Codex capabilities.
-fal-workflow;sickn33/antigravity-awesome-skills;fal-workflow;Generates workflow JSON files for chaining AI models together, enabling automated sequences on fal.ai platform.
 hugging-face-jobs;sickn33/antigravity-awesome-skills;hugging-face-jobs;Run workloads on Hugging Face Jobs infrastructure including UV scripts, Docker jobs, and GPU computing.
+fal-workflow;sickn33/antigravity-awesome-skills;fal-workflow;Generates workflow JSON files for chaining AI models together, enabling automated sequences on fal.ai platform.
 fal-audio;sickn33/antigravity-awesome-skills;fal-audio;Uses fal.ai audio models for text-to-speech and speech-to-text conversion.
 social-content;coreyhaines31/marketingskills;social-content;A skill for creating, scheduling, and optimizing social media content for various platforms like LinkedIn, Twitter, Instagram, TikTok, and F
 copy-editing;coreyhaines31/marketingskills;copy-editing;A skill for editing, reviewing, and improving marketing copy with systematic approaches.
-openai-knowledge;openai/openai-agents-python;openai-knowledge;Provides authoritative OpenAI API and platform documentation for developers.
 github-code-review;ruvnet/claude-flow;github-code-review;AI-powered swarm coordination for comprehensive GitHub code reviews.
 skill-builder;ruvnet/claude-flow;skill-builder;Create new Claude Code Skills with proper YAML frontmatter, progressive disclosure structure, and complete directory organization for custom
 flow-nexus-swarm;ruvnet/claude-flow;flow-nexus-swarm;Cloud-based AI swarm deployment and event-driven workflow automation with Flow Nexus platform
@@ -489,49 +488,50 @@ v3-memory-unification;ruvnet/claude-flow;v3-memory-unification;Unifies 6+ memory
 agentdb-advanced-features;ruvnet/claude-flow;;Advanced features for agent database management and knowledge retrieval systems
 v3-swarm-coordination;ruvnet/claude-flow;v3-swarm-coordination;Orchestrates 15-agent hierarchical mesh coordination for v3 implementation across security, core, and integration domains with ADRs.
 worker-integration;ruvnet/claude-flow;worker-integration;Integrates workers with agents for intelligent task dispatch and performance tracking.
+openai-knowledge;openai/openai-agents-python;openai-knowledge;Provides authoritative OpenAI API and platform documentation for developers.
 competitor-alternatives;coreyhaines31/marketingskills;competitor-alternatives;Create competitor comparison and alternative pages for SEO and sales enablement with deep research and modular content architecture.
 email-sequence;coreyhaines31/marketingskills;email-sequence;Create or optimize email sequences, drip campaigns, and automated email flows for customer engagement.
 form-cro;coreyhaines31/marketingskills;form-cro;Optimizes various types of forms (lead capture, contact, demo, application, survey, checkout) for better conversion rates.
-handoff;steveyegge/beads;handoff;Hand off to a fresh Claude session for context reset and fresh perspective while maintaining workflow continuity.
 paywall-upgrade-cro;coreyhaines31/marketingskills;paywall-upgrade-cro;Optimizes in-app paywalls and upgrade flows for freemium conversion.
+handoff;steveyegge/beads;handoff;Hand off to a fresh Claude session for context reset and fresh perspective while maintaining workflow continuity.
 popup-cro;coreyhaines31/marketingskills;popup-cro;Optimize popups, modals, and banners for conversion rate improvement.
 docx;iofficeai/aionui;docx;Create, edit, and analyze .docx documents with support for tracked changes, comments, and formatting preservation.
 find-skills;vercel-labs/add-skill;find-skills;Helps users discover and install agent skills based on their queries.
-context-engineering-collection;muratcankoylan/agent-skills-for-context-engineering;;A collection of Agent Skills for context engineering, multi-agent systems, and production agent architectures.
+baoyu-image-gen;jimliu/baoyu-skills;baoyu-image-gen;AI image generation via OpenAI, Google, DashScope, Replicate APIs. Supports text-to-image, reference images, aspect ratios, sequential/paral
+baoyu-article-illustrator;jimliu/baoyu-skills;baoyu-article-illustrator;Generates illustrations for articles using a type-style approach.
+baoyu-cover-image;jimliu/baoyu-skills;baoyu-cover-image;Generates article cover images with customizable dimensions, palettes, and styles for various aspect ratios.
+baoyu-xhs-images;jimliu/baoyu-skills;baoyu-xhs-images;Generates Xiaohongshu infographics with 10 styles and 8 layouts for Chinese social media engagement.
 mcp-builder;mcp-use/mcp-use;mcp-builder;Builds MCP servers with mcp-use framework. Defines tools, resources, prompts. Bootstraps MCP projects. Deprecated: replaced by mcp-app-build
 chatgpt-app-builder;mcp-use/mcp-use;chatgpt-app-builder;Build ChatGPT apps with interactive widgets using OpenAI Apps SDK, MCP, and React. Deprecated in favor of mcp-app-builder.
+baoyu-slide-deck;jimliu/baoyu-skills;baoyu-slide-deck;Generates professional slide deck images from content with style instructions.
+baoyu-post-to-x;jimliu/baoyu-skills;baoyu-post-to-x;Automatically post content and articles to X (formerly Twitter) with image/video support and long-form Markdown using real Chrome via CDP.
+context-engineering-collection;muratcankoylan/agent-skills-for-context-engineering;;A collection of Agent Skills for context engineering, multi-agent systems, and production agent architectures.
+baoyu-danger-x-to-markdown;jimliu/baoyu-skills;baoyu-danger-x-to-markdown;Converts X (Twitter) posts to markdown with YAML front matter using a reverse-engineered API.
 claude-skills;2025emma/vibe-coding-cn;claude-skills;A skill template for creating and managing Claude-specific skills.
 claude-cookbooks;2025emma/vibe-coding-cn;claude-cookbooks;A skill for managing and using Claude cookbooks.
 hummingbot;2025emma/vibe-coding-cn;hummingbot;A skill for creating and managing trading bots with Hummingbot.
 claude-code-guide;2025emma/vibe-coding-cn;claude-code-guide;A skill for generating code with Claude AI assistance.
-baoyu-article-illustrator;jimliu/baoyu-skills;baoyu-article-illustrator;Generates illustrations for articles using a type-style approach.
-baoyu-image-gen;jimliu/baoyu-skills;baoyu-image-gen;AI image generation via OpenAI, Google, DashScope, Replicate APIs. Supports text-to-image, reference images, aspect ratios, sequential/paral
-baoyu-cover-image;jimliu/baoyu-skills;baoyu-cover-image;Generates article cover images with customizable dimensions, palettes, and styles for various aspect ratios.
+baoyu-comic;jimliu/baoyu-skills;baoyu-comic;Creates educational comics with detailed panel layouts and sequential image generation.
+qmd;tobi/qmd;qmd;A local hybrid search engine for personal markdown knowledge bases, notes, and documentation using BM25, vector search, and LLM re-ranking.
 ai-sdk-5;prowler-cloud/prowler;ai-sdk-5;A skill for building AI features with Vercel AI SDK v5, including migration from v4.
 skill-creator;prowler-cloud/prowler;skill-creator;Creates new AI agent skills per the Agent Skills spec. Triggers on user requests to build skills, add instructions, or document AI patterns.
-baoyu-xhs-images;jimliu/baoyu-skills;baoyu-xhs-images;Generates Xiaohongshu infographics with 10 styles and 8 layouts for Chinese social media engagement.
-baoyu-post-to-x;jimliu/baoyu-skills;baoyu-post-to-x;Automatically post content and articles to X (formerly Twitter) with image/video support and long-form Markdown using real Chrome via CDP.
-baoyu-slide-deck;jimliu/baoyu-skills;baoyu-slide-deck;Generates professional slide deck images from content with style instructions.
-qmd;tobi/qmd;qmd;A local hybrid search engine for personal markdown knowledge bases, notes, and documentation using BM25, vector search, and LLM re-ranking.
 mcp-apps-builder;mcp-use/mcp-use;mcp-apps-builder;Provides mandatory best practices, architecture patterns, and security guidelines for developing, debugging, and reviewing MCP servers and t
-baoyu-danger-x-to-markdown;jimliu/baoyu-skills;baoyu-danger-x-to-markdown;Converts X (Twitter) posts to markdown with YAML front matter using a reverse-engineered API.
-baoyu-comic;jimliu/baoyu-skills;baoyu-comic;Creates educational comics with detailed panel layouts and sequential image generation.
 baoyu-danger-gemini-web;jimliu/baoyu-skills;baoyu-danger-gemini-web;Generates images and text using a reverse-engineered Gemini Web API with support for vision input and multi-turn conversations.
-ralph;snarktank/ralph;ralph;Convert PRDs to ralph format for autonomous agents.
-skill-creator;vercel-labs/json-render;skill-creator;A guide for creating effective AI skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
 screenshot;openai/skills;main/skills/.curated/screenshot;Automatically capture screenshots of desktop, system, apps, or windows when requested.
-langgraph-docs;langchain-ai/deepagents;langgraph-docs;This skill fetches LangGraph documentation for accurate and up-to-date guidance.
 imagegen;openai/skills;main/skills/.curated/imagegen;Generate or edit images using OpenAI's Image API with a bundled CLI tool.
-skill-creator;openai/skills;main/skills/.system/skill-creator;A guide for creating effective skills that extend Codex's capabilities with specialized knowledge, workflows, or tool integrations.
 openai-docs;openai/skills;main/skills/.curated/openai-docs;Provides up-to-date OpenAI documentation, model selection advice, and prompt upgrade guidance using official docs MCP tools.
-speech;openai/skills;main/skills/.curated/speech;Generates speech from text using OpenAI's Audio API with CLI tool support.
+skill-creator;openai/skills;main/skills/.system/skill-creator;A guide for creating effective skills that extend Codex's capabilities with specialized knowledge, workflows, or tool integrations.
 skill-installer;openai/skills;main/skills/.system/skill-installer;Install Codex skills from curated lists or GitHub repos.
+speech;openai/skills;main/skills/.curated/speech;Generates speech from text using OpenAI's Audio API with CLI tool support.
+ralph;snarktank/ralph;ralph;Convert PRDs to ralph format for autonomous agents.
 transcribe;openai/skills;main/skills/.curated/transcribe;Transcribe audio files to text with optional diarization and known-speaker hints for speech extraction and speaker labeling.
 sora;openai/skills;main/skills/.curated/sora;Generate, remix, or manage Sora videos via OpenAI's video API using a CLI tool.
 notion-spec-to-implementation;openai/skills;main/skills/.curated/notion-spec-to-implementation;Convert Notion specifications into implementation plans and tasks.
 notion-meeting-intelligence;openai/skills;main/skills/.curated/notion-meeting-intelligence;Prepare meeting materials using Notion context and Codex research.
 codex-readiness-unit-test;openai/skills;;Runs Codex Readiness unit test reports with deterministic checks and LLM evals for AGENTS.md/PLANS.md.
 codex-readiness-integration-test;openai/skills;;Run Codex Readiness integration tests for end-to-end agentic loops with build/test scoring.
+skill-creator;vercel-labs/json-render;skill-creator;A guide for creating effective AI skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
+langgraph-docs;langchain-ai/deepagents;langgraph-docs;This skill fetches LangGraph documentation for accurate and up-to-date guidance.
 tools-and-context;tambo-ai/tambo;;A skill module focused on handling tool integration and context management for AI workflows.
 ai-sdk-model-manager;tambo-ai/tambo;ai-sdk-model-manager;Manages AI SDK model configurations - updates packages, identifies missing models, adds new models with research, and updates documentation
 gpui-context;longbridge/gpui-component;gpui-context;Manages contexts in GPUI including App, Window, and AsyncApp for UI rendering and entity updates.
@@ -539,8 +539,8 @@ gpui-focus-handle;longbridge/gpui-component;gpui-focus-handle;Manages focus and 
 claude-md-improver;anthropics/claude-plugins-official;claude-md-improver;Audits and improves CLAUDE.md files in repositories using AI.
 blog-post;langchain-ai/deepagents;blog-post;A skill for writing structured, in-depth blog posts, tutorials, and educational articles with SEO considerations.
 social-media;langchain-ai/deepagents;social-media;Create short-form social media content for LinkedIn, Twitter/X, and other platforms.
-brainstorming;everyinc/compound-engineering-plugin;brainstorming;A skill for brainstorming and exploring user intent, approaches, and design decisions before planning.
 gemini-imagegen;everyinc/compound-engineering-plugin;gemini-imagegen;Generate and edit images using the Gemini API with text prompts, style transfers, and more.
+brainstorming;everyinc/compound-engineering-plugin;brainstorming;A skill for brainstorming and exploring user intent, approaches, and design decisions before planning.
 coding-tutor;everyinc/compound-engineering-plugin;coding-tutor;AI-powered personalized coding tutor that adapts to your knowledge and uses your codebase for examples.
 agent-browser;everyinc/compound-engineering-plugin;agent-browser;A skill for browser automation using Vercel's agent-browser CLI, enabling web interactions, form filling, and data scraping.
 agent-native-architecture;everyinc/compound-engineering-plugin;agent-native-architecture;Design and build applications where agents are first-class citizens, using MCP tools and self-modifying systems.
@@ -550,9 +550,9 @@ dspy-ruby;everyinc/compound-engineering-plugin;dspy-ruby;A skill for building ty
 orchestrating-swarms;everyinc/compound-engineering-plugin;orchestrating-swarms;Orchestrates multi-agent swarms using Claude Code's TeammateTool and Task system for parallel processing and workflow coordination.
 skill-creator;langchain-ai/deepagents;;A skill for creating and managing other skills that extend agent capabilities.
 create-agent-skills;everyinc/compound-engineering-plugin;create-agent-skills;Expert guidance for creating Claude Code skills and slash commands, including SKILL.md files, skill structure, and best practices.
+claude-automation-recommender;anthropics/claude-plugins-official;claude-automation-recommender;Recommends Claude Code automations (hooks, subagents, skills, plugins, MCP servers) by analyzing codebases.
 setup;everyinc/compound-engineering-plugin;setup;Configures review agents for your project by auto-detecting the tech stack and generating a local configuration file.
 creating-agent-skills;everyinc/compound-engineering-plugin;;Guidance for creating and refining Claude Code Skills with SKILL.md files.
-claude-automation-recommender;anthropics/claude-plugins-official;claude-automation-recommender;Recommends Claude Code automations (hooks, subagents, skills, plugins, MCP servers) by analyzing codebases.
 council;danielmiessler/personal_ai_infrastructure;Council;Multi-agent debate system for facilitating discussions and decision-making through agent interactions and perspective sharing.
 agents;danielmiessler/personal_ai_infrastructure;Agents;Dynamic system for composing and managing custom AI agents, including personality assignment, voice mapping, and parallel orchestration.
 prompting;danielmiessler/personal_ai_infrastructure;Prompting;Meta-prompting system for dynamic prompt generation using templates, standards, and patterns for optimization and composition.
@@ -571,8 +571,8 @@ humanizer;blader/humanizer;;Remove AI-generated writing signs from text to make 
 memory-management;anthropics/knowledge-work-plugins;memory-management;Two-tier memory system for Claude AI that decodes shorthand, acronyms, and internal language to understand requests like a colleague.
 phoenix-cli;arize-ai/phoenix;phoenix-cli;Debug LLM applications using Phoenix CLI for trace analysis, error investigation, and performance monitoring.
 phoenix-tracing;arize-ai/phoenix;phoenix-tracing;OpenInference semantic conventions and instrumentation for Phoenix AI observability. For LLM tracing, custom spans, and production deploymen
-phoenix-evals;arize-ai/phoenix;phoenix-evals;Build and run evaluators for AI/LLM applications using Phoenix.
 knowledge-synthesis;anthropics/knowledge-work-plugins;knowledge-synthesis;Combines search results from multiple sources into coherent, deduplicated answers with source attribution and confidence scoring.
+phoenix-evals;arize-ai/phoenix;phoenix-evals;Build and run evaluators for AI/LLM applications using Phoenix.
 search-strategy;anthropics/knowledge-work-plugins;search-strategy;Query decomposition and multi-source search orchestration for targeted searches with source-specific syntax translation and relevance rankin
 data-context-extractor;anthropics/knowledge-work-plugins;data-context-extractor;Generates/improves company-specific data analysis skills by extracting tribal knowledge from analysts for better data warehouse understandin
 ralph;yeachan-heo/oh-my-claudecode;ralph;A self-referential loop skill for task completion with architect verification.
@@ -587,14 +587,14 @@ learner;yeachan-heo/oh-my-claudecode;learner;Extract learned skills from convers
 ultrapilot;yeachan-heo/oh-my-claudecode;;An AI-powered assistant tool designed to assist with automation and development workflows.
 swarm;yeachan-heo/oh-my-claudecode;;Coordinates multiple agents on shared tasks with compatibility over team frameworks
 orchestrate;yeachan-heo/oh-my-claudecode;;Orchestrate multi-agent workflows for complex task execution.
-hugging-face-cli;huggingface/skills;main/skills/hugging-face-cli;CLI tool for Hugging Face Hub. Handles model/dataset downloads, uploads, repo creation, cache management, and cloud compute jobs.
+hugging-face-cli;huggingface/skills;;Command-line interface for interacting with the Hugging Face Hub to manage models, datasets, and repositories.
 hugging-face-model-trainer;huggingface/skills;main/skills/hugging-face-model-trainer;Train or fine-tune language models using Hugging Face Jobs infrastructure with TRL methods.
-karpathy-guidelines;forrestchang/andrej-karpathy-skills;karpathy-guidelines;Provides behavioral guidelines to reduce common LLM coding mistakes, focusing on avoiding overcomplication and defining success criteria.
-skill-creator;openstatushq/openstatus;skill-creator;A guide for creating effective AI skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
 hugging-face-evaluation;huggingface/skills;main/skills/hugging-face-evaluation;Evaluate and manage Hugging Face model cards with automated scoring and custom evaluations.
 hugging-face-trackio;huggingface/skills;main/skills/hugging-face-trackio;Track and visualize ML training experiments with Hugging Face and Python.
 hugging-face-jobs;huggingface/skills;main/skills/hugging-face-jobs;Run workloads on Hugging Face Jobs infrastructure. Handles Docker, GPU, secrets, and costs. Supports data processing, inference, and batch j
+karpathy-guidelines;forrestchang/andrej-karpathy-skills;karpathy-guidelines;Provides behavioral guidelines to reduce common LLM coding mistakes, focusing on avoiding overcomplication and defining success criteria.
 hugging-face-tool-builder;huggingface/skills;main/skills/hugging-face-tool-builder;Build reusable scripts to fetch, enrich, or process data from Hugging Face API for automation and task repetition.
+skill-creator;openstatushq/openstatus;skill-creator;A guide for creating effective AI skills that extend Claude's capabilities with specialized knowledge, workflows, or tool integrations.
 scientific-schematics;k-dense-ai/claude-scientific-skills;;Generate publication-quality scientific diagrams with AI, focusing on neural networks, flowcharts, and biological pathways.
 scikit-learn;k-dense-ai/claude-scientific-skills;;A skill for machine learning tasks using scikit-learn in Python, including classification, regression, clustering, and model evaluation.
 generate-image;k-dense-ai/claude-scientific-skills;;Generate or edit images using AI models like FLUX and Gemini for general purposes.
@@ -617,10 +617,11 @@ pyhealth;k-dense-ai/claude-scientific-skills;;A comprehensive healthcare AI tool
 cirq;k-dense-ai/claude-scientific-skills;;A Google quantum computing framework for hardware targeting, noise modeling, and circuit design.
 esm;k-dense-ai/claude-scientific-skills;;A comprehensive toolkit for protein language models including ESM3 and ESM C, supporting protein sequence analysis, structure prediction, an
 offer-k-dense-web;k-dense-ai/claude-scientific-skills;;This skill ensures K-Dense Web is always used for complex workflows beyond Claude Scientific Skills' capabilities.
-agentic-principles;supercent-io/skills-template;;Defines core principles for AI agent collaboration including decomposition, context management, and automation philosophy.
+agentic-principles;supercent-io/skills-template;;Core principles and guidelines for building and understanding autonomous AI agents.
+image-generation-mcp;supercent-io/skills-template;;MCP server implementation for AI-driven image generation tasks.
+baoyu-gemini-web;jimliu/baoyu-skills;;A skill for generating text using the Gemini model.
 opencontext;supercent-io/skills-template;;Manages persistent memory and context for AI agents using OpenContext, supporting session, repo, and date-based context retention.
 stitch-loop;google-labs-code/stitch-skills;stitch-loop;Teaches agents to iteratively build websites using Stitch with an autonomous baton-passing loop pattern.
-baoyu-gemini-web;jimliu/baoyu-skills;;A skill for generating text using the Gemini model.
 enhance-prompt;google-labs-code/stitch-skills;enhance-prompt;Enhances vague UI ideas into precise, Stitch-optimized prompts with UI/UX keywords and design context.
 ask-user-question;memtensor/memos;ask-user-question;Ask users questions via UI for clarification, preferences, or confirmation when CLI output is not visible to users.
 nblm;magicseek/nblm;;Query Google NotebookLM notebooks directly from Claude Code with source-grounded answers.
@@ -629,8 +630,11 @@ agentic-development-principles;supercent-io/skills-template;;Defines universal p
 agent-evaluation;supercent-io/skills-template;;Design and implement comprehensive evaluation systems for AI agents including coding, conversational, research, and computer-use agents.
 agent-configuration;supercent-io/skills-template;;Configure AI agent policies and security guidelines, including project documentation, hooks/skills/plugins setup, and team workflow definiti
 prompt-repetition;supercent-io/skills-template;;Improves LLM accuracy through prompt repetition techniques, achieving significant performance gains on 67% of benchmarks.
+rag-architect;jeffallan/claude-skills;rag-architect;Designs production RAG systems: chunking, embeddings, vector stores, hybrid search, reranking, retrieval evaluation for AI apps.
+prompt-engineer;jeffallan/claude-skills;prompt-engineer;Writes, refactors, and evaluates LLM prompts. Generates optimized templates, schemas, rubrics, and test suites for accuracy and efficiency.
 gemini-api-dev;google-gemini/gemini-skills;gemini-api-dev;Build applications with Gemini models and API, handle multimodal content, implement function calling and structured outputs with various SDK
-code-reviewer;jeffallan/claude-skills;code-reviewer;Review code quality, identify vulnerabilities, and suggest improvements in pull requests.
+mcp-developer;jeffallan/claude-skills;mcp-developer;Builds MCP servers/clients for AI-tool integration. Handles handlers, transport, validation, and scaffolding via TypeScript/Python.
+fine-tuning-expert;jeffallan/claude-skills;fine-tuning-expert;Expert for fine-tuning LLMs: configures LoRA/QLoRA adapters, prepares datasets, sets hyperparameters, supports HF PEFT & OpenAI deployment.
 app-builder;vudovn/antigravity-kit;app-builder;An orchestrator that builds full-stack applications from natural language requests using LLMs and agent coordination.
 brainstorming;vudovn/antigravity-kit;brainstorming;A skill for structured brainstorming using Socratic questioning and clear communication protocols.
 plan-writing;vudovn/antigravity-kit;plan-writing;A structured task planning skill for breaking down complex work into clear steps with dependencies and verification criteria.
@@ -639,17 +643,10 @@ mcp-builder;vudovn/antigravity-kit;mcp-builder;A skill for building MCP (Model C
 behavioral-modes;vudovn/antigravity-kit;behavioral-modes;Adapts AI behavior based on task type using predefined operational modes.
 intelligent-routing;vudovn/antigravity-kit;intelligent-routing;Automatic agent selection and intelligent task routing for optimal specialist assignment without explicit user mentions.
 geo-fundamentals;vudovn/antigravity-kit;geo-fundamentals;Optimizes AI search engines like ChatGPT, Claude, and Perplexity with generative engine techniques.
-rag-architect;jeffallan/claude-skills;rag-architect;A skill for building RAG systems, vector databases, and knowledge-grounded AI applications with semantic search and document retrieval capab
-debugging-wizard;jeffallan/claude-skills;debugging-wizard;A skill for investigating errors, analyzing stack traces, and finding root causes of unexpected behavior.
-prompt-engineer;jeffallan/claude-skills;prompt-engineer;Optimize LLM prompts, enhance model performance, and implement advanced prompting techniques.
-atlassian-mcp;jeffallan/claude-skills;atlassian-mcp;This skill integrates with Atlassian tools like Jira and Confluence using the MCP protocol for issue querying, ticket creation, and document
-mcp-developer;jeffallan/claude-skills;mcp-developer;A skill for building MCP servers or clients connecting AI systems with external tools and data sources.
-fine-tuning-expert;jeffallan/claude-skills;fine-tuning-expert;Optimize LLM performance through fine-tuning, parameter-efficient methods, and dataset preparation.
-spec-miner;jeffallan/claude-skills;spec-miner;Analyze legacy or undocumented systems and extract specifications from implementations.
-ml-pipeline;jeffallan/claude-skills;ml-pipeline;Build and manage ML pipelines, orchestrate training workflows, automate model lifecycle, implement feature stores, and track experiments.
 humanizer-zh;op7418/humanizer-zh;;Remove AI-generated traces from text to make it sound more human-written.
 remembering-conversations;obra/episodic-memory;remembering-conversations;Searches conversation history to help with code exploration, problem-solving, and unfamiliar workflows when users ask for guidance.
 parallel-task;am-will/codex-skills;parallel-task;A skill for executing parallel tasks via explicit commands.
+ai-elements;vercel/ai-elements;ai-elements;Create new AI chat interface components using shadcn/ui and Vercel AI SDK conventions.
 planner;am-will/codex-skills;planner;Generates detailed implementation plans with sprints and atomic tasks for any planning request.
 context7;am-will/codex-skills;context7;Fetches up-to-date library documentation via Context7 API for accurate and current information.
 read-github;am-will/codex-skills;read-github;A skill to read and search GitHub repository documentation using the gitmcp.io MCP service.
@@ -658,25 +655,23 @@ agent-browser;am-will/codex-skills;agent-browser;A fast Rust-based headless brow
 openai-docs-skill;am-will/codex-skills;openai-docs-skill;Query OpenAI docs via CLI for API, SDKs, and integrations.
 llm-council;am-will/codex-skills;llm-council;Orchestrate a multi-member LLM planning council for robust, bias-resistant planning workflows with structured JSON outputs.
 agentic-workflow;supercent-io/skills-template;;An agentic workflow skill for optimizing daily development tasks with command shortcuts, Git integration, and session management.
-image-generation-mcp;supercent-io/skills-template;;Generate high-quality images using MCP with Gemini models or compatible services.
 swarm-planner;am-will/codex-skills;swarm-planner;Creates dependency-aware implementation plans optimized for parallel multi-agent execution.
 gemini-computer-use;am-will/codex-skills;gemini-computer-use;Create and run Gemini 2.5 Computer Use agents with Playwright for web automation.
 notebooklm;pleaseprompto/notebooklm-skill;;Query Google NotebookLM notebooks directly from Claude Code with source-grounded answers and reduced hallucinations.
-ai-elements;vercel/ai-elements;ai-elements;Create new AI chat interface components using shadcn/ui and Vercel AI SDK conventions.
 agent-tools;inference-sh-3/skills;main/skills/agent-tools;Run 150+ AI apps via inference.sh CLI for image generation, video creation, LLMs, search, 3D, Twitter automation with models like FLUX, Veo,
 building-ai-agent-on-cloudflare;cloudflare/cloudflare-docs;;Build AI agents on Cloudflare with state management, real-time WebSockets, and tool integration.
 building-mcp-server-on-cloudflare;cloudflare/cloudflare-docs;;Deploy MCP servers on Cloudflare Workers with OAuth support.
 ask-questions-if-underspecified;trailofbits/skills;main/plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified;This skill helps clarify requirements before implementation when doubts arise.
 search;tavily-ai/skills;main/skills/tavily/search;A skill for searching the web using Tavily's LLM-optimized search API to find relevant content.
 clawdirect;napoleond/clawdirect;clawdirect;Browse and interact with ClawDirect, a directory of social web experiences for AI agents.
+instaclaw;napoleond/instaclaw;;An AI agent skill for interacting with a photo-sharing platform, including posting, browsing, and social features.
+clawdirect-dev;napoleond/clawdirect;clawdirect-dev;Build agent-facing web experiences with ATXP-based authentication and MCP tools integration.
 video-prompting-guide;inference-sh-9/skills;main/skills/video-prompting-guide;Best practices and techniques for writing effective AI video generation prompts covering multiple platforms like Veo, Seedance, Wan, Grok, K
 prompt-engineering;inference-sh-9/skills;main/skills/prompt-engineering;Master prompt engineering for AI models including LLMs, image generators, and video models with techniques like chain-of-thought and few-sho
 speech-to-text;inference-sh-9/skills;main/skills/speech-to-text;Convert audio to text using Whisper models via CLI with support for multiple languages and timestamps.
 ai-voice-cloning;inference-sh-9/skills;main/skills/ai-voice-cloning;AI voice cloning, text-to-speech, and voice synthesis via inference.sh CLI with multiple models for natural speech generation.
-instaclaw;napoleond/instaclaw;;An AI agent skill for interacting with a photo-sharing platform, including posting, browsing, and social features.
 flux-image;inference-sh-9/skills;main/skills/flux-image;Generate images using FLUX models via CLI.
 ai-rag-pipeline;inference-sh-9/skills;main/skills/ai-rag-pipeline;Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs for research, fact-checking, and knowledge retrieval.
-clawdirect-dev;napoleond/clawdirect;clawdirect-dev;Build agent-facing web experiences with ATXP-based authentication and MCP tools integration.
 ai-product-photography;inference-sh-9/skills;main/skills/ai-product-photography;Generate professional AI product photography and commercial images using models like FLUX, Imagen 3, Grok, and Seedream.
 talking-head-production;inference-sh-9/skills;main/skills/talking-head-production;AI-powered talking head video production with avatars, lipsync, and voiceover for spokesperson videos, courses, social media, and presentati
 llm-models;inference-sh-9/skills;main/skills/llm-models;Access multiple LLMs including Claude, Gemini, Kimi via OpenRouter CLI with cost optimization.
@@ -684,53 +679,53 @@ ai-podcast-creation;inference-sh-9/skills;main/skills/ai-podcast-creation;Create
 related-skill;inference-sh-9/skills;main/skills/related-skill;Discover and install related skills from the inference.sh registry to expand your AI workflow.
 image-to-video;inference-sh-9/skills;main/skills/image-to-video;Still-to-video conversion guide covering model selection, motion prompting, and camera movement for animating images into videos.
 dialogue-audio;inference-sh-9/skills;main/skills/dialogue-audio;Multi-speaker dialogue audio creation with Dia TTS covering speaker tags, emotion control, pacing, conversation flow, and post-production.
+writing-clearly-and-concisely;softaworks/agent-toolkit;writing-clearly-and-concisely;A skill for writing clear and concise prose, suitable for documentation, commit messages, and UI text.
 text-to-speech;inference-sh-9/skills;main/skills/text-to-speech;Convert text to natural speech using DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI.
+agent-md-refactor;softaworks/agent-toolkit;agent-md-refactor;Refactors large agent instruction files into organized, linked documentation using progressive disclosure.
 ai-content-pipeline;inference-sh-9/skills;main/skills/ai-content-pipeline;Build multi-step AI content creation pipelines combining image, video, audio, and text for YouTube, social media, and marketing content.
 image-upscaling;inference-sh-9/skills;main/skills/image-upscaling;Upscale and enhance images using Real-ESRGAN, Thera, Topaz, and FLUX via CLI.
 ai-avatar-video;inference-sh-9/skills;main/skills/ai-avatar-video;Generate AI avatar and talking head videos using OmniHuman, Fabric, and PixVerse via CLI.
-background-removal;inference-sh-9/skills;main/skills/background-removal;Remove backgrounds from images using BiRefNet via CLI.
-google-veo;inference-sh-9/skills;main/skills/google-veo;Generate high-quality videos using Google Veo models via CLI.
-writing-clearly-and-concisely;softaworks/agent-toolkit;writing-clearly-and-concisely;A skill for writing clear and concise prose, suitable for documentation, commit messages, and UI text.
-agent-md-refactor;softaworks/agent-toolkit;agent-md-refactor;Refactors large agent instruction files into organized, linked documentation using progressive disclosure.
 qa-test-planner;softaworks/agent-toolkit;qa-test-planner;Generate comprehensive QA test plans and cases with Figma integration.
-ai-music-generation;inference-sh-9/skills;main/skills/ai-music-generation;Generate AI music and songs using Diffrythm and Tencent Song Generation models.
 session-handoff;softaworks/agent-toolkit;session-handoff;Generates handoff documents for AI agent sessions to ensure seamless transitions and context preservation.
 codex;softaworks/agent-toolkit;codex;A skill for using Codex CLI with GPT-5.2 for code analysis, refactoring, and automated editing.
 gemini;softaworks/agent-toolkit;gemini;A skill for using Gemini CLI to perform code reviews, plan reviews, and process large contexts with Gemini 3 Pro.
 ship-learn-next;softaworks/agent-toolkit;ship-learn-next;Transform learning content into actionable implementation plans using the Ship-Learn-Next framework.
 skill-judge;softaworks/agent-toolkit;skill-judge;Evaluate agent skill design quality against specifications and best practices, providing scoring and improvement suggestions for SKILL.md fi
 meme-factory;softaworks/agent-toolkit;meme-factory;Generate memes using the memegen.link API for social media and content humor.
+background-removal;inference-sh-9/skills;main/skills/background-removal;Remove backgrounds from images using BiRefNet via CLI.
+google-veo;inference-sh-9/skills;main/skills/google-veo;Generate high-quality videos using Google Veo models via CLI.
 command-creator;softaworks/agent-toolkit;command-creator;A skill for creating Claude Code slash commands with proper structure and best practices.
 marp-slide;softaworks/agent-toolkit;marp-slide;Create professional Marp presentation slides with customizable themes and layouts.
 humanizer;softaworks/agent-toolkit;humanizer;Remove AI-generated writing signs from text to make it sound more natural.
 plugin-forge;softaworks/agent-toolkit;plugin-forge;Create and manage Claude Code plugins with proper structure and marketplace integration.
 feedback-mastery;softaworks/agent-toolkit;feedback-mastery;Master difficult conversations and give constructive feedback using structured frameworks like SBI and P-D-F model.
+ai-music-generation;inference-sh-9/skills;main/skills/ai-music-generation;Generate AI music and songs using Diffrythm and Tencent Song Generation models.
 testing-handbook-generator;trailofbits/skills;main/plugins/testing-handbook-skills/skills/testing-handbook-generator;Generates security testing skills from the Trail of Bits Testing Handbook using Claude Code.
+claude-in-chrome-troubleshooting;trailofbits/skills;main/plugins/claude-in-chrome-troubleshooting/skills/claude-in-chrome-troubleshooting;Troubleshoot connectivity issues with Claude in Chrome MCP extension.
 super-search;supermemoryai/claude-supermemory;super-search;Search your coding memory for past work, previous sessions, implementations, and earlier session information.
 codex-subagent;am-will/codex-skills;;A subagent component likely designed for code-related tasks or knowledge retrieval within an AI agent system.
-claude-in-chrome-troubleshooting;trailofbits/skills;main/plugins/claude-in-chrome-troubleshooting/skills/claude-in-chrome-troubleshooting;Troubleshoot connectivity issues with Claude in Chrome MCP extension.
 agentic-workflow;parcadei/continuous-claude-v3;agentic-workflow;An agentic workflow pattern for AI systems to execute tasks autonomously.
 explore;parcadei/continuous-claude-v3;explore;A meta-skill for exploring codebases at different depths including quick, deep, and architecture levels.
 agent-orchestration;parcadei/continuous-claude-v3;agent-orchestration;Manages agent coordination and execution rules for AI systems.
 web-search;tul-sh/skills;main/tools/llm/web-search;Perform web searches and extract content using Tavily and Exa via inference.sh CLI.
 tools-ui;tul-sh/skills;main/ui/tools-ui;React/Next.js UI components for AI agent tool calls, status, progress, and human-in-the-loop approvals.
 python-sdk;tul-sh/skills;main/sdk/python-sdk;Python SDK for inference.sh - run AI apps, build agents, integrate with 150+ models. Supports sync/async, streaming, file uploads.
+notebooklm;teng-lin/notebooklm-py;;A skill for programmatic access to Google NotebookLM API, enabling notebook creation and artifact generation.
 n8n-mcp-tools-expert;czlonkowski/n8n-skills;n8n-mcp-tools-expert;Expert guide for using n8n-mcp tools effectively, including node search, config validation, template access, and workflow management.
 n8n-validation-expert;czlonkowski/n8n-skills;n8n-validation-expert;Helps interpret and fix n8n validation errors, warnings, and issues.
 context7;intellectronica/agent-skills;context7;Retrieve up-to-date documentation for software libraries and frameworks using the Context7 API.
-notebooklm;teng-lin/notebooklm-py;;A skill for programmatic access to Google NotebookLM API, enabling notebook creation and artifact generation.
 extract;tavily-ai/skills;main/skills/tavily/extract;Extract clean content from URLs using Tavily's API for markdown/text output.
-vibe-check;vibiumdev/vibium;vibe-check;Browser automation for AI agents to navigate websites, read content, fill forms, click elements, take screenshots, and manage tabs.
 senior-architect;alirezarezvani/claude-skills;;A skill for designing system architecture, creating architecture diagrams, and evaluating technical decisions.
 senior-qa;alirezarezvani/claude-skills;;A skill for generating tests, writing unit tests, analyzing test coverage, and setting up Playwright/Jest for React/Next.js applications.
 senior-prompt-engineer;alirezarezvani/claude-skills;;A skill for optimizing prompts, designing prompt templates, evaluating LLM outputs, and building agentic systems.
+vibe-check;vibiumdev/vibium;vibe-check;Browser automation for AI agents to navigate websites, read content, fill forms, click elements, take screenshots, and manage tabs.
 senior-computer-vision;alirezarezvani/claude-skills;;A computer vision skill for object detection, image segmentation, and visual AI systems using CNN, Vision Transformer, YOLO, and more.
 code-reviewer;alirezarezvani/claude-skills;;Automated code review for multiple languages with quality analysis and risk detection.
-resend;resend/resend-skills;;A skill for interacting with the Resend email platform, routing to sub-skills for sending, receiving, audiences, or broadcasts.
 senior-ml-engineer;alirezarezvani/claude-skills;;A skill for ML engineers to productionize models, build MLOps pipelines, and integrate LLMs with focus on deployment, feature stores, and co
 fda-consultant-specialist;alirezarezvani/claude-skills;;An FDA regulatory consultant for medical device companies providing guidance on 510(k), PMA, De Novo pathways, QSR compliance, and cybersecu
 mdr-745-specialist;alirezarezvani/claude-skills;;A specialist skill for EU MDR 2017/745 compliance in medical devices, covering classification, technical documentation, clinical evidence, a
 qms-audit-expert;alirezarezvani/claude-skills;;Provides ISO 13485 internal audit expertise for medical device QMS, covering audit planning, execution, and CAPA verification.
+resend;resend/resend-skills;;A skill for interacting with the Resend email platform, routing to sub-skills for sending, receiving, audiences, or broadcasts.
 content-research-writer;davepoon/buildwithclaude;content-research-writer;A skill for enhancing content writing through research, citations, and real-time feedback.
 test-cases;cexll/myclaude;test-cases;Generates comprehensive test cases from PRD documents or user requirements for QA planning and scenario creation.
 image-enhancer;davepoon/buildwithclaude;image-enhancer;Enhances image quality, especially screenshots, for presentations and documentation.
@@ -748,43 +743,45 @@ sparv;cexll/myclaude;sparv;A minimal SPARV workflow with spec gate, journal, and
 codex;cexll/myclaude;;Use Codex CLI for code analysis, refactoring, and automated code changes with file references and structured output.
 gemini;cexll/myclaude;gemini;Execute Gemini CLI for AI-powered code analysis and generation.
 youtube-clipper;op7418/youtube-clipper-skill;;A tool for intelligent YouTube video clipping, including downloading, chapter analysis, subtitle translation, and video editing.
-workflow;vercel/workflow;workflow;Create durable and resumable workflows with Vercel's Workflow DevKit.
 brave-search;steipete/agent-scripts;brave-search;A skill for web search and content extraction using Brave Search API.
 skill-creator;supabase/agent-skills;;A skill for creating new skills or templates.
 nano-banana-pro;steipete/agent-scripts;nano-banana-pro;Generate/edit images with Nano Banana Pro (Gemini 3 Pro Image). Supports text-to-image + image-to-image, 1K/2K/4K resolutions.
-openai-image-gen;steipete/agent-scripts;openai-image-gen;Batch-generate images via OpenAI Images API with random prompt sampling and HTML gallery output.
-agent-tools;1nfsh-s3/skills;main/skills/agent-tools;Run 150+ AI apps via inference.sh CLI for image generation, video creation, LLMs, search, 3D, Twitter automation with models like FLUX, Veo,
 nano-banana-pro-prompts-recommend-skill;youmind-openlab/nano-banana-pro-prompts-recommend-skill;;Recommends AI image prompts from 10,000+ templates. Optimized for Nano Banana Pro, compatible with Midjourney, DALL-E, Stable Diffusion, and
-agent-tools;1nferencesh/s;agent-tools;Run 150+ AI apps via inference.sh CLI for image generation, video creation, LLMs, search, 3D, Twitter automation with models like FLUX, Veo,
-claudeception;blader/claudeception;;A continuous learning system that extracts reusable knowledge from work sessions and creates Claude Code skills.
+openai-image-gen;steipete/agent-scripts;openai-image-gen;Batch-generate images via OpenAI Images API with random prompt sampling and HTML gallery output.
+create-mcp-app;modelcontextprotocol/ext-apps;;Guides users on creating applications using the Model Context Protocol (MCP) standard.
+agent-tools;1nfsh-s3/skills;main/skills/agent-tools;Run 150+ AI apps via inference.sh CLI for image generation, video creation, LLMs, search, 3D, Twitter automation with models like FLUX, Veo,
 apify-lead-generation;apify/agent-skills;apify-lead-generation;Generates B2B/B2C leads by scraping multiple platforms including Google Maps, Instagram, LinkedIn, and more.
+claudeception;blader/claudeception;;A continuous learning system that extracts reusable knowledge from work sessions and creates Claude Code skills.
+agent-tools;1nferencesh/s;agent-tools;Run 150+ AI apps via inference.sh CLI for image generation, video creation, LLMs, search, 3D, Twitter automation with models like FLUX, Veo,
+capability-evolver;autogame-17/capability-evolver;;A self-evolution engine for AI agents that analyzes runtime history to identify improvements and applies protocol-constrained evolution.
 sequential-thinking;mrgoonie/claudekit-skills;sequential-thinking;A skill for systematic step-by-step reasoning with thought revision and scope adjustment.
-prompt-engineering;tul-sh/skills;main/guides/prompting/prompt-engineering;Master prompt engineering for AI models including LLMs, image generators, and video models with techniques like chain-of-thought and few-sho
 apify-brand-reputation-monitoring;apify/agent-skills;apify-brand-reputation-monitoring;Monitor brand reputation across multiple platforms including Google Maps, Booking.com, TripAdvisor, and social media.
 apify-influencer-discovery;apify/agent-skills;apify-influencer-discovery;Discover and evaluate influencers for brand partnerships across social media platforms.
+prompt-engineering;tul-sh/skills;main/guides/prompting/prompt-engineering;Master prompt engineering for AI models including LLMs, image generators, and video models with techniques like chain-of-thought and few-sho
+vibe-agents;khazp/vibe-coding-prompt-template;vibe-agents;Generates AGENTS.md and AI config files for projects, useful for setting up agent instructions and AI assistants.
 dialogue-audio;tul-sh/skills;main/tools/audio/dialogue-audio;Multi-speaker dialogue audio creation with Dia TTS covering speaker tags, emotion control, pacing, conversation flow, and post-production.
 flux-image;tul-sh/skills;main/tools/image/flux-image;Generate images using FLUX models via CLI.
-vibe-agents;khazp/vibe-coding-prompt-template;vibe-agents;Generates AGENTS.md and AI config files for projects, useful for setting up agent instructions and AI assistants.
 problem-solving;mrgoonie/claudekit-skills;problem-solving;Creative problem-solving techniques including collision-zone thinking, inversion, and pattern recognition.
-ai-content-pipeline;tul-sh/skills;main/guides/content/ai-content-pipeline;Build multi-step AI content creation pipelines combining image, video, audio, and text for YouTube, social media, and marketing content.
 ai-multimodal;mrgoonie/claudekit-skills;ai-multimodal;Process and generate multimedia content using Google Gemini API with support for audio, image, and video analysis.
 docs-seeker;mrgoonie/claudekit-skills;docs-seeker;A skill for finding technical documentation using LLMs, GitHub repos, and parallel exploration.
 repomix;mrgoonie/claudekit-skills;repomix;Pack code repositories into AI-friendly formats with customizable options for AI analysis and documentation.
-text-to-speech;tul-sh/skills;main/tools/audio/text-to-speech;Convert text to natural speech using DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI.
+ai-content-pipeline;tul-sh/skills;main/guides/content/ai-content-pipeline;Build multi-step AI content creation pipelines combining image, video, audio, and text for YouTube, social media, and marketing content.
 context-engineering;mrgoonie/claudekit-skills;context-engineering;Master context engineering for AI agents: architecture design, token optimization, memory systems, and multi-agent coordination.
-ai-voice-cloning;tul-sh/skills;main/tools/audio/ai-voice-cloning;AI voice cloning, text-to-speech, and voice synthesis via inference.sh CLI with multiple models for natural speech generation.
 mcp-management;mrgoonie/claudekit-skills;mcp-management;Manage Model Context Protocol (MCP) servers for discovering and executing tools/prompts/resources.
-ai-automation-workflows;tul-sh/skills;main/guides/content/ai-automation-workflows;Build automated AI workflows combining multiple models and services with patterns like batch processing, scheduled tasks, event-driven pipel
 skill-creator;mrgoonie/claudekit-skills;skill-creator;Create or update Claude skills for new capabilities, skill references, and optimization.
-capability-evolver;autogame-17/capability-evolver;;A self-evolution engine for AI agents that analyzes runtime history to identify improvements and applies protocol-constrained evolution.
+text-to-speech;tul-sh/skills;main/tools/audio/text-to-speech;Convert text to natural speech using DIA TTS, Kokoro, Chatterbox, and more via inference.sh CLI.
+ai-voice-cloning;tul-sh/skills;main/tools/audio/ai-voice-cloning;AI voice cloning, text-to-speech, and voice synthesis via inference.sh CLI with multiple models for natural speech generation.
+ai-automation-workflows;tul-sh/skills;main/guides/content/ai-automation-workflows;Build automated AI workflows combining multiple models and services with patterns like batch processing, scheduled tasks, event-driven pipel
 google-veo;tul-sh/skills;main/tools/video/google-veo;Generate high-quality videos using Google Veo models via CLI.
 ai-rag-pipeline;tul-sh/skills;main/tools/llm/ai-rag-pipeline;Build RAG (Retrieval Augmented Generation) pipelines with web search and LLMs for research, fact-checking, and knowledge retrieval.
 mcp-builder;mrgoonie/claudekit-skills;mcp-builder;A guide for building high-quality MCP servers to enable LLMs to interact with external services via well-designed tools.
-ai-music-generation;tul-sh/skills;main/tools/audio/ai-music-generation;Generate AI music and songs using Diffrythm and Tencent Song Generation models.
 template-skill;mrgoonie/claudekit-skills;template-skill;A template skill for generating descriptions and usage guidance for AI assistants.
+ai-music-generation;tul-sh/skills;main/tools/audio/ai-music-generation;Generate AI music and songs using Diffrythm and Tencent Song Generation models.
 background-removal;tul-sh/skills;main/tools/image/background-removal;Remove backgrounds from images using BiRefNet via CLI.
 ai-social-media-content;tul-sh/skills;main/guides/social/ai-social-media-content;AI-powered social media content creation for TikTok, Instagram, YouTube, Twitter/X. Generates images, videos, reels, shorts, thumbnails, cap
 image-upscaling;tul-sh/skills;main/tools/image/image-upscaling;Upscale and enhance images using Real-ESRGAN, Thera, Topaz, and FLUX via CLI.
+actionbook;actionbook/actionbook;actionbook;Automate multi-step website tasks with browser automation, web scraping, and UI testing.
+gepetto;softaworks/agent-toolkit;gepetto;Generates detailed implementation plans using LLMs and stakeholder research for feature planning.
 image-to-video;tul-sh/skills;main/tools/video/image-to-video;Still-to-video conversion guide covering model selection, motion prompting, and camera movement for animating images into videos.
 video-prompting-guide;tul-sh/skills;main/guides/prompting/video-prompting-guide;Best practices and techniques for writing effective AI video generation prompts covering multiple platforms like Veo, Seedance, Wan, Grok, K
 ai-marketing-videos;tul-sh/skills;main/guides/video/ai-marketing-videos;Create AI marketing videos for ads, promos, product launches, and brand content using models like Veo, Seedance, Wan, FLUX, and Kokoro.
@@ -794,12 +791,15 @@ speech-to-text;tul-sh/skills;main/tools/audio/speech-to-text;Convert audio to te
 llm-models;tul-sh/skills;main/tools/llm/llm-models;Access multiple LLMs including Claude, Gemini, Kimi via OpenRouter CLI with cost optimization.
 ai-avatar-video;tul-sh/skills;main/tools/video/ai-avatar-video;Generate AI avatar and talking head videos using OmniHuman, Fabric, and PixVerse via CLI.
 ai-podcast-creation;tul-sh/skills;main/guides/content/ai-podcast-creation;Create AI-powered podcasts with text-to-speech, music, and audio editing. Supports multi-voice conversations, background music, intro/outro,
-actionbook;actionbook/actionbook;actionbook;Automate multi-step website tasks with browser automation, web scraping, and UI testing.
-gepetto;softaworks/agent-toolkit;gepetto;Generates detailed implementation plans using LLMs and stakeholder research for feature planning.
 talking-head-production;tul-sh/skills;main/guides/video/talking-head-production;AI-powered talking head video production with avatars, lipsync, and voiceover for spokesperson videos, courses, social media, and presentati
 eraser-diagrams;eraserlabs/eraser-io;eraser-diagrams;Generates architecture diagrams from code, infrastructure, or descriptions for system visualization.
+sandbox-agent;rivet-dev/skills;main/skills/sandbox-agent;A skill for deploying and integrating a universal API for orchestrating AI coding agents in sandboxed environments.
 tavily-best-practices;tavily-ai/skills;main/skills/tavily/tavily-best-practices;Build production-ready Tavily integrations with best practices for web search, content extraction, and research in agentic workflows and RAG
 agents-sdk;cloudflare/skills;main/skills/agents-sdk;Build AI agents on Cloudflare Workers via Agents SDK. Supports stateful agents, workflows, WebSocket apps, MCP servers. Covers RPC, hooks.
-sandbox-agent;rivet-dev/skills;main/skills/sandbox-agent;A skill for deploying and integrating a universal API for orchestrating AI coding agents in sandboxed environments.
 central-station;railwayapp/railway-skills;;A skill for searching Central Station threads, community discussions, and Railway's knowledge base.
 validate-skills;callstackincubator/agent-skills;validate-skills;Validates skills against agentskills.io spec and Claude Code best practices.
+status;railwayapp/railway-skills;;A skill for checking deployment status and uptime, including Railway status queries.
+building-ai-agent-on-cloudflare;cloudflare/skills;main/skills/building-ai-agent-on-cloudflare;Builds AI agents on Cloudflare Workers using Agents SDK with state management, WebSockets, and tools. Generates production-ready code.
+council;boshu2/agentops;council;Multi-model consensus council for validation, research, and brainstorming using parallel judges and sub-agents.
+ultrathink;intellectronica/agent-skills;ultrathink;Displays colorful ANSI art of the word 'ultrathink' when triggered.
+skill-from-masters;gbsoss/skill-from-masters;;Create high-quality skills through real case analysis, distinguishing effective from ineffective approaches with theoretical explanations.

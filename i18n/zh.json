@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-03-06T05:44:32.903Z",
+  "generated_at": "2026-03-07T05:37:26.313Z",
   "categories": {
     "ai-llm": {
       "zh": "AI/LLM（大模型）",
@@ -1576,6 +1576,10 @@
       "zh": "clustering",
       "bilingual": true
     },
+    "cmake": {
+      "zh": "cmake",
+      "bilingual": true
+    },
     "cms": {
       "zh": "cms",
       "bilingual": true
@@ -2092,6 +2096,10 @@
       "zh": "cypress",
       "bilingual": true
     },
+    "d2": {
+      "zh": "d2",
+      "bilingual": true
+    },
     "d3-js": {
       "zh": "d3 js",
       "bilingual": true
@@ -2243,6 +2251,10 @@
     "deep-learning": {
       "zh": "深度学习",
       "bilingual": false
+    },
+    "deepseek": {
+      "zh": "deepseek",
+      "bilingual": true
     },
     "deepspeed": {
       "zh": "deepspeed",
@@ -7128,10 +7140,6 @@
       "zh": "scala",
       "bilingual": true
     },
-    "scalability": {
-      "zh": "scalability",
-      "bilingual": true
-    },
     "scene-management": {
       "zh": "scene management",
       "bilingual": true
@@ -9250,10 +9258,6 @@
     },
     "wechat": {
       "zh": "wechat",
-      "bilingual": true
-    },
-    "well-architected": {
-      "zh": "well architected",
       "bilingual": true
     },
     "wellness": {

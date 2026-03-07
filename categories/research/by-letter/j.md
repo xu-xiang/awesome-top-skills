@@ -5,4 +5,4 @@
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [journalist-analyst](https://github.com/rysweet/amplihack/blob/main/.claude/skills/journalist-analyst/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) | Analyzes events through journalistic lens using 5 Ws and H, investigative methods, source evaluation, fact-checking, newsworthiness criteria | 29 | 75 | 2026-03-06 | [analysis](../../../tags/analysis.md), [fact-checking](../../../tags/fact-checking.md), [news](../../../tags/news.md), [journalists](../../../tags/journalists.md), [media](../../../tags/media.md) |
+| [journalist-analyst](https://github.com/rysweet/amplihack/blob/main/.claude/skills/journalist-analyst/SKILL.md) | [rysweet/amplihack](https://github.com/rysweet/amplihack) | Analyzes events through journalistic lens using 5 Ws and H, investigative methods, source evaluation, fact-checking, newsworthiness criteria | 30 | 77 | 2026-03-07 | [analysis](../../../tags/analysis.md), [fact-checking](../../../tags/fact-checking.md), [news](../../../tags/news.md), [journalists](../../../tags/journalists.md), [media](../../../tags/media.md) |

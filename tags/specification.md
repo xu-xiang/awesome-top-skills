@@ -1,11 +1,10 @@
 # Tag: specification
 
 - Back: [Tags](README.md)
-- Tagged skills: 8
+- Tagged skills: 7
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [json-render-core](https://github.com/vercel-labs/json-render/blob/main/skills/json-render-core/SKILL.md) | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | Core package for defining schemas, catalogs, and AI prompt generation for json-render. Used with @json-render/core for UI/video generation. | 12K | 279 | 2026-03-02 | [schema-design](schema-design.md), [json](json.md), [ui](ui.md), [video-generation](video-generation.md), [specification](specification.md) |
 | [bdd-patterns](https://github.com/thebushidocollective/han/blob/main/plugins/patterns/bdd/skills/bdd-patterns/SKILL.md) | [thebushidocollective/han](https://github.com/thebushidocollective/han) | Apply Behavior-Driven Development patterns with Given-When-Then structure for writing BDD-style tests and specifications. | 101 | 61 | 2026-03-03 | [testing](testing.md), [specification](specification.md), [bdd](bdd.md), [tdd](tdd.md) |
 | [openspec-proposal-creation](https://github.com/forztf/open-skilled-sdd/blob/main/skills/openspec-proposal-creation/SKILL.md) | [forztf/open-skilled-sdd](https://github.com/forztf/open-skilled-sdd) | Creates structured change proposals with specification deltas for new features, breaking changes, or architecture updates. | 6 | 43 | 2025-11-28 | [planning](planning.md), [documentation](documentation.md), [specification](specification.md), [feature-development](feature-development.md) |
 | [spec-kit-skill](https://github.com/feiskyer/codex-settings/blob/main/skills/spec-kit-skill/SKILL.md) | [feiskyer/codex-settings](https://github.com/feiskyer/codex-settings) | GitHub Spec-Kit integration for constitution-based spec-driven development with 7-phase workflow | 151 | 41 | 2026-02-26 | [specification](specification.md), [planning](planning.md), [cli](cli.md), [github](github.md), [spec-driven-development](spec-driven-development.md), [speckit](speckit.md) |

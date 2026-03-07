@@ -5,9 +5,9 @@
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
-| [zai-tts](https://github.com/aahl/skills/blob/main/skills/zai-tts/SKILL.md) | [aahl/skills](https://github.com/aahl/skills) |  | 76 | 164 | 2026-03-04 | [pending](../../../tags/pending.md) |
+| [zai-tts](https://github.com/aahl/skills/blob/main/skills/zai-tts/SKILL.md) | [aahl/skills](https://github.com/aahl/skills) |  | 77 | 193 | 2026-03-06 | [pending](../../../tags/pending.md) |
+| [zeroize-audit](https://github.com/trailofbits/skills/blob/main/plugins/zeroize-audit/skills/zeroize-audit/SKILL.md) | [trailofbits/skills](https://github.com/trailofbits/skills) |  | 3.4K | 75 | 2026-03-06 | [pending](../../../tags/pending.md) |
 | [zoom-automation](https://github.com/composiohq/awesome-claude-skills) | [composiohq/awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills) |  | 41K | 72 | 2026-02-19 | [pending](../../../tags/pending.md) |
-| [zeroize-audit](https://github.com/trailofbits/skills/blob/main/plugins/zeroize-audit/skills/zeroize-audit/SKILL.md) | [trailofbits/skills](https://github.com/trailofbits/skills) |  | 3.3K | 62 | 2026-03-04 | [pending](../../../tags/pending.md) |
-| [zhihu-converter](https://github.com/z0gsh1u/oh-my-writing-skill/blob/master/skills/zhihu-converter/SKILL.md) | [z0gsh1u/oh-my-writing-skill](https://github.com/z0gsh1u/oh-my-writing-skill) |  | 11 | 61 | 2026-03-02 | [pending](../../../tags/pending.md) |
-| [zustand-store-ts](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/zustand-store-ts/SKILL.md) | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |  | 21K | 59 | 2026-03-05 | [pending](../../../tags/pending.md) |
+| [zustand-store-ts](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/zustand-store-ts/SKILL.md) | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) |  | 21K | 62 | 2026-03-06 | [pending](../../../tags/pending.md) |
+| [zhihu-converter](https://github.com/z0gsh1u/oh-my-writing-skill/blob/master/skills/zhihu-converter/SKILL.md) | [z0gsh1u/oh-my-writing-skill](https://github.com/z0gsh1u/oh-my-writing-skill) |  | 12 | 61 | 2026-03-02 | [pending](../../../tags/pending.md) |
 | [zlib-download](https://github.com/psylch/media-master/blob/master/skills/zlib-download/SKILL.md) | [psylch/media-master](https://github.com/psylch/media-master) |  | 4 | 38 | 2026-02-25 | [pending](../../../tags/pending.md) |

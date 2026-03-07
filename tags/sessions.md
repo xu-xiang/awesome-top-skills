@@ -1,9 +1,10 @@
 # Tag: sessions
 
 - Back: [Tags](README.md)
-- Tagged skills: 2
+- Tagged skills: 3
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
 | [super-search](https://github.com/supermemoryai/claude-supermemory/blob/main/plugin/skills/super-search/SKILL.md) | [supermemoryai/claude-supermemory](https://github.com/supermemoryai/claude-supermemory) | Search your coding memory for past work, previous sessions, implementations, and earlier session information. | 2.3K | 1.4K | 2026-03-06 | [search](search.md), [context-management](context-management.md), [memory](memory.md), [coding](coding.md), [sessions](sessions.md) |
-| [project-session-management](https://github.com/jezweb/claude-skills) | [jezweb/claude-skills](https://github.com/jezweb/claude-skills) | Manage project sessions and contexts to organize workflows and track progress effectively. | 584 | 384 | 2026-03-04 | [project-management](project-management.md), [session-management](session-management.md), [projects](projects.md), [sessions](sessions.md) |
+| [day4-wrap-and-analyze](https://github.com/ai-native-camp/camp-1/blob/main/.agents/skills/day4-wrap-and-analyze/SKILL.md) | [ai-native-camp/camp-1](https://github.com/ai-native-camp/camp-1) | AI Native Camp Day 4 wrap-up. Creates session-wrap skill to analyze sessions via history-insight and session-analyzer. For Day 4 wrap and an | 193 | 660 | 2026-03-04 | [analysis](analysis.md), [ai](ai.md), [sessions](sessions.md) |
+| [project-session-management](https://github.com/jezweb/claude-skills) | [jezweb/claude-skills](https://github.com/jezweb/claude-skills) | Manage project sessions and contexts to organize workflows and track progress effectively. | 587 | 384 | 2026-03-04 | [project-management](project-management.md), [session-management](session-management.md), [projects](projects.md), [sessions](sessions.md) |

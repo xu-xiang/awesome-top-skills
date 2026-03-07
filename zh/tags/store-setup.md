@@ -1,11 +1,12 @@
 # 标签：store setup (store-setup)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 6
+- 命中技能: 7
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [axiom-storekit-ref](https://github.com/charleswiltgen/axiom/blob/main/.claude-plugin/plugins/axiom/skills/axiom-storekit-ref/SKILL.md) | [charleswiltgen/axiom](https://github.com/charleswiltgen/axiom) | iOS开发的完整StoreKit 2 API参考指南。 | 576 | 98 | 2026-03-05 | [API](api.md), [移动开发 (mobile)](mobile.md), [iOS (ios)](ios.md), [reference (reference)](reference.md), [store setup (store-setup)](store-setup.md), [payment (payment)](payment.md) |
+| [asc-app-create-ui](https://github.com/rudrankriyam/app-store-connect-cli-skills/blob/main/skills/asc-app-create-ui/SKILL.md) | [rudrankriyam/app-store-connect-cli-skills](https://github.com/rudrankriyam/app-store-connect-cli-skills) | 通过浏览器自动化创建 App Store Connect 应用记录，适用于无公开 API 场景，由代理驱动新应用表单。 | 449 | 456 | 2026-03-04 | [browser 自动化 (browser-automation)](browser-automation.md), [store setup (store-setup)](store-setup.md), [app store (app-store)](app-store.md), [asc (asc)](asc.md) |
+| [axiom-storekit-ref](https://github.com/charleswiltgen/axiom/blob/main/.claude-plugin/plugins/axiom/skills/axiom-storekit-ref/SKILL.md) | [charleswiltgen/axiom](https://github.com/charleswiltgen/axiom) | iOS开发的完整StoreKit 2 API参考指南。 | 581 | 98 | 2026-03-05 | [API](api.md), [移动开发 (mobile)](mobile.md), [iOS (ios)](ios.md), [reference (reference)](reference.md), [store setup (store-setup)](store-setup.md), [payment (payment)](payment.md) |
 | [appstore-readiness](https://github.com/eddiebe147/claude-settings) | [eddiebe147/claude-settings](https://github.com/eddiebe147/claude-settings) | 确保应用商店准备就绪，检查合规性和设置要求。 | 15 | 85 | 2026-01-22 | [合规 (compliance)](compliance.md), [store setup (store-setup)](store-setup.md), [app store (app-store)](app-store.md) |
 | [itch-io](https://github.com/andrejones92/canifi-life-os) | [andrejones92/canifi-life-os](https://github.com/andrejones92/canifi-life-os) | 用于管理并在itch.io平台上发布内容的技能 | 5 | 31 | 2026-01-09 | [内容创作 (content-creation)](content-creation.md), [store setup (store-setup)](store-setup.md), [game development (game-development)](game-development.md), [itch io (itch-io)](itch-io.md) |
 | [zustand-store-ts](https://github.com/microsoft/agent-skills/blob/main/.github/skills/zustand-store-ts/SKILL.md) | [microsoft/agent-skills](https://github.com/microsoft/agent-skills) | 使用 TypeScript 和 subscribeWithSelector 中间件创建 Zustand 存储。 | 445 | 29 | 2026-02-03 | [store setup (store-setup)](store-setup.md), [state management (state-management)](state-management.md), [React](react.md), [TypeScript](typescript.md), [zustand (zustand)](zustand.md) |

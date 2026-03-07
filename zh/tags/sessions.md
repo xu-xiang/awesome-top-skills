@@ -1,9 +1,10 @@
 # 标签：sessions (sessions)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 2
+- 命中技能: 3
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
 | [super-search](https://github.com/supermemoryai/claude-supermemory/blob/main/plugin/skills/super-search/SKILL.md) | [supermemoryai/claude-supermemory](https://github.com/supermemoryai/claude-supermemory) | 搜索编码记忆，用于查找过往工作、先前会话、实现方式及早前会话信息。 | 2.3K | 1.4K | 2026-03-06 | [search (search)](search.md), [context management (context-management)](context-management.md), [memory (memory)](memory.md), [编码 (coding)](coding.md), [sessions (sessions)](sessions.md) |
-| [project-session-management](https://github.com/jezweb/claude-skills) | [jezweb/claude-skills](https://github.com/jezweb/claude-skills) | 管理项目会话和上下文，有效组织工作流并跟踪进度。 | 584 | 384 | 2026-03-04 | [项目管理](project-management.md), [session management (session-management)](session-management.md), [projects (projects)](projects.md), [sessions (sessions)](sessions.md) |
+| [day4-wrap-and-analyze](https://github.com/ai-native-camp/camp-1/blob/main/.agents/skills/day4-wrap-and-analyze/SKILL.md) | [ai-native-camp/camp-1](https://github.com/ai-native-camp/camp-1) | AI Camp 第 4 天总结。创建 session-wrap 技能并分析会话。用于第 4 天总结和分析请求。 | 193 | 660 | 2026-03-04 | [分析 (analysis)](analysis.md), [AI (ai)](ai.md), [sessions (sessions)](sessions.md) |
+| [project-session-management](https://github.com/jezweb/claude-skills) | [jezweb/claude-skills](https://github.com/jezweb/claude-skills) | 管理项目会话和上下文，有效组织工作流并跟踪进度。 | 587 | 384 | 2026-03-04 | [项目管理](project-management.md), [session management (session-management)](session-management.md), [projects (projects)](projects.md), [sessions (sessions)](sessions.md) |

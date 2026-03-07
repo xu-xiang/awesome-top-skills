@@ -1,11 +1,10 @@
 # 标签：AI system design (ai-system-design)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 4
+- 命中技能: 3
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [memory-systems](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/memory-systems/SKILL.md) | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 设计短期、长期和基于图的AI系统记忆架构 | 21K | 103 | 2026-03-05 | [架构 (architecture)](architecture.md), [memory (memory)](memory.md), [AI system design (ai-system-design)](ai-system-design.md), [graph 数据库 (graph-database)](graph-database.md) |
-| [context-fundamentals](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/context-fundamentals/SKILL.md) | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 了解AI智能体系统中的上下文概念、重要性及构成。 | 21K | 76 | 2026-03-05 | [context management (context-management)](context-management.md), [智能体 (agents)](agents.md), [explanation (explanation)](explanation.md), [AI system design (ai-system-design)](ai-system-design.md) |
+| [memory-systems](https://github.com/sickn33/antigravity-awesome-skills/blob/main/skills/memory-systems/SKILL.md) | [sickn33/antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills) | 设计短期、长期和基于图的AI系统记忆架构 | 21K | 109 | 2026-03-06 | [架构 (architecture)](architecture.md), [memory (memory)](memory.md), [AI system design (ai-system-design)](ai-system-design.md), [graph 数据库 (graph-database)](graph-database.md) |
 | [agent-fungibility](https://github.com/dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations/blob/main/skills/agent-fungibility/SKILL.md) | [dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations](https://github.com/dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations) | 多智能体软件开发中智能体可互换性的哲学和实践优势，主张采用同质化、可互换的智能体而非专业化的基于角色的系统。 | 53 | 21 | 2026-03-03 | [智能体 (agents)](agents.md), [架构 (architecture)](architecture.md), [multi agent (multi-agent)](multi-agent.md), [AI system design (ai-system-design)](ai-system-design.md) |
 | [ai-architect-expert](https://github.com/personamanagmentlayer/pcl/blob/main/stdlib/ai/ai-architect-expert/SKILL.md) | [personamanagmentlayer/pcl](https://github.com/personamanagmentlayer/pcl) | 提供专家级 AI 系统设计、MLOps、架构模式及基础设施实施指导。 | 9 | 21 | 2026-03-02 | [架构 (architecture)](architecture.md), [机器学习 (machine-learning)](machine-learning.md), [AI system design (ai-system-design)](ai-system-design.md), [mlops (mlops)](mlops.md) |

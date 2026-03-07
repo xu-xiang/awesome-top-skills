@@ -1,11 +1,10 @@
 # 标签：specification (specification)
 
 - 返回: [标签（中文）](README.md)
-- 命中技能: 8
+- 命中技能: 7
 
 | 技能 | 仓库 | 简介 | ⭐ | ⬇️ | 更新 | 标签 |
 | - | - | - | -: | -: | - | - |
-| [json-render-core](https://github.com/vercel-labs/json-render/blob/main/skills/json-render-core/SKILL.md) | [vercel-labs/json-render](https://github.com/vercel-labs/json-render) | 用于定义json-render的模式、目录和AI提示生成的核心包，适用于UI/视频生成。 | 12K | 279 | 2026-03-02 | [schema design (schema-design)](schema-design.md), [json (json)](json.md), [UI](ui.md), [video generation (video-generation)](video-generation.md), [specification (specification)](specification.md) |
 | [bdd-patterns](https://github.com/thebushidocollective/han/blob/main/plugins/patterns/bdd/skills/bdd-patterns/SKILL.md) | [thebushidocollective/han](https://github.com/thebushidocollective/han) | 应用行为驱动开发模式，使用Given-When-Then结构编写BDD风格测试和规格说明。 | 101 | 61 | 2026-03-03 | [测试 (testing)](testing.md), [specification (specification)](specification.md), [bdd (bdd)](bdd.md), [tdd (tdd)](tdd.md) |
 | [openspec-proposal-creation](https://github.com/forztf/open-skilled-sdd/blob/main/skills/openspec-proposal-creation/SKILL.md) | [forztf/open-skilled-sdd](https://github.com/forztf/open-skilled-sdd) | 创建结构化的变更提案，包含新功能、破坏性变更或架构更新的规格差异。 | 6 | 43 | 2025-11-28 | [规划 (planning)](planning.md), [文档 (documentation)](documentation.md), [specification (specification)](specification.md), [feature development (feature-development)](feature-development.md) |
 | [spec-kit-skill](https://github.com/feiskyer/codex-settings/blob/main/skills/spec-kit-skill/SKILL.md) | [feiskyer/codex-settings](https://github.com/feiskyer/codex-settings) | GitHub Spec-Kit 集成，支持基于宪法的规范驱动开发，包含七阶段工作流 | 151 | 41 | 2026-02-26 | [specification (specification)](specification.md), [规划 (planning)](planning.md), [命令行（CLI）](cli.md), [github (github)](github.md), [spec driven development (spec-driven-development)](spec-driven-development.md), [speckit (speckit)](speckit.md) |

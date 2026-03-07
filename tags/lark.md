@@ -1,11 +1,12 @@
 # Tag: lark
 
 - Back: [Tags](README.md)
-- Tagged skills: 4
+- Tagged skills: 5
 
 | Skill | Repo | Summary | ⭐ | ⬇️ | Updated | Tags |
 | - | - | - | -: | -: | - | - |
+| [feishu-docx](https://github.com/leemysw/feishu-docx/blob/main/.skills/feishu-docx/SKILL.md) | [leemysw/feishu-docx](https://github.com/leemysw/feishu-docx) | Export Feishu/Lark cloud documents to Markdown format with support for various document types and batch operations. | 64 | 182 | 2026-03-07 | [document-processing](document-processing.md), [conversion](conversion.md), [feishu](feishu.md), [lark](lark.md), [markdown](markdown.md) |
 | [feishu-automation](https://github.com/aaaaqwq/claude-code-skills/blob/master/skills/feishu-automation/SKILL.md) | [aaaaqwq/claude-code-skills](https://github.com/aaaaqwq/claude-code-skills) | Automate Feishu (Lark) operations including tables, messages, docs, and workflows. | 11 | 146 | 2026-03-04 | [automation](automation.md), [office](office.md), [feishu](feishu.md), [lark](lark.md) |
-| [feishu-docx](https://github.com/leemysw/feishu-docx/blob/main/.skills/feishu-docx/SKILL.md) | [leemysw/feishu-docx](https://github.com/leemysw/feishu-docx) | Export Feishu/Lark cloud documents to Markdown format with support for various document types and batch operations. | 63 | 133 | 2026-03-02 | [document-processing](document-processing.md), [conversion](conversion.md), [feishu](feishu.md), [lark](lark.md), [markdown](markdown.md) |
 | [feishu-docx](https://github.com/leemysw/agent-kit/blob/main/.skills/feishu-docx/SKILL.md) | [leemysw/agent-kit](https://github.com/leemysw/agent-kit) | Export Feishu/Lark cloud documents to Markdown format with support for docx, sheets, bitable, and wiki. | 46 | 124 | 2026-02-28 | [document-processing](document-processing.md), [knowledge-base](knowledge-base.md), [feishu](feishu.md), [lark](lark.md) |
+| [lark](https://github.com/vm0-ai/vm0-skills/blob/main/lark/SKILL.md) | [vm0-ai/vm0-skills](https://github.com/vm0-ai/vm0-skills) | Integrates with Lark/Feishu API to handle messaging, group management, contacts, and calendar synchronization. | 41 | 105 | 2026-03-06 | [communication](communication.md), [calendar](calendar.md), [lark](lark.md), [feishu](feishu.md) |
 | [lark-mcp](https://github.com/whatevertogo/feishuskill/blob/main/lark-mcp/SKILL.md) | [whatevertogo/feishuskill](https://github.com/whatevertogo/feishuskill) | Integrates Feishu/Lark services for table, document, and message operations. | 15 | 23 | 2026-01-08 | [integration](integration.md), [api](api.md), [feishu](feishu.md), [lark](lark.md) |
